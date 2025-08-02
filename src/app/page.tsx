@@ -47,7 +47,7 @@ export default function HomePage() {
 
             {/* Language Selector */}
       <div className="w-full  bottom-0 right-0 flex justify-end p-4">
-        <div className="text-center bg-white border border-gray-300 px-3 py-2 rounded text-sm font-medium text-gray-700 w-10">EN</div>
+        <div className="text-center bg-white border border-gray-300 px-3 py-2 rounded text-sm font-medium text-gray-700 w-12">EN</div>
       </div>
     </div>
   )
