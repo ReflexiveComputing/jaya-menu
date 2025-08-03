@@ -48,7 +48,7 @@ export function FoodCard({
             <div className="text-xl font-bold">{item.price}</div>
           </div>
           <div className="flex items-center justify-between">
-            <FoodTags tags={item.tags} fill="#000" />
+            <FoodTags tags={item.tags} />
           </div>
         </div>
       </div>
