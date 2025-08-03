@@ -103,39 +103,16 @@ export default function MenuPage() {
     setFavorites((prev) => (prev.includes(itemId) ? prev.filter((id) => id !== itemId) : [...prev, itemId]))
   }
 
-  const [show, setShow] = React.useState(true)
-  const lastScrollY = React.useRef(0)
-  React.useEffect(() => {
-    const handleScroll = () => {
-      const currentScrollY = window.scrollY
-      if (currentScrollY < lastScrollY.current) {
-        setShow(true) // scrolling up
-      } else if (currentScrollY > lastScrollY.current) {
-        setShow(false) // scrolling down
-      }
-      lastScrollY.current = currentScrollY
-    }
-
-    window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
-
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
 
       <div
-        className={`sticky top-0 z-10 bg-white transition-transform duration-300 ${show ? "translate-y-0" : "-translate-y-full"
-          }`}
+        className={`top-0 z-10 bg-white transition-transform duration-300`}
       >
         {/* Header */}
         <Header title="Menu" showChevron={true} linkTo="/" align="center" size="default" />
-        {/* Menu Filters */}
-        <MenuFilters
-          categories={categories}
-          toggleMenuFilters={toggleMenuFilters}
-          activeFilters={activeFilters}
-
-        />
+        {/* Menu Filters are removed extra gear icon will need to be added for other settings */}
+       
       </div>
 
       {/* Main Content */}
