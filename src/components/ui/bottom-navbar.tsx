@@ -1,5 +1,5 @@
 import React from "react"
-import { Utensils, Package, Heart } from "lucide-react"
+import { Utensils, Package, Heart, Settings2 } from "lucide-react"
 
 export function BottomNavbar() {
   const [showBottomNav, setShowBottomNav] = React.useState(true)
@@ -22,7 +22,7 @@ export function BottomNavbar() {
 
   return (
     <div
-      className={`fixed bottom-0 left-0 right-0 z-50 bg-white border-t border-gray-200 px-4 py-3 transition-transform duration-300 ${
+      className={`fixed bottom-0 left-0 right-0 z-50 bg-white border-t border-gray-200 px-4  transition-transform duration-300 ${
         showBottomNav ? "translate-y-0" : "translate-y-full"
       }`}
     >
@@ -40,6 +40,11 @@ export function BottomNavbar() {
         <button className="flex flex-col items-center gap-1 py-2">
           <Heart className="w-6 h-6 text-gray-600" />
           <span className="text-xs text-gray-600">Favorites</span>
+        </button>
+
+         <button className="flex flex-col items-center gap-1 py-2">
+          <Settings2 className="w-6 h-6 text-gray-600" />
+          <span className="text-xs text-gray-600">Options</span>
         </button>
       </div>
     </div>
