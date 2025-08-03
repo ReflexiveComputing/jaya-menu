@@ -43,27 +43,11 @@ export function Header({
   className,
   ...props
 }: HeaderProps) {
-     const [show, setShow] = React.useState(true)
-  const lastScrollY = React.useRef(0)
-    React.useEffect(() => {
-    const handleScroll = () => {
-      const currentScrollY = window.scrollY
-      if (currentScrollY < lastScrollY.current) {
-        setShow(true) // scrolling up
-      } else if (currentScrollY > lastScrollY.current) {
-        setShow(false) // scrolling down
-      }
-      lastScrollY.current = currentScrollY
-    }
 
-    window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
   return (
     <div
     className={cn(
         headerVariants({ align, size, className }),
-        show ? "sticky top-0 translate-y-0" : "-translate-y-full"
       )}
       {...props}
     >
