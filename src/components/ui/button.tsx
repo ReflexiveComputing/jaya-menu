@@ -10,9 +10,9 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default:
-          "bg-primary text-primary-foreground shadow-xs hover:bg-primary/90",
+          "bg-highlight text-primary-foreground shadow-xs hover:bg-primary/90",
         primary:
-          "w-full bg-gradient-to-r from-pink-500 to-red-500 text-white text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105",
+          "w-full bg-highlight text-white text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105",
         outline:
           "border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50",
         secondary:
@@ -21,20 +21,23 @@ const buttonVariants = cva(
           "hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50",
         link: "text-primary underline-offset-4 hover:underline",
         navBasic:
-        "px-6 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-colors bg-gray-100 text-gray-700 hover:bg-gray-200",
+          "px-6 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-colors bg-gray-100 text-gray-700 hover:bg-gray-200",
         navSelected:
-        "px-6 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-colors bg-teal-600 text-white",
-  },
-  size: {
-  default: "py-4 px-8 has-[>svg]:px-3",
-  sm: "h-8 rounded-md gap-1.5 px-3 has-[>svg]:px-2.5",
-  lg: "h-10 rounded-md px-6 has-[>svg]:px-4",
-  icon: "size-9",
-},
+          "px-6 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-colors bg-teal-600 text-white",
+        grayGhost:
+          "bg-gray-100 text-gray-700 hover:bg-gray-200"
+      },
+      size: {
+        default: "py-4 px-8 has-[>svg]:px-3",
+        sm: "h-8 rounded-md gap-1.5 px-3 has-[>svg]:px-2.5",
+        lg: "h-10 rounded-md px-6 has-[>svg]:px-4",
+        full: "w-full py-4 px-8 has-[>svg]:px-3",
+        icon: "size-9",
+      },
     },
-defaultVariants: {
-  variant: "default",
-    size: "default",
+    defaultVariants: {
+      variant: "default",
+      size: "default",
     },
   }
 )
