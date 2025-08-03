@@ -110,7 +110,7 @@ export default function ItemDetails({ params }: { params: { id: string } }) {
       </div>
 
       {/* Content */}
-      <div className="flex-1 px-6 py-6 border-t rounded-3xl">
+      <div className="flex-1 bg-background -mt-4 z-10 px-6 py-6 border-t rounded-3xl">
         {/* Header */}
         <div className="mb-6">
           <h1 className="text-2xl font-bold mb-2">{itemDetails.name}</h1>
@@ -118,7 +118,7 @@ export default function ItemDetails({ params }: { params: { id: string } }) {
           <p className="text-gray-600 mb-4">{itemDetails.description}</p>
           <div className="text-2xl font-bold w-full flex flex-row justify-between pr-4">
             {itemDetails.price}
-          <Button onClick={toggleFavorite} >Add to Wishlist</Button>
+          <Button size={"mid"} onClick={toggleFavorite} >Add to Wishlist</Button>
             </div>
         </div>
 

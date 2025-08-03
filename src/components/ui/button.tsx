@@ -10,9 +10,9 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default:
-          "bg-highlight text-primary-foreground shadow-xs hover:bg-primary/90",
+          "bg-highlight text-primary-foreground text-lg font-bold shadow-xs hover:bg-primary/90",
         primary:
-          "w-full bg-highlight text-white text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105",
+          "w-full bg-highlight text-white text-lg font-bold rounded-full shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105",
         outline:
           "border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50",
         secondary:
@@ -29,6 +29,7 @@ const buttonVariants = cva(
       },
       size: {
         default: "py-4 px-8 has-[>svg]:px-3",
+        mid: "py-2 px-8 has-[>svg]:px-3",
         sm: "h-8 rounded-md gap-1.5 px-3 has-[>svg]:px-2.5",
         lg: "h-10 rounded-md px-6 has-[>svg]:px-4",
         full: "w-full py-4 px-8 has-[>svg]:px-3",

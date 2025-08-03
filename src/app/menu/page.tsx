@@ -13,6 +13,7 @@ import { HeartCounter } from "@/components/ui/food-card/heart-component"
 import { FoodTags } from "@/components/ui/food-card/food-tags"
 import { FoodCard } from "@/components/ui/food-card/food-card"
 import { BottomNavbar } from "@/components/ui/bottom-navbar"
+import { SectionDivider } from "@/components/ui/section-divider"
 
 const categories = [
   { id: "all", label: "All" },
@@ -119,15 +120,7 @@ export default function MenuPage() {
       <div className="flex-1 overflow-y-auto">
         {/* Popular This Month Section */}
         <div className="py-6">
-          <div className="px-4 mb-4 flex items-center justify-between">
-            <div>
-              <h2 className="text-2xl font-bold">Popular This Month</h2>
-              <div className="w-16 h-1 bg-black mt-1"></div>
-            </div>
-            <Link href="/this-month-favourites" className="text-teal-600 text-sm font-medium hover:text-teal-700">
-              View All
-            </Link>
-          </div>
+          <SectionDivider href="/this-month-favourites" title="Popular This Month" />
 
           <div className="overflow-x-auto scrollbar-hide">
             <div className="flex gap-4 px-4 pb-2">
@@ -146,10 +139,7 @@ export default function MenuPage() {
 
         {/* Vegetarian Section */}
         <div className="py-6">
-          <div className="px-4 mb-4">
-            <h2 className="text-2xl font-bold">Vegetarian</h2>
-            <div className="w-16 h-1 bg-black mt-1"></div>
-          </div>
+          <SectionDivider href="/vegetarian" title="Vegetarian" />
 
           <div className="overflow-x-auto scrollbar-hide">
             <div className="flex gap-4 px-4 pb-2">

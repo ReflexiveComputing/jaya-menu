@@ -23,7 +23,7 @@ export function ImageSlider({ images }: { images: string[] }) {
     }, [api])
 
     return (
-        <div className="relative h-96 ">
+        <div className="relative h-96 bg-muted">
 
             <Carousel setApi={setApi} >
                 <CarouselContent>
