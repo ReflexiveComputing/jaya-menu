@@ -37,7 +37,7 @@ interface HeaderProps
 export function Header({
   title,
   showChevron = false,
-  linkTo = "/manu",
+  linkTo = "/menu",
   align,
   size,
   className,

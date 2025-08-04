@@ -103,7 +103,7 @@ export default function ItemDetails({ params }: { params: { id: string } }) {
         {/* Carousel Images */}
         <ImageSlider 
         images={["/nila-1st-image.png", "/nila-2nd-image.png", "/nila-4th-image.png", "/nila-6th-image.png"]}
-        
+        margin="md"
         />
 
     

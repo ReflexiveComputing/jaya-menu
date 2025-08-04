@@ -1,12 +1,51 @@
 "use client"
 
-import Link from "next/link"
 import Image from "next/image"
 import { Carousel, CarouselContent, CarouselItem, CarouselPrevious, CarouselNext, type CarouselApi } from "../carousel"
 import * as React from "react"
-import { HeartCounter } from "../food-card/heart-component"
-import { ImageSliderHeartComponent } from "./slider-heart-component"
-export function ImageSlider({ images }: { images: string[] }) {
+import { cva, type VariantProps } from "class-variance-authority"
+import { cn } from "@/lib/utils"
+
+const headerVariants = cva(
+  "bg-muted",
+  {
+    variants: {
+     
+      size: {
+        default: "h-96",
+        sm: "h-48",
+        md: "h-72",
+      },
+    },
+    defaultVariants: {
+      size: "default",
+    },
+  }
+)
+
+const counterVariants = cva(
+  "absolute right-2 text-muted-foreground py-2 text-right text-sm px-2",
+  {
+    variants: {
+     
+      margin: {
+        default: "bottom-2",
+        sm: "bottom-2",
+        md: "bottom-6",
+      },
+    },
+    defaultVariants: {
+      margin: "default",
+    },
+  }
+)
+
+export function ImageSlider(
+    { className, size, images, margin, ...props }: React.HTMLAttributes<HTMLDivElement> 
+    & VariantProps<typeof headerVariants> 
+    & VariantProps<typeof counterVariants>
+    & { images: string[] })
+   {
 
     const [api, setApi] = React.useState<CarouselApi>()
     const [current, setCurrent] = React.useState(0)
@@ -23,7 +62,12 @@ export function ImageSlider({ images }: { images: string[] }) {
     }, [api])
 
     return (
-        <div className="relative h-96 bg-muted">
+        <div 
+        className={cn(
+                headerVariants({ size, className }),
+              )}
+              {...props}
+        >
 
             <Carousel setApi={setApi} >
                 <CarouselContent>
@@ -42,7 +86,7 @@ export function ImageSlider({ images }: { images: string[] }) {
 
                 </CarouselContent>
             </Carousel>
-            <div className="text-muted-foreground py-2 text-right text-sm px-2">
+            <div className={cn(counterVariants({ margin: margin }))}>
                 {current} / {count}
             </div>
 
