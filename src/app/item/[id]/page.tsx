@@ -83,30 +83,30 @@ export default function ItemDetails({ params }: { params: { id: string } }) {
 
   return (
     <div className="min-h-screen bg-white flex flex-col">
-        {/* Back Button */}
-       <Link href="/menu" className="absolute top-4 left-4 z-20 bg-white/90 backdrop-blur-sm rounded-full p-2">
-          <ChevronLeft className="w-6 h-6 text-gray-800" />
-        </Link>
+      {/* Back Button */}
+      <Link href="/menu" className="absolute top-4 left-4 z-20 bg-white/90 backdrop-blur-sm rounded-full p-2">
+        <ChevronLeft className="w-6 h-6 text-gray-800" />
+      </Link>
       {/* Image Carousel */}
       <div className="relative h-96 ">
-       
+
 
         {/* Favorite Button */}
         <ImageSliderHeartComponent
-                variant="red"
+          variant="red"
 
-                liked={isFavorite}
-                likes={likes}
-                toggleFavorite={toggleFavorite}
-            />
-
-        {/* Carousel Images */}
-        <ImageSlider 
-        images={["/nila-1st-image.png", "/nila-2nd-image.png", "/nila-4th-image.png", "/nila-6th-image.png"]}
-        margin="md"
+          liked={isFavorite}
+          likes={likes}
+          toggleFavorite={toggleFavorite}
         />
 
-    
+        {/* Carousel Images */}
+        <ImageSlider
+          images={["/nila-1st-image.png", "/nila-2nd-image.png", "/nila-4th-image.png", "/nila-6th-image.png"]}
+          margin="md"
+        />
+
+
       </div>
 
       {/* Content */}
@@ -118,8 +118,8 @@ export default function ItemDetails({ params }: { params: { id: string } }) {
           <p className="text-gray-600 mb-4">{itemDetails.description}</p>
           <div className="text-2xl font-bold w-full flex flex-row justify-between pr-4">
             {itemDetails.price}
-          <Button size={"mid"} onClick={toggleFavorite} >Add to Wishlist</Button>
-            </div>
+            <Button size={"mid"} onClick={toggleFavorite} >Add to Wishlist</Button>
+          </div>
         </div>
 
         {/* Features */}
@@ -140,10 +140,10 @@ export default function ItemDetails({ params }: { params: { id: string } }) {
           <p className="text-gray-700 leading-relaxed pb-4">
             {showFullDescription ? itemDetails.fullDescription : `${itemDetails.fullDescription.substring(0, 150)}...`}
           </p>
-          
+
           <Button
-           onClick={() => setShowFullDescription(!showFullDescription)}
-           size="full" variant={"grayGhost"}>
+            onClick={() => setShowFullDescription(!showFullDescription)}
+            size="full" variant={"grayGhost"}>
             {showFullDescription ? "Show Less" : "Show More"}
           </Button>
         </div>

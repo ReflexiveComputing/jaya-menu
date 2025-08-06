@@ -26,7 +26,7 @@ export function MenuFilters({
                         <Button
                             key={category.id}
                             onClick={() => toggleMenuFilters(category.id)}
-                            variant={activeFilters.includes(category.id)? "navSelected" : "navBasic"}
+                            variant={activeFilters.includes(category.id) ? "navSelected" : "navBasic"}
                         >
                             {category.label}
                         </Button>

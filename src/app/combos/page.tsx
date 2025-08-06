@@ -1,16 +1,8 @@
 "use client"
 
 import { useState } from "react"
-import { Heart, Menu, Package, ChevronLeft, Utensils } from "lucide-react"
-import Image from "next/image"
-import Link from "next/link"
 import { Header } from "@/components/ui/header"
-import { DynamicIcon } from 'lucide-react/dynamic';
-import { MenuFilters } from "@/components/ui/menu-filters"
 import React from "react"
-import { FoodBadge } from "@/components/ui/food-card/food-badge"
-import { HeartCounter } from "@/components/ui/food-card/heart-component"
-import { FoodTags } from "@/components/ui/food-card/food-tags"
 import { FoodCard } from "@/components/ui/food-card/food-card"
 import { SectionDivider } from "@/components/ui/section-divider"
 
@@ -112,7 +104,7 @@ export default function MenuPage() {
         {/* Header */}
         <Header title="Combos" showChevron={true} linkTo="/" align="center" size="default" />
         {/* Menu Filters are removed extra gear icon will need to be added for other settings */}
-       
+
       </div>
 
       {/* Main Content */}

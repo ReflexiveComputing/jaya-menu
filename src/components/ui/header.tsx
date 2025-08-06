@@ -28,7 +28,7 @@ const headerVariants = cva(
 
 interface HeaderProps
   extends React.HTMLAttributes<HTMLDivElement>,
-    VariantProps<typeof headerVariants> {
+  VariantProps<typeof headerVariants> {
   title: string
   showChevron?: boolean
   linkTo?: string
@@ -46,7 +46,7 @@ export function Header({
 
   return (
     <div
-    className={cn(
+      className={cn(
         headerVariants({ align, size, className }),
       )}
       {...props}

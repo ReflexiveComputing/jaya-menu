@@ -112,7 +112,7 @@ export default function MenuPage() {
         {/* Header */}
         <Header title="Menu" showChevron={true} linkTo="/" align="center" size="default" />
         {/* Menu Filters are removed extra gear icon will need to be added for other settings */}
-       
+
       </div>
 
       {/* Main Content */}

@@ -21,7 +21,7 @@ export const OptionsItem: React.FC<AllergenButtonProps> = ({
     onClick={onClick}
   >
     <span>
-       <DynamicIcon name={icon as IconName} size={iconSize}  color="#000" />
+      <DynamicIcon name={icon as IconName} size={iconSize} color="#000" />
     </span>
     <div className="flex-1 text-left">
       <div className="font-semibold">{title}</div>

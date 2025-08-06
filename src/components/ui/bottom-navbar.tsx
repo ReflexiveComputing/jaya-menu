@@ -28,15 +28,13 @@ export function BottomNavbar({ selectedNav, onNavClick }: BottomNavbarProps) {
 
   return (
     <div
-      className={`fixed bottom-0 left-0 right-0 z-50 bg-white border-t border-gray-200 px-4  transition-transform duration-300 ${
-        showBottomNav ? "translate-y-0" : "translate-y-full"
-      }`}
+      className={`fixed bottom-0 left-0 right-0 z-50 bg-white border-t border-gray-200 px-4  transition-transform duration-300 ${showBottomNav ? "translate-y-0" : "translate-y-full"
+        }`}
     >
       <div className="flex justify-around items-center">
         <button
-          className={`flex flex-col items-center gap-1 py-2 ${
-            selectedNav === "menu" ? "text-teal-600" : "text-gray-600"
-          }`}
+          className={`flex flex-col items-center gap-1 py-2 ${selectedNav === "menu" ? "text-teal-600" : "text-gray-600"
+            }`}
           onClick={() => onNavClick("menu")}
         >
           <Link href="/menu" className="flex flex-col items-center gap-1">
@@ -46,9 +44,8 @@ export function BottomNavbar({ selectedNav, onNavClick }: BottomNavbarProps) {
         </button>
 
         <button
-          className={`flex flex-col items-center gap-1 py-2 ${
-            selectedNav === "combos" ? "text-teal-600" : "text-gray-600"
-          }`}
+          className={`flex flex-col items-center gap-1 py-2 ${selectedNav === "combos" ? "text-teal-600" : "text-gray-600"
+            }`}
           onClick={() => onNavClick("combos")}
         >
           <Link href="/combos" className="flex flex-col items-center gap-1">
@@ -58,9 +55,8 @@ export function BottomNavbar({ selectedNav, onNavClick }: BottomNavbarProps) {
         </button>
 
         <button
-          className={`flex flex-col items-center gap-1 py-2 ${
-            selectedNav === "favorites" ? "text-teal-600" : "text-gray-600"
-          }`}
+          className={`flex flex-col items-center gap-1 py-2 ${selectedNav === "favorites" ? "text-teal-600" : "text-gray-600"
+            }`}
           onClick={() => onNavClick("favorites")}
         >
           <Link href="/wishlist">

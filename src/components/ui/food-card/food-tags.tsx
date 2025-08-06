@@ -17,7 +17,7 @@ export function FoodTags({
         <div className="flex gap-1">
             {tags.map((tag, idx) => (
                 <div key={tag + idx} className="w-8 h-8 rounded-full flex items-center justify-center">
-                    <DynamicIcon name={tag as IconName} size={iconSize}  color="#000" />
+                    <DynamicIcon name={tag as IconName} size={iconSize} color="#000" />
                 </div>
             ))}
         </div>

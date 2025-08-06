@@ -19,7 +19,7 @@ export function FoodCardSlider({
   favorites,
   toggleFavorite,
 }: FoodCardProps) {
-  
+
   return (
     <Link href={`/item/${item.id}`} className="block">
       <div className="flex-shrink-0 bg-white rounded-2xl mb-6 shadow-sm overflow-hidden">
@@ -51,7 +51,7 @@ export function FoodCardSlider({
             <FoodTags tags={item.tags} />
             <Button size="mid">Add to Wishlist</Button>
           </div>
-          
+
         </div>
       </div>
     </Link>

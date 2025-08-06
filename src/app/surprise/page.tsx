@@ -102,9 +102,8 @@ export default function SurprisePage() {
             {questions.map((_, index) => (
               <div
                 key={index}
-                className={`h-2 flex-1 max-w-20 rounded-full transition-colors duration-300 ${
-                  index <= currentQuestion ? "bg-yellow-400" : "bg-gray-200"
-                }`}
+                className={`h-2 flex-1 max-w-20 rounded-full transition-colors duration-300 ${index <= currentQuestion ? "bg-yellow-400" : "bg-gray-200"
+                  }`}
               />
             ))}
           </div>
