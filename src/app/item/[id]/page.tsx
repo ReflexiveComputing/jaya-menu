@@ -10,7 +10,6 @@ import { ImageSlider } from "@/components/ui/image-slider/image-slider"
 import { ImageSliderHeartComponent } from "@/components/ui/image-slider/slider-heart-component"
 import { Button } from "@/components/ui/button"
 import { ComboSuggestion } from "@/components/ui/combo-suggestion"
-import { BottomNavbar } from "@/components/ui/bottom-navbar"
 
 // Mock data for the item details
 const itemDetails = {
@@ -166,7 +165,6 @@ export default function ItemDetails({ params }: { params: { id: string } }) {
       <div className="px-6 pb-6">
         <Button variant="primary" onClick={toggleFavorite} >Add to Wishlist</Button>
       </div>
-      <BottomNavbar />
     </div>
   )
 }

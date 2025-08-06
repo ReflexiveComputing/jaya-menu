@@ -12,7 +12,6 @@ import { FoodBadge } from "@/components/ui/food-card/food-badge"
 import { HeartCounter } from "@/components/ui/food-card/heart-component"
 import { FoodTags } from "@/components/ui/food-card/food-tags"
 import { FoodCard } from "@/components/ui/food-card/food-card"
-import { BottomNavbar } from "@/components/ui/bottom-navbar"
 import { SectionDivider } from "@/components/ui/section-divider"
 
 const categories = [
@@ -156,7 +155,6 @@ export default function MenuPage() {
         </div>
       </div>
 
-      <BottomNavbar />
     </div>
   )
 }
