@@ -3,8 +3,7 @@
 import type React from "react"
 
 import { useState } from "react"
-import { Heart, ChevronLeft, ChevronRight, Beef, Flame, Beer } from "lucide-react"
-import Image from "next/image"
+import { ChevronLeft, Beef, Flame, Beer } from "lucide-react"
 import Link from "next/link"
 import { ImageSlider } from "@/components/ui/image-slider/image-slider"
 import { ImageSliderHeartComponent } from "@/components/ui/image-slider/slider-heart-component"
@@ -62,7 +61,7 @@ const itemDetails = {
   ],
 }
 
-export default function ItemDetails({ params }: { params: { id: string } }) {
+export default function ItemDetails() {
   const [isFavorite, setIsFavorite] = useState(false)
   const [showFullDescription, setShowFullDescription] = useState(false)
   const [likes, setLikes] = useState(itemDetails.likes)

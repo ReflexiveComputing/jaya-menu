@@ -12,7 +12,7 @@ import { ImageSliderHeartComponent } from "@/components/ui/image-slider/slider-h
 import { FoodBadge } from "@/components/ui/food-card/food-badge"
 import { FoodCardSlider } from "@/components/ui/food-card/food-card-slider"
 
-const favouriteItems = [
+const favouriteItems: MenuItem[] = [
 	{
 		id: 1,
 		name: "Burrito Berliner",
@@ -65,21 +65,22 @@ const favouriteItems = [
 		tags: ["shell", "vegan", "wine"],
 	},
 	{
-		id: 4,
-		name: "Veggie Power Bowl",
-		description: "Nutritious bowl packed with superfoods",
-		longDescription: "Quinoa, avocado, and seasonal vegetables",
-		price: "13€",
-		images: [
-			"/nila-4th-image.png",
-			"/nila-5th-image.png",
-			"/nila-6th-image.png",
-		],
-		likes: 22,
-		isVegetarian: true,
-		badge: "Healthy",
-		tags: ["shell", "vegan", "wine"],
-	},
+    id: 4,
+    name: "Veggie Power Bowl",
+    description: "Nutritious bowl packed with superfoods",
+    longDescription: "Quinoa, avocado, and seasonal vegetables",
+    price: "13€",
+    images: [
+      "/nila-4th-image.png",
+      "/nila-5th-image.png",
+      "/nila-6th-image.png",
+    ],
+    likes: 22,
+    isVegetarian: true,
+    badge: "Healthy",
+    tags: ["shell", "vegan", "wine"],
+    badgeColor: undefined
+  },
 ]
 
 export default function ThisMonthFavourites() {

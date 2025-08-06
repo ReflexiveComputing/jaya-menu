@@ -5,7 +5,7 @@ import { HeartCounter } from "@/components/ui/food-card/heart-component"
 import { FoodTags } from "@/components/ui/food-card/food-tags"
 
 interface FoodCardProps {
-  item: any
+  item: MenuItem
   showBadge?: boolean
   favorites: number[]
   toggleFavorite: (id: number) => void

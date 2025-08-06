@@ -7,7 +7,7 @@ import { Button } from "../button"
 import { ImageSlider } from "../image-slider/image-slider"
 
 interface FoodCardProps {
-  item: any
+  item: MenuItem
   showBadge?: boolean
   favorites: number[]
   toggleFavorite: (id: number) => void

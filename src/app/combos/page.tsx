@@ -16,13 +16,15 @@ const categories = [
   { id: "beef", label: "Beef" },
 ]
 
-const popularItems = [
+const popularItems: MenuItem[] = [
   {
     id: 1,
     name: "Burrito Berliner",
     description: "Burrito with taste of Berlin",
+    longDescription: "A delicious burrito inspired by Berlin's vibrant food scene, packed with fresh ingredients and bold flavors.",
     price: "10€",
     image: "/nila-2nd-image.png",
+    images: ["/nila-2nd-image.png"],
     badge: "Guest Favourite",
     badgeColor: "gold",
     likes: 13,
@@ -33,8 +35,10 @@ const popularItems = [
     id: 2,
     name: "Mediterranean Bowl",
     description: "Fresh bowl with Mediterranean flavors",
+    longDescription: "Enjoy a healthy Mediterranean bowl filled with fresh vegetables, grains, and authentic spices.",
     price: "12€",
     image: "/nila-1st-image.png",
+    images: ["/nila-1st-image.png"],
     badge: "Popular",
     badgeColor: "green",
     likes: 8,
@@ -45,8 +49,10 @@ const popularItems = [
     id: 3,
     name: "Spicy Wrap",
     description: "Wrapped with spicy ingredients",
+    longDescription: "A spicy wrap bursting with flavor, perfect for those who love a little heat in their meal.",
     price: "9€",
     image: "/nila-3rd-image.png",
+    images: ["/nila-3rd-image.png"],
     badge: "New",
     badgeColor: "purple",
     likes: 15,
@@ -55,7 +61,7 @@ const popularItems = [
   },
 ]
 
-const vegetarianItems = [
+const vegetarianItems:MenuItem[] = [
   {
     id: 4,
     name: "Veggie Delight",
@@ -66,6 +72,9 @@ const vegetarianItems = [
     isVegetarian: true,
     badge: "Popular",
     tags: ["shell", "vegan", "wine"],
+    longDescription: "",
+    images: [],
+    badgeColor: undefined
   },
   {
     id: 5,
@@ -76,6 +85,10 @@ const vegetarianItems = [
     likes: 9,
     badge: "Popular",
     isVegetarian: true,
+    longDescription: "",
+    images: [],
+    badgeColor: undefined,
+    tags: []
   },
 ]
 

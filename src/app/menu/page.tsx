@@ -24,7 +24,7 @@ const categories = [
   { id: "beef", label: "Beef" },
 ]
 
-const popularItems = [
+const popularItems: MenuItem[] = [
   {
     id: 1,
     name: "Burrito Berliner",
@@ -36,6 +36,8 @@ const popularItems = [
     likes: 13,
     isVegetarian: true,
     tags: ["nut", "beer", "beef"],
+    longDescription: "",
+    images: []
   },
   {
     id: 2,
@@ -48,6 +50,8 @@ const popularItems = [
     likes: 8,
     isVegetarian: true,
     tags: ["flame", "beer", "fish"],
+    longDescription: "",
+    images: []
   },
   {
     id: 3,
@@ -60,10 +64,12 @@ const popularItems = [
     likes: 15,
     isVegetarian: false,
     tags: ["flame", "amphora", "snail"],
+    longDescription: "",
+    images: []
   },
 ]
 
-const vegetarianItems = [
+const vegetarianItems: MenuItem[] = [
   {
     id: 4,
     name: "Veggie Delight",
@@ -74,6 +80,9 @@ const vegetarianItems = [
     isVegetarian: true,
     badge: "Popular",
     tags: ["shell", "vegan", "wine"],
+    longDescription: "",
+    images: [],
+    badgeColor: undefined
   },
   {
     id: 5,
@@ -84,6 +93,10 @@ const vegetarianItems = [
     likes: 9,
     badge: "Popular",
     isVegetarian: true,
+    longDescription: "",
+    images: [],
+    badgeColor: undefined,
+    tags: []
   },
 ]
 
