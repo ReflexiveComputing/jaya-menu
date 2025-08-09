@@ -115,7 +115,7 @@ export default function MenuPage() {
         className={`top-0 z-10 bg-white transition-transform duration-300`}
       >
         {/* Header */}
-        <Header title="Combos" showChevron={true} linkTo="/" align="center" size="default" />
+        <Header title="Drinks" showChevron={true} linkTo="/" align="center" size="default" />
         {/* Menu Filters are removed extra gear icon will need to be added for other settings */}
 
       </div>

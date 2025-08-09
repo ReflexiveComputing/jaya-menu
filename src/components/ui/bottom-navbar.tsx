@@ -1,5 +1,5 @@
 import React from "react"
-import { Utensils, Package, Heart, Settings2 } from "lucide-react"
+import { Utensils, Heart, Settings2, CupSoda } from "lucide-react"
 import Link from "next/link"
 
 interface BottomNavbarProps {
@@ -48,9 +48,9 @@ export function BottomNavbar({ selectedNav, onNavClick }: BottomNavbarProps) {
             }`}
           onClick={() => onNavClick("combos")}
         >
-          <Link href="/combos" className="flex flex-col items-center gap-1">
-            <Package className="m-auto w-6 h-6" />
-            <span className="text-xs font-medium">Combos</span>
+          <Link href="/drinks" className="flex flex-col items-center gap-1">
+            <CupSoda className="m-auto w-6 h-6" />
+            <span className="text-xs font-medium">Drinks</span>
           </Link>
         </button>
 
