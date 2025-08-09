@@ -27,10 +27,13 @@ export function OptionsModal({ open, onClose }: OptionsModalProps) {
         }
     }, [open])
 
-    const handleFeedbackClick = () => {
+    const handleNavigationClick = (navigationPath: string) => {
         onClose()
-        router.push("/feedback")
+        router.push(navigationPath)
     }
+
+
+
 
     if (!open) return null
 
@@ -43,13 +46,27 @@ export function OptionsModal({ open, onClose }: OptionsModalProps) {
             <div className="flex-1 flex flex-col items-center justify-center w-full ">
                 <div className="w-full flex flex-col gap-1">
                     {/* Option Card Example */}
-                    <OptionsItem title={"Select Allergens"} description={"Manage your dietary restrictions"} icon="alert-triangle" />
-                    <OptionsItem title={"Change Language"} description={"Switch to your preferred language"} icon="globe" />
-                    <OptionsItem 
-                        title={"Send Feedback"} 
-                        description={"Help us improve your experience"} 
+                    <OptionsItem
+                        title={"Retake Quiz"}
+                        description={"Retake the quiz and get new recommendations"}
+                        icon="message-circle-question-mark"
+                        onClick={() => handleNavigationClick("/surprise")}
+                    />
+                    <OptionsItem
+                        title={"Select Allergens"}
+                        description={"Manage your dietary restrictions"}
+                        icon="alert-triangle"
+                    />
+                    <OptionsItem
+                        title={"Change Language"}
+                        description={"Switch to your preferred language"}
+                        icon="globe"
+                    />
+                    <OptionsItem
+                        title={"Send Feedback"}
+                        description={"Help us improve your experience"}
                         icon="message-square" 
-                        onClick={handleFeedbackClick}
+                        onClick={() => handleNavigationClick("/feedback")}
                     />
                 </div>
             </div>
