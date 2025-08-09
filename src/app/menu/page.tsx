@@ -104,14 +104,6 @@ export default function MenuPage() {
   const [favorites, setFavorites] = useState<number[]>([])
   const [activeFilters, setActiveFilters] = useState<string[]>([])
 
-  // Toggle filters
-  const toggleMenuFilters = (categoryId: string) => {
-    setActiveFilters((prev) =>
-      prev.includes(categoryId)
-        ? prev.filter((id) => id !== categoryId)
-        : [...prev, categoryId]
-    )
-  }
   const toggleFavorite = (itemId: number) => {
     setFavorites((prev) => (prev.includes(itemId) ? prev.filter((id) => id !== itemId) : [...prev, itemId]))
   }
@@ -124,7 +116,6 @@ export default function MenuPage() {
       >
         {/* Header */}
         <Header title="Menu" showChevron={true} linkTo="/" align="center" size="default" />
-        {/* Menu Filters are removed extra gear icon will need to be added for other settings */}
 
       </div>
 
