@@ -1,6 +1,9 @@
+"use client"
+
 import React from "react"
 import { AlertTriangle, Globe, MessageSquare, X } from "lucide-react"
 import { cn } from "@/lib/utils"
+import { useRouter } from "next/navigation"
 import { Header } from "./header"
 import { Button } from "./button"
 import { OptionsItem } from "./options-item"
@@ -11,6 +14,8 @@ interface OptionsModalProps {
 }
 
 export function OptionsModal({ open, onClose }: OptionsModalProps) {
+    const router = useRouter()
+    
     React.useEffect(() => {
         if (open) {
             document.body.style.overflow = "hidden"
@@ -21,6 +26,11 @@ export function OptionsModal({ open, onClose }: OptionsModalProps) {
             document.body.style.overflow = ""
         }
     }, [open])
+
+    const handleFeedbackClick = () => {
+        onClose()
+        router.push("/feedback")
+    }
 
     if (!open) return null
 
@@ -35,7 +45,12 @@ export function OptionsModal({ open, onClose }: OptionsModalProps) {
                     {/* Option Card Example */}
                     <OptionsItem title={"Select Allergens"} description={"Manage your dietary restrictions"} icon="alert-triangle" />
                     <OptionsItem title={"Change Language"} description={"Switch to your preferred language"} icon="globe" />
-                    <OptionsItem title={"Send Feedback"} description={"Help us improve your experience"} icon="message-square" />
+                    <OptionsItem 
+                        title={"Send Feedback"} 
+                        description={"Help us improve your experience"} 
+                        icon="message-square" 
+                        onClick={handleFeedbackClick}
+                    />
                 </div>
             </div>
             {/* Close Button at Bottom */}
