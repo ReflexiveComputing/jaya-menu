@@ -43,7 +43,7 @@
     "isVegetarian": false,
     "badge": "Signature",
     "badgeColor": "purple",
-    "tags": ["sheep", "flame", "sparkles"],
+    "tags": ["trees", "flame", "sparkles"],
     "category": ["lamb", "spicy", "main", "dinner"],
     "mainCategory": "lamb"
   },
@@ -123,7 +123,7 @@
     "isVegetarian": false,
     "badge": "Festive",
     "badgeColor": "gold",
-    "tags": ["rice", "drumstick", "sheep"],
+    "tags": ["trees", "drumstick", "flame"],
     "category": ["rice", "chicken", "lamb", "spicy", "main"],
     "mainCategory": "rice"
   },
@@ -139,7 +139,7 @@
     "isVegetarian": true,
     "badge": "Street Food",
     "badgeColor": "purple",
-    "tags": ["bean", "flame", "bread"],
+    "tags": ["bean", "flame", "trees"],
     "category": ["vegetarian", "main", "street-food", "spicy"],
     "mainCategory": "vegetarian"
   },
@@ -155,7 +155,7 @@
     "isVegetarian": true,
     "badge": "Dessert",
     "badgeColor": "gold",
-    "tags": ["cupcake", "droplet", "heart"],
+    "tags": ["dessert", "droplet", "heart"],
     "category": ["dessert", "vegetarian", "sweet"],
     "mainCategory": "dessert"
   }

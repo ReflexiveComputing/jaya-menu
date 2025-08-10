@@ -1,164 +1,125 @@
 "use client"
 
-import { useState } from "react"
-import { Heart, Menu, Package, ChevronLeft, Utensils } from "lucide-react"
-import Image from "next/image"
-import Link from "next/link"
+import { useState, useEffect } from "react"
 import { Header } from "@/components/ui/header"
-import { DynamicIcon } from 'lucide-react/dynamic';
-import { MenuFilters } from "@/components/ui/menu-filters"
-import React from "react"
-import { FoodBadge } from "@/components/ui/food-card/food-badge"
-import { HeartCounter } from "@/components/ui/food-card/heart-component"
-import { FoodTags } from "@/components/ui/food-card/food-tags"
 import { FoodCard } from "@/components/ui/food-card/food-card"
 import { SectionDivider } from "@/components/ui/section-divider"
-
-const categories = [
-  { id: "all", label: "All" },
-  { id: "meals", label: "Meals" },
-  { id: "vegetarian", label: "Vegetarian" },
-  { id: "vegan", label: "Vegan" },
-  { id: "lamb", label: "Lamb" },
-  { id: "chicken", label: "Chicken" },
-  { id: "beef", label: "Beef" },
-]
-
-const popularItems: MenuItem[] = [
-  {
-    id: 1,
-    name: "Burrito Berliner",
-    description: "Burrito with taste of Berlin",
-    price: "10€",
-    image: "/nila-2nd-image.png",
-    badge: "Guest Favourite",
-    badgeColor: "gold",
-    likes: 13,
-    isVegetarian: true,
-    tags: ["nut", "beer", "beef"],
-    longDescription: "",
-    images: []
-  },
-  {
-    id: 2,
-    name: "Mediterranean Bowl",
-    description: "Fresh bowl with Mediterranean flavors",
-    price: "12€",
-    image: "/nila-1st-image.png",
-    badge: "Popular",
-    badgeColor: "green",
-    likes: 8,
-    isVegetarian: true,
-    tags: ["flame", "beer", "fish"],
-    longDescription: "",
-    images: []
-  },
-  {
-    id: 3,
-    name: "Spicy Wrap",
-    description: "Wrapped with spicy ingredients",
-    price: "9€",
-    image: "/nila-3rd-image.png",
-    badge: "New",
-    badgeColor: "purple",
-    likes: 15,
-    isVegetarian: false,
-    tags: ["flame", "amphora", "snail"],
-    longDescription: "",
-    images: []
-  },
-]
-
-const vegetarianItems: MenuItem[] = [
-  {
-    id: 4,
-    name: "Veggie Delight",
-    description: "Pure vegetarian goodness",
-    price: "11€",
-    image: "/nila-4th-image.png",
-    likes: 13,
-    isVegetarian: true,
-    badge: "Popular",
-    tags: ["shell", "vegan", "wine"],
-    longDescription: "",
-    images: [],
-    badgeColor: undefined
-  },
-  {
-    id: 5,
-    name: "Green Power Bowl",
-    description: "Packed with green vegetables",
-    price: "13€",
-    image: "/nila-5th-image.png",
-    likes: 9,
-    badge: "Popular",
-    isVegetarian: true,
-    longDescription: "",
-    images: [],
-    badgeColor: undefined,
-    tags: []
-  },
-]
+import { MenuItem } from "@/types/menu"
+import { 
+  getMenuCategories, 
+  getMenuByCategory, 
+  getTopMenuThisMonth, 
+  generateCategorySections,
+  capitalizeFirstLetter 
+} from "@/lib/api-calls/menu"
 
 export default function MenuPage() {
   const [favorites, setFavorites] = useState<number[]>([])
-  const [activeFilters, setActiveFilters] = useState<string[]>([])
+  const [topItems, setTopItems] = useState<MenuItem[]>([])
+  const [categories, setCategories] = useState<string[]>([])
+  const [categoryItems, setCategoryItems] = useState<{ [key: string]: MenuItem[] }>({})
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    const fetchData = async () => {
+      setLoading(true)
+      
+      // Fetch top items this month
+      const topMenuItems = await getTopMenuThisMonth()
+      setTopItems(topMenuItems)
+      
+      // Fetch categories
+      const menuCategories = await getMenuCategories()
+      setCategories(menuCategories)
+      
+      // Fetch items for each category
+      const categoryData: { [key: string]: MenuItem[] } = {}
+      for (const category of menuCategories) {
+        const items = await getMenuByCategory(category)
+        categoryData[category] = items
+      }
+      setCategoryItems(categoryData)
+      
+      setLoading(false)
+    }
+
+    fetchData()
+  }, [])
 
   const toggleFavorite = (itemId: number) => {
-    setFavorites((prev) => (prev.includes(itemId) ? prev.filter((id) => id !== itemId) : [...prev, itemId]))
+    setFavorites((prev) => (
+      prev.includes(itemId) 
+        ? prev.filter((id) => id !== itemId) 
+        : [...prev, itemId]
+    ))
+  }
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-gray-50 flex flex-col">
+        <Header title="Menu" showChevron={true} linkTo="/" align="center" size="default" />
+        <div className="flex-1 flex items-center justify-center">
+          <div className="text-gray-500">Loading menu...</div>
+        </div>
+      </div>
+    )
   }
 
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
-
-      <div
-        className={`top-0 z-10 bg-white transition-transform duration-300`}
-      >
-        {/* Header */}
+      <div className="top-0 z-10 bg-white transition-transform duration-300">
         <Header title="Menu" showChevron={true} linkTo="/" align="center" size="default" />
-
       </div>
 
-      {/* Main Content */}
       <div className="flex-1 overflow-y-auto">
-        {/* Popular This Month Section */}
-        <div className="py-6">
-          <SectionDivider href="/this-month-favourites" title="Popular This Month" />
-
-          <div className="overflow-x-auto scrollbar-hide">
-            <div className="flex gap-4 px-4 pb-2">
-              {popularItems.map((item) => (
-                <FoodCard
-                  key={item.id}
-                  item={item}
-                  showBadge={true}
-                  favorites={favorites}
-                  toggleFavorite={toggleFavorite}
-                />
-              ))}
+        {/* Top This Month Section */}
+        {topItems.length > 0 && (
+          <div className="py-6">
+            <SectionDivider href="/menu/popular" title="Popular This Month" />
+            <div className="overflow-x-auto scrollbar-hide">
+              <div className="flex gap-4 px-4 pb-2">
+                {topItems.map((item) => (
+                  <FoodCard
+                    key={item.id}
+                    item={item}
+                    showBadge={true}
+                    favorites={favorites}
+                    toggleFavorite={toggleFavorite}
+                  />
+                ))}
+              </div>
             </div>
           </div>
-        </div>
+        )}
 
-        {/* Vegetarian Section */}
-        <div className="py-6">
-          <SectionDivider href="/vegetarian" title="Vegetarian" />
+        {/* Category Sections */}
+        {categories.map((category) => {
+          const items = categoryItems[category] || []
+          if (items.length === 0) return null
 
-          <div className="overflow-x-auto scrollbar-hide">
-            <div className="flex gap-4 px-4 pb-2">
-              {vegetarianItems.map((item) => (
-                <FoodCard
-                  key={item.id}
-                  item={item}
-                  showBadge={true}
-                  favorites={favorites}
-                  toggleFavorite={toggleFavorite} />
-              ))}
+          return (
+            <div key={category} className="py-6">
+              <SectionDivider 
+                href={`/menu/${category}`} 
+                title={capitalizeFirstLetter(category)} 
+              />
+              <div className="overflow-x-auto scrollbar-hide">
+                <div className="flex gap-4 px-4 pb-2">
+                  {items.slice(0, 5).map((item) => (
+                    <FoodCard
+                      key={item.id}
+                      item={item}
+                      showBadge={true}
+                      favorites={favorites}
+                      toggleFavorite={toggleFavorite}
+                    />
+                  ))}
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
+          )
+        })}
       </div>
-
     </div>
   )
 }

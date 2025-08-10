@@ -5,6 +5,7 @@ import { HeartCounter } from "@/components/ui/food-card/heart-component"
 import { FoodTags } from "@/components/ui/food-card/food-tags"
 import { Button } from "../button"
 import { ImageSlider } from "../image-slider/image-slider"
+import { MenuItem } from "@/types/menu"
 
 interface FoodCardProps {
   item: MenuItem

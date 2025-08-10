@@ -11,7 +11,7 @@
     "isVegetarian": true,
     "badge": "Classic",
     "badgeColor": "gold",
-    "tags": ["cup-hot", "leaf", "flame"],
+    "tags": ["coffee", "leaf", "flame"],
     "category": ["hot", "tea", "spiced"],
     "mainCategory": "hot"
   },
@@ -27,7 +27,7 @@
     "isVegetarian": true,
     "badge": "Popular",
     "badgeColor": "green",
-    "tags": ["coffee", "cup-hot", "star"],
+    "tags": ["coffee", "coffee", "star"],
     "category": ["hot", "coffee", "south-indian"],
     "mainCategory": "coffee"
   },
@@ -43,7 +43,7 @@
     "isVegetarian": true,
     "badge": "Summer Special",
     "badgeColor": "gold",
-    "tags": ["milk", "cup", "sun"],
+    "tags": ["milk", "bottle-wine", "sun"],
     "category": ["cold", "lassi", "sweet"],
     "mainCategory": "cold"
   },
@@ -59,7 +59,7 @@
     "isVegetarian": true,
     "badge": "Refreshing",
     "badgeColor": "purple",
-    "tags": ["flower", "droplet", "cup"],
+    "tags": ["flower", "droplet", "citrus"],
     "category": ["cold", "sweet", "non-alcoholic"],
     "mainCategory": "cold"
   },
@@ -75,7 +75,7 @@
     "isVegetarian": true,
     "badge": "Alcoholic",
     "badgeColor": "green",
-    "tags": ["beer", "cup", "star"],
+    "tags": ["beer", "bottle-wine", "star"],
     "category": ["alcoholic", "cold", "beer"],
     "mainCategory": "alcoholic"
   },
@@ -91,7 +91,7 @@
     "isVegetarian": true,
     "badge": "Alcoholic",
     "badgeColor": "purple",
-    "tags": ["glass", "cocktail", "star"],
+    "tags": ["wine", "anchor", "star"],
     "category": ["alcoholic", "rum", "cocktail"],
     "mainCategory": "alcoholic"
   },
@@ -107,7 +107,7 @@
     "isVegetarian": true,
     "badge": "Digestive",
     "badgeColor": "green",
-    "tags": ["lemon", "droplet", "cup"],
+    "tags": ["citrus", "droplet", "bottle-wine"],
     "category": ["cold", "spiced", "non-alcoholic"],
     "mainCategory": "cold"
   },
@@ -123,7 +123,7 @@
     "isVegetarian": true,
     "badge": "Alcoholic",
     "badgeColor": "gold",
-    "tags": ["wine", "glass", "star"],
+    "tags": ["wine", "wine", "star"],
     "category": ["alcoholic", "wine", "red"],
     "mainCategory": "alcoholic"
   },
@@ -139,7 +139,7 @@
     "isVegetarian": true,
     "badge": "Festive",
     "badgeColor": "gold",
-    "tags": ["milk", "nut", "cup"],
+    "tags": ["milk", "nut", "bottle-wine"],
     "category": ["cold", "milk", "sweet"],
     "mainCategory": "cold"
   },

@@ -3,6 +3,7 @@ import Image from "next/image"
 import { FoodBadge } from "@/components/ui/food-card/food-badge"
 import { HeartCounter } from "@/components/ui/food-card/heart-component"
 import { FoodTags } from "@/components/ui/food-card/food-tags"
+import { MenuItem } from "@/types/menu"
 
 interface FoodCardProps {
   item: MenuItem
@@ -40,12 +41,15 @@ export function FoodCard({
           />
         </div>
         <div className="p-4">
-          <div className="flex items-center justify-between mb-2">
-            <div className="flex flex-col items-left gap-2">
+          <div className="flex flex-col items-center justify-between mb-2">
+            <div className="flex items-left justify-between w-full">
               <h3 className="font-bold text-lg mb-1">{item.name}</h3>
-              <p className="text-gray-600 text-sm mb-3">{item.description}</p>
+              <p className="font-bold text-xl mb-1">{item.price}</p>
             </div>
-            <div className="text-xl font-bold">{item.price}</div>
+            <div className="justify-start w-full">
+              <p className="text-gray-600 text-sm mb-3 min-h-10 max-h-10">{item.description}</p>
+              
+            </div>
           </div>
           <div className="flex items-center justify-between">
             <FoodTags tags={item.tags} />
