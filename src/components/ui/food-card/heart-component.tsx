@@ -59,7 +59,7 @@ export function HeartCounter({
       <Heart className={getHeartIconClass(liked, variant ?? undefined)} />
       {typeof likes === "number" && (
         <span className="absolute -top-1 -right-1  text-gray-600 text-xs rounded-full w-5 h-5 flex items-center justify-center">
-          {likes}
+          {liked ? likes + 1 : likes}
         </span>
       )}
     </button>
