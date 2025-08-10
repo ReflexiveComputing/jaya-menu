@@ -61,7 +61,7 @@ export function BottomNavbar({ selectedNav, onNavClick }: BottomNavbarProps) {
         >
           <Link href="/wishlist">
             <Heart className="m-auto w-6 h-6" />
-            <span className="text-xs font-medium">Favorites</span>
+            <span className="text-xs font-medium">Wishlist</span>
           </Link>
         </button>
 
