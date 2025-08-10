@@ -1,5 +1,6 @@
 import "server-only"
 import { MenuItem } from "@/types/menu"
+import drinksData from "@/lib/static/drinks.json"
 
 const TEN_MINUTES = 600
 
@@ -25,25 +26,47 @@ async function safeFetch<T>(url: string, init?: RequestInit): Promise<T> {
 }
 
 export async function fetchDrinksCategories(): Promise<string[]> {
-  const data = await safeFetch<{ categories: string[] }>("/api/drinks", {
-    next: { tags: ["drinks:categories"] },
-  })
-  return data.categories || []
+  try {
+    const data = await safeFetch<{ categories: string[] }>("/api/drinks", {
+      next: { tags: ["drinks:categories"] },
+    })
+    return data.categories || []
+  } catch (error) {
+    console.warn("API fetch failed, falling back to static data:", error)
+    // Fallback to static data
+    const categories = [...new Set(drinksData.map(item => item.category).flat())]
+    return categories
+  }
 }
 
 export async function fetchDrinksCategoryItems(category: string): Promise<MenuItem[]> {
-  const data = await safeFetch<{ items: MenuItem[] }>(
-    `/api/drinks/category?category=${encodeURIComponent(category)}`,
-    { next: { tags: [`drinks:category:${category}`] } }
-  )
-  return data.items || []
+  try {
+    const data = await safeFetch<{ items: MenuItem[] }>(
+      `/api/drinks/category?category=${encodeURIComponent(category)}`,
+      { next: { tags: [`drinks:category:${category}`] } }
+    )
+    return data.items || []
+  } catch (error) {
+    console.warn("API fetch failed, falling back to static data:", error)
+    // Fallback to static data
+    return drinksData.filter(item => item.category.includes(category)) as MenuItem[]
+  }
 }
 
 export async function fetchDrinksTopThisMonth(limit = 3): Promise<MenuItem[]> {
-  const data = await safeFetch<{ items: MenuItem[] }>(
-    "/api/drinks/top-this-month",
-    { next: { tags: ["drinks:top"] } }
-  )
-  const items = data.items || []
-  return items.slice(0, limit)
+  try {
+    const data = await safeFetch<{ items: MenuItem[] }>(
+      "/api/drinks/top-this-month",
+      { next: { tags: ["drinks:top"] } }
+    )
+    const items = data.items || []
+    return items.slice(0, limit)
+  } catch (error) {
+    console.warn("API fetch failed, falling back to static data:", error)
+    // Fallback to static data
+    const topItems = drinksData
+      .sort((a, b) => b.likes - a.likes)
+      .slice(0, limit)
+    return topItems as MenuItem[]
+  }
 }
