@@ -15,7 +15,7 @@ function getBaseUrl() {
 async function safeFetch<T>(url: string, init?: RequestInit): Promise<T> {
   const baseUrl = getBaseUrl()
   const fullUrl = url.startsWith('http') ? url : `${baseUrl}${url}`
-  
+
   const res = await fetch(fullUrl, {
     ...init,
     // Force cache within the revalidate window
@@ -54,19 +54,19 @@ export async function fetchDrinksCategoryItems(category: string): Promise<MenuIt
 }
 
 export async function fetchDrinksTopThisMonth(limit = 3): Promise<MenuItem[]> {
+  const topItems = drinksData
+    .sort((a, b) => b.likes - a.likes)
+    .slice(0, limit)
   try {
     const data = await safeFetch<{ items: MenuItem[] }>(
       "/api/drinks/top-this-month",
       { next: { tags: ["drinks:top"] } }
     )
-    const items = data.items || []
+    const items = data.items || topItems
     return items.slice(0, limit)
   } catch (error) {
     console.warn("API fetch failed, falling back to static data:", error)
     // Fallback to static data
-    const topItems = drinksData
-      .sort((a, b) => b.likes - a.likes)
-      .slice(0, limit)
     return topItems as MenuItem[]
   }
 }
