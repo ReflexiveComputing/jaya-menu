@@ -1,116 +1,92 @@
 "use client"
 
-import type React from "react"
-
-import { useState } from "react"
-import { Heart, Menu, Package, ChevronLeft } from "lucide-react"
-import Image from "next/image"
-import Link from "next/link"
+import { useState, useEffect } from "react"
 import { Header } from "@/components/ui/header"
-import { ImageSlider } from "@/components/ui/image-slider/image-slider"
-import { ImageSliderHeartComponent } from "@/components/ui/image-slider/slider-heart-component"
-import { FoodBadge } from "@/components/ui/food-card/food-badge"
 import { FoodCardSlider } from "@/components/ui/food-card/food-card-slider"
+import { Button } from "@/components/ui/button"
+import Link from "next/link"
+import { useWishlist } from "@/components/providers/wishlist-provider"
+import { MenuItem } from "@/types/menu"
 
-const favouriteItems: MenuItem[] = [
-	{
-		id: 1,
-		name: "Burrito Berliner",
-		description: "Burrito with taste of Berlin",
-		longDescription: "Slightly Longer Description",
-		price: "10€",
-		images: [
-			"/nila-4th-image.png",
-			"/nila-5th-image.png",
-			"/nila-6th-image.png",
-		],
-		likes: 13,
-		isVegetarian: true,
-		badge: "Guest Favourite",
-		badgeColor: "gold",
-		tags: ["shell", "vegan", "wine"],
-	},
-	{
-		id: 2,
-		name: "Mediterranean Bowl",
-		description: "Fresh bowl with Mediterranean flavors",
-		longDescription: "Packed with fresh vegetables, olives, and feta cheese",
-		price: "12€",
-		images: [
-			"/nila-4th-image.png",
-			"/nila-5th-image.png",
-			"/nila-6th-image.png",
-		],
-		likes: 18,
-		isVegetarian: true,
-		badge: "Popular",
-		badgeColor: "green",
-		tags: ["shell", "vegan", "wine"],
-	},
-	{
-		id: 3,
-		name: "Spicy Chicken Wrap",
-		description: "Wrapped with spicy chicken and fresh vegetables",
-		longDescription: "Tender chicken with our signature spicy sauce",
-		price: "11€",
-		images: [
-			"/nila-4th-image.png",
-			"/nila-5th-image.png",
-			"/nila-6th-image.png",
-		],
-		likes: 15,
-		isVegetarian: false,
-		badge: "Spicy",
-		badgeColor: "purple",
-		tags: ["shell", "vegan", "wine"],
-	},
-	{
-    id: 4,
-    name: "Veggie Power Bowl",
-    description: "Nutritious bowl packed with superfoods",
-    longDescription: "Quinoa, avocado, and seasonal vegetables",
-    price: "13€",
-    images: [
-      "/nila-4th-image.png",
-      "/nila-5th-image.png",
-      "/nila-6th-image.png",
-    ],
-    likes: 22,
-    isVegetarian: true,
-    badge: "Healthy",
-    tags: ["shell", "vegan", "wine"],
-    badgeColor: undefined
-  },
-]
+export default function Wishlist() {
+  const { getFavoriteItems } = useWishlist()
+  const [allItems, setAllItems] = useState<MenuItem[]>([])
+  const [favoriteItems, setFavoriteItems] = useState<MenuItem[]>([])
+  const [loading, setLoading] = useState(true)
 
-export default function ThisMonthFavourites() {
-	const [favorites, setFavorites] = useState<number[]>([1, 4])
+  useEffect(() => {
+    async function fetchAllItems() {
+      try {
+        // Fetch both menu and drinks items
+        const [menuRes, drinksRes] = await Promise.all([
+          fetch('/api/menu'),
+          fetch('/api/drinks')
+        ])
+        
+        const [menuData, drinksData] = await Promise.all([
+          menuRes.json(),
+          drinksRes.json()
+        ])
+        
+        const combined = [
+          ...(menuData.items || []),
+          ...(drinksData.items || [])
+        ]
+        
+        setAllItems(combined)
+        setFavoriteItems(getFavoriteItems(combined))
+      } catch (error) {
+        console.error('Error fetching items:', error)
+      } finally {
+        setLoading(false)
+      }
+    }
 
-	const toggleFavorite = (itemId: number) => {
-		setFavorites((prev) =>
-			prev.includes(itemId)
-				? prev.filter((id) => id !== itemId)
-				: [...prev, itemId]
-		)
-	}
+    fetchAllItems()
+  }, [getFavoriteItems])
 
-	return (
-		<div className="min-h-screen bg-gray-50 flex flex-col">
-			{/* Header */}
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-gray-50 flex flex-col">
+        <Header title="My Wishlist" showChevron />
+        <div className="flex-1 flex items-center justify-center">
+          <div className="text-gray-500">Loading...</div>
+        </div>
+      </div>
+    )
+  }
 
-			<Header title="My Wishlist" showChevron />
 
-			{/* Main Content - Vertical Scrolling List */}
-			<div className="flex-1 overflow-y-auto px-4 py-6 mb-6">
-				{favouriteItems.map((item) => (
-					<FoodCardSlider
-						key={item.id}
-						item={item}
-						favorites={favorites}
-						toggleFavorite={toggleFavorite}
-					/>
-				))}
-			</div>
-		</div>
-	)
+  return (
+    <div className="min-h-screen bg-gray-50 flex flex-col">
+      <Header title="My Wishlist" showChevron />
+
+      <div className="flex-1 overflow-y-auto px-4 py-6 mb-6">
+        {favoriteItems.length > 0 ? (
+          favoriteItems.map((item) => (
+            <FoodCardSlider
+              key={item.id}
+              item={item}
+              // favorites and toggleFavorite now handled by provider inside FoodCardSlider
+            />
+          ))
+        ) : (
+          <div className="flex flex-col items-center justify-center h-96 gap-6">
+            <div className="text-center text-gray-500 text-lg font-medium">
+              Nothing in your wishlist yet.<br />
+              Let me help you choose or go through the menu!
+            </div>
+            <div className="flex gap-4">
+              <Button variant="primary" asChild>
+                <Link href="/surprise">Let me help you</Link>
+              </Button>
+              <Button variant="secondary" asChild>
+                <Link href="/menu">Go to Menu</Link>
+              </Button>
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  )
 }

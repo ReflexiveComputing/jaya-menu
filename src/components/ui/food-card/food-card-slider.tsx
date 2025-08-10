@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { FoodBadge } from "@/components/ui/food-card/food-badge"
-import { HeartCounter } from "@/components/ui/food-card/heart-component"
+import { ClientHeart } from "@/components/ui/food-card/client-heart"
 import { FoodTags } from "@/components/ui/food-card/food-tags"
 import { Button } from "../button"
 import { ImageSlider } from "../image-slider/image-slider"
@@ -10,15 +10,11 @@ import { MenuItem } from "@/types/menu"
 interface FoodCardProps {
   item: MenuItem
   showBadge?: boolean
-  favorites: number[]
-  toggleFavorite: (id: number) => void
 }
 
 export function FoodCardSlider({
   item,
   showBadge = false,
-  favorites,
-  toggleFavorite,
 }: FoodCardProps) {
 
   return (
@@ -32,11 +28,8 @@ export function FoodCardSlider({
             />
           </div>
           <FoodBadge badge={item.badge} showBadge={showBadge} color={item.badgeColor} />
-          <HeartCounter
-            variant="red"
+          <ClientHeart
             itemId={item.id}
-            toggleFavorite={toggleFavorite}
-            liked={favorites.includes(item.id)}
             likes={item.likes}
           />
         </div>

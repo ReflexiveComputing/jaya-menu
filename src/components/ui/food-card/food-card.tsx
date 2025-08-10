@@ -1,22 +1,19 @@
 import Link from "next/link"
 import Image from "next/image"
 import { FoodBadge } from "@/components/ui/food-card/food-badge"
-import { HeartCounter } from "@/components/ui/food-card/heart-component"
 import { FoodTags } from "@/components/ui/food-card/food-tags"
+import { ClientHeart } from "@/components/ui/food-card/client-heart"
 import { MenuItem } from "@/types/menu"
 
 interface FoodCardProps {
   item: MenuItem
   showBadge?: boolean
-  favorites: number[]
-  toggleFavorite: (id: number) => void
+  // Remove legacy props - client heart handles its own state
 }
 
 export function FoodCard({
   item,
   showBadge = false,
-  favorites,
-  toggleFavorite,
 }: FoodCardProps) {
   return (
     <Link href={`/item/${item.id}`} className="block">
@@ -32,11 +29,8 @@ export function FoodCard({
             />
           </div>
           <FoodBadge badge={item.badge} showBadge={showBadge} color={item.badgeColor} />
-          <HeartCounter
-            variant="red"
+          <ClientHeart
             itemId={item.id}
-            toggleFavorite={toggleFavorite}
-            liked={favorites.includes(item.id)}
             likes={item.likes}
           />
         </div>

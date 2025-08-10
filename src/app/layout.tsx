@@ -5,6 +5,7 @@ import { NavbarController } from "@/components/ui/navbar-controller";
 import React from "react";
 import { headers } from "next/dist/server/request/headers";
 import { log } from "console";
+import { WishlistProvider } from "@/components/providers/wishlist-provider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,8 +32,10 @@ export default async function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
-        <NavbarController />
+        <WishlistProvider>
+          {children}
+          <NavbarController />
+        </WishlistProvider>
       </body>
     </html>
   );

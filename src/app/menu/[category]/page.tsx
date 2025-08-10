@@ -1,77 +1,36 @@
-"use client"
-
-import { useState, useEffect } from "react"
-import { useParams } from "next/navigation"
 import { Header } from "@/components/ui/header"
 import { FoodCard } from "@/components/ui/food-card/food-card"
-import { getMenuByCategory, capitalizeFirstLetter } from "@/lib/api-calls/menu"
-import { MenuItem } from "@/types/menu"
+import { FoodCardSlider } from "@/components/ui/food-card/food-card-slider"
+import { fetchMenuCategories, fetchMenuCategoryItems } from "@/lib/server/menu-fetch"
 
-export default function MenuCategoryPage() {
-  const params = useParams()
-  const category = params.category as string
-  const [items, setItems] = useState<MenuItem[]>([])
-  const [favorites, setFavorites] = useState<number[]>([])
-  const [loading, setLoading] = useState(true)
+export const revalidate = 600
 
-  useEffect(() => {
-    const fetchItems = async () => {
-      if (category) {
-        setLoading(true)
-        const categoryItems = await getMenuByCategory(category)
-        setItems(categoryItems)
-        setLoading(false)
-      }
-    }
+export async function generateStaticParams() {
+  const categories = await fetchMenuCategories()
+  return categories.map(c => ({ category: c }))
+}
 
-    fetchItems()
-  }, [category])
+function cap(s: string) { return s.charAt(0).toUpperCase() + s.slice(1) }
 
-  const toggleFavorite = (itemId: number) => {
-    setFavorites((prev) => 
-      prev.includes(itemId) 
-        ? prev.filter((id) => id !== itemId) 
-        : [...prev, itemId]
-    )
-  }
-
-  if (loading) {
-    return (
-      <div className="min-h-screen bg-gray-50 flex flex-col">
-        <Header title="Loading..." showChevron={true} linkTo="/menu" align="center" size="default" />
-        <div className="flex-1 flex items-center justify-center">
-          <div className="text-gray-500">Loading items...</div>
-        </div>
-      </div>
-    )
-  }
+export default async function MenuCategoryPage({ params }: { params: { category: string } }) {
+  const items = await fetchMenuCategoryItems(params.category)
 
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
-      <Header 
-        title={capitalizeFirstLetter(category)} 
-        showChevron={true} 
-        linkTo="/menu" 
-        align="center" 
-        size="default" 
-      />
-      
+      <Header title={cap(params.category)} showChevron linkTo="/menu" align="center" size="default" />
       <div className="flex-1 overflow-y-auto p-6">
-        {items.length > 0 ? (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {items.map((item) => (
-              <FoodCard
-                key={item.id}
-                item={item}
-                showBadge={true}
-                favorites={favorites}
-                toggleFavorite={toggleFavorite}
-              />
-            ))}
+        {items.length ? (
+          <div className="flex-1 overflow-y-auto px-4 py-6 mb-6">
+              {items.map((item) => (
+                <FoodCardSlider
+                  key={item.id}
+                  item={item}
+                />
+              ))}
           </div>
         ) : (
-          <div className="flex items-center justify-center h-64">
-            <div className="text-gray-500">No items found in this category</div>
+          <div className="flex items-center justify-center h-64 text-gray-500">
+            No items in this category
           </div>
         )}
       </div>
