@@ -4,16 +4,15 @@ import React, { createContext, useContext, useEffect, useState } from "react"
 import { MenuItem } from "@/types/menu"
 
 interface WishlistContextValue {
-  favorites: number[]
-  toggle: (id: number) => void
+  favorites: MenuItem[]
+  toggle: (item: MenuItem) => void
   isFavorite: (id: number) => boolean
-  getFavoriteItems: (allItems: MenuItem[]) => MenuItem[]
 }
 
 const WishlistContext = createContext<WishlistContextValue | null>(null)
 
 export function WishlistProvider({ children }: { children: React.ReactNode }) {
-  const [favorites, setFavorites] = useState<number[]>([])
+  const [favorites, setFavorites] = useState<MenuItem[]>([])
 
   useEffect(() => {
     const stored = localStorage.getItem("wishlist")
@@ -24,20 +23,17 @@ export function WishlistProvider({ children }: { children: React.ReactNode }) {
     localStorage.setItem("wishlist", JSON.stringify(favorites))
   }, [favorites])
 
-  const toggle = (id: number) => {
-    setFavorites(f =>
-      f.includes(id) ? f.filter(i => i !== id) : [...f, id]
+  const toggle = (item: MenuItem) => {
+    setFavorites(favorites =>
+      favorites.some(i => i.id === item.id) ? favorites.filter(i => i.id !== item.id) : [...favorites, item]
     )
   }
 
-  const isFavorite = (id: number) => favorites.includes(id)
+  const isFavorite = (id: number) => favorites.some(item => item.id === id)
 
-  const getFavoriteItems = (allItems: MenuItem[]) => {
-    return allItems.filter(item => favorites.includes(item.id))
-  }
 
   return (
-    <WishlistContext.Provider value={{ favorites, toggle, isFavorite, getFavoriteItems }}>
+    <WishlistContext.Provider value={{ favorites, toggle, isFavorite }}>
       {children}
     </WishlistContext.Provider>
   )

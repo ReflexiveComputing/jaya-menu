@@ -3,14 +3,15 @@
 import { useEffect, useState } from "react"
 import { useWishlist } from "@/components/providers/wishlist-provider"
 import { HeartCounter } from "@/components/ui/food-card/heart-component"
+import { MenuItem } from "@/types/menu"
 
 interface ClientHeartProps {
-  itemId: number
+  item: MenuItem
   likes: number
   className?: string
 }
 
-export function ClientHeart({ itemId, likes, className }: ClientHeartProps) {
+export function ClientHeart({ item, likes, className }: ClientHeartProps) {
   const [mounted, setMounted] = useState(false)
   const { isFavorite, toggle } = useWishlist()
 
@@ -24,7 +25,7 @@ export function ClientHeart({ itemId, likes, className }: ClientHeartProps) {
     return (
       <HeartCounter
         variant="red"
-        itemId={itemId}
+        item={item}
         toggleFavorite={() => {}}
         liked={false}
         likes={likes}
@@ -36,9 +37,9 @@ export function ClientHeart({ itemId, likes, className }: ClientHeartProps) {
   return (
     <HeartCounter
       variant="red"
-      itemId={itemId}
+      item={item}
       toggleFavorite={toggle}
-      liked={isFavorite(itemId)}
+      liked={isFavorite(item.id)}
       likes={likes}
       className={className}
     />

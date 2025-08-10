@@ -9,80 +9,41 @@ import { useWishlist } from "@/components/providers/wishlist-provider"
 import { MenuItem } from "@/types/menu"
 
 export default function Wishlist() {
-  const { getFavoriteItems } = useWishlist()
-  const [allItems, setAllItems] = useState<MenuItem[]>([])
-  const [favoriteItems, setFavoriteItems] = useState<MenuItem[]>([])
-  const [loading, setLoading] = useState(true)
-
-  useEffect(() => {
-    async function fetchAllItems() {
-      try {
-        // Fetch both menu and drinks items
-        const [menuRes, drinksRes] = await Promise.all([
-          fetch('/api/menu'),
-          fetch('/api/drinks')
-        ])
-        
-        const [menuData, drinksData] = await Promise.all([
-          menuRes.json(),
-          drinksRes.json()
-        ])
-        
-        const combined = [
-          ...(menuData.items || []),
-          ...(drinksData.items || [])
-        ]
-        
-        setAllItems(combined)
-        setFavoriteItems(getFavoriteItems(combined))
-      } catch (error) {
-        console.error('Error fetching items:', error)
-      } finally {
-        setLoading(false)
-      }
-    }
-
-    fetchAllItems()
-  }, [getFavoriteItems])
-
-  if (loading) {
-    return (
-      <div className="min-h-screen bg-gray-50 flex flex-col">
-        <Header title="My Wishlist" showChevron />
-        <div className="flex-1 flex items-center justify-center">
-          <div className="text-gray-500">Loading...</div>
-        </div>
-      </div>
-    )
-  }
+  const { favorites, toggle } = useWishlist()
+  console.log("Wishlist items:", favorites)
 
 
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
       <Header title="My Wishlist" showChevron />
 
-      <div className="flex-1 overflow-y-auto px-4 py-6 mb-6">
-        {favoriteItems.length > 0 ? (
-          favoriteItems.map((item) => (
+      <div className="flex-1 overflow-y-auto px-4 mb-6">
+        {favorites.length > 0 ? (
+          favorites.map((item) => (
             <FoodCardSlider
               key={item.id}
               item={item}
-              // favorites and toggleFavorite now handled by provider inside FoodCardSlider
+            // favorites and toggleFavorite now handled by provider inside FoodCardSlider
             />
           ))
         ) : (
-          <div className="flex flex-col items-center justify-center h-96 gap-6">
+          <div className="m-auto flex flex-col items-center justify-center h-96 gap-6">
             <div className="text-center text-gray-500 text-lg font-medium">
               Nothing in your wishlist yet.<br />
               Let me help you choose or go through the menu!
             </div>
-            <div className="flex gap-4">
-              <Button variant="primary" asChild>
-                <Link href="/surprise">Let me help you</Link>
-              </Button>
-              <Button variant="secondary" asChild>
-                <Link href="/menu">Go to Menu</Link>
-              </Button>
+            <div className="w-full flex flex-col justify-center gap-4">
+
+              <div className="w-fit m-auto gap-4">
+                <Button variant="primary" size={"mid"} asChild>
+                  <Link href="/surprise">Our Recommendation</Link>
+                </Button>
+              </div>
+              <div className="w-fit m-auto gap-4">
+                <Button variant="secondary" size={"mid"} asChild>
+                  <Link href="/menu">Go to Menu</Link>
+                </Button>
+              </div>
             </div>
           </div>
         )}

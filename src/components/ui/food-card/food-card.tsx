@@ -30,7 +30,7 @@ export function FoodCard({
           </div>
           <FoodBadge badge={item.badge} showBadge={showBadge} color={item.badgeColor} />
           <ClientHeart
-            itemId={item.id}
+            item={item}
             likes={item.likes}
           />
         </div>
