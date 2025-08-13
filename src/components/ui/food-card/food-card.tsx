@@ -1,4 +1,4 @@
-import Link from "next/link"
+import {Link} from '@/i18n/routing';
 import Image from "next/image"
 import { FoodBadge } from "@/components/ui/food-card/food-badge"
 import { FoodTags } from "@/components/ui/food-card/food-tags"

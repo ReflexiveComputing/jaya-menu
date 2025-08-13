@@ -1,6 +1,9 @@
+"use client"
+
 import React from "react"
 import { Utensils, Heart, Settings2, CupSoda } from "lucide-react"
-import Link from "next/link"
+import {Link} from '@/i18n/routing';
+import {useTranslations} from 'next-intl';
 
 interface BottomNavbarProps {
   selectedNav: string
@@ -10,6 +13,7 @@ interface BottomNavbarProps {
 export function BottomNavbar({ selectedNav, onNavClick }: BottomNavbarProps) {
   const [showBottomNav, setShowBottomNav] = React.useState(true)
   const lastScrollY = React.useRef(0)
+  const t = useTranslations('Navigation');
 
   React.useEffect(() => {
     const handleScroll = () => {
@@ -39,7 +43,7 @@ export function BottomNavbar({ selectedNav, onNavClick }: BottomNavbarProps) {
         >
           <Link href="/menu" className="flex flex-col items-center gap-1">
             <Utensils className="m-auto w-6 h-6" />
-            <span className="text-xs font-medium">Menu</span>
+            <span className="text-xs font-medium">{t('menu')}</span>
           </Link>
         </button>
 
@@ -50,7 +54,7 @@ export function BottomNavbar({ selectedNav, onNavClick }: BottomNavbarProps) {
         >
           <Link href="/drinks" className="flex flex-col items-center gap-1">
             <CupSoda className="m-auto w-6 h-6" />
-            <span className="text-xs font-medium">Drinks</span>
+            <span className="text-xs font-medium">{t('drinks')}</span>
           </Link>
         </button>
 
@@ -61,7 +65,7 @@ export function BottomNavbar({ selectedNav, onNavClick }: BottomNavbarProps) {
         >
           <Link href="/wishlist">
             <Heart className="m-auto w-6 h-6" />
-            <span className="text-xs font-medium">Wishlist</span>
+            <span className="text-xs font-medium">{t('wishlist')}</span>
           </Link>
         </button>
 
@@ -70,7 +74,7 @@ export function BottomNavbar({ selectedNav, onNavClick }: BottomNavbarProps) {
           onClick={() => onNavClick("options")}
         >
           <Settings2 className="m-auto w-6 h-6" />
-          <span className="text-xs font-medium">Options</span>
+          <span className="text-xs font-medium">{t('options')}</span>
         </button>
       </div>
     </div>

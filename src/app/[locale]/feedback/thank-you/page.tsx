@@ -5,13 +5,15 @@ import { useRouter } from "next/navigation"
 import { CheckCircle } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Header } from "@/components/ui/header"
+import {useTranslations} from 'next-intl';
 
 export default function ThankYouPage() {
   const router = useRouter()
+  const t = useTranslations('Feedback.thankYou');
 
   return (
     <div className="min-h-screen bg-background flex flex-col">
-      <Header title="Thank you!" />
+      <Header title={t('title')} />
 
       <div className="flex-1 px-6 py-12 flex flex-col items-center justify-center">
         <div className="max-w-md mx-auto text-center space-y-6">
@@ -23,15 +25,13 @@ export default function ThankYouPage() {
           {/* Thank You Message */}
           <div className="space-y-4">
             <h1 className="text-2xl font-bold text-gray-900">
-              Thank you for your feedback!
+              {t('message')}
             </h1>
             <p className="text-gray-600 leading-relaxed">
-              We appreciate you taking the time to share your thoughts with us.
-              Your feedback helps us improve and provide a better dining experience for everyone.
+              {t('description')}
             </p>
             <p className="text-sm text-gray-500">
-              {"We can't respond individually, but we'll pass it on to the teams who are working to help make our restaurant better for everyone."}
-
+              {t('disclaimer')}
             </p>
           </div>
 
@@ -42,7 +42,7 @@ export default function ThankYouPage() {
               className="w-full"
               size="lg"
             >
-              Back to Menu
+              {t('backToMenu')}
             </Button>
           </div>
         </div>

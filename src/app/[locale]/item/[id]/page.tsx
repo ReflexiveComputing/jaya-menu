@@ -4,7 +4,8 @@ import type React from "react"
 
 import { useState } from "react"
 import { ChevronLeft, Beef, Flame, Beer } from "lucide-react"
-import Link from "next/link"
+import {Link} from '@/i18n/routing';
+import {useTranslations} from 'next-intl';
 import { ImageSlider } from "@/components/ui/image-slider/image-slider"
 import { ImageSliderHeartComponent } from "@/components/ui/image-slider/slider-heart-component"
 import { Button } from "@/components/ui/button"
@@ -65,6 +66,7 @@ export default function ItemDetails() {
   const [isFavorite, setIsFavorite] = useState(false)
   const [showFullDescription, setShowFullDescription] = useState(false)
   const [likes, setLikes] = useState(itemDetails.likes)
+  const t = useTranslations('Common');
 
 
 
@@ -143,7 +145,7 @@ export default function ItemDetails() {
           <Button
             onClick={() => setShowFullDescription(!showFullDescription)}
             size="full" variant={"grayGhost"}>
-            {showFullDescription ? "Show Less" : "Show More"}
+            {showFullDescription ? t('showLess') : t('showMore')}
           </Button>
         </div>
 

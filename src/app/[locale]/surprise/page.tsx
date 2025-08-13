@@ -2,32 +2,49 @@
 
 import { useState } from "react"
 import { ChevronLeft } from "lucide-react"
-import Link from "next/link"
+import {Link} from '@/i18n/routing';
+import {useTranslations} from 'next-intl';
 import { useRouter } from "next/navigation"
-
-const questions = [
-  {
-    id: 1,
-    question: "Where do your memories take you?",
-    answers: ["Grandmother's kitchen", "Street food markets", "Cozy family dinners", "Weekend barbecues"],
-  },
-  {
-    id: 2,
-    question: "What's your ideal meal time?",
-    answers: ["Quick breakfast", "Hearty lunch", "Late night snack", "Weekend brunch"],
-  },
-  {
-    id: 3,
-    question: "How adventurous is your palate?",
-    answers: ["Keep it classic", "Mild exploration", "Bring the heat", "Surprise me!"],
-  },
-]
 
 export default function SurprisePage() {
   const [currentQuestion, setCurrentQuestion] = useState(0)
   const [selectedAnswers, setSelectedAnswers] = useState<string[]>([])
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null)
   const router = useRouter()
+  const t = useTranslations('Surprise');
+
+  const questions = [
+    {
+      id: 1,
+      question: t('questions.memories'),
+      answers: [
+        t('answers.grandmothersKitchen'), 
+        t('answers.streetFood'), 
+        t('answers.familyDinners'), 
+        t('answers.weekendBarbecues')
+      ],
+    },
+    {
+      id: 2,
+      question: t('questions.mealTime'),
+      answers: [
+        t('answers.quickBreakfast'), 
+        t('answers.heartyLunch'), 
+        t('answers.lateNightSnack'), 
+        t('answers.weekendBrunch')
+      ],
+    },
+    {
+      id: 3,
+      question: t('questions.adventurous'),
+      answers: [
+        t('answers.keepClassic'), 
+        t('answers.mildExploration'), 
+        t('answers.bringHeat'), 
+        t('answers.surpriseMe')
+      ],
+    },
+  ]
 
   const handleAnswerSelect = (answer: string) => {
     setSelectedAnswer(answer)
@@ -65,11 +82,9 @@ export default function SurprisePage() {
         {/* Title Section */}
         <div className="bg-white px-6 py-12 text-center border-b border-gray-200">
           <h1 className="text-4xl font-black text-gray-900 mb-4 leading-tight">
-            Discover
-            <br />
-            Your Taste
+            {t('discoverYourTaste')}
           </h1>
-          <p className="text-lg text-gray-600 font-medium">Answer few questions</p>
+          <p className="text-lg text-gray-600 font-medium">{t('answerFewQuestions')}</p>
         </div>
 
         {/* Question Section */}

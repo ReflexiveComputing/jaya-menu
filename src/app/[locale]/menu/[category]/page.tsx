@@ -1,5 +1,4 @@
 import { Header } from "@/components/ui/header"
-import { FoodCard } from "@/components/ui/food-card/food-card"
 import { FoodCardSlider } from "@/components/ui/food-card/food-card-slider"
 import { fetchMenuCategories, fetchMenuCategoryItems } from "@/lib/server/menu-fetch"
 

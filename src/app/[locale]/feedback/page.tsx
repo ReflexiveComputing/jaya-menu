@@ -11,33 +11,36 @@ import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Textarea } from "@/components/ui/textarea"
 import { Header } from "@/components/ui/header"
-
-const feedbackSchema = z.object({
-  rating: z.number().min(1, "Please select a rating").max(5),
-  category: z.string().min(1, "Please select a category"),
-  details: z.string().min(2, "Please provide at least 2 characters of feedback"),
-})
-
-type FeedbackFormData = z.infer<typeof feedbackSchema>
-
-const categories = [
-  "Food Quality",
-  "Service",
-  "Menu Variety",
-  "Restaurant Atmosphere",
-  "Pricing",
-  "Cleanliness",
-  "Wait Time",
-  "App Experience",
-  "Delivery",
-  "Other"
-]
+import {useTranslations} from 'next-intl';
 
 export default function FeedbackPage() {
   const router = useRouter()
   const [rating, setRating] = useState(0)
   const [hoverRating, setHoverRating] = useState(0)
   const [isSubmitting, setIsSubmitting] = useState(false)
+  const t = useTranslations('Feedback');
+  const tCommon = useTranslations('Common');
+
+  const feedbackSchema = z.object({
+    rating: z.number().min(1, t('validation.selectRating')).max(5),
+    category: z.string().min(1, t('validation.selectCategory')),
+    details: z.string().min(2, t('validation.minDetails')),
+  })
+
+  type FeedbackFormData = z.infer<typeof feedbackSchema>
+
+  const categories = [
+    { key: "foodQuality", label: t('categories.foodQuality') },
+    { key: "service", label: t('categories.service') },
+    { key: "menuVariety", label: t('categories.menuVariety') },
+    { key: "atmosphere", label: t('categories.atmosphere') },
+    { key: "pricing", label: t('categories.pricing') },
+    { key: "cleanliness", label: t('categories.cleanliness') },
+    { key: "waitTime", label: t('categories.waitTime') },
+    { key: "appExperience", label: t('categories.appExperience') },
+    { key: "delivery", label: t('categories.delivery') },
+    { key: "other", label: t('categories.other') }
+  ]
 
   const form = useForm<FeedbackFormData>({
     resolver: zodResolver(feedbackSchema),
@@ -78,12 +81,12 @@ export default function FeedbackPage() {
 
   return (
     <div className="min-h-screen bg-background flex flex-col">
-      <Header title="Share your feedback" />
+      <Header title={t('title')} />
       
       <div className="flex-1 px-6 py-6">
         <div className="max-w-md mx-auto">
           <p className="text-gray-600 mb-8 text-center">
-            Thank you for taking the time to share your feedback. Your input helps us improve your dining experience.
+            {t('subtitle')}
           </p>
 
           <Form {...form}>
@@ -95,7 +98,7 @@ export default function FeedbackPage() {
                 render={({ field }) => (
                   <FormItem>
                     <FormLabel className="text-lg font-semibold">
-                      How would you rate your overall experience?
+                      {t('ratingQuestion')}
                     </FormLabel>
                     <FormControl>
                       <div className="flex gap-1 py-2">
@@ -130,7 +133,7 @@ export default function FeedbackPage() {
                 name="category"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>What topic or feature?</FormLabel>
+                    <FormLabel>{t('categoryLabel')}</FormLabel>
                     <Select onValueChange={field.onChange} defaultValue={field.value}>
                       <FormControl>
                         <SelectTrigger>
@@ -139,8 +142,8 @@ export default function FeedbackPage() {
                       </FormControl>
                       <SelectContent>
                         {categories.map((category) => (
-                          <SelectItem key={category} value={category}>
-                            {category}
+                          <SelectItem key={category.key} value={category.key}>
+                            {category.label}
                           </SelectItem>
                         ))}
                       </SelectContent>
@@ -156,10 +159,10 @@ export default function FeedbackPage() {
                 name="details"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>Add details</FormLabel>
+                    <FormLabel>{t('detailsLabel')}</FormLabel>
                     <FormControl>
                       <Textarea
-                        placeholder="Please share your thoughts..."
+                        placeholder={t('detailsPlaceholder')}
                         className="min-h-[120px]"
                         {...field}
                       />
@@ -178,14 +181,14 @@ export default function FeedbackPage() {
                   className="flex-1"
                   disabled={isSubmitting}
                 >
-                  Cancel
+                  {tCommon('cancel')}
                 </Button>
                 <Button
                   type="submit"
                   className="flex-1"
                   disabled={isSubmitting}
                 >
-                  {isSubmitting ? "Submitting..." : "Submit"}
+                  {isSubmitting ? t('submitting') : t('submitButton')}
                 </Button>
               </div>
             </form>
