@@ -11,6 +11,8 @@ export const routing = defineRouting({
   // The prefix for the locale in the URL
   localePrefix: 'as-needed'
 });
+
+export type Locale = 'en' | 'de';
  
 // Lightweight wrappers around Next.js' navigation APIs
 // that will consider the routing configuration
