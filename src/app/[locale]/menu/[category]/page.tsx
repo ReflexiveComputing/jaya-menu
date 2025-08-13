@@ -1,6 +1,9 @@
 import { Header } from "@/components/ui/header"
 import { FoodCardSlider } from "@/components/ui/food-card/food-card-slider"
 import { fetchMenuCategories, fetchMenuCategoryItems } from "@/lib/server/menu-fetch"
+import { Button } from "@/components/ui/button"
+import {Link} from '@/i18n/routing';
+import {getTranslations} from 'next-intl/server';
 
 export const revalidate = 600
 
@@ -12,11 +15,13 @@ export async function generateStaticParams() {
 function cap(s: string) { return s.charAt(0).toUpperCase() + s.slice(1) }
 
 export default async function MenuCategoryPage({ params }: { params: Promise<{ category: string }> }) {
-  const items = await fetchMenuCategoryItems((await params).category)
+  const resolvedParams = await params;
+  const items = await fetchMenuCategoryItems(resolvedParams.category)
+  const t = await getTranslations('Menu');
 
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
-      <Header title={cap((await params).category)} showChevron linkTo="/menu" align="center" size="default" />
+      <Header title={cap(resolvedParams.category)} showChevron linkTo="/menu" align="center" size="default" />
       <div className="flex-1 overflow-y-auto p-6">
         {items.length ? (
           <div className="flex-1 overflow-y-auto mb-6">
@@ -28,8 +33,15 @@ export default async function MenuCategoryPage({ params }: { params: Promise<{ c
               ))}
           </div>
         ) : (
-          <div className="flex items-center justify-center h-64 text-gray-500">
-            No items in this category
+          <div className="flex flex-col items-center justify-center h-64 text-center space-y-4">
+            <div className="text-gray-500 text-lg">
+              {t('noItemsInCategory')}
+            </div>
+            <Button variant="secondary" asChild>
+              <Link href="/menu">
+                {t('browseOtherCategories')}
+              </Link>
+            </Button>
           </div>
         )}
       </div>

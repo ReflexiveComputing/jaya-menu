@@ -7,11 +7,15 @@
   },
   "Menu": {
     "title": "Menu",
-    "popularThisMonth": "Popular This Month"
+    "popularThisMonth": "Popular This Month",
+    "noItemsInCategory": "No items in this category yet.",
+    "browseOtherCategories": "Browse other categories"
   },
   "Drinks": {
     "title": "Drinks",
-    "popularThisMonth": "Popular This Month"
+    "popularThisMonth": "Popular This Month",
+    "noItemsInCategory": "No drinks in this category yet.",
+    "browseOtherCategories": "Browse other categories"
   },
   "Wishlist": {
     "title": "My Wishlist",
@@ -90,5 +94,10 @@
     "showLess": "Show Less",
     "backToMenu": "Back to Menu",
     "cancel": "Cancel"
+  },
+  "LanguageSwitcher": {
+    "switchLanguage": "Switch Language",
+    "english": "English",
+    "german": "German"
   }
 }

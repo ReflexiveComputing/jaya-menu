@@ -1,94 +1,103 @@
 {
-  "HomePage": {
-    "title": "HUNGRIG?",
-    "subtitle": "Lass uns anfangen!",
-    "helpMeChoose": "Hilf mir zu wählen!",
-    "showMenu": "Menü anzeigen"
-  },
-  "Menu": {
-    "title": "Menü",
-    "popularThisMonth": "Beliebt diesen Monat"
-  },
-  "Drinks": {
-    "title": "Getränke",
-    "popularThisMonth": "Beliebt diesen Monat"
-  },
-  "Wishlist": {
-    "title": "Meine Wunschliste",
-    "emptyMessage": "Noch nichts in deiner Wunschliste.",
-    "emptySubMessage": "Lass mich dir helfen zu wählen oder geh durch das Menü!",
-    "ourRecommendation": "Unsere Empfehlung",
-    "goToMenu": "Zum Menü gehen"
-  },
-  "Surprise": {
-    "title": "Überrasche mich!",
-    "discoverYourTaste": "Entdecke Deinen Geschmack",
-    "answerFewQuestions": "Beantworte ein paar Fragen",
-    "questions": {
-      "memories": "Wohin führen dich deine Erinnerungen?",
-      "mealTime": "Was ist deine ideale Essenszeit?",
-      "adventurous": "Wie abenteuerlustig ist dein Gaumen?"
+    "HomePage": {
+        "title": "HUNGRIG?",
+        "subtitle": "Lass uns anfangen!",
+        "helpMeChoose": "Hilf mir zu wählen!",
+        "showMenu": "Menü anzeigen"
     },
-    "answers": {
-      "grandmothersKitchen": "Großmutters Küche",
-      "streetFood": "Straßenessen-Märkte",
-      "familyDinners": "Gemütliche Familienessen",
-      "weekendBarbecues": "Wochenend-Grillpartys",
-      "quickBreakfast": "Schnelles Frühstück",
-      "heartyLunch": "Herzhaftes Mittagessen",
-      "lateNightSnack": "Nächtlicher Snack",
-      "weekendBrunch": "Wochenend-Brunch",
-      "keepClassic": "Klassisch bleiben",
-      "mildExploration": "Sanfte Erkundung",
-      "bringHeat": "Bring die Schärfe",
-      "surpriseMe": "Überrasche mich!"
+    "Menu": {
+        "title": "Menü",
+        "popularThisMonth": "Beliebt diesen Monat",
+        "noItemsInCategory": "Noch keine Artikel in dieser Kategorie.",
+        "browseOtherCategories": "Andere Kategorien durchstöbern"
+    },
+    "Drinks": {
+        "title": "Getränke",
+        "popularThisMonth": "Beliebt diesen Monat",
+        "noItemsInCategory": "Noch keine Getränke in dieser Kategorie.",
+        "browseOtherCategories": "Andere Kategorien durchstöbern"
+    },
+    "Wishlist": {
+        "title": "Meine Wunschliste",
+        "emptyMessage": "Noch nichts in deiner Wunschliste.",
+        "emptySubMessage": "Lass mich dir helfen zu wählen oder geh durch das Menü!",
+        "ourRecommendation": "Unsere Empfehlung",
+        "goToMenu": "Zum Menü gehen"
+    },
+    "Surprise": {
+        "title": "Überrasche mich!",
+        "discoverYourTaste": "Entdecke Deinen Geschmack",
+        "answerFewQuestions": "Beantworte ein paar Fragen",
+        "questions": {
+            "memories": "Wohin führen dich deine Erinnerungen?",
+            "mealTime": "Was ist deine ideale Essenszeit?",
+            "adventurous": "Wie abenteuerlustig ist dein Gaumen?"
+        },
+        "answers": {
+            "grandmothersKitchen": "Großmutters Küche",
+            "streetFood": "Straßenessen-Märkte",
+            "familyDinners": "Gemütliche Familienessen",
+            "weekendBarbecues": "Wochenend-Grillpartys",
+            "quickBreakfast": "Schnelles Frühstück",
+            "heartyLunch": "Herzhaftes Mittagessen",
+            "lateNightSnack": "Nächtlicher Snack",
+            "weekendBrunch": "Wochenend-Brunch",
+            "keepClassic": "Klassisch bleiben",
+            "mildExploration": "Sanfte Erkundung",
+            "bringHeat": "Bring die Schärfe",
+            "surpriseMe": "Überrasche mich!"
+        }
+    },
+    "Feedback": {
+        "title": "Teile dein Feedback",
+        "thankYou": {
+            "title": "Dankeschön!",
+            "message": "Danke für dein Feedback!",
+            "description": "Wir schätzen es, dass du dir die Zeit genommen hast, deine Gedanken mit uns zu teilen. Dein Feedback hilft uns zu verbessern und allen ein besseres Esserlebnis zu bieten.",
+            "disclaimer": "Wir können nicht individuell antworten, aber wir werden es an die Teams weiterleiten, die daran arbeiten, unser Restaurant für alle besser zu machen.",
+            "backToMenu": "Zurück zum Menü"
+        },
+        "subtitle": "Danke, dass du dir die Zeit nimmst, dein Feedback zu teilen. Deine Eingabe hilft uns, dein Esserlebnis zu verbessern.",
+        "ratingQuestion": "Wie würdest du deine Gesamterfahrung bewerten?",
+        "categoryLabel": "Worüber möchtest du Feedback geben?",
+        "detailsLabel": "Erzähle uns mehr über deine Erfahrung",
+        "detailsPlaceholder": "Bitte teile spezifische Details über deine Erfahrung...",
+        "submitButton": "Feedback senden",
+        "submitting": "Wird gesendet...",
+        "categories": {
+            "foodQuality": "Essensqualität",
+            "service": "Service",
+            "menuVariety": "Menüvielfalt",
+            "atmosphere": "Restaurant-Atmosphäre",
+            "pricing": "Preise",
+            "cleanliness": "Sauberkeit",
+            "waitTime": "Wartezeit",
+            "appExperience": "App-Erfahrung",
+            "delivery": "Lieferung",
+            "other": "Anderes"
+        },
+        "validation": {
+            "selectRating": "Bitte wähle eine Bewertung",
+            "selectCategory": "Bitte wähle eine Kategorie",
+            "minDetails": "Bitte gib mindestens 2 Zeichen Feedback ein"
+        }
+    },
+    "Navigation": {
+        "menu": "Menü",
+        "drinks": "Getränke",
+        "wishlist": "Wunschliste",
+        "options": "Optionen"
+    },
+    "Common": {
+        "addToWishlist": "Wunschliste",
+        "showMore": "Mehr anzeigen",
+        "showLess": "Weniger anzeigen",
+        "backToMenu": "Zurück zum Menü",
+        "cancel": "Abbrechen"
+    },
+    "LanguageSwitcher": {
+        "switchLanguage": "Sprache wechseln",
+        "english": "Englisch",
+        "german": "Deutsch"
     }
-  },
-  "Feedback": {
-    "title": "Teile dein Feedback",
-    "thankYou": {
-      "title": "Dankeschön!",
-      "message": "Danke für dein Feedback!",
-      "description": "Wir schätzen es, dass du dir die Zeit genommen hast, deine Gedanken mit uns zu teilen. Dein Feedback hilft uns zu verbessern und allen ein besseres Esserlebnis zu bieten.",
-      "disclaimer": "Wir können nicht individuell antworten, aber wir werden es an die Teams weiterleiten, die daran arbeiten, unser Restaurant für alle besser zu machen.",
-      "backToMenu": "Zurück zum Menü"
-    },
-    "subtitle": "Danke, dass du dir die Zeit nimmst, dein Feedback zu teilen. Deine Eingabe hilft uns, dein Esserlebnis zu verbessern.",
-    "ratingQuestion": "Wie würdest du deine Gesamterfahrung bewerten?",
-    "categoryLabel": "Worüber möchtest du Feedback geben?",
-    "detailsLabel": "Erzähle uns mehr über deine Erfahrung",
-    "detailsPlaceholder": "Bitte teile spezifische Details über deine Erfahrung...",
-    "submitButton": "Feedback senden",
-    "submitting": "Wird gesendet...",
-    "categories": {
-      "foodQuality": "Essensqualität",
-      "service": "Service",
-      "menuVariety": "Menüvielfalt",
-      "atmosphere": "Restaurant-Atmosphäre",
-      "pricing": "Preise",
-      "cleanliness": "Sauberkeit",
-      "waitTime": "Wartezeit",
-      "appExperience": "App-Erfahrung",
-      "delivery": "Lieferung",
-      "other": "Anderes"
-    },
-    "validation": {
-      "selectRating": "Bitte wähle eine Bewertung",
-      "selectCategory": "Bitte wähle eine Kategorie",
-      "minDetails": "Bitte gib mindestens 2 Zeichen Feedback ein"
-    }
-  },
-  "Navigation": {
-    "menu": "Menü",
-    "drinks": "Getränke",
-    "wishlist": "Wunschliste",
-    "options": "Optionen"
-  },
-  "Common": {
-    "addToWishlist": "Wunschliste",
-    "showMore": "Mehr anzeigen",
-    "showLess": "Weniger anzeigen",
-    "backToMenu": "Zurück zum Menü",
-    "cancel": "Abbrechen"
-  }
 }

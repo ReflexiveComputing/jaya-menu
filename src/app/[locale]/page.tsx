@@ -1,6 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
+import { LanguageSwitcher } from "@/components/ui/language-switcher"
 import Image from "next/image"
 import {Link} from '@/i18n/routing';
 import {useTranslations} from 'next-intl';
@@ -48,9 +49,9 @@ export default function HomePage() {
         </div>
       </div>
 
-      {/* Language Selector */}
-      <div className="w-full  bottom-0 right-0 flex justify-end p-4">
-        <div className="text-center bg-white border border-gray-300 px-3 py-2 rounded text-sm font-medium text-gray-700 w-12">EN</div>
+      {/* Language Switcher */}
+      <div className="w-full bottom-0 right-0 flex justify-end p-4">
+        <LanguageSwitcher />
       </div>
     </div>
   )
