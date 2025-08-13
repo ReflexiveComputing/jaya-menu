@@ -1,0 +1,24 @@
+{
+  "HomePage": {
+    "title": "HUNGRIG?",
+    "subtitle": "Lass uns anfangen!",
+    "helpMeChoose": "Hilf mir zu wählen!",
+    "showMenu": "Menü anzeigen"
+  },
+  "Menu": {
+    "title": "Menü",
+    "popularThisMonth": "Beliebt diesen Monat"
+  },
+  "Navigation": {
+    "menu": "Menü",
+    "drinks": "Getränke",
+    "wishlist": "Wunschliste",
+    "options": "Optionen"
+  },
+  "Common": {
+    "addToWishlist": "Zur Wunschliste hinzufügen",
+    "showMore": "Mehr anzeigen",
+    "showLess": "Weniger anzeigen",
+    "backToMenu": "Zurück zum Menü"
+  }
+}

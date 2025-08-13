@@ -1,0 +1,24 @@
+{
+  "HomePage": {
+    "title": "HUNGRY?",
+    "subtitle": "Lets Get Started!",
+    "helpMeChoose": "Help me choose!",
+    "showMenu": "Show Menu"
+  },
+  "Menu": {
+    "title": "Menu",
+    "popularThisMonth": "Popular This Month"
+  },
+  "Navigation": {
+    "menu": "Menu",
+    "drinks": "Drinks",
+    "wishlist": "Wishlist",
+    "options": "Options"
+  },
+  "Common": {
+    "addToWishlist": "Add to Wishlist",
+    "showMore": "Show More",
+    "showLess": "Show Less",
+    "backToMenu": "Back to Menu"
+  }
+}
