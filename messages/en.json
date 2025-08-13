@@ -1,0 +1,103 @@
+{
+  "HomePage": {
+    "title": "HUNGRY?",
+    "subtitle": "Lets Get Started!",
+    "helpMeChoose": "Help me choose!",
+    "showMenu": "Show Menu"
+  },
+  "Menu": {
+    "title": "Menu",
+    "popularThisMonth": "Popular This Month",
+    "noItemsInCategory": "No items in this category yet.",
+    "browseOtherCategories": "Browse other categories"
+  },
+  "Drinks": {
+    "title": "Drinks",
+    "popularThisMonth": "Popular This Month",
+    "noItemsInCategory": "No drinks in this category yet.",
+    "browseOtherCategories": "Browse other categories"
+  },
+  "Wishlist": {
+    "title": "My Wishlist",
+    "emptyMessage": "Nothing in your wishlist yet.",
+    "emptySubMessage": "Let me help you choose or go through the menu!",
+    "ourRecommendation": "Our Recommendation",
+    "goToMenu": "Go to Menu"
+  },
+  "Surprise": {
+    "title": "Surprise Me!",
+    "discoverYourTaste": "Discover Your Taste",
+    "answerFewQuestions": "Answer few questions",
+    "questions": {
+      "memories": "Where do your memories take you?",
+      "mealTime": "What's your ideal meal time?",
+      "adventurous": "How adventurous is your palate?"
+    },
+    "answers": {
+      "grandmothersKitchen": "Grandmother's kitchen",
+      "streetFood": "Street food markets",
+      "familyDinners": "Cozy family dinners",
+      "weekendBarbecues": "Weekend barbecues",
+      "quickBreakfast": "Quick breakfast",
+      "heartyLunch": "Hearty lunch",
+      "lateNightSnack": "Late night snack",
+      "weekendBrunch": "Weekend brunch",
+      "keepClassic": "Keep it classic",
+      "mildExploration": "Mild exploration",
+      "bringHeat": "Bring the heat",
+      "surpriseMe": "Surprise me!"
+    }
+  },
+  "Feedback": {
+    "title": "Share your feedback",
+    "thankYou": {
+      "title": "Thank you!",
+      "message": "Thank you for your feedback!",
+      "description": "We appreciate you taking the time to share your thoughts with us. Your feedback helps us improve and provide a better dining experience for everyone.",
+      "disclaimer": "We can't respond individually, but we'll pass it on to the teams who are working to help make our restaurant better for everyone.",
+      "backToMenu": "Back to Menu"
+    },
+    "subtitle": "Thank you for taking the time to share your feedback. Your input helps us improve your dining experience.",
+    "ratingQuestion": "How would you rate your overall experience?",
+    "categoryLabel": "What would you like to give feedback about?",
+    "detailsLabel": "Tell us more about your experience",
+    "detailsPlaceholder": "Please share specific details about your experience...",
+    "submitButton": "Submit Feedback",
+    "submitting": "Submitting...",
+    "categories": {
+      "foodQuality": "Food Quality",
+      "service": "Service",
+      "menuVariety": "Menu Variety",
+      "atmosphere": "Restaurant Atmosphere",
+      "pricing": "Pricing",
+      "cleanliness": "Cleanliness",
+      "waitTime": "Wait Time",
+      "appExperience": "App Experience",
+      "delivery": "Delivery",
+      "other": "Other"
+    },
+    "validation": {
+      "selectRating": "Please select a rating",
+      "selectCategory": "Please select a category",
+      "minDetails": "Please provide at least 2 characters of feedback"
+    }
+  },
+  "Navigation": {
+    "menu": "Menu",
+    "drinks": "Drinks",
+    "wishlist": "Wishlist",
+    "options": "Options"
+  },
+  "Common": {
+    "addToWishlist": "Add to Wishlist",
+    "showMore": "Show More",
+    "showLess": "Show Less",
+    "backToMenu": "Back to Menu",
+    "cancel": "Cancel"
+  },
+  "LanguageSwitcher": {
+    "switchLanguage": "Switch Language",
+    "english": "English",
+    "german": "German"
+  }
+}

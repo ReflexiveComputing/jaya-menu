@@ -1,4 +1,7 @@
-import Link from "next/link"
+"use client"
+
+import {Link} from '@/i18n/routing';
+import {useTranslations} from 'next-intl';
 import Image from "next/image"
 import { FoodBadge } from "@/components/ui/food-card/food-badge"
 import { ClientHeart } from "@/components/ui/food-card/client-heart"
@@ -16,6 +19,7 @@ export function FoodCardSlider({
   item,
   showBadge = false,
 }: FoodCardProps) {
+  const t = useTranslations('Common');
 
   return (
     <Link href={`/item/${item.id}`} className="block">
@@ -43,7 +47,7 @@ export function FoodCardSlider({
           </div>
           <div className="flex items-center justify-between">
             <FoodTags tags={item.tags} />
-            <Button size="mid">Add to Wishlist</Button>
+            <Button size="mid">{t('addToWishlist')}</Button>
           </div>
 
         </div>

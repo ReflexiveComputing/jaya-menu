@@ -20,7 +20,16 @@ export function NavbarController() {
     }
   }
   // Hide navbar on main page "/"
-  if (pathname === "/") return null
+  // Paths and patterns to hide navbar
+  const hideNavbarPatterns = [
+    /^\/$/,           // "/"
+    /^\/de$/,         // "/de"
+    /^\/surprise.*/,  // "/surprise*"
+    /^\/de\/surprise.*/,  // "/de/surprise*"
+  ]
+
+  const shouldHideNavbar = hideNavbarPatterns.some((pattern) => pattern.test(pathname))
+  if (shouldHideNavbar) return null
   return (
     <>
       <BottomNavbar selectedNav={selectedNav} onNavClick={handleNavClick} />

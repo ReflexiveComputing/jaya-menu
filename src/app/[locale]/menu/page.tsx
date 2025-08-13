@@ -1,33 +1,38 @@
 import { Header } from "@/components/ui/header"
 import { SectionDivider } from "@/components/ui/section-divider"
 import { FoodCard } from "@/components/ui/food-card/food-card"
-import { fetchDrinksCategories, fetchDrinksCategoryItems, fetchDrinksTopThisMonth } from "@/lib/server/drinks-fetch"
+import { fetchMenuCategories, fetchMenuCategoryItems, fetchMenuTopThisMonth } from "@/lib/server/menu-fetch"
+import {useTranslations} from 'next-intl';
+import {getTranslations} from 'next-intl/server';
 
 export const revalidate = 600  // ISR for full page
 function cap(s: string) { return s.charAt(0).toUpperCase() + s.slice(1) }
 
-export default async function DrinksPage() {
+
+export default async function MenuPage() {
+  const t = await getTranslations('Menu');
+  
   // Parallel fetch
   const [categories, topItems] = await Promise.all([
-    fetchDrinksCategories(),
-    fetchDrinksTopThisMonth(3)
+    fetchMenuCategories(),
+    fetchMenuTopThisMonth(3)
   ])
 
   // Preload all category items (if many categories consider streaming / pagination)
   const categoryEntries = await Promise.all(
-    categories.map(async c => [c, await fetchDrinksCategoryItems(c)] as const)
+    categories.map(async c => [c, await fetchMenuCategoryItems(c)] as const)
   )
 
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
       <div className="bg-white">
-        <Header title="Drinks" showChevron linkTo="/" align="center" size="default" />
+        <Header title={t('title')} showChevron linkTo="/" align="center" size="default" />
       </div>
 
       <div className="flex-1 overflow-y-auto">
         {topItems.length > 0 && (
           <div className="py-6">
-            <SectionDivider href="/drinks/popular" title="Popular This Month" />
+            <SectionDivider href="/menu/popular" title={t('popularThisMonth')} />
             <div className="overflow-x-auto scrollbar-hide">
               <div className="flex gap-4 px-4 pb-2">
                 {topItems.map(item => (
@@ -47,7 +52,7 @@ export default async function DrinksPage() {
             return (
               <div key={category} className="py-6">
                 <SectionDivider
-                  href={`/drinks/${category}`}
+                  href={`/menu/${category}`}
                   title={cap(category)}
                 />
                 <div className="overflow-x-auto scrollbar-hide">
@@ -68,4 +73,3 @@ export default async function DrinksPage() {
     </div>
   )
 }
-
