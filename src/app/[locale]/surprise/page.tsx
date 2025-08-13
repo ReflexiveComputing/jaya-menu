@@ -2,9 +2,10 @@
 
 import { useState } from "react"
 import { ChevronLeft } from "lucide-react"
-import {Link} from '@/i18n/routing';
-import {useTranslations} from 'next-intl';
+import { Link } from '@/i18n/routing';
+import { useTranslations } from 'next-intl';
 import { useRouter } from "next/navigation"
+import { LanguageSwitcher } from "@/components/ui/language-switcher";
 
 export default function SurprisePage() {
   const [currentQuestion, setCurrentQuestion] = useState(0)
@@ -18,9 +19,9 @@ export default function SurprisePage() {
       id: 1,
       question: t('questions.memories'),
       answers: [
-        t('answers.grandmothersKitchen'), 
-        t('answers.streetFood'), 
-        t('answers.familyDinners'), 
+        t('answers.grandmothersKitchen'),
+        t('answers.streetFood'),
+        t('answers.familyDinners'),
         t('answers.weekendBarbecues')
       ],
     },
@@ -28,9 +29,9 @@ export default function SurprisePage() {
       id: 2,
       question: t('questions.mealTime'),
       answers: [
-        t('answers.quickBreakfast'), 
-        t('answers.heartyLunch'), 
-        t('answers.lateNightSnack'), 
+        t('answers.quickBreakfast'),
+        t('answers.heartyLunch'),
+        t('answers.lateNightSnack'),
         t('answers.weekendBrunch')
       ],
     },
@@ -38,9 +39,9 @@ export default function SurprisePage() {
       id: 3,
       question: t('questions.adventurous'),
       answers: [
-        t('answers.keepClassic'), 
-        t('answers.mildExploration'), 
-        t('answers.bringHeat'), 
+        t('answers.keepClassic'),
+        t('answers.mildExploration'),
+        t('answers.bringHeat'),
         t('answers.surpriseMe')
       ],
     },
@@ -125,9 +126,9 @@ export default function SurprisePage() {
         </div>
       </div>
 
-      {/* Language Selector */}
-      <div className="absolute bottom-6 right-6">
-        <div className="bg-white border border-gray-300 px-3 py-2 rounded text-sm font-medium text-gray-700">EN</div>
+      {/* Language Switcher */}
+      <div className="w-full bottom-0 right-0 flex justify-end p-4">
+        <LanguageSwitcher />
       </div>
     </div>
   )
