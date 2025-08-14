@@ -16,6 +16,15 @@ const languages = [
   { code: 'de', name: 'german', flag: '🇩🇪' }
 ]
 
+const LOCALE_COOKIE = 'NEXT_LOCALE'
+
+// Helper function to set cookie
+function setCookie(name: string, value: string, days: number = 365) {
+  const expires = new Date()
+  expires.setTime(expires.getTime() + (days * 24 * 60 * 60 * 1000))
+  document.cookie = `${name}=${value};expires=${expires.toUTCString()};path=/;SameSite=Lax`
+}
+
 export function LanguageSwitcher() {
   const t = useTranslations('LanguageSwitcher')
   const locale = useLocale()
@@ -26,6 +35,10 @@ export function LanguageSwitcher() {
   const currentLanguage = languages.find(lang => lang.code === locale)
 
   const handleLanguageChange = (languageCode: string) => {
+    // Set the locale cookie
+    setCookie(LOCALE_COOKIE, languageCode)
+    
+    // Navigate to the new locale
     router.push(pathname, { locale: languageCode })
     setOpen(false)
   }
