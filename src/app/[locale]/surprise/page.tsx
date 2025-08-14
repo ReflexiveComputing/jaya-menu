@@ -47,10 +47,6 @@ export default async function SurprisePage() {
       <div className="flex-1 flex flex-col">
         <SurpriseQuiz questions={questions} />
       </div>
-      {/* Language Switcher */}
-      <div className="w-full absolute bottom-0 right-0 flex justify-end p-4">
-        <LanguageSwitcher />
-      </div>
     </div>
   )
 }
