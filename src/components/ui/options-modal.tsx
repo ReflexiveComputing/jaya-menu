@@ -91,11 +91,13 @@ export function OptionsModal({ open, onClose }: OptionsModalProps) {
                             icon="message-circle-question-mark"
                         />
                     </Link>
-                    <OptionsItem
-                        title={"Select Allergens"}
-                        description={"Manage your dietary restrictions"}
-                        icon="alert-triangle"
-                    />
+                    <Link onClick={onClose} href="/dietary-preferences">
+                        <OptionsItem
+                            title={"Dietary Preferences"}
+                            description={"Manage your dietary restrictions"}
+                            icon="alert-triangle"
+                        />
+                    </Link>
                     <Popover open={languagePopoverOpen} onOpenChange={setLanguagePopoverOpen}>
                         <PopoverTrigger asChild>
                             <div>
