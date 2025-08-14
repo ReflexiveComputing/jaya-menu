@@ -3,11 +3,13 @@
 import {Link} from '@/i18n/routing';
 import {useTranslations} from 'next-intl';
 import Image from "next/image"
+import { Trash2 } from "lucide-react"
 import { FoodBadge } from "@/components/ui/food-card/food-badge"
 import { ClientHeart } from "@/components/ui/food-card/client-heart"
 import { FoodTags } from "@/components/ui/food-card/food-tags"
 import { Button } from "../button"
 import { ImageSlider } from "../image-slider/image-slider"
+import { useWishlist } from "@/components/providers/wishlist-provider"
 import { MenuItem } from "@/types/menu"
 
 interface FoodCardProps {
@@ -20,6 +22,15 @@ export function FoodCardSlider({
   showBadge = false,
 }: FoodCardProps) {
   const t = useTranslations('Common');
+  const { favorites, toggle } = useWishlist()
+  
+  const isInWishlist = favorites.some(fav => fav.id === item.id)
+  
+  const handleWishlistToggle = (e: React.MouseEvent) => {
+    e.preventDefault() // Prevent Link navigation
+    e.stopPropagation()
+    toggle(item)
+  }
 
   return (
     <Link href={`/item/${item.id}`} className="block">
@@ -47,7 +58,19 @@ export function FoodCardSlider({
           </div>
           <div className="flex items-center justify-between">
             <FoodTags tags={item.tags} />
-            <Button size="mid">{t('addToWishlist')}</Button>
+            {isInWishlist ? (
+              <button
+                onClick={handleWishlistToggle}
+                className="p-2 rounded-full bg-red-100 hover:bg-red-200 transition-colors"
+                aria-label="Remove from wishlist"
+              >
+                <Trash2 className="h-4 w-4 text-red-600" />
+              </button>
+            ) : (
+              <Button size="mid" onClick={handleWishlistToggle}>
+                {t('addToWishlist')}
+              </Button>
+            )}
           </div>
 
         </div>
