@@ -82,7 +82,7 @@ export default function SurpriseQuiz({ questions }: { questions: { id: number, q
                                     className={`w-full py-4 px-6 bg-orange-300/60 hover:bg-orange-300/80 text-orange-800 text-lg font-medium rounded-xl transition-all duration-300 backdrop-blur-sm border border-white/20
                     ${selectedAnswer === answer
                                             ? "bg-orange-200/90 text-amber-900 shadow-lg transform scale-105"
-                                            : "bg-orange-200/15 text-orange-500 hover:bg-white/25 hover:transform hover:scale-102"}
+                                            : "bg-orange-200/15 text-orange-500 hover:transform hover:scale-102"}
                   `}
                                     onClick={() => handleAnswerSelect(answer)}
                                     disabled={!!selectedAnswer}
