@@ -7,6 +7,7 @@ import { useRouter } from "next/navigation"
 import { Header } from "./header"
 import { Button } from "./button"
 import { OptionsItem } from "./options-item"
+import Link from "next/link";
 
 interface OptionsModalProps {
     open: boolean
@@ -46,12 +47,13 @@ export function OptionsModal({ open, onClose }: OptionsModalProps) {
             <div className="flex-1 flex flex-col items-center justify-center w-full ">
                 <div className="w-full flex flex-col gap-1">
                     {/* Option Card Example */}
-                    <OptionsItem
-                        title={"Retake Quiz"}
-                        description={"Retake the quiz and get new recommendations"}
-                        icon="message-circle-question-mark"
-                        onClick={() => handleNavigationClick("/surprise")}
-                    />
+                    <Link onClick={onClose} href="/surprise">
+                        <OptionsItem
+                            title={"Retake Quiz"}
+                            description={"Retake the quiz and get new recommendations"}
+                            icon="message-circle-question-mark"
+                        />
+                    </Link>
                     <OptionsItem
                         title={"Select Allergens"}
                         description={"Manage your dietary restrictions"}
@@ -62,12 +64,13 @@ export function OptionsModal({ open, onClose }: OptionsModalProps) {
                         description={"Switch to your preferred language"}
                         icon="globe"
                     />
-                    <OptionsItem
-                        title={"Send Feedback"}
-                        description={"Help us improve your experience"}
-                        icon="message-square" 
-                        onClick={() => handleNavigationClick("/feedback")}
-                    />
+                    <Link onClick={onClose} href="/feedback">
+                        <OptionsItem
+                            title={"Send Feedback"}
+                            description={"Help us improve your experience"}
+                            icon="message-square"
+                        />
+                    </Link>
                 </div>
             </div>
             {/* Close Button at Bottom */}

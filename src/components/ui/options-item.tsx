@@ -29,6 +29,5 @@ export const OptionsItem: React.FC<AllergenButtonProps> = ({
         {description}
       </div>
     </div>
-    <span className="text-gray-500">&gt;</span>
   </button>
 );
