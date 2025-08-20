@@ -50,10 +50,10 @@ export function LanguageSwitcher() {
           variant="outline"
           role="combobox"
           aria-expanded={open}
-          className="w-fit justify-between bg-white border border-gray-300 text-gray-700 hover:bg-gray-50"
+          className="w-fit justify-between bg-white/20 border border-gray-300 text-gray-900 font-bold text-lg"
         >
           <div className="flex items-center gap-2">
-            <Globe className="h-4 w-4" />
+            <Globe className="h-6 w-6" />
             <span className="font-medium">
               {currentLanguage?.code.toUpperCase()}
             </span>

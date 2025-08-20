@@ -12,11 +12,11 @@ const buttonVariants = cva(
         default:
           "bg-highlight text-primary-foreground text-lg font-bold shadow-xs hover:bg-primary/90",
         primary:
-          "w-full bg-highlight text-white text-lg font-bold rounded-full shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105",
+          "w-full bg-highlight text-white text-lg font-bold rounded-full shadow-lg ",
         outline:
-          "border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50",
+          "border bg-none shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50",
         secondary:
-          "w-full bg-white text-gray-900 text-lg font-semibold rounded-full border-2 border-gray-900 hover:bg-gray-50 transition-all duration-200 hover:scale-105",
+          "w-full bg-white text-gray-900 text-lg font-semibold rounded-full border-2 border-gray-900",
         ghost:
           "hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50",
         link: "text-primary underline-offset-4 hover:underline",
@@ -25,7 +25,11 @@ const buttonVariants = cva(
         navSelected:
           "px-6 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-colors bg-teal-600 text-white",
         grayGhost:
-          "bg-gray-100 text-gray-700 hover:bg-gray-200"
+          "bg-gray-100 text-gray-700 hover:bg-gray-200",
+        surpriseMe:
+          "uppercase w-full bg-white text-highlight text-4xl font-bold rounded-xs shadow-lg",
+          surpriseMeSecondary:
+          "uppercase w-full bg-none text-white text-4xl font-bold rounded-xs border-4 border-white shadow-lg",
       },
       size: {
         default: "py-4 px-8 has-[>svg]:px-3",

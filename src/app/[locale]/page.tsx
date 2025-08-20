@@ -3,55 +3,73 @@
 import { Button } from "@/components/ui/button"
 import { LanguageSwitcher } from "@/components/ui/language-switcher"
 import Image from "next/image"
-import {Link} from '@/i18n/routing';
-import {useTranslations} from 'next-intl';
+import { Link } from '@/i18n/routing';
+import { useTranslations } from 'next-intl';
 
 export default function HomePage() {
   const t = useTranslations('HomePage');
-  
+
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col">
-      {/* Main Content */}
-      <div className="flex-1 flex flex-col items-center justify-center px-6 py-5">
-        {/* Hero Food Image */}
-        <div className="mb-6">
-          <div className="relative w-80 h-80 mx-auto">
+    <div className="min-h-screen relative overflow-hidden">
+      {/* Background Image */}
+      <Image
+        src="/background-1.png"
+        alt="Mitho-Cha-Restaurant"
+        fill
+        className="object-cover"
+        priority
+        sizes="100vw"
+      />
+
+      {/* Light overlay for better text readability */}
+      <div className="absolute inset-0 bg-black/20" />
+
+      {/* Content */}
+      <div className="relative z-10 min-h-screen flex flex-col">
+        {/* Main Content */}
+        <div className="flex-1 flex flex-col items-center justify-center px-6 py-5">
+          {/* Logo */}
+          <div className="mb-8">
             <Image
-              src="/nila-1st-image.png"
-              alt="Delicious Mexican nachos with toppings"
-              width={320}
-              height={320}
-              className="w-full h-full object-contain"
+              src="/Mithocha_logo_transparent.png"
+              alt="Mithocha Logo"
+              width={200}
+              height={100}
+              className="object-contain"
               priority
             />
           </div>
+
+          {/* Headline */}
+          <div className="text-center mb-16 uppercase ">
+            <h1 className="text-6xl font-black text-white mb-4 tracking-tight drop-shadow-lg">{t('title')}</h1>
+            <h1 className="text-5xl font-black text-white  tracking-tight drop-shadow-lg">{t('subtitle')}</h1>
+            <h1 className="text-4xl font-black text-white mb-4 tracking-tight drop-shadow-lg">{t('subtitle2')}</h1>
+
+          </div>
         </div>
 
-        {/* Headline */}
-        <div className="text-center mb-12">
-          <h1 className="text-6xl font-black text-gray-900 mb-4 tracking-tight">{t('title')}</h1>
-          <p className="text-xl text-gray-700 font-medium">{t('subtitle')}</p>
+        {/* Action Buttons - Positioned at bottom */}
+        <div className="px-6 pb-20">
+          <div className="w-full max-w-sm mx-auto space-y-4 ">
+            <Button variant="surpriseMe" asChild>
+              <Link href="/surprise" className="w-block">
+                {t('helpMeChoose')}
+              </Link>
+            </Button>
+
+            <Button variant="surpriseMeSecondary" asChild>
+              <Link href="/menu" className="w-block">
+                {t('showMenu')}
+              </Link>
+            </Button>
+          </div>
         </div>
 
-        {/* Action Buttons */}
-        <div className="w-full max-w-sm space-y-4">
-          <Button variant="primary" asChild>
-            <Link href="/surprise" className="w-block">
-              {t('helpMeChoose')}
-            </Link>
-          </Button>
-
-          <Button variant="secondary" asChild>
-            <Link href="/menu" className="w-block">
-              {t('showMenu')}
-            </Link>
-          </Button>
+        {/* Language Switcher */}
+        <div className="w-full bottom-0 right-0 flex justify-end p-4">
+          <LanguageSwitcher />
         </div>
-      </div>
-
-      {/* Language Switcher */}
-      <div className="w-full bottom-0 right-0 flex justify-end p-4">
-        <LanguageSwitcher />
       </div>
     </div>
   )

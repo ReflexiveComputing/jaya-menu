@@ -1,9 +1,10 @@
 {
   "HomePage": {
-    "title": "HUNGRY?",
-    "subtitle": "Lets Get Started!",
-    "helpMeChoose": "Help me choose!",
-    "showMenu": "Show Menu"
+    "title": "NAMASTE!",
+    "subtitle": "Ready For A",
+    "subtitle2": "Himalayan feast?",
+    "helpMeChoose": "Surprise Me!",
+    "showMenu": "Menu"
   },
   "Menu": {
     "title": "Menu",

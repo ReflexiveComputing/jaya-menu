@@ -1,4 +1,3 @@
-import { LanguageSwitcher } from "@/components/ui/language-switcher"
 import SurpriseQuiz from "@/components/ui/surprise-quiz/surprise-quiz"
 import { getTranslations } from "next-intl/server"
 
