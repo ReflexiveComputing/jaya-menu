@@ -37,13 +37,13 @@ export default async function MenuPage() {
               image="/masks/mask-1.png"
               title="Himalayan Trek"
               subtitle="#found your flavar"
-              href="/menu/combo"
+              href="/food/flavar"
             />
             <ComboCard className="bg-global-blue"
               image="/masks/mask-2.png"
               title="Himalayan Trek"
               subtitle="#found your flavar"
-              href="/menu/combo"
+              href="/food/flavar"
             />
           </div>
         </div>
@@ -51,7 +51,7 @@ export default async function MenuPage() {
 
         {topItems.length > 0 && (
           <div className="py-6">
-            <SectionDivider href="/menu/popular" title={t('popularThisMonth')} />
+            <SectionDivider href="/food/category/popular" title={t('popularThisMonth')} />
             <div className="overflow-x-auto scrollbar-hide">
               <div className="flex gap-4 px-4 pb-2">
                 {topItems.map(item => (
@@ -71,7 +71,7 @@ export default async function MenuPage() {
           return (
             <div key={category} className="py-6">
               <SectionDivider
-                href={`/menu/${category}`}
+                href={`/food/category/${category}`}
                 title={cap(category)}
               />
               <div className="overflow-x-auto scrollbar-hide">

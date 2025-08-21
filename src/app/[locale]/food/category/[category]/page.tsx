@@ -21,7 +21,7 @@ export default async function MenuCategoryPage({ params }: { params: Promise<{ c
 
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
-      <Header title={cap(resolvedParams.category)} showChevron linkTo="/menu" align="center" size="default" />
+      <Header title={cap(resolvedParams.category)} showChevron linkTo="/food" align="center" size="default" />
       <div className="flex-1 overflow-y-auto p-6">
         {items.length ? (
           <div className="flex-1 overflow-y-auto mb-6">
@@ -38,7 +38,7 @@ export default async function MenuCategoryPage({ params }: { params: Promise<{ c
               {t('noItemsInCategory')}
             </div>
             <Button variant="secondary" asChild>
-              <Link href="/menu">
+              <Link href="/food">
                 {t('browseOtherCategories')}
               </Link>
             </Button>

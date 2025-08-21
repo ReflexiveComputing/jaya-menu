@@ -83,7 +83,7 @@
         }
     },
     "Navigation": {
-        "menu": "Menü",
+        "food": "Essen",
         "drinks": "Getränke",
         "wishlist": "Wunschliste",
         "options": "Optionen"

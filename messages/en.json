@@ -84,7 +84,7 @@
     }
   },
   "Navigation": {
-    "menu": "Menu",
+    "food": "Food",
     "drinks": "Drinks",
     "wishlist": "Wishlist",
     "options": "Options"

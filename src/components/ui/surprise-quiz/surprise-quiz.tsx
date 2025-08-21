@@ -32,7 +32,7 @@ export default function SurpriseQuiz({ questions }: { questions: { id: number, q
                 setCurrentQuestion(currentQuestion + 1)
                 setSelectedAnswer(null)
             } else {
-                router.push("/menu?surprise=true")
+                router.push("/food")
             }
         }, 500)
     }

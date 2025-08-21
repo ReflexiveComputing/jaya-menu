@@ -37,13 +37,13 @@ export function BottomNavbar({ selectedNav, onNavClick }: BottomNavbarProps) {
     >
       <div className="flex justify-around items-center">
         <button
-          className={`flex flex-col items-center gap-1 py-2 ${selectedNav === "menu" ? "text-teal-600" : "text-gray-600"
+          className={`flex flex-col items-center gap-1 py-2 ${selectedNav === "food" ? "text-teal-600" : "text-gray-600"
             }`}
-          onClick={() => onNavClick("menu")}
+          onClick={() => onNavClick("food")}
         >
-          <Link href="/menu" className="flex flex-col items-center gap-1">
+          <Link href="/food" className="flex flex-col items-center gap-1">
             <Utensils className="m-auto w-6 h-6" />
-            <span className="text-xs font-medium">{t('menu')}</span>
+            <span className="text-xs font-medium">{t('food')}</span>
           </Link>
         </button>
 
