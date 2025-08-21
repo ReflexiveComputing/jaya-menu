@@ -2,8 +2,8 @@ import { Header } from "@/components/ui/header"
 import { SectionDivider } from "@/components/ui/section-divider"
 import { FoodCard } from "@/components/ui/food-card/food-card"
 import { fetchMenuCategories, fetchMenuCategoryItems, fetchMenuTopThisMonth } from "@/lib/server/menu-fetch"
-import {useTranslations} from 'next-intl';
-import {getTranslations} from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
+import { ComboCard } from "@/components/ui/combo-card/combo-card";
 
 export const revalidate = 600  // ISR for full page
 function cap(s: string) { return s.charAt(0).toUpperCase() + s.slice(1) }
@@ -11,7 +11,7 @@ function cap(s: string) { return s.charAt(0).toUpperCase() + s.slice(1) }
 
 export default async function MenuPage() {
   const t = await getTranslations('Menu');
-  
+
   // Parallel fetch
   const [categories, topItems] = await Promise.all([
     fetchMenuCategories(),
@@ -30,6 +30,25 @@ export default async function MenuPage() {
       </div>
 
       <div className="flex-1 overflow-y-auto">
+
+        <div className="overflow-x-auto scrollbar-hide ">
+          <div className="flex gap-4 px-4 pb-2">
+            <ComboCard className="bg-global-red"
+              image="/masks/mask-1.png"
+              title="Himalayan Trek"
+              subtitle="#found your flavar"
+              href="/menu/combo"
+            />
+            <ComboCard className="bg-global-blue"
+              image="/masks/mask-2.png"
+              title="Himalayan Trek"
+              subtitle="#found your flavar"
+              href="/menu/combo"
+            />
+          </div>
+        </div>
+
+
         {topItems.length > 0 && (
           <div className="py-6">
             <SectionDivider href="/menu/popular" title={t('popularThisMonth')} />
@@ -49,25 +68,25 @@ export default async function MenuPage() {
 
         {categoryEntries.map(([category, items]) => {
           if (!items.length) return null
-            return (
-              <div key={category} className="py-6">
-                <SectionDivider
-                  href={`/menu/${category}`}
-                  title={cap(category)}
-                />
-                <div className="overflow-x-auto scrollbar-hide">
-                  <div className="flex gap-4 px-4 pb-2">
-                    {items.slice(0,5).map(item => (
-                      <FoodCard
-                        key={item.id}
-                        item={item}
-                        showBadge
-                      />
-                    ))}
-                  </div>
+          return (
+            <div key={category} className="py-6">
+              <SectionDivider
+                href={`/menu/${category}`}
+                title={cap(category)}
+              />
+              <div className="overflow-x-auto scrollbar-hide">
+                <div className="flex gap-4 px-4 pb-2">
+                  {items.slice(0, 5).map(item => (
+                    <FoodCard
+                      key={item.id}
+                      item={item}
+                      showBadge
+                    />
+                  ))}
                 </div>
               </div>
-            )
+            </div>
+          )
         })}
       </div>
     </div>
