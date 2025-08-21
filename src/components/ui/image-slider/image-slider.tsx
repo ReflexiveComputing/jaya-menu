@@ -13,7 +13,7 @@ const headerVariants = cva(
 
       size: {
         default: "h-96",
-        sm: "h-48",
+        sm: "h-42",
         md: "h-72",
       },
     },
@@ -60,10 +60,14 @@ export function ImageSlider(
     })
   }, [api])
 
+  // compute header class once so we can reuse the height class for the image
+  const headerClass = headerVariants({ size })
+
   return (
     <div
       className={cn(
-        headerVariants({ size, className }),
+        headerClass,
+        className,
       )}
       {...props}
     >
@@ -72,13 +76,21 @@ export function ImageSlider(
         <CarouselContent>
           {images.map((image, index) => (
             <CarouselItem key={index} >
-              <Image
-                src={image || "/placeholder.svg"}
-                alt={image}
-                width={300}
-                height={200}
-                className="w-full h-full object-contain"
-              />
+                {
+                  (() => {
+                    // Extract the first height class (h-*) from headerClass and apply it to the image
+                    const imgHeightClass = (headerClass.split(/\s+/).find(c => c.startsWith('h-')) || 'h-96')
+                    return (
+                      <Image
+                        src={image || "/placeholder.svg"}
+                        alt={image}
+                        width={300}
+                        height={200}
+                        className={`w-full object-contain ${imgHeightClass}`}
+                      />
+                    )
+                  })()
+                }
             </CarouselItem>
 
           ))}

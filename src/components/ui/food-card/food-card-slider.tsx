@@ -15,11 +15,13 @@ import { MenuItem } from "@/types/menu"
 interface FoodCardProps {
   item: MenuItem
   showBadge?: boolean
+  compact?: boolean
 }
 
 export function FoodCardSlider({
   item,
   showBadge = false,
+  compact = false,
 }: FoodCardProps) {
   const t = useTranslations('Common');
   const { favorites, toggle } = useWishlist()
@@ -32,14 +34,18 @@ export function FoodCardSlider({
     toggle(item)
   }
 
+  const wrapperClass = compact
+  ? 'flex-shrink-0 bg-white rounded-2xl mb-4 shadow-sm overflow-hidden'
+    : 'flex-shrink-0 bg-white rounded-2xl mb-6 shadow-sm overflow-hidden'
+
   return (
     <Link href={`/item/${item.id}`} className="block">
-      <div className="flex-shrink-0 bg-white rounded-2xl mb-6 shadow-sm overflow-hidden">
+      <div className={wrapperClass}>
         <div className="relative">
           <div className="rounded-t-2xl">
             <ImageSlider
               images={item.images}
-              size="md"
+              size={compact ? 'sm' : 'md'}
             />
           </div>
           <FoodBadge badge={item.badge} showBadge={showBadge} color={item.badgeColor} />
@@ -51,8 +57,8 @@ export function FoodCardSlider({
         <div className="p-4">
           <div className="flex items-center justify-between mb-2">
             <div className="flex flex-col items-left gap-2">
-              <h3 className="font-bold text-lg mb-1">{item.name}</h3>
-              <p className="text-gray-600 text-sm mb-3">{item.description}</p>
+              <h3 className={compact ? 'font-bold text-md mb-1' : 'font-bold text-lg mb-1'}>{item.name}</h3>
+              <p className={compact ? 'text-gray-600 text-xs mb-2' : 'text-gray-600 text-sm mb-3'}>{item.description}</p>
             </div>
             <div className="text-xl font-bold">{item.price}</div>
           </div>

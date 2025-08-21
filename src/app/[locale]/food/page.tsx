@@ -51,7 +51,7 @@ export default async function MenuPage() {
                     image={`/masks/mask-${(i % bgClasses.length) + 1}.png`}
                     title="Himalayan Trek"
                     subtitle="#found your flavar"
-                    href="/food/flavar"
+                    href={`/food/flavar/${i + 1}`}
                   />
                 ))
               })()

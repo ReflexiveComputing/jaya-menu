@@ -85,7 +85,7 @@ export default function ItemDetails() {
   return (
     <div className="min-h-screen bg-white flex flex-col">
       {/* Back Button */}
-      <Link href="/menu" className="absolute top-4 left-4 z-20 bg-white/90 backdrop-blur-sm rounded-full p-2">
+      <Link href="/food" className="absolute top-4 left-4 z-20 bg-white/90 backdrop-blur-sm rounded-full p-2">
         <ChevronLeft className="w-6 h-6 text-gray-800" />
       </Link>
       {/* Image Carousel */}
