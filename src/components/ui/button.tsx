@@ -28,7 +28,7 @@ const buttonVariants = cva(
           "bg-gray-100 text-gray-700 hover:bg-gray-200",
         surpriseMe:
           "uppercase w-full bg-white text-highlight text-4xl font-bold rounded-xs shadow-lg",
-          surpriseMeSecondary:
+        surpriseMeSecondary:
           "uppercase w-full bg-none text-white text-4xl font-bold rounded-xs border-4 border-white shadow-lg",
       },
       size: {

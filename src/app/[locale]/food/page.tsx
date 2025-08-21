@@ -33,18 +33,29 @@ export default async function MenuPage() {
 
         <div className="overflow-x-auto scrollbar-hide ">
           <div className="flex gap-4 pb-2">
-            <ComboCard className="bg-global-red"
-              image="/masks/mask-1.png"
-              title="Himalayan Trek"
-              subtitle="#found your flavar"
-              href="/food/flavar"
-            />
-            <ComboCard className="bg-global-blue"
-              image="/masks/mask-2.png"
-              title="Himalayan Trek"
-              subtitle="#found your flavar"
-              href="/food/flavar"
-            />
+            {/* Cycle through the same 5 colors and mask images */}
+            {
+              (() => {
+                const bgClasses = [
+                  'bg-global-red',
+                  'bg-global-blue',
+                  'bg-global-green',
+                  'bg-global-lightblue',
+                  'bg-global-gold'
+                ]
+                const count = 5
+                return Array.from({ length: count }).map((_, i) => (
+                  <ComboCard
+                    key={i}
+                    className={bgClasses[i % bgClasses.length]}
+                    image={`/masks/mask-${(i % bgClasses.length) + 1}.png`}
+                    title="Himalayan Trek"
+                    subtitle="#found your flavar"
+                    href="/food/flavar"
+                  />
+                ))
+              })()
+            }
           </div>
         </div>
 

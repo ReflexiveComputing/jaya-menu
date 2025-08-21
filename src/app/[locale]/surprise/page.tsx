@@ -35,6 +35,26 @@ export default async function SurprisePage() {
         t('answers.surpriseMe')
       ],
     },
+    {
+      id: 4,
+      question: t('questions.adventurous'),
+      answers: [
+        t('answers.keepClassic'),
+        t('answers.mildExploration'),
+        t('answers.bringHeat'),
+        t('answers.surpriseMe')
+      ],
+    },
+    {
+      id: 5,
+      question: t('questions.adventurous'),
+      answers: [
+        t('answers.keepClassic'),
+        t('answers.mildExploration'),
+        t('answers.bringHeat'),
+        t('answers.surpriseMe')
+      ],
+    },
   ]
 
   // You must move all interactive logic (state, handlers) to a client component!
