@@ -1,0 +1,2943 @@
+{
+  "data": {
+    "040a1f86-46c1-402f-9325-a5b9f9dafb4f": {
+      "drink_data": {
+        "id": "040a1f86-46c1-402f-9325-a5b9f9dafb4f",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Vodka Limone",
+        "description": "Vodka with lemon",
+        "long_description": null,
+        "price": 7.5,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "0523a88a-8ce4-45a6-8010-994a7abbdd7e": {
+      "drink_data": {
+        "id": "0523a88a-8ce4-45a6-8010-994a7abbdd7e",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "6fe060ed-467b-46b4-a1f5-6957fa9f8f1c",
+        "name": "Berliner Kindl",
+        "description": "Berlin-style beer",
+        "long_description": null,
+        "price": 3.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.495792Z",
+        "updated_at": "2025-08-16T22:53:10.495792Z",
+        "category": {
+          "id": "6fe060ed-467b-46b4-a1f5-6957fa9f8f1c",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "beer",
+          "description": "Beer selections",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "07631ccc-2125-4090-9b7e-78dd6fb8e4ed": {
+      "drink_data": {
+        "id": "07631ccc-2125-4090-9b7e-78dd6fb8e4ed",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+        "name": "Lychee",
+        "description": "Fresh lychee juice",
+        "long_description": null,
+        "price": 2.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.491971Z",
+        "updated_at": "2025-08-16T22:53:10.491971Z",
+        "category": {
+          "id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "softdrink",
+          "description": "Non-alcoholic beverages",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "079711aa-eb6a-47ff-9c0c-0a22074c2507": {
+      "drink_data": {
+        "id": "079711aa-eb6a-47ff-9c0c-0a22074c2507",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "8a51de34-f241-4e91-bd78-0624dd24ec46",
+        "name": "Primitivo",
+        "description": "Italian red wine",
+        "long_description": null,
+        "price": 6.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.502924Z",
+        "updated_at": "2025-08-16T22:53:10.502924Z",
+        "category": {
+          "id": "8a51de34-f241-4e91-bd78-0624dd24ec46",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "wine",
+          "description": "Wine selections",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "119e7243-b64f-432f-91a4-75103099fc1d": {
+      "drink_data": {
+        "id": "119e7243-b64f-432f-91a4-75103099fc1d",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Aperol Spritz",
+        "description": "Italian aperitif cocktail",
+        "long_description": null,
+        "price": 6.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "160ebc32-e683-4c43-bb6e-10453c991e3f": {
+      "drink_data": {
+        "id": "160ebc32-e683-4c43-bb6e-10453c991e3f",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Gin Tonic",
+        "description": "Classic gin and tonic",
+        "long_description": null,
+        "price": 7.5,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "1623bb00-e61f-4fad-9b69-e410829910a8": {
+      "drink_data": {
+        "id": "1623bb00-e61f-4fad-9b69-e410829910a8",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "6fe060ed-467b-46b4-a1f5-6957fa9f8f1c",
+        "name": "Schöfferhofer Wheat Beer Alcohol-free",
+        "description": "Non-alcoholic wheat beer",
+        "long_description": null,
+        "price": 5.5,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.495792Z",
+        "updated_at": "2025-08-16T22:53:10.495792Z",
+        "category": {
+          "id": "6fe060ed-467b-46b4-a1f5-6957fa9f8f1c",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "beer",
+          "description": "Beer selections",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "16c0a963-ca52-4fbf-867e-a07991c9b03c": {
+      "drink_data": {
+        "id": "16c0a963-ca52-4fbf-867e-a07991c9b03c",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Vodka Energy",
+        "description": "Vodka with energy drink",
+        "long_description": null,
+        "price": 7.5,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "181b9623-fb9e-4900-b0b4-e57166c9afe1": {
+      "drink_data": {
+        "id": "181b9623-fb9e-4900-b0b4-e57166c9afe1",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "8a51de34-f241-4e91-bd78-0624dd24ec46",
+        "name": "Grauburgunder",
+        "description": "German white wine",
+        "long_description": null,
+        "price": 6.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.502924Z",
+        "updated_at": "2025-08-16T22:53:10.502924Z",
+        "category": {
+          "id": "8a51de34-f241-4e91-bd78-0624dd24ec46",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "wine",
+          "description": "Wine selections",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "1b8ffc69-c371-41b5-9d72-14934fcdb507": {
+      "drink_data": {
+        "id": "1b8ffc69-c371-41b5-9d72-14934fcdb507",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+        "name": "Thomas Henry Ginger Ale",
+        "description": "Ginger ale",
+        "long_description": null,
+        "price": 2.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.491971Z",
+        "updated_at": "2025-08-16T22:53:10.491971Z",
+        "category": {
+          "id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "softdrink",
+          "description": "Non-alcoholic beverages",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "1c3e84e6-353f-4cf5-9808-272ba104b05f": {
+      "drink_data": {
+        "id": "1c3e84e6-353f-4cf5-9808-272ba104b05f",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "9b8ab3bc-aca2-401f-860d-8c4e1025c894",
+        "name": "Sherpa Tee Vegan",
+        "description": "Vegan tea blend",
+        "long_description": null,
+        "price": 5.5,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.485844Z",
+        "updated_at": "2025-08-16T22:53:10.485844Z",
+        "category": {
+          "id": "9b8ab3bc-aca2-401f-860d-8c4e1025c894",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "tea",
+          "description": "Various types of tea",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "1e177350-0c1a-46f4-b3e9-a8db56343ade": {
+      "drink_data": {
+        "id": "1e177350-0c1a-46f4-b3e9-a8db56343ade",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "9b8ab3bc-aca2-401f-860d-8c4e1025c894",
+        "name": "Shanti Shakti",
+        "description": "Peace and power tea",
+        "long_description": null,
+        "price": 5.5,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.485844Z",
+        "updated_at": "2025-08-16T22:53:10.485844Z",
+        "category": {
+          "id": "9b8ab3bc-aca2-401f-860d-8c4e1025c894",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "tea",
+          "description": "Various types of tea",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "1f1744f6-715a-44f7-9971-9b9aa2bc95c5": {
+      "drink_data": {
+        "id": "1f1744f6-715a-44f7-9971-9b9aa2bc95c5",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+        "name": "Ginger-Mint Iced Tea",
+        "description": "Refreshing iced tea",
+        "long_description": null,
+        "price": 6.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.491971Z",
+        "updated_at": "2025-08-16T22:53:10.491971Z",
+        "category": {
+          "id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "softdrink",
+          "description": "Non-alcoholic beverages",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "1f4d4fff-6927-48d1-9d26-baf2f220f422": {
+      "drink_data": {
+        "id": "1f4d4fff-6927-48d1-9d26-baf2f220f422",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "6fe060ed-467b-46b4-a1f5-6957fa9f8f1c",
+        "name": "Allgäuer Büble",
+        "description": "Allgäu-style beer",
+        "long_description": null,
+        "price": 3.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.495792Z",
+        "updated_at": "2025-08-16T22:53:10.495792Z",
+        "category": {
+          "id": "6fe060ed-467b-46b4-a1f5-6957fa9f8f1c",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "beer",
+          "description": "Beer selections",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "1f9f9ffe-a265-4393-a017-b05d853da8ed": {
+      "drink_data": {
+        "id": "1f9f9ffe-a265-4393-a017-b05d853da8ed",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "6fe060ed-467b-46b4-a1f5-6957fa9f8f1c",
+        "name": "Barasinghe Pale Ale",
+        "description": "Nepalese pale ale",
+        "long_description": null,
+        "price": 5.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.495792Z",
+        "updated_at": "2025-08-16T22:53:10.495792Z",
+        "category": {
+          "id": "6fe060ed-467b-46b4-a1f5-6957fa9f8f1c",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "beer",
+          "description": "Beer selections",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "26144a41-8d58-4ee6-93e7-6247ad5b0d22": {
+      "drink_data": {
+        "id": "26144a41-8d58-4ee6-93e7-6247ad5b0d22",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "8a51de34-f241-4e91-bd78-0624dd24ec46",
+        "name": "Chardonnay",
+        "description": "Classic chardonnay",
+        "long_description": null,
+        "price": 6.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.502924Z",
+        "updated_at": "2025-08-16T22:53:10.502924Z",
+        "category": {
+          "id": "8a51de34-f241-4e91-bd78-0624dd24ec46",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "wine",
+          "description": "Wine selections",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "2a551c7f-c1bd-4025-908e-e566f482c532": {
+      "drink_data": {
+        "id": "2a551c7f-c1bd-4025-908e-e566f482c532",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "9b8ab3bc-aca2-401f-860d-8c4e1025c894",
+        "name": "Turmeric",
+        "description": "Golden turmeric tea",
+        "long_description": null,
+        "price": 5.5,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.485844Z",
+        "updated_at": "2025-08-16T22:53:10.485844Z",
+        "category": {
+          "id": "9b8ab3bc-aca2-401f-860d-8c4e1025c894",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "tea",
+          "description": "Various types of tea",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "2b2c28f4-f4f7-462d-ad56-060a16035cdb": {
+      "drink_data": {
+        "id": "2b2c28f4-f4f7-462d-ad56-060a16035cdb",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "9b8ab3bc-aca2-401f-860d-8c4e1025c894",
+        "name": "White Monkey",
+        "description": "Premium white tea",
+        "long_description": null,
+        "price": 5.5,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.485844Z",
+        "updated_at": "2025-08-16T22:53:10.485844Z",
+        "category": {
+          "id": "9b8ab3bc-aca2-401f-860d-8c4e1025c894",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "tea",
+          "description": "Various types of tea",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "2d2c2f7f-48ba-4732-8ca2-091075d36290": {
+      "drink_data": {
+        "id": "2d2c2f7f-48ba-4732-8ca2-091075d36290",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+        "name": "Fanta",
+        "description": "Fanta",
+        "long_description": null,
+        "price": 2.7,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.491971Z",
+        "updated_at": "2025-08-16T22:53:10.491971Z",
+        "category": {
+          "id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "softdrink",
+          "description": "Non-alcoholic beverages",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "3073a51d-f5fa-4de4-88e2-63b5c8229de8": {
+      "drink_data": {
+        "id": "3073a51d-f5fa-4de4-88e2-63b5c8229de8",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Lychee Spritz",
+        "description": "Lychee-flavored spritz",
+        "long_description": null,
+        "price": 6.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "3111a466-f020-4a0e-8ac0-7e3a15489f81": {
+      "drink_data": {
+        "id": "3111a466-f020-4a0e-8ac0-7e3a15489f81",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Reisschnaps",
+        "description": "Rice schnapps shot",
+        "long_description": null,
+        "price": 3.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "325f7443-c972-4edc-9331-c953a5af3514": {
+      "drink_data": {
+        "id": "325f7443-c972-4edc-9331-c953a5af3514",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Everest Elixir (Hot)",
+        "description": "Hot Everest cocktail",
+        "long_description": null,
+        "price": 7.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "33c9663f-f332-431c-9b98-0847887aeb08": {
+      "drink_data": {
+        "id": "33c9663f-f332-431c-9b98-0847887aeb08",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Old Durbar",
+        "description": "Traditional Old Durbar",
+        "long_description": null,
+        "price": 3.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "371444ac-a665-42e5-89db-27a51166666a": {
+      "drink_data": {
+        "id": "371444ac-a665-42e5-89db-27a51166666a",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+        "name": "Mango",
+        "description": "Fresh mango juice",
+        "long_description": null,
+        "price": 2.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.491971Z",
+        "updated_at": "2025-08-16T22:53:10.491971Z",
+        "category": {
+          "id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "softdrink",
+          "description": "Non-alcoholic beverages",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "3d6dbb72-6936-4c89-8910-97be9fb42805": {
+      "drink_data": {
+        "id": "3d6dbb72-6936-4c89-8910-97be9fb42805",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "9b8ab3bc-aca2-401f-860d-8c4e1025c894",
+        "name": "Ginger Tea",
+        "description": "Spicy ginger tea",
+        "long_description": null,
+        "price": 5.5,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.485844Z",
+        "updated_at": "2025-08-16T22:53:10.485844Z",
+        "category": {
+          "id": "9b8ab3bc-aca2-401f-860d-8c4e1025c894",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "tea",
+          "description": "Various types of tea",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "4172a289-38c3-4097-9cb0-6f757b847fa7": {
+      "drink_data": {
+        "id": "4172a289-38c3-4097-9cb0-6f757b847fa7",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+        "name": "Guava",
+        "description": "Fresh guava juice",
+        "long_description": null,
+        "price": 2.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.491971Z",
+        "updated_at": "2025-08-16T22:53:10.491971Z",
+        "category": {
+          "id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "softdrink",
+          "description": "Non-alcoholic beverages",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "43f77ce0-3af3-424d-a4ca-a504af1b8dec": {
+      "drink_data": {
+        "id": "43f77ce0-3af3-424d-a4ca-a504af1b8dec",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+        "name": "Orange Juice",
+        "description": "Fresh orange juice",
+        "long_description": null,
+        "price": 2.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.491971Z",
+        "updated_at": "2025-08-16T22:53:10.491971Z",
+        "category": {
+          "id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "softdrink",
+          "description": "Non-alcoholic beverages",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "4533ac44-bf0d-423f-a689-79c5ad4d5add": {
+      "drink_data": {
+        "id": "4533ac44-bf0d-423f-a689-79c5ad4d5add",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Whiskey Sour",
+        "description": "Classic whiskey sour",
+        "long_description": null,
+        "price": 9.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "46555d94-a959-41c2-90a1-25720bd51c93": {
+      "drink_data": {
+        "id": "46555d94-a959-41c2-90a1-25720bd51c93",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+        "name": "Thomas Henry Spicy Ginger",
+        "description": "Spicy ginger drink",
+        "long_description": null,
+        "price": 2.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.491971Z",
+        "updated_at": "2025-08-16T22:53:10.491971Z",
+        "category": {
+          "id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "softdrink",
+          "description": "Non-alcoholic beverages",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "4ac98988-a21b-4630-bbcc-e397b86aaa2a": {
+      "drink_data": {
+        "id": "4ac98988-a21b-4630-bbcc-e397b86aaa2a",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+        "name": "Juice Spritzer",
+        "description": "Juice with sparkling water",
+        "long_description": null,
+        "price": 2.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.491971Z",
+        "updated_at": "2025-08-16T22:53:10.491971Z",
+        "category": {
+          "id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "softdrink",
+          "description": "Non-alcoholic beverages",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "4c777774-cfac-4b1e-9d85-d724fcd992b3": {
+      "drink_data": {
+        "id": "4c777774-cfac-4b1e-9d85-d724fcd992b3",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+        "name": "Detox Lime Soda",
+        "description": "Detoxifying lime soda",
+        "long_description": null,
+        "price": 5.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.491971Z",
+        "updated_at": "2025-08-16T22:53:10.491971Z",
+        "category": {
+          "id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "softdrink",
+          "description": "Non-alcoholic beverages",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "4cf6a1aa-bf26-46b6-aba5-671fabaca781": {
+      "drink_data": {
+        "id": "4cf6a1aa-bf26-46b6-aba5-671fabaca781",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "6fe060ed-467b-46b4-a1f5-6957fa9f8f1c",
+        "name": "Clausthaler Alcohol-free Beer",
+        "description": "Non-alcoholic beer",
+        "long_description": null,
+        "price": 4.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.495792Z",
+        "updated_at": "2025-08-16T22:53:10.495792Z",
+        "category": {
+          "id": "6fe060ed-467b-46b4-a1f5-6957fa9f8f1c",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "beer",
+          "description": "Beer selections",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "51a796c3-4e01-4971-a956-fa884f1c19b7": {
+      "drink_data": {
+        "id": "51a796c3-4e01-4971-a956-fa884f1c19b7",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "9b8ab3bc-aca2-401f-860d-8c4e1025c894",
+        "name": "Ginger-Mint-Lemon",
+        "description": "Ginger mint tea with lemon",
+        "long_description": null,
+        "price": 5.5,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.485844Z",
+        "updated_at": "2025-08-16T22:53:10.485844Z",
+        "category": {
+          "id": "9b8ab3bc-aca2-401f-860d-8c4e1025c894",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "tea",
+          "description": "Various types of tea",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "52111193-f4b7-4c5f-a401-7fc39e392b64": {
+      "drink_data": {
+        "id": "52111193-f4b7-4c5f-a401-7fc39e392b64",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "9b8ab3bc-aca2-401f-860d-8c4e1025c894",
+        "name": "Mint Tea",
+        "description": "Refreshing mint tea",
+        "long_description": null,
+        "price": 5.5,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.485844Z",
+        "updated_at": "2025-08-16T22:53:10.485844Z",
+        "category": {
+          "id": "9b8ab3bc-aca2-401f-860d-8c4e1025c894",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "tea",
+          "description": "Various types of tea",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "52d2bf72-42b2-401f-b9cb-a9dd978100ae": {
+      "drink_data": {
+        "id": "52d2bf72-42b2-401f-b9cb-a9dd978100ae",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "9b8ab3bc-aca2-401f-860d-8c4e1025c894",
+        "name": "Tulsi Tapasya",
+        "description": "Holy basil tea",
+        "long_description": null,
+        "price": 5.5,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.485844Z",
+        "updated_at": "2025-08-16T22:53:10.485844Z",
+        "category": {
+          "id": "9b8ab3bc-aca2-401f-860d-8c4e1025c894",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "tea",
+          "description": "Various types of tea",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "543977f9-c232-402d-95b1-9e4794383ef5": {
+      "drink_data": {
+        "id": "543977f9-c232-402d-95b1-9e4794383ef5",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Himalayan Salt Bae",
+        "description": "Himalayan salt cocktail",
+        "long_description": null,
+        "price": 7.5,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "54798b8a-8619-46cc-990f-dac239050a23": {
+      "drink_data": {
+        "id": "54798b8a-8619-46cc-990f-dac239050a23",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Pina Colada",
+        "description": "Tropical pina colada",
+        "long_description": null,
+        "price": 8.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "559804c2-6851-4c5b-bd31-0e92a35381ad": {
+      "drink_data": {
+        "id": "559804c2-6851-4c5b-bd31-0e92a35381ad",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+        "name": "Thomas Henry Bitter Lemon",
+        "description": "Bitter lemon drink",
+        "long_description": null,
+        "price": 2.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.491971Z",
+        "updated_at": "2025-08-16T22:53:10.491971Z",
+        "category": {
+          "id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "softdrink",
+          "description": "Non-alcoholic beverages",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "564e3b02-204c-4ea0-81bd-bbd9d91830b7": {
+      "drink_data": {
+        "id": "564e3b02-204c-4ea0-81bd-bbd9d91830b7",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+        "name": "Selters Mineral Water Classic",
+        "description": "Classic mineral water",
+        "long_description": null,
+        "price": 6.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.491971Z",
+        "updated_at": "2025-08-16T22:53:10.491971Z",
+        "category": {
+          "id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "softdrink",
+          "description": "Non-alcoholic beverages",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "5bae66bb-6738-4760-9645-b6ea2a51466b": {
+      "drink_data": {
+        "id": "5bae66bb-6738-4760-9645-b6ea2a51466b",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "9b8ab3bc-aca2-401f-860d-8c4e1025c894",
+        "name": "Dhania Dhyana",
+        "description": "Coriander meditation tea",
+        "long_description": null,
+        "price": 5.5,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.485844Z",
+        "updated_at": "2025-08-16T22:53:10.485844Z",
+        "category": {
+          "id": "9b8ab3bc-aca2-401f-860d-8c4e1025c894",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "tea",
+          "description": "Various types of tea",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "5d3c9d6b-0877-45db-b7a0-2e2db3bb90d1": {
+      "drink_data": {
+        "id": "5d3c9d6b-0877-45db-b7a0-2e2db3bb90d1",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Strawberry Margarita",
+        "description": "Strawberry margarita",
+        "long_description": null,
+        "price": 8.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "5f6fe248-c97b-4eaa-a91c-7d5ba1c83956": {
+      "drink_data": {
+        "id": "5f6fe248-c97b-4eaa-a91c-7d5ba1c83956",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+        "name": "Selters Mineral Water Naturell",
+        "description": "Natural mineral water",
+        "long_description": null,
+        "price": 6.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.491971Z",
+        "updated_at": "2025-08-16T22:53:10.491971Z",
+        "category": {
+          "id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "softdrink",
+          "description": "Non-alcoholic beverages",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "6078521e-0fde-4b1a-863a-e04800a0e06a": {
+      "drink_data": {
+        "id": "6078521e-0fde-4b1a-863a-e04800a0e06a",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "9b8ab3bc-aca2-401f-860d-8c4e1025c894",
+        "name": "Inner Glow",
+        "description": "Inner radiance tea",
+        "long_description": null,
+        "price": 5.5,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.485844Z",
+        "updated_at": "2025-08-16T22:53:10.485844Z",
+        "category": {
+          "id": "9b8ab3bc-aca2-401f-860d-8c4e1025c894",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "tea",
+          "description": "Various types of tea",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "636c878c-e759-4ed4-aad0-59f2fca37c54": {
+      "drink_data": {
+        "id": "636c878c-e759-4ed4-aad0-59f2fca37c54",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "9b8ab3bc-aca2-401f-860d-8c4e1025c894",
+        "name": "Nepali Highland Tea",
+        "description": "Highland tea from Nepal",
+        "long_description": null,
+        "price": 5.5,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.485844Z",
+        "updated_at": "2025-08-16T22:53:10.485844Z",
+        "category": {
+          "id": "9b8ab3bc-aca2-401f-860d-8c4e1025c894",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "tea",
+          "description": "Various types of tea",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "63a4fdb1-d9a1-4fe6-bd67-1d2f0e84fef5": {
+      "drink_data": {
+        "id": "63a4fdb1-d9a1-4fe6-bd67-1d2f0e84fef5",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Love from Nepal",
+        "description": "Nepalese love cocktail",
+        "long_description": null,
+        "price": 8.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "6942fa35-aede-4e27-9b45-c1ec3f525849": {
+      "drink_data": {
+        "id": "6942fa35-aede-4e27-9b45-c1ec3f525849",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "9b8ab3bc-aca2-401f-860d-8c4e1025c894",
+        "name": "Ginger Chamomile",
+        "description": "Calming ginger chamomile",
+        "long_description": null,
+        "price": 5.5,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.485844Z",
+        "updated_at": "2025-08-16T22:53:10.485844Z",
+        "category": {
+          "id": "9b8ab3bc-aca2-401f-860d-8c4e1025c894",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "tea",
+          "description": "Various types of tea",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "6a7e76c1-b6e1-4842-928e-d3eaffceb4e2": {
+      "drink_data": {
+        "id": "6a7e76c1-b6e1-4842-928e-d3eaffceb4e2",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+        "name": "Pineapple Juice",
+        "description": "Fresh pineapple juice",
+        "long_description": null,
+        "price": 2.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.491971Z",
+        "updated_at": "2025-08-16T22:53:10.491971Z",
+        "category": {
+          "id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "softdrink",
+          "description": "Non-alcoholic beverages",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "6aa5668a-6b48-476c-8e84-c4957065489d": {
+      "drink_data": {
+        "id": "6aa5668a-6b48-476c-8e84-c4957065489d",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Negroni",
+        "description": "Classic Negroni cocktail",
+        "long_description": null,
+        "price": 7.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "6d04f4df-6c0a-481a-a089-af425a6bfdc7": {
+      "drink_data": {
+        "id": "6d04f4df-6c0a-481a-a089-af425a6bfdc7",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+        "name": "Sparkling Water",
+        "description": "Sparkling Water",
+        "long_description": null,
+        "price": 2.2,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.491971Z",
+        "updated_at": "2025-08-16T22:53:10.491971Z",
+        "category": {
+          "id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "softdrink",
+          "description": "Non-alcoholic beverages",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "6f666322-a1e9-40f1-b4a9-ef360495141c": {
+      "drink_data": {
+        "id": "6f666322-a1e9-40f1-b4a9-ef360495141c",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "9b8ab3bc-aca2-401f-860d-8c4e1025c894",
+        "name": "Dosha Balance",
+        "description": "Ayurvedic balance tea",
+        "long_description": null,
+        "price": 5.5,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.485844Z",
+        "updated_at": "2025-08-16T22:53:10.485844Z",
+        "category": {
+          "id": "9b8ab3bc-aca2-401f-860d-8c4e1025c894",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "tea",
+          "description": "Various types of tea",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "70c10345-90fc-481e-b65a-cb1f3e3cb6b5": {
+      "drink_data": {
+        "id": "70c10345-90fc-481e-b65a-cb1f3e3cb6b5",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "6fe060ed-467b-46b4-a1f5-6957fa9f8f1c",
+        "name": "Everest",
+        "description": "Everest brand beer",
+        "long_description": null,
+        "price": 5.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.495792Z",
+        "updated_at": "2025-08-16T22:53:10.495792Z",
+        "category": {
+          "id": "6fe060ed-467b-46b4-a1f5-6957fa9f8f1c",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "beer",
+          "description": "Beer selections",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "70c5dd09-6473-46a1-b6f0-a41071349824": {
+      "drink_data": {
+        "id": "70c5dd09-6473-46a1-b6f0-a41071349824",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Classic Mojito",
+        "description": "Traditional mojito",
+        "long_description": null,
+        "price": 8.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "716dfae9-7d04-4d9d-9e80-32b1746229f4": {
+      "drink_data": {
+        "id": "716dfae9-7d04-4d9d-9e80-32b1746229f4",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+        "name": "Cola Zero",
+        "description": "Cola Zero",
+        "long_description": null,
+        "price": 2.7,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.491971Z",
+        "updated_at": "2025-08-16T22:53:10.491971Z",
+        "category": {
+          "id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "softdrink",
+          "description": "Non-alcoholic beverages",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "73df234b-c39e-4580-bade-e9b52f53f2f2": {
+      "drink_data": {
+        "id": "73df234b-c39e-4580-bade-e9b52f53f2f2",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "6fe060ed-467b-46b4-a1f5-6957fa9f8f1c",
+        "name": "Nepal Ice",
+        "description": "Nepalese ice beer",
+        "long_description": null,
+        "price": 5.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.495792Z",
+        "updated_at": "2025-08-16T22:53:10.495792Z",
+        "category": {
+          "id": "6fe060ed-467b-46b4-a1f5-6957fa9f8f1c",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "beer",
+          "description": "Beer selections",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "7761dda9-f3d4-4078-a80e-f0607b415b76": {
+      "drink_data": {
+        "id": "7761dda9-f3d4-4078-a80e-f0607b415b76",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+        "name": "Dhania Iced Tea",
+        "description": "Coriander iced tea",
+        "long_description": null,
+        "price": 6.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.491971Z",
+        "updated_at": "2025-08-16T22:53:10.491971Z",
+        "category": {
+          "id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "softdrink",
+          "description": "Non-alcoholic beverages",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "7879cdd7-32e9-4dcc-b9a1-6ff79136b0e9": {
+      "drink_data": {
+        "id": "7879cdd7-32e9-4dcc-b9a1-6ff79136b0e9",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+        "name": "Thomas Henry Tonic Water",
+        "description": "Tonic water",
+        "long_description": null,
+        "price": 2.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.491971Z",
+        "updated_at": "2025-08-16T22:53:10.491971Z",
+        "category": {
+          "id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "softdrink",
+          "description": "Non-alcoholic beverages",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "7ec9b1d3-e41d-4c20-bf7b-9f4d9d81ea46": {
+      "drink_data": {
+        "id": "7ec9b1d3-e41d-4c20-bf7b-9f4d9d81ea46",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "9b8ab3bc-aca2-401f-860d-8c4e1025c894",
+        "name": "Zen Infusion",
+        "description": "Zen meditation tea",
+        "long_description": null,
+        "price": 5.5,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.485844Z",
+        "updated_at": "2025-08-16T22:53:10.485844Z",
+        "category": {
+          "id": "9b8ab3bc-aca2-401f-860d-8c4e1025c894",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "tea",
+          "description": "Various types of tea",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "7f4dc5ee-2100-4447-b3dc-d690ad04540a": {
+      "drink_data": {
+        "id": "7f4dc5ee-2100-4447-b3dc-d690ad04540a",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Campari Soda",
+        "description": "Campari with soda",
+        "long_description": null,
+        "price": 7.5,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "81ab37a4-7d03-4d75-a0dd-b8419a492ed1": {
+      "drink_data": {
+        "id": "81ab37a4-7d03-4d75-a0dd-b8419a492ed1",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Manang Melon Magic",
+        "description": "Manang melon cocktail",
+        "long_description": null,
+        "price": 9.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "86dfff0c-74d5-420f-a3c0-b4fed0585812": {
+      "drink_data": {
+        "id": "86dfff0c-74d5-420f-a3c0-b4fed0585812",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "6fe060ed-467b-46b4-a1f5-6957fa9f8f1c",
+        "name": "Schöfferhofer Wheat Beer Crystal",
+        "description": "Crystal wheat beer",
+        "long_description": null,
+        "price": 5.5,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.495792Z",
+        "updated_at": "2025-08-16T22:53:10.495792Z",
+        "category": {
+          "id": "6fe060ed-467b-46b4-a1f5-6957fa9f8f1c",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "beer",
+          "description": "Beer selections",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "88e6c675-ef07-40fc-bd1f-763438d9510e": {
+      "drink_data": {
+        "id": "88e6c675-ef07-40fc-bd1f-763438d9510e",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+        "name": "Still Water",
+        "description": "Still Water",
+        "long_description": null,
+        "price": 2.2,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.491971Z",
+        "updated_at": "2025-08-16T22:53:10.491971Z",
+        "category": {
+          "id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "softdrink",
+          "description": "Non-alcoholic beverages",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "8af0975a-9a41-434c-be48-f344f7d7c161": {
+      "drink_data": {
+        "id": "8af0975a-9a41-434c-be48-f344f7d7c161",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Annapurna Sunset",
+        "description": "Annapurna sunset cocktail",
+        "long_description": null,
+        "price": 8.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "8fc2016b-1c42-4e18-b83c-e562376a8c53": {
+      "drink_data": {
+        "id": "8fc2016b-1c42-4e18-b83c-e562376a8c53",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Summer in Lhasa",
+        "description": "Tibetan summer cocktail",
+        "long_description": null,
+        "price": 9.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "90009c7e-2f99-4b27-8cf3-1e6055267601": {
+      "drink_data": {
+        "id": "90009c7e-2f99-4b27-8cf3-1e6055267601",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Basil Spritz",
+        "description": "Basil-flavored spritz",
+        "long_description": null,
+        "price": 7.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "92aed34a-46f6-434e-8918-8862d34c79b4": {
+      "drink_data": {
+        "id": "92aed34a-46f6-434e-8918-8862d34c79b4",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Himalayan Honey",
+        "description": "Himalayan honey cocktail",
+        "long_description": null,
+        "price": 9.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "92d5212d-9ac4-4eee-918c-1be77610034a": {
+      "drink_data": {
+        "id": "92d5212d-9ac4-4eee-918c-1be77610034a",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "6fe060ed-467b-46b4-a1f5-6957fa9f8f1c",
+        "name": "Lammsbräu Alcohol-free Beer",
+        "description": "Organic non-alcoholic beer",
+        "long_description": null,
+        "price": 4.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.495792Z",
+        "updated_at": "2025-08-16T22:53:10.495792Z",
+        "category": {
+          "id": "6fe060ed-467b-46b4-a1f5-6957fa9f8f1c",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "beer",
+          "description": "Beer selections",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "93412639-9263-4fb3-831d-137f5d923253": {
+      "drink_data": {
+        "id": "93412639-9263-4fb3-831d-137f5d923253",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Whiskey Kola",
+        "description": "Whiskey with cola",
+        "long_description": null,
+        "price": 7.5,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "93d9b522-81e8-4de2-8a74-4b517d5386d8": {
+      "drink_data": {
+        "id": "93d9b522-81e8-4de2-8a74-4b517d5386d8",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Lychee Gin Mojito",
+        "description": "Lychee gin mojito",
+        "long_description": null,
+        "price": 9.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "94ccadd9-8591-4ea4-b558-f46b5b82bb9b": {
+      "drink_data": {
+        "id": "94ccadd9-8591-4ea4-b558-f46b5b82bb9b",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Campari Orange",
+        "description": "Campari with orange",
+        "long_description": null,
+        "price": 7.5,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "99587688-cfc4-4fb0-acb6-83b0cd2949f8": {
+      "drink_data": {
+        "id": "99587688-cfc4-4fb0-acb6-83b0cd2949f8",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "6fe060ed-467b-46b4-a1f5-6957fa9f8f1c",
+        "name": "Lukla Bier",
+        "description": "Nepalese Lukla beer",
+        "long_description": null,
+        "price": 5.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.495792Z",
+        "updated_at": "2025-08-16T22:53:10.495792Z",
+        "category": {
+          "id": "6fe060ed-467b-46b4-a1f5-6957fa9f8f1c",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "beer",
+          "description": "Beer selections",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "99dd39d3-e1fd-47ac-8606-3287b0230498": {
+      "drink_data": {
+        "id": "99dd39d3-e1fd-47ac-8606-3287b0230498",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+        "name": "Rixdorfer Fassbrause",
+        "description": "Traditional German drink",
+        "long_description": null,
+        "price": 3.2,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.491971Z",
+        "updated_at": "2025-08-16T22:53:10.491971Z",
+        "category": {
+          "id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "softdrink",
+          "description": "Non-alcoholic beverages",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "9b232cf7-24ca-4d4c-804b-fe1aadae92be": {
+      "drink_data": {
+        "id": "9b232cf7-24ca-4d4c-804b-fe1aadae92be",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Espresso Martini",
+        "description": "Coffee martini cocktail",
+        "long_description": null,
+        "price": 8.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "9b64e55a-db91-4e70-a9ac-6205eb1b3c53": {
+      "drink_data": {
+        "id": "9b64e55a-db91-4e70-a9ac-6205eb1b3c53",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+        "name": "Mango Lassi",
+        "description": "Sweet mango yogurt drink",
+        "long_description": null,
+        "price": 5.5,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.491971Z",
+        "updated_at": "2025-08-16T22:53:10.491971Z",
+        "category": {
+          "id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "softdrink",
+          "description": "Non-alcoholic beverages",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "9d3c8b71-5454-4189-b047-90672f4806a7": {
+      "drink_data": {
+        "id": "9d3c8b71-5454-4189-b047-90672f4806a7",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+        "name": "Raspberry Lemonade",
+        "description": "Fresh raspberry lemonade",
+        "long_description": null,
+        "price": 6.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.491971Z",
+        "updated_at": "2025-08-16T22:53:10.491971Z",
+        "category": {
+          "id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "softdrink",
+          "description": "Non-alcoholic beverages",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "9e157cf3-b659-4e4d-8302-61f9cde5261d": {
+      "drink_data": {
+        "id": "9e157cf3-b659-4e4d-8302-61f9cde5261d",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Lychee & Love",
+        "description": "Lychee love cocktail",
+        "long_description": null,
+        "price": 7.5,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "a453e3ff-e47a-446b-a9fa-a79374722022": {
+      "drink_data": {
+        "id": "a453e3ff-e47a-446b-a9fa-a79374722022",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Pink Spritz",
+        "description": "Pink-colored spritz",
+        "long_description": null,
+        "price": 7.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "a4c51c48-40e9-4c50-b270-1128cc36892a": {
+      "drink_data": {
+        "id": "a4c51c48-40e9-4c50-b270-1128cc36892a",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Lumbini Lychee Sling",
+        "description": "Lumbini lychee sling",
+        "long_description": null,
+        "price": 8.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "a5b039ff-3272-4ab1-b947-83424e58fb61": {
+      "drink_data": {
+        "id": "a5b039ff-3272-4ab1-b947-83424e58fb61",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "9b8ab3bc-aca2-401f-860d-8c4e1025c894",
+        "name": "Black Dragon",
+        "description": "Strong black tea",
+        "long_description": null,
+        "price": 5.5,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.485844Z",
+        "updated_at": "2025-08-16T22:53:10.485844Z",
+        "category": {
+          "id": "9b8ab3bc-aca2-401f-860d-8c4e1025c894",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "tea",
+          "description": "Various types of tea",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "a5bc5e53-f176-48b3-9cd6-fc6abeab3072": {
+      "drink_data": {
+        "id": "a5bc5e53-f176-48b3-9cd6-fc6abeab3072",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Rhabarber Spritz",
+        "description": "Rhubarb spritz cocktail",
+        "long_description": null,
+        "price": 7.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "a618c265-39f1-49fc-bd2f-f2a9c439f6df": {
+      "drink_data": {
+        "id": "a618c265-39f1-49fc-bd2f-f2a9c439f6df",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+        "name": "Rhubarb Spritzer",
+        "description": "Rhubarb with sparkling water",
+        "long_description": null,
+        "price": 5.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.491971Z",
+        "updated_at": "2025-08-16T22:53:10.491971Z",
+        "category": {
+          "id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "softdrink",
+          "description": "Non-alcoholic beverages",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "a76f78db-4edb-40ec-8b23-0d2e4c28d96e": {
+      "drink_data": {
+        "id": "a76f78db-4edb-40ec-8b23-0d2e4c28d96e",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Moskow Mule",
+        "description": "Russian mule cocktail",
+        "long_description": null,
+        "price": 8.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "a82ab1d5-4ffd-47b2-a838-3bfc29c1e592": {
+      "drink_data": {
+        "id": "a82ab1d5-4ffd-47b2-a838-3bfc29c1e592",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+        "name": "Basil Soda",
+        "description": "Basil-flavored soda",
+        "long_description": null,
+        "price": 5.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.491971Z",
+        "updated_at": "2025-08-16T22:53:10.491971Z",
+        "category": {
+          "id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "softdrink",
+          "description": "Non-alcoholic beverages",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "ab149e13-eac2-4df7-86a0-44c13fd78022": {
+      "drink_data": {
+        "id": "ab149e13-eac2-4df7-86a0-44c13fd78022",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Mai Tai",
+        "description": "Tropical mai tai",
+        "long_description": null,
+        "price": 10.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "b0fe6937-f2cc-4322-b0f1-c90ec25eb8e5": {
+      "drink_data": {
+        "id": "b0fe6937-f2cc-4322-b0f1-c90ec25eb8e5",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "9b8ab3bc-aca2-401f-860d-8c4e1025c894",
+        "name": "Surya Sip",
+        "description": "Sun energy tea",
+        "long_description": null,
+        "price": 5.5,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.485844Z",
+        "updated_at": "2025-08-16T22:53:10.485844Z",
+        "category": {
+          "id": "9b8ab3bc-aca2-401f-860d-8c4e1025c894",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "tea",
+          "description": "Various types of tea",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "b3b4bb75-2235-437e-bacb-03a7d4c16d1a": {
+      "drink_data": {
+        "id": "b3b4bb75-2235-437e-bacb-03a7d4c16d1a",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Aila Ma Raila",
+        "description": "Traditional Aila cocktail",
+        "long_description": null,
+        "price": 8.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "bb536a11-f271-49dd-9539-6ce34c5d0278": {
+      "drink_data": {
+        "id": "bb536a11-f271-49dd-9539-6ce34c5d0278",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Ipanema",
+        "description": "Brazilian Ipanema cocktail",
+        "long_description": null,
+        "price": 6.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "be822002-b578-4ab8-bd95-f269903f2621": {
+      "drink_data": {
+        "id": "be822002-b578-4ab8-bd95-f269903f2621",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Himalayan Sour",
+        "description": "Himalayan sour cocktail",
+        "long_description": null,
+        "price": 9.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "c01d68d0-9043-4d13-a0e0-607393bda0d6": {
+      "drink_data": {
+        "id": "c01d68d0-9043-4d13-a0e0-607393bda0d6",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Ruslan Nepal Vodka",
+        "description": "Nepalese vodka shot",
+        "long_description": null,
+        "price": 3.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "c05073bc-e3b5-445f-b81d-0bd3b2be4af6": {
+      "drink_data": {
+        "id": "c05073bc-e3b5-445f-b81d-0bd3b2be4af6",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+        "name": "Maracuja",
+        "description": "Fresh passion fruit juice",
+        "long_description": null,
+        "price": 2.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.491971Z",
+        "updated_at": "2025-08-16T22:53:10.491971Z",
+        "category": {
+          "id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "softdrink",
+          "description": "Non-alcoholic beverages",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "c4288dfd-7264-4bcc-9ef3-75a35fee6d80": {
+      "drink_data": {
+        "id": "c4288dfd-7264-4bcc-9ef3-75a35fee6d80",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "9b8ab3bc-aca2-401f-860d-8c4e1025c894",
+        "name": "Herbal Nirvana",
+        "description": "Herbal bliss tea",
+        "long_description": null,
+        "price": 5.5,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.485844Z",
+        "updated_at": "2025-08-16T22:53:10.485844Z",
+        "category": {
+          "id": "9b8ab3bc-aca2-401f-860d-8c4e1025c894",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "tea",
+          "description": "Various types of tea",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "c6e59f11-4d61-454d-81fa-3a048607cdf6": {
+      "drink_data": {
+        "id": "c6e59f11-4d61-454d-81fa-3a048607cdf6",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "6fe060ed-467b-46b4-a1f5-6957fa9f8f1c",
+        "name": "Schöfferhofer Wheat Beer Dark",
+        "description": "Dark wheat beer",
+        "long_description": null,
+        "price": 5.5,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.495792Z",
+        "updated_at": "2025-08-16T22:53:10.495792Z",
+        "category": {
+          "id": "6fe060ed-467b-46b4-a1f5-6957fa9f8f1c",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "beer",
+          "description": "Beer selections",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "c76d7be0-8e9d-4fee-ac49-48ff98494b02": {
+      "drink_data": {
+        "id": "c76d7be0-8e9d-4fee-ac49-48ff98494b02",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "6fe060ed-467b-46b4-a1f5-6957fa9f8f1c",
+        "name": "Radler",
+        "description": "Beer with lemonade",
+        "long_description": null,
+        "price": 3.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.495792Z",
+        "updated_at": "2025-08-16T22:53:10.495792Z",
+        "category": {
+          "id": "6fe060ed-467b-46b4-a1f5-6957fa9f8f1c",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "beer",
+          "description": "Beer selections",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "c7d7eb87-e281-40b2-b326-109c1ecbc2e9": {
+      "drink_data": {
+        "id": "c7d7eb87-e281-40b2-b326-109c1ecbc2e9",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+        "name": "Sprite",
+        "description": "Sprite",
+        "long_description": null,
+        "price": 2.7,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.491971Z",
+        "updated_at": "2025-08-16T22:53:10.491971Z",
+        "category": {
+          "id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "softdrink",
+          "description": "Non-alcoholic beverages",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "c81b96b2-f932-4145-a5ba-9c9f9d6447f6": {
+      "drink_data": {
+        "id": "c81b96b2-f932-4145-a5ba-9c9f9d6447f6",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Resham Firiri (Hot)",
+        "description": "Hot Nepalese cocktail",
+        "long_description": null,
+        "price": 6.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "cce17b56-4c0f-41df-882f-c3d7e9bf28b3": {
+      "drink_data": {
+        "id": "cce17b56-4c0f-41df-882f-c3d7e9bf28b3",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Hugo",
+        "description": "Traditional Hugo cocktail",
+        "long_description": null,
+        "price": 6.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "cf159a7b-5cc3-4317-9cbe-e9c9d0d003be": {
+      "drink_data": {
+        "id": "cf159a7b-5cc3-4317-9cbe-e9c9d0d003be",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+        "name": "Apple Juice",
+        "description": "Fresh apple juice",
+        "long_description": null,
+        "price": 2.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.491971Z",
+        "updated_at": "2025-08-16T22:53:10.491971Z",
+        "category": {
+          "id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "softdrink",
+          "description": "Non-alcoholic beverages",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "d0b504db-5cdc-40c5-a3bc-f5f50d3aef12": {
+      "drink_data": {
+        "id": "d0b504db-5cdc-40c5-a3bc-f5f50d3aef12",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "6fe060ed-467b-46b4-a1f5-6957fa9f8f1c",
+        "name": "Büble Edel Wheat Beer",
+        "description": "Premium wheat beer",
+        "long_description": null,
+        "price": 5.5,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.495792Z",
+        "updated_at": "2025-08-16T22:53:10.495792Z",
+        "category": {
+          "id": "6fe060ed-467b-46b4-a1f5-6957fa9f8f1c",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "beer",
+          "description": "Beer selections",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "d20a821d-5302-4cf8-bf40-77311eea3b7a": {
+      "drink_data": {
+        "id": "d20a821d-5302-4cf8-bf40-77311eea3b7a",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Mountain Breeze",
+        "description": "Mountain breeze cocktail",
+        "long_description": null,
+        "price": 6.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "d22393e4-6e1b-47f1-8793-386af5776240": {
+      "drink_data": {
+        "id": "d22393e4-6e1b-47f1-8793-386af5776240",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Khukri Nepal Rum",
+        "description": "Nepalese rum shot",
+        "long_description": null,
+        "price": 3.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "d4bc4106-b9eb-4223-b070-8d16941ef37d": {
+      "drink_data": {
+        "id": "d4bc4106-b9eb-4223-b070-8d16941ef37d",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Mustang Mango Madness",
+        "description": "Mustang mango cocktail",
+        "long_description": null,
+        "price": 8.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "d4db4ddd-ae1b-4d29-8298-c9d556dd6944": {
+      "drink_data": {
+        "id": "d4db4ddd-ae1b-4d29-8298-c9d556dd6944",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "8a51de34-f241-4e91-bd78-0624dd24ec46",
+        "name": "Rosé Chiaretto di Bardolino",
+        "description": "Italian rosé wine",
+        "long_description": null,
+        "price": 6.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.502924Z",
+        "updated_at": "2025-08-16T22:53:10.502924Z",
+        "category": {
+          "id": "8a51de34-f241-4e91-bd78-0624dd24ec46",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "wine",
+          "description": "Wine selections",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "d5d797e4-7621-4720-ad5e-1cfbe3d41835": {
+      "drink_data": {
+        "id": "d5d797e4-7621-4720-ad5e-1cfbe3d41835",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Kathmandu Mule",
+        "description": "Nepalese mule cocktail",
+        "long_description": null,
+        "price": 9.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "d6e8779e-89ac-497a-b66f-013bd52761dc": {
+      "drink_data": {
+        "id": "d6e8779e-89ac-497a-b66f-013bd52761dc",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "6fe060ed-467b-46b4-a1f5-6957fa9f8f1c",
+        "name": "Sherpa Bier",
+        "description": "Nepalese Sherpa beer",
+        "long_description": null,
+        "price": 5.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.495792Z",
+        "updated_at": "2025-08-16T22:53:10.495792Z",
+        "category": {
+          "id": "6fe060ed-467b-46b4-a1f5-6957fa9f8f1c",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "beer",
+          "description": "Beer selections",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "d750734f-8fca-4352-a594-533379bbe08c": {
+      "drink_data": {
+        "id": "d750734f-8fca-4352-a594-533379bbe08c",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Coconut Kiss",
+        "description": "Coconut kiss cocktail",
+        "long_description": null,
+        "price": 6.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "df82ffd4-fd79-46c1-8a4b-d1c107bf216d": {
+      "drink_data": {
+        "id": "df82ffd4-fd79-46c1-8a4b-d1c107bf216d",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Kuba Libre",
+        "description": "Cuban rum cocktail",
+        "long_description": null,
+        "price": 7.5,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "e585ce3f-a274-48c8-935c-6b6577af75a1": {
+      "drink_data": {
+        "id": "e585ce3f-a274-48c8-935c-6b6577af75a1",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Monkey Temple",
+        "description": "Exotic monkey temple cocktail",
+        "long_description": null,
+        "price": 9.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "e64994c9-83da-430d-b857-4c4b6bcd25d8": {
+      "drink_data": {
+        "id": "e64994c9-83da-430d-b857-4c4b6bcd25d8",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Vodka Sour",
+        "description": "Vodka sour cocktail",
+        "long_description": null,
+        "price": 9.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "e76046d6-9841-4aaa-8448-db639b90be1a": {
+      "drink_data": {
+        "id": "e76046d6-9841-4aaa-8448-db639b90be1a",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Classic Margarita",
+        "description": "Traditional margarita",
+        "long_description": null,
+        "price": 8.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "e788f660-e4b1-4435-bdd6-273c5439e17a": {
+      "drink_data": {
+        "id": "e788f660-e4b1-4435-bdd6-273c5439e17a",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "8a51de34-f241-4e91-bd78-0624dd24ec46",
+        "name": "White Wine Spritzer",
+        "description": "White wine with sparkling water",
+        "long_description": null,
+        "price": 5.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.502924Z",
+        "updated_at": "2025-08-16T22:53:10.502924Z",
+        "category": {
+          "id": "8a51de34-f241-4e91-bd78-0624dd24ec46",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "wine",
+          "description": "Wine selections",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "ededb660-f806-48d3-8877-cc2d0a69fb93": {
+      "drink_data": {
+        "id": "ededb660-f806-48d3-8877-cc2d0a69fb93",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+        "name": "Coca Cola",
+        "description": "Coca Cola",
+        "long_description": null,
+        "price": 2.7,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.491971Z",
+        "updated_at": "2025-08-16T22:53:10.491971Z",
+        "category": {
+          "id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "softdrink",
+          "description": "Non-alcoholic beverages",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "ef6eb3eb-5104-494f-982b-f65f9a84f4e9": {
+      "drink_data": {
+        "id": "ef6eb3eb-5104-494f-982b-f65f9a84f4e9",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Himbeer Mojito",
+        "description": "Raspberry mojito",
+        "long_description": null,
+        "price": 9.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "f1c870cf-5caf-4262-95f1-5f7617afb87c": {
+      "drink_data": {
+        "id": "f1c870cf-5caf-4262-95f1-5f7617afb87c",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+        "name": "Thomas Henry Pink Grapefruit",
+        "description": "Pink grapefruit drink",
+        "long_description": null,
+        "price": 2.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": false,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.491971Z",
+        "updated_at": "2025-08-16T22:53:10.491971Z",
+        "category": {
+          "id": "3ab239d5-7a3c-48d2-8af5-85ffcc474538",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "softdrink",
+          "description": "Non-alcoholic beverages",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    },
+    "f8614e8f-1fff-4fc9-8b37-fe79482ccf86": {
+      "drink_data": {
+        "id": "f8614e8f-1fff-4fc9-8b37-fe79482ccf86",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+        "name": "Old Durbar Black Chimney",
+        "description": "Premium Old Durbar",
+        "long_description": null,
+        "price": 4.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_alcoholic": true,
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.498067Z",
+        "updated_at": "2025-08-16T22:53:10.498067Z",
+        "category": {
+          "id": "d2689d58-2458-4c55-b5e7-6351b4b72d78",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "cocktail",
+          "description": "Mixed alcoholic drinks",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.88648Z",
+          "updated_at": "2025-08-16T22:53:09.88648Z"
+        }
+      }
+    }
+  },
+  "success": true
+}
