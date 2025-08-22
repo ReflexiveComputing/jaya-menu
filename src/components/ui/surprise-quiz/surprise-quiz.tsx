@@ -55,7 +55,7 @@ export default function SurpriseQuiz({ questions }: { questions: { id: number, q
                         value={((currentQuestion + 1) / questions.length) * 100}
                     />
 
-                    <div className="relative h-70 mt-15">
+                    <div className="relative h-70 mt-5">
                         <Image
                             src={`/masks/mask-${currentQuestion + 1}.png`}
                             alt={"mask1"}
@@ -68,7 +68,7 @@ export default function SurpriseQuiz({ questions }: { questions: { id: number, q
                    
                 </div>
 
-                <div className="m-auto flex-1 flex flex-col justify-center">
+                <div className="m-auto py-6 flex-1 flex flex-col ">
                      <div className="px-6 text-center">
                         <h2 className="text-4xl font-extrabold text-white drop-shadow-lg">
                             {currentQ.question}
