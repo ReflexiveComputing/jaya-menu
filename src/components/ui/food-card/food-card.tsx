@@ -17,9 +17,9 @@ export function FoodCard({
 }: FoodCardProps) {
   return (
     <Link href={`/item/${item.id}`} className="block">
-      <div className="flex-shrink-0 w-80 bg-white rounded-2xl shadow-sm overflow-hidden">
+      <div className="flex-shrink-0 w-80 bg-white rounded-sm shadow-sm overflow-hidden">
         <div className="relative">
-          <div className="h-48 bg-gradient-to-br rounded-t-2xl overflow-hidden">
+          <div className="h-48 bg-gradient-to-br rounded-t-sm overflow-hidden">
             <Image
               src={item.image || "/placeholder.svg"}
               alt={item.name}

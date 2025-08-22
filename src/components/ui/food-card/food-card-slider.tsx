@@ -35,14 +35,14 @@ export function FoodCardSlider({
   }
 
   const wrapperClass = compact
-  ? 'flex-shrink-0 bg-white rounded-2xl mb-4 shadow-sm overflow-hidden'
-    : 'flex-shrink-0 bg-white rounded-2xl mb-6 shadow-sm overflow-hidden'
+  ? 'flex-shrink-0 bg-white rounded-sm mb-4 shadow-sm overflow-hidden'
+    : 'flex-shrink-0 bg-white rounded-sm mb-6 shadow-sm overflow-hidden'
 
   return (
     <Link href={`/item/${item.id}`} className="block">
       <div className={wrapperClass}>
         <div className="relative">
-          <div className="rounded-t-2xl">
+          <div className="rounded-t-sm">
             <ImageSlider
               images={item.images}
               size={compact ? 'sm' : 'md'}
