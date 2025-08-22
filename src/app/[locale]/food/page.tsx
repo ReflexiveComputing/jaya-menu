@@ -32,7 +32,7 @@ export default async function MenuPage() {
       <div className="flex-1 overflow-y-auto">
 
         <div className="overflow-x-auto scrollbar-hide ">
-          <div className="flex gap-4 pb-2">
+          <div className="flex gap-4 p-2">
             {/* Cycle through the same 5 colors and mask images */}
             {
               (() => {
