@@ -18,9 +18,9 @@ export function ComboCard({ image, title, subtitle, tag, href, className }: Comb
         <div
             className={
                 // important: flex-shrink-0 + fixed width so horizontal flex row doesn't collapse
-                "flex-shrink-0 w-90 sm:w-90 md:w-72 rounded-sm " +
+                "flex-shrink-0 w-82 sm:w-80 md:w-72 rounded-sm " +
                 "overflow-hidden shadow-sm relative " +
-                "min-h-160 " +
+                "min-h-145 " +
                 className
             }
         >
@@ -30,12 +30,12 @@ export function ComboCard({ image, title, subtitle, tag, href, className }: Comb
                     src={image}
                     alt={title}
                     fill
-                    className="object-contain"
+                    className="object-contain p-4"
                     sizes="(max-width: 240px) 50vw, (max-width: 240px) 33vw, 12rem"
                     priority={false}
                 />
             </div>
-            <div className="flex flex-col justify-center pt-20 items-center w-full text-white ">
+            <div className="flex flex-col  pt-6 items-center w-full text-white ">
                 <h3 className="text-4xl uppercase font-semibold drop-shadow-md">{title}</h3>
                 {subtitle && <p className="text-lg opacity-90 mt-1 drop-shadow-sm">{subtitle}</p>}
             </div>
