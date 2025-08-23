@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation"
 import Image from "next/image"
 import { Progress } from "@/components/ui/progress"
 import { Button } from "../button"
+import { StepProgress } from "../step-progress"
 
 
 export default function SurpriseQuiz({ questions }: { questions: { id: number, question: string, answers: string[] }[] }) {
@@ -48,11 +49,10 @@ export default function SurpriseQuiz({ questions }: { questions: { id: number, q
             {/* Content */}
             <div className="relative z-10 min-h-screen flex flex-col">
                 <div className="pt-6 px-6">
-                    <Progress
+                    <StepProgress
                         className="m-auto w-4/5 h-6"
-                        indicatorClassName="bg-white/80"
-                        rootClassName="bg-white/30"
-                        value={((currentQuestion + 1) / questions.length) * 100}
+                        steps={questions.length}
+                        value={currentQuestion + 1}
                     />
 
                     <div className="relative h-70 mt-5">
