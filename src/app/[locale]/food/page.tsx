@@ -33,29 +33,33 @@ export default async function MenuPage() {
 
         <div className="overflow-x-auto scrollbar-hide ">
           <div className="flex gap-4 p-1">
-            {/* Cycle through the same 5 colors and mask images */}
-            {
-              (() => {
-                const bgClasses = [
-                  'bg-global-red',
-                  'bg-global-blue',
-                  'bg-global-green',
-                  'bg-global-lightblue',
-                  'bg-global-gold'
-                ]
-                const count = 5
-                return Array.from({ length: count }).map((_, i) => (
-                  <ComboCard
-                    key={i}
-                    className={bgClasses[i % bgClasses.length]}
-                    image={`/masks/mask-${(i % bgClasses.length) + 1}.png`}
-                    title="Himalayan Trek"
-                    subtitle="#found your flavar"
-                    href={`/food/flavar/${i + 1}`}
-                  />
-                ))
-              })()
-            }
+            {/* Demo combos: Himalayan Trek, Kathmandu Combo, Everest Set */}
+            {[
+              {
+                title: "Himalayan Trek",
+                background: "bg-global-lightblue",
+                image: "/masks/mask-4.png",
+              },
+              {
+                title: "Kathmandu Combo",
+                background: "bg-global-gold",
+                image: "/masks/mask-5.png",
+              },
+              {
+                title: "Everest Set",
+                background: "bg-global-green",
+                image: "/masks/mask-3.png",
+              },
+            ].map((combo, i) => (
+              <ComboCard
+                key={i}
+                className={combo.background}
+                image={combo.image}
+                title={combo.title}
+                subtitle="#found your flavar"
+                href={`/food/flavar/${i + 1}`}
+              />
+            ))}
           </div>
         </div>
 

@@ -36,7 +36,7 @@ export function ComboCard({ image, title, subtitle, tag, href, className }: Comb
                 />
             </div>
             <div className="flex flex-col  pt-6 items-center w-full text-white ">
-                <h3 className="text-4xl uppercase font-semibold drop-shadow-md">{title}</h3>
+                <h3 className="text-4xl uppercase text-center font-semibold drop-shadow-md">{title}</h3>
                 {subtitle && <p className="text-lg opacity-90 mt-1 drop-shadow-sm">{subtitle}</p>}
             </div>
         </div>
