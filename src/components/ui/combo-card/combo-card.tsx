@@ -20,7 +20,7 @@ export function ComboCard({ image, title, subtitle, tag, href, className }: Comb
                 // important: flex-shrink-0 + fixed width so horizontal flex row doesn't collapse
                 "flex-shrink-0 justify-center pt-10 w-82 sm:w-80 md:w-72 rounded-sm " +
                 "overflow-hidden shadow-sm relative " +
-                "min-h-145 " +
+                "min-h-135 " +
                 className
             }
         >

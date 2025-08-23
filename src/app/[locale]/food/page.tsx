@@ -32,7 +32,7 @@ export default async function MenuPage() {
       <div className="flex-1 overflow-y-auto">
 
         <div className="overflow-x-auto scrollbar-hide ">
-          <div className="flex gap-4 p-1">
+          <div className="flex gap-4 p-4">
             {/* Demo combos: Himalayan Trek, Kathmandu Combo, Everest Set */}
             {[
               {
