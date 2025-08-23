@@ -80,6 +80,7 @@ export type MenuItemNew = {
   protein?: ProteinObject;
   spice?: SpiceObject;
   size?: SizeObject;
+  likes?: number;
 };
 
 // Convenience type for the API shape: { [uuid]: { menu_item_data: MenuItemNew } }

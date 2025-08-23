@@ -23,7 +23,12 @@ export async function fetchDrinksCategoryItemsFromApi(category: string): Promise
 export async function fetchDrinksTopThisMonthFromApi(limit = 3): Promise<Drink[]> {
   const items = getItems();
 
-  const itemsWithLikes = items.filter(i => typeof (i as any).likes === "number") as (Drink & { likes?: number })[];
+  // Type guard for likes
+  function hasLikes(item: Drink): item is Drink & { likes: number } {
+    return typeof item.likes === "number";
+  }
+
+  const itemsWithLikes = items.filter(hasLikes);
 
   if (itemsWithLikes.length > 0) {
     return itemsWithLikes.sort((a, b) => (b.likes ?? 0) - (a.likes ?? 0)).slice(0, limit);

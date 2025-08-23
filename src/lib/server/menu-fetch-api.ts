@@ -26,8 +26,12 @@ export async function fetchMenuCategoryItemsFromApi(category: string): Promise<M
 export async function fetchMenuTopThisMonthFromApi(limit = 3): Promise<MenuItemNew[]> {
   const items = getItems();
 
-  // If items include a numeric `likes` field, prefer that. Otherwise fall back to newest by created_at.
-  const itemsWithLikes = items.filter(i => typeof (i as any).likes === "number") as (MenuItemNew & { likes?: number })[];
+  // Type guard for likes
+  function hasLikes(item: MenuItemNew): item is MenuItemNew & { likes: number } {
+    return typeof item.likes === "number";
+  }
+
+  const itemsWithLikes = items.filter(hasLikes);
 
   if (itemsWithLikes.length > 0) {
     return itemsWithLikes.sort((a, b) => (b.likes ?? 0) - (a.likes ?? 0)).slice(0, limit);

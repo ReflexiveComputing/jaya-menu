@@ -15,6 +15,7 @@ export type Drink = {
   created_at: string;
   updated_at: string;
   category: CategoryObject;
+  likes?: number;
 };
 
 export type DrinksApiResponse = Record<string, { drink_data: Drink }>;
