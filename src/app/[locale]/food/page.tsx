@@ -60,9 +60,9 @@ export default async function MenuPage() {
                 background: "bg-global-green",
                 image: "",
                  items: [
-                  { id: 1, name: "Momo", image: "/images/momo.png", description: "Steamed dumplings", price: 5.99 },
-                  { id: 2, name: "Thukpa", image: "/images/thukpa.png", description: "Noodle soup", price: 7.99 },
-                  { id: 3, name: "Dal Bhat", image: "/images/dal-bhat.png", description: "Lentil soup with rice", price: 6.99 },
+                  { id: 1, name: "Momo", image: "/nila-4th-image.png", description: "Steamed dumplings", price: 5.99 },
+                  { id: 2, name: "Thukpa", image: "/nila-3rd-image.png", description: "Noodle soup", price: 7.99 },
+                  { id: 3, name: "Dal Bhat", image: "/nila-5th-image.png", description: "Lentil soup with rice", price: 6.99 },
                 ]
               },
             ].map((combo, i) => (
@@ -73,6 +73,7 @@ export default async function MenuPage() {
                 title={combo.title}
                 subtitle="#found your flavar"
                 href={`/food/flavar/${i + 1}`}
+                items={combo.items}
               />
             ))}
           </div>
