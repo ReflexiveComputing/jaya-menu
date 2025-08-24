@@ -38,17 +38,32 @@ export default async function MenuPage() {
               {
                 title: "Himalayan Trek",
                 background: "bg-global-lightblue",
-                image: "/masks/mask-4.png",
+                image: "/combo-background.jpg",
+                items: [
+                  { id: 1, name: "Momo", image: "/images/momo.png", description: "Steamed dumplings", price: 5.99 },
+                  { id: 2, name: "Thukpa", image: "/images/thukpa.png", description: "Noodle soup", price: 7.99 },
+                  { id: 3, name: "Dal Bhat", image: "/images/dal-bhat.png", description: "Lentil soup with rice", price: 6.99 },
+                ]
               },
               {
                 title: "Kathmandu Combo",
                 background: "bg-global-gold",
-                image: "/masks/mask-5.png",
+                image: "/combo-background-2.jpg",
+                items: [
+                  { id: 1, name: "Momo", image: "/images/momo.png", description: "Steamed dumplings", price: 5.99 },
+                  { id: 2, name: "Thukpa", image: "/images/thukpa.png", description: "Noodle soup", price: 7.99 },
+                  { id: 3, name: "Dal Bhat", image: "/images/dal-bhat.png", description: "Lentil soup with rice", price: 6.99 },
+                ]
               },
               {
                 title: "Everest Set",
                 background: "bg-global-green",
-                image: "/masks/mask-3.png",
+                image: "",
+                 items: [
+                  { id: 1, name: "Momo", image: "/images/momo.png", description: "Steamed dumplings", price: 5.99 },
+                  { id: 2, name: "Thukpa", image: "/images/thukpa.png", description: "Noodle soup", price: 7.99 },
+                  { id: 3, name: "Dal Bhat", image: "/images/dal-bhat.png", description: "Lentil soup with rice", price: 6.99 },
+                ]
               },
             ].map((combo, i) => (
               <ComboCard
