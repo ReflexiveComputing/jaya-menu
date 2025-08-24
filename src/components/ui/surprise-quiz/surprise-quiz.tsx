@@ -70,14 +70,14 @@ export default function SurpriseQuiz({ questions }: { questions: { id: number, q
 
                 <div className="m-auto py-6 flex-1 flex flex-col ">
                      <div className="px-6 text-center">
-                        <h2 className="text-4xl font-extrabold text-white drop-shadow-lg">
+                        <h2 className="text-3xl font-extrabold text-white drop-shadow-lg">
                             {currentQ.question}
                         </h2>
                     </div>
                     <div className="px-6 py-6 text-center">
                         <div className="flex flex-col gap-4 mx-auto max-w-sm ">
                             {currentQ.answers.map((answer, idx) => (
-                                <Button className="text-lg font-semibold" size="mid" variant="surpriseMeSecondary" key={idx} onClick={() => handleAnswerSelect(answer)}>
+                                <Button className="text-lg font-semibold h-24 text-center text-wrap" size="mid" variant="surpriseMeSecondary" key={idx} onClick={() => handleAnswerSelect(answer)}>
                                     {answer}
                                 </Button>
                             ))}

@@ -7,52 +7,72 @@ export default async function SurprisePage() {
   const questions = [
     {
       id: 1,
-      question: t('questions.memories'),
+      title: "Himalayan Warmth",
+      question: "The mountains can be gentle or fierce — how warm should your flavors be today?",
       answers: [
-        t('answers.grandmothersKitchen'),
-        t('answers.streetFood'),
-        t('answers.familyDinners'),
-        t('answers.weekendBarbecues')
+        "Gentle as a spring breeze",
+        "Warming like a mountain hearth",
+        "Fiery as a Himalayan trail"
       ],
     },
     {
       id: 2,
-      question: t('questions.mealTime'),
+      title: "Ancient Paths",
+      question: "Which path shall we walk together?",
       answers: [
-        t('answers.quickBreakfast'),
-        t('answers.heartyLunch'),
-        t('answers.lateNightSnack'),
-        t('answers.weekendBrunch')
+        "The Tibetan road — momos, thukpa & sizzling woks",
+        "The Nepalese heartland — dal bhat, tarkari & curry",
+        "A fusion trek — spices & ideas from all over Asia"
       ],
     },
     {
       id: 3,
-      question: t('questions.adventurous'),
+      title: "Safe Ingredients",
+      question: "The Himalayas offer many blessings, which ingredients should we gently leave out?",
       answers: [
-        t('answers.keepClassic'),
-        t('answers.mildExploration'),
-        t('answers.bringHeat'),
-        t('answers.surpriseMe')
+        "Peanuts",
+        "Dairy",
+        "Gluten",
+        "Crustaceans",
+        "Eggs",
+        "Mustard",
+        "Sesame",
+        "Soy",
+        "Tree nuts",
+        "None"
       ],
     },
     {
       id: 4,
-      question: t('questions.adventurous'),
+      title: "Energy for the Journey",
+      question: "Every traveler needs strength — what shall be yours?",
       answers: [
-        t('answers.keepClassic'),
-        t('answers.mildExploration'),
-        t('answers.bringHeat'),
-        t('answers.surpriseMe')
+        "Chicken — for steady stamina",
+        "Lamb — for bold strength",
+        "Paneer — for comforting nourishment",
+        "Tofu & vegetables — for light harmony"
       ],
     },
     {
       id: 5,
-      question: t('questions.adventurous'),
+      title: "Feast or Retreat",
+      question: "Shall tonight be a grand feast or a quiet retreat?",
       answers: [
-        t('answers.keepClassic'),
-        t('answers.mildExploration'),
-        t('answers.bringHeat'),
-        t('answers.surpriseMe')
+        "A small plate, like a village tea break",
+        "A full thali, like a family celebration",
+        "A chef’s surprise, like an unplanned journey"
+      ],
+    },
+    {
+      id: 6,
+      title: "Refreshment for the Soul",
+      question: "From the peaks to the valleys, what shall quench your thirst?",
+      answers: [
+        "Tea & Coffee",
+        "Soft Drinks & Juices",
+        "Beer",
+        "Wine",
+        "Cocktails & Spirits"
       ],
     },
   ]
