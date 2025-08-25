@@ -29,7 +29,7 @@ const buttonVariants = cva(
         surpriseMe:
           "uppercase w-full bg-white text-highlight text-4xl font-bold rounded-xs shadow-lg",
         surpriseMeSecondary:
-          "flex uppercase w-full bg-none text-white text-4xl font-bold rounded-xs border-4 border-white shadow-lg",
+          "flex capitalize w-full bg-none text-white text-4xl font-bold rounded-xs border-4 border-white shadow-lg",
         wishlist:
           "bg-global-green text-white text-lg font-bold shadow-xs hover:bg-primary/90",
       },
