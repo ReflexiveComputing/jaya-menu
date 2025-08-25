@@ -1,7 +1,7 @@
 "use client"
 
 import React from "react"
-import { Utensils, Heart, Settings2, CupSoda } from "lucide-react"
+import { Utensils, Heart, Settings2, CupSoda, Coffee } from "lucide-react"
 import {Link} from '@/i18n/routing';
 import {useTranslations} from 'next-intl';
 
@@ -53,7 +53,7 @@ export function BottomNavbar({ selectedNav, onNavClick }: BottomNavbarProps) {
           onClick={() => onNavClick("combos")}
         >
           <Link href="/drinks" className="flex flex-col items-center gap-1">
-            <CupSoda className="m-auto w-6 h-6" />
+            <Coffee className="m-auto w-6 h-6" />
             <span className="text-xs font-medium">{t('drinks')}</span>
           </Link>
         </button>
