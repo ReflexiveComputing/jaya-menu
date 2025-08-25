@@ -61,12 +61,12 @@ export default async function MenuPage() {
               },
               {
                 title: "Everest Set",
-                background: "bg-global-green",
+                background: "bg-global-blue",
                 image: "",
-                 items: [
-                  { id: 1, name: "Momo", image: "/4.jpg", description: "Steamed dumplings", price: 5.99 },
-                  { id: 2, name: "Thukpa", image: "/nila-3rd-image.png", description: "Noodle soup", price: 7.99 },
-                  { id: 3, name: "Dal Bhat", image: "/nila-5th-image.png", description: "Lentil soup with rice", price: 6.99 },
+                 items: [ 
+                   { id: 2, name: "Thukpa", image: "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/64.png", description: "Noodle soup", price: 7.99 },
+                  { id: 1, name: "Momo", image: "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/41.png", description: "Steamed dumplings", price: 5.99 },
+                  { id: 3, name: "Dal Bhat", image: "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/khasi_saag.png", description: "Lentil soup with rice", price: 6.99 },
                 ]
               },
             ].map((combo, i) => (
