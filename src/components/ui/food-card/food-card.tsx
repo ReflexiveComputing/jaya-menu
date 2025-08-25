@@ -33,7 +33,7 @@ export function FoodCard({
   const likes = Math.floor(Math.random() * 50) + 1
   return (
     <Link href={`/item/${item.id}`} className="block">
-      <div className="flex-shrink-0 w-80 bg-white rounded-sm shadow-sm overflow-hidden">
+      <div className="flex-shrink-0 w-75 bg-white rounded-sm shadow-sm overflow-hidden">
         <div className="relative">
           <div className="h-48 bg-gradient-to-br rounded-t-sm overflow-hidden">
             <Image
@@ -50,15 +50,21 @@ export function FoodCard({
             likes={likes}
           />
         </div>
-        <div className="p-4">
+        <div className="px-4 py-2">
           <div className="flex flex-col items-center justify-between mb-2">
             <div className="flex items-left justify-between w-full">
               <h3 className="font-bold text-lg mb-1">{item.name}</h3>
-              <p className="font-bold text-xl mb-1">{item.price}</p>
+              <p className="font-bold text-lg mb-1">{item.price}€</p>
             </div>
             <div className="justify-start w-full">
-              <p className="text-gray-600 text-sm mb-3 min-h-10 max-h-10">{item.description}</p>
-              
+              <p className="text-gray-600 text-sm mb-1 min-h-10 max-h-10">
+                {item.description
+                  .split(' ')
+                  .slice(0, 10)
+                  .join(' ')
+                }
+                {item.description.split(' ').length > 10 ? '…' : ''}
+              </p>
             </div>
           </div>
           <div className="flex items-center justify-between">
