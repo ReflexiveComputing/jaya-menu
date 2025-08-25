@@ -50,7 +50,7 @@ export function FoodCardSlider({
     <Link href={`/item/${item.id}`} className="block">
       <div className={wrapperClass}>
         <div className="relative">
-          <div className="rounded-t-sm">
+          <div className="rounded-t-sm bg-stone-200">
             <ImageSlider
               images={item.images}
               size={compact ? 'sm' : 'md'}
