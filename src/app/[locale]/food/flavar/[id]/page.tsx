@@ -5,11 +5,11 @@ import {Link} from '@/i18n/routing';
 import {getTranslations} from 'next-intl/server';
 import menuData from '@/lib/static/menu.json';
 import drinksData from '@/lib/static/drinks.json';
-import { MenuItem } from '@/types/menu';
+import { MenuItemNew } from '@/types/menu';
 
 // menu.json / drinks.json are static JSON files; cast to MenuItem[] for TS correctness
-const menu: MenuItem[] = menuData as unknown as MenuItem[];
-const drinks: MenuItem[] = drinksData as unknown as MenuItem[];
+const menu: MenuItemNew[] = menuData as unknown as MenuItemNew[];
+const drinks: MenuItemNew[] = drinksData as unknown as MenuItemNew[];
 
 export const revalidate = 600
 
@@ -21,8 +21,8 @@ function cap(s: string) { return s.charAt(0).toUpperCase() + s.slice(1) }
 
 export default async function FlavarItemPage({ params }: { params: Promise<{ id: string }> }) {
   const resolvedParams = await params;
-  const id = Number(resolvedParams.id)
-  const item = menu.find((m: MenuItem) => m.id === id)
+  const id = resolvedParams.id;
+  const item = menu.find((m: MenuItemNew) => String(m.id) === id)
   const t = await getTranslations('Menu');
 
   // background classes (same order as used on /food combo cards)
@@ -34,7 +34,6 @@ export default async function FlavarItemPage({ params }: { params: Promise<{ id:
     'bg-global-gold'
   ]
 
-  const currentBg = bgClasses[(Math.max(1, id) - 1) % bgClasses.length]
 
   if (!item) {
     // If id not found, redirect back to /food
@@ -69,7 +68,7 @@ export default async function FlavarItemPage({ params }: { params: Promise<{ id:
               const selectedMenu = shuffle(menuPool).slice(0, 2)
               const selectedDrink = shuffle(drinkPool).slice(0, 1)
 
-              const comboItems: MenuItem[] = [...selectedMenu, ...selectedDrink]
+              const comboItems: MenuItemNew[] = [...selectedMenu, ...selectedDrink]
 
               return (
                 <div className="flex flex-col gap-6">

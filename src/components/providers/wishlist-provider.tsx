@@ -1,18 +1,19 @@
 "use client"
 
 import React, { createContext, useContext, useEffect, useState } from "react"
-import { MenuItem } from "@/types/menu"
+import type { MenuItemNew } from "@/types/menu"
+import type { Drink } from "@/types/drink"
 
 interface WishlistContextValue {
-  favorites: MenuItem[]
-  toggle: (item: MenuItem) => void
-  isFavorite: (id: number) => boolean
+  favorites: MenuItemNew[]
+  toggle: (item: MenuItemNew) => void
+  isFavorite: (id: string | number) => boolean
 }
 
 const WishlistContext = createContext<WishlistContextValue | null>(null)
 
 export function WishlistProvider({ children }: { children: React.ReactNode }) {
-  const [favorites, setFavorites] = useState<MenuItem[]>([])
+  const [favorites, setFavorites] = useState<MenuItemNew[]>([])
 
   useEffect(() => {
     const stored = localStorage.getItem("wishlist")
@@ -23,13 +24,13 @@ export function WishlistProvider({ children }: { children: React.ReactNode }) {
     localStorage.setItem("wishlist", JSON.stringify(favorites))
   }, [favorites])
 
-  const toggle = (item: MenuItem) => {
+  const toggle = (item: MenuItemNew) => {
     setFavorites(favorites =>
-      favorites.some(i => i.id === item.id) ? favorites.filter(i => i.id !== item.id) : [...favorites, item]
+      favorites.some(i => String(i.id) === String(item.id)) ? favorites.filter(i => String(i.id) !== String(item.id)) : [...favorites, item]
     )
   }
 
-  const isFavorite = (id: number) => favorites.some(item => item.id === id)
+  const isFavorite = (id: string | number) => favorites.some(item => String(item.id) === String(id))
 
 
   return (

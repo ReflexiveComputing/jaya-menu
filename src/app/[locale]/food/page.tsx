@@ -1,7 +1,8 @@
 import { Header } from "@/components/ui/header"
 import { SectionDivider } from "@/components/ui/section-divider"
 import { FoodCard } from "@/components/ui/food-card/food-card"
-import { fetchMenuCategories, fetchMenuCategoryItems, fetchMenuTopThisMonth } from "@/lib/server/menu-fetch"
+import { fetchMenuCategoriesFromApi, fetchMenuCategoryItemsFromApi, fetchMenuTopThisMonthFromApi } from "@/lib/server/menu-fetch-api"
+import type { MenuItemNew } from "@/types/menu"
 import { getTranslations } from 'next-intl/server';
 import { ComboCard } from "@/components/ui/combo-card/combo-card";
 
@@ -12,16 +13,19 @@ function cap(s: string) { return s.charAt(0).toUpperCase() + s.slice(1) }
 export default async function MenuPage() {
   const t = await getTranslations('Menu');
 
-  // Parallel fetch
-  const [categories, topItems] = await Promise.all([
-    fetchMenuCategories(),
-    fetchMenuTopThisMonth(3)
-  ])
+  // Parallel fetch (API-shaped data)
+  const [categories, topItemsNew] = await Promise.all([
+    fetchMenuCategoriesFromApi(),
+    fetchMenuTopThisMonthFromApi(3)
+  ]) as [string[], MenuItemNew[]];
 
-  // Preload all category items (if many categories consider streaming / pagination)
+  // Preload all category items (API-shaped). We'll update components to accept this shape later.
   const categoryEntries = await Promise.all(
-    categories.map(async c => [c, await fetchMenuCategoryItems(c)] as const)
-  )
+    categories.map(async c => [c, await fetchMenuCategoryItemsFromApi(c)] as const)
+  ) as readonly (readonly [string, MenuItemNew[]])[];
+
+  // keep naming compatible with rendering below
+  const topItems = topItemsNew;
 
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
@@ -60,7 +64,7 @@ export default async function MenuPage() {
                 background: "bg-global-green",
                 image: "",
                  items: [
-                  { id: 1, name: "Momo", image: "/nila-4th-image.png", description: "Steamed dumplings", price: 5.99 },
+                  { id: 1, name: "Momo", image: "/4.jpg", description: "Steamed dumplings", price: 5.99 },
                   { id: 2, name: "Thukpa", image: "/nila-3rd-image.png", description: "Noodle soup", price: 7.99 },
                   { id: 3, name: "Dal Bhat", image: "/nila-5th-image.png", description: "Lentil soup with rice", price: 6.99 },
                 ]
@@ -107,7 +111,7 @@ export default async function MenuPage() {
               />
               <div className="overflow-x-auto scrollbar-hide">
                 <div className="flex gap-4 px-4 pb-2">
-                  {items.slice(0, 5).map(item => (
+                  {items.map(item => (
                     <FoodCard
                       key={item.id}
                       item={item}

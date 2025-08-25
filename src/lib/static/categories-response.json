@@ -1,0 +1,135 @@
+{
+    "data": [
+        {
+            "id": "a06954ff-8cb1-4e1f-b3ed-76ca6f27a192",
+            "name": "dumplings",
+            "display_name": "Dumplings",
+            "description": "Handmade tibetan dumplings",
+            "color": "#FFD700",
+            "is_active": true,
+            "created_at": "2025-08-24T10:28:20.185647Z",
+            "updated_at": "2025-08-24T10:28:20.185647Z"
+        },
+        {
+            "id": "6c5c4f8f-8d18-460a-bc02-b7560b63eea5",
+            "name": "fusion",
+            "display_name": "Fusion",
+            "description": "Fusion cuisine combining different culinary traditions",
+            "color": "#FF6B6B",
+            "is_active": true,
+            "created_at": "2025-08-24T10:28:20.185647Z",
+            "updated_at": "2025-08-24T10:28:20.185647Z"
+        },
+        {
+            "id": "e174bce9-d265-432e-a3dd-3747bbae6876",
+            "name": "nepalese",
+            "display_name": "Nepalese",
+            "description": "Authentic Nepalese recipes and ingredients",
+            "color": "#45B7D1",
+            "is_active": true,
+            "created_at": "2025-08-24T10:28:20.185647Z",
+            "updated_at": "2025-08-24T10:28:20.185647Z"
+        },
+        {
+            "id": "9f2c32f5-50e5-42c5-8470-6ad881a4ee37",
+            "name": "non_veg",
+            "display_name": "Non Vegetarian",
+            "description": "Non-vegetarian dishes from Nepal",
+            "color": "#FFD700",
+            "is_active": true,
+            "created_at": "2025-08-24T10:28:20.185647Z",
+            "updated_at": "2025-08-24T10:28:20.185647Z"
+        },
+        {
+            "id": "6ee1a970-2f54-46e3-8145-edfdcad59817",
+            "name": "noodles_and_fried_rice",
+            "display_name": "Noodles & Fried Rice",
+            "description": "Stir-fried noodles and rice specialties",
+            "color": "#FFD700",
+            "is_active": true,
+            "created_at": "2025-08-24T10:28:20.185647Z",
+            "updated_at": "2025-08-24T10:28:20.185647Z"
+        },
+        {
+            "id": "ce821b68-d6d2-443e-b563-44cc42957faf",
+            "name": "salad",
+            "display_name": "Salad",
+            "description": "Fresh and healthy salad selections",
+            "color": "#FFD700",
+            "is_active": true,
+            "created_at": "2025-08-24T10:28:20.185647Z",
+            "updated_at": "2025-08-24T10:28:20.185647Z"
+        },
+        {
+            "id": "5712a86a-938f-4571-8da7-1b60579cf551",
+            "name": "sekuwa_grill",
+            "display_name": "Sekuwa Grill",
+            "description": "Traditional grilled dishes",
+            "color": "#FFD700",
+            "is_active": true,
+            "created_at": "2025-08-24T10:28:20.185647Z",
+            "updated_at": "2025-08-24T10:28:20.185647Z"
+        },
+        {
+            "id": "64629b1d-31eb-4083-8309-4d0399749f6a",
+            "name": "sizzler",
+            "display_name": "Sizzler",
+            "description": "Hot sizzling plates with meat and vegetables",
+            "color": "#FFD700",
+            "is_active": true,
+            "created_at": "2025-08-24T10:28:20.185647Z",
+            "updated_at": "2025-08-24T10:28:20.185647Z"
+        },
+        {
+            "id": "a0c5481a-93f5-4d1b-98ea-76b6fe69e17d",
+            "name": "soup",
+            "display_name": "Soup",
+            "description": "Traditional soups and broths",
+            "color": "#FFD700",
+            "is_active": true,
+            "created_at": "2025-08-24T10:28:20.185647Z",
+            "updated_at": "2025-08-24T10:28:20.185647Z"
+        },
+        {
+            "id": "650bbbd4-e664-4ff6-aee5-96356f45815e",
+            "name": "szechuan",
+            "display_name": "Szechuan",
+            "description": "Spicy Szechuan-influenced dishes",
+            "color": "#FFD700",
+            "is_active": true,
+            "created_at": "2025-08-24T10:28:20.185647Z",
+            "updated_at": "2025-08-24T10:28:20.185647Z"
+        },
+        {
+            "id": "1b84e150-9221-4314-991d-e38ae08cad04",
+            "name": "tibetan",
+            "display_name": "Tibetan",
+            "description": "Traditional Tibetan dishes and flavors",
+            "color": "#4ECDC4",
+            "is_active": true,
+            "created_at": "2025-08-24T10:28:20.185647Z",
+            "updated_at": "2025-08-24T10:28:20.185647Z"
+        },
+        {
+            "id": "33097e57-909a-4133-84e5-db9b61cc8433",
+            "name": "vegan",
+            "display_name": "Vegan",
+            "description": "Vegan dishes and drinks",
+            "color": "#90EE90",
+            "is_active": true,
+            "created_at": "2025-08-24T10:28:20.185647Z",
+            "updated_at": "2025-08-24T10:28:20.185647Z"
+        },
+        {
+            "id": "5cd351e0-91b9-42f0-9bc0-4164e29be09f",
+            "name": "vegetarian",
+            "display_name": "Vegetarian",
+            "description": "Meat-free dishes suitable for vegetarians",
+            "color": "#FFD700",
+            "is_active": true,
+            "created_at": "2025-08-24T10:28:20.185647Z",
+            "updated_at": "2025-08-24T10:28:20.185647Z"
+        }
+    ],
+    "success": true
+}

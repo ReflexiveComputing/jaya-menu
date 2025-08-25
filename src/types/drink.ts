@@ -2,22 +2,36 @@ import type { CategoryObject } from "@/types/menu";
 
 export type Drink = {
   id: string;
-  restaurant_id: string;
-  category_id: string;
   name: string;
   description: string;
   long_description: string | null;
   price: number;
-  thumbnail_url: string | null;
+  thumbnail_url: string;
   images: string[];
-  is_alcoholic: boolean;
   is_available: boolean;
-  created_at: string;
-  updated_at: string;
-  category: CategoryObject;
+  category: {
+    name: string;
+    description: string;
+    is_active: boolean;
+    is_drink: boolean;
+  };
+  tags: string[];
+  specials?: {
+    name: string;
+    description: string;
+    icon: string;
+  }[];
+  protein?: {
+    name: string;
+    description: string;
+  };
+  spice?: {
+    name: string;
+    description: string;
+  };
   likes?: number;
 };
 
 export type DrinksApiResponse = Record<string, { drink_data: Drink }>;
 
-export default null;
+export default DrinksApiResponse;

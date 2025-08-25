@@ -7,7 +7,6 @@ import { Button } from "@/components/ui/button"
 import {Link} from '@/i18n/routing';
 import {useTranslations} from 'next-intl';
 import { useWishlist } from "@/components/providers/wishlist-provider"
-import { MenuItem } from "@/types/menu"
 
 export default function Wishlist() {
   const { favorites, toggle } = useWishlist()

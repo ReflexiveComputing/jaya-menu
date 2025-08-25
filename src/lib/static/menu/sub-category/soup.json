@@ -1,0 +1,212 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Crunchy Tofu Salad",
+      "description": "Leaf salad, arugula, cashew nuts, cherry tomatoes & crunchy tofu. The salad dressing includes mustard, agave syrup, olive oil, sesame oil, and apple cider vinegar.",
+      "long_description": null,
+      "price": 9.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/tofu_veg_thukpa.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/tofu_veg_thukpa.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/paneer_chilli.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/alu_chop.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Soup",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [
+        {
+          "name": "Limited Time",
+          "description": "Available for a limited time",
+          "icon": "⏳"
+        }
+      ],
+      "protein": {
+        "name": "tofu",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "453bdc48-3dc7-473c-bd50-789c1fef1c99"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Lamm Thukpa",
+      "description": "A traditional Tibetan noodle soup with roasted cumin, seasonal vegetables, and Szechuan pepper, served in a large bowl. Choose from rice noodles or wheat noodles.",
+      "long_description": null,
+      "price": 16.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/46.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/46.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/76.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/cocos_chicken.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Soup",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Vegan",
+          "description": "Vegan friendly",
+          "color": "green",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "lamb",
+        "description": ""
+      },
+      "spice": {
+        "name": "warming",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "4c745108-a610-4a80-a017-6472d7c65d4f"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Shikarni",
+      "description": "Yogurt blended with cinnamon & cardamom, featuring a milk ball, cashew nuts & almonds",
+      "long_description": null,
+      "price": 4.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/paneer_momo.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/paneer_momo.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/the_mitho_cha_experience.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/mix_momo.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Soup",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [
+        {
+          "name": "Healthy Choice",
+          "description": "Nutritious and healthy",
+          "icon": "🥗"
+        }
+      ],
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "2dd9b094-312b-4d2b-9912-a0bfb6808d6d"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Mixed Momo",
+      "description": "Chicken, Veg & Paneer Momos 9pc. The dough and fillings are entirely homemade and then hand-rolled with care. Served with peanut and tomato-coriander chutney. Steaming time: minimum 20 minutes!",
+      "long_description": null,
+      "price": 12.5,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/58.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/58.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/37.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/14.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Soup",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [
+        {
+          "name": "Customer Favorite",
+          "description": "Loved by customers",
+          "icon": "⭐"
+        }
+      ],
+      "protein": {
+        "name": "chicken",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "full",
+        "description": ""
+      },
+      "id": "a4961194-0935-4b70-9639-bf9a6d241676"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Ruslan Nepal Vodka",
+      "description": "Nepalese vodka",
+      "long_description": null,
+      "price": 3.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/19.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/19.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/65.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_sekuwa.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Soup",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Vegan",
+          "description": "Vegan friendly",
+          "color": "green",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Chef Special",
+          "description": "Signature dish by the chef",
+          "icon": "👨‍🍳"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "d58fce4a-b0c1-448b-8dea-fa80addf4a07"
+    }
+  }
+]

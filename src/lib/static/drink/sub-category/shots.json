@@ -1,0 +1,522 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Vodka Shot",
+      "description": "Vodka shot",
+      "long_description": null,
+      "price": 25,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/42.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/42.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/59.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/garlic_naan.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Shots",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [
+        {
+          "name": "Limited Time",
+          "description": "Available for a limited time",
+          "icon": "⏳"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "af40b484-19df-4948-b83e-3200896430f6"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Tequila Shot",
+      "description": "Tequila shot",
+      "long_description": null,
+      "price": 25,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/bhat.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/bhat.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_sekuwa.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/khasi_saag.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Shots",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "New",
+          "description": "Newly added menu items",
+          "color": "default",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "85295993-405c-4d69-813c-617ac2a1073d"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Amaretto Shot",
+      "description": "Amaretto shot",
+      "long_description": null,
+      "price": 25,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/28.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/28.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/42.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/papad.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Shots",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Vegan",
+          "description": "Vegan friendly",
+          "color": "green",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Limited Time",
+          "description": "Available for a limited time",
+          "icon": "⏳"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "e47632eb-a6af-49c0-b277-17a9ebbaf23d"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Jägermeister Shot",
+      "description": "Jägermeister shot",
+      "long_description": null,
+      "price": 25,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/65.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/65.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/58.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/sha_phaley.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Shots",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "3e309ae3-84b3-4017-a1f4-cc61b56c0f34"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Sambuca Shot",
+      "description": "Sambuca shot",
+      "long_description": null,
+      "price": 25,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/46.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/46.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/raita.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/sha_phaley.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Shots",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Vegan",
+          "description": "Vegan friendly",
+          "color": "green",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "7a47cf92-95ed-4f3a-855e-eb2f2f6c4e04"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Ramazotti Shot",
+      "description": "Ramazotti shot",
+      "long_description": null,
+      "price": 25,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/74.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/74.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/alu_chop.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/tofu_veg_thukpa.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Shots",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "77b64604-f5eb-4fe7-880f-ae21efe2e489"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Grappa Shot",
+      "description": "Grappa shot",
+      "long_description": null,
+      "price": 25,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/47.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/47.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/veg_chau_min.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/papad.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Shots",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [
+        {
+          "name": "Chef Special",
+          "description": "Signature dish by the chef",
+          "icon": "👨‍🍳"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "e5a3dab1-20be-4df2-a8a0-dea0e4b2fa96"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Mango Shot",
+      "description": "Mango liqueur shot",
+      "long_description": null,
+      "price": 25,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/garlic_naan.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/garlic_naan.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/68.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/paneer_momo.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Shots",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "New",
+          "description": "Newly added menu items",
+          "color": "default",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "3a84ce0a-d580-4cc1-82de-bcfebff64abc"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Guava Shot",
+      "description": "Guava liqueur shot",
+      "long_description": null,
+      "price": 25,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/48.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/48.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/71.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/19.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Shots",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "d92af6a3-6d50-4545-b946-e974056d75e5"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Likör 43 with Milk",
+      "description": "Likör 43 with milk (+1€)",
+      "long_description": null,
+      "price": 25,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/3.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/3.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/raita.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/khasi_saag.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Shots",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Vegan",
+          "description": "Vegan friendly",
+          "color": "green",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "1da605ab-2f26-49bc-ae52-68b5bfb690b5"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "B52",
+      "description": "Kahlua, Bailey's, 73% rum layered shot",
+      "long_description": null,
+      "price": 49,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/48.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/48.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/vegan_momo.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/37.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Shots",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "e0420bcb-8600-4c12-aa53-a3d8c8a26d58"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Jäger Bomb",
+      "description": "Jägermeister & Red Bull",
+      "long_description": null,
+      "price": 49,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/veg_mixed_starters.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/veg_mixed_starters.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/3.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_sekuwa.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Shots",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [
+        {
+          "name": "Chef Special",
+          "description": "Signature dish by the chef",
+          "icon": "👨‍🍳"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "792e7bae-0d19-4aa7-8ec8-1a344eb6bef4"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Orgasmus",
+      "description": "Sambuca & Bailey’s mix",
+      "long_description": null,
+      "price": 49,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_sate.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_sate.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/veg_chau_min.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/tofu_veg_thukpa.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Shots",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "d5604b50-65fa-416d-8b87-9152cae592bd"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Berliner Luft",
+      "description": "Minty German herbal shot",
+      "long_description": null,
+      "price": 25,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/vegan_momo.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/vegan_momo.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/67.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/40.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Shots",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "New",
+          "description": "Newly added menu items",
+          "color": "default",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Chef Special",
+          "description": "Signature dish by the chef",
+          "icon": "👨‍🍳"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "fbccc8db-133f-4166-a047-357b8cf70a40"
+    }
+  }
+]

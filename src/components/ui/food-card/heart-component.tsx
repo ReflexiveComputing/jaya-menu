@@ -2,7 +2,8 @@ import * as React from "react"
 import { cva, type VariantProps } from "class-variance-authority"
 import { cn } from "@/lib/utils"
 import { Heart } from "lucide-react"
-import { MenuItem } from "@/types/menu"
+import type { MenuItemNew } from "@/types/menu"
+import { Drink } from "@/types/drink"
 
 const heartVariants = cva(
   "w-5 h-5", // base size for icon
@@ -25,12 +26,13 @@ function getHeartIconClass(liked: boolean, variant: "default" | "green" | "red" 
   return liked ? heartVariants({ variant }) : heartVariants({ variant: "default" })
 }
 
+
 interface HeartProps extends VariantProps<typeof heartVariants> {
   className?: string
   liked?: boolean
   likes?: number
-  item: MenuItem
-  toggleFavorite: (item: MenuItem) => void
+  item: MenuItemNew
+  toggleFavorite: (item: MenuItemNew) => void
 }
 
 export function HeartCounter({

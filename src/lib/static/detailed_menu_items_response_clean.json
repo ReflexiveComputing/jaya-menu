@@ -9,8 +9,10 @@
         "description": "Steamed dumplings with vegetables",
         "long_description": null,
         "price": 11.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-6th-image.png",
+        "images": [
+          "/nila-6th-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.194063Z",
         "updated_at": "2025-08-16T22:53:10.194063Z",
@@ -28,7 +30,7 @@
             "id": "380e57e9-760a-454c-ba67-fe279c6c3c97",
             "name": "tibetan",
             "description": "Traditional Tibetan dishes and flavors",
-            "color": "#4ECDC4",
+            "color": "green",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -67,8 +69,10 @@
         "description": "Spicy green curry with vegetables",
         "long_description": null,
         "price": 15.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-2nd-image.png",
+        "images": [
+          "/nila-1st-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.199375Z",
         "updated_at": "2025-08-16T22:53:10.199375Z",
@@ -86,7 +90,7 @@
             "id": "3b1c2f48-654e-486d-909e-d1036592f43a",
             "name": "nepalese",
             "description": "Authentic Nepalese recipes and ingredients",
-            "color": "#45B7D1",
+            "color": "gold",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -125,8 +129,10 @@
         "description": "Stir-fried lamb with spices",
         "long_description": null,
         "price": 21.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-3rd-image.png",
+        "images": [
+          "/nila-1st-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.199375Z",
         "updated_at": "2025-08-16T22:53:10.199375Z",
@@ -144,7 +150,7 @@
             "id": "380e57e9-760a-454c-ba67-fe279c6c3c97",
             "name": "tibetan",
             "description": "Traditional Tibetan dishes and flavors",
-            "color": "#4ECDC4",
+            "color": "green",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -183,8 +189,10 @@
         "description": "Lamb with spinach",
         "long_description": null,
         "price": 16.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-1st-image.png",
+        "images": [
+          "/nila-5th-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.199375Z",
         "updated_at": "2025-08-16T22:53:10.199375Z",
@@ -202,7 +210,7 @@
             "id": "3b1c2f48-654e-486d-909e-d1036592f43a",
             "name": "nepalese",
             "description": "Authentic Nepalese recipes and ingredients",
-            "color": "#45B7D1",
+            "color": "green",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -241,8 +249,10 @@
         "description": "Traditional lentil soup",
         "long_description": null,
         "price": 5.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-2nd-image.png",
+        "images": [
+          "/nila-3rd-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.194063Z",
         "updated_at": "2025-08-16T22:53:10.194063Z",
@@ -260,7 +270,7 @@
             "id": "4b8313b0-67db-4184-85c8-fc9160cf2e38",
             "name": "fusion",
             "description": "Fusion cuisine combining different culinary traditions",
-            "color": "#FF6B6B",
+            "color": "gold",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -299,8 +309,10 @@
         "description": "Grilled chicken skewers",
         "long_description": null,
         "price": 19.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-2nd-image.png",
+        "images": [
+          "/nila-2nd-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.199375Z",
         "updated_at": "2025-08-16T22:53:10.199375Z",
@@ -318,7 +330,7 @@
             "id": "4b8313b0-67db-4184-85c8-fc9160cf2e38",
             "name": "fusion",
             "description": "Fusion cuisine combining different culinary traditions",
-            "color": "#FF6B6B",
+            "color": "gold",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -357,8 +369,10 @@
         "description": "Yogic rice preparation",
         "long_description": null,
         "price": 12.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-5th-image.png",
+        "images": [
+          "/nila-4th-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.199375Z",
         "updated_at": "2025-08-16T22:53:10.199375Z",
@@ -376,7 +390,7 @@
             "id": "3b1c2f48-654e-486d-909e-d1036592f43a",
             "name": "nepalese",
             "description": "Authentic Nepalese recipes and ingredients",
-            "color": "#45B7D1",
+            "color": "green",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -415,8 +429,10 @@
         "description": "Spicy chicken appetizer",
         "long_description": null,
         "price": 9.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-4th-image.png",
+        "images": [
+          "/nila-2nd-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.194063Z",
         "updated_at": "2025-08-16T22:53:10.194063Z",
@@ -434,7 +450,7 @@
             "id": "4b8313b0-67db-4184-85c8-fc9160cf2e38",
             "name": "fusion",
             "description": "Fusion cuisine combining different culinary traditions",
-            "color": "#FF6B6B",
+            "color": "gold",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -473,8 +489,10 @@
         "description": "Spicy lamb with vegetables and peanuts",
         "long_description": null,
         "price": 22.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-3rd-image.png",
+        "images": [
+          "/nila-4th-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.199375Z",
         "updated_at": "2025-08-16T22:53:10.199375Z",
@@ -492,7 +510,7 @@
             "id": "380e57e9-760a-454c-ba67-fe279c6c3c97",
             "name": "tibetan",
             "description": "Traditional Tibetan dishes and flavors",
-            "color": "#4ECDC4",
+            "color": "purple",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -531,8 +549,10 @@
         "description": "Grilled paneer and vegetables",
         "long_description": null,
         "price": 18.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-2nd-image.png",
+        "images": [
+          "/nila-6th-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.199375Z",
         "updated_at": "2025-08-16T22:53:10.199375Z",
@@ -550,7 +570,7 @@
             "id": "4b8313b0-67db-4184-85c8-fc9160cf2e38",
             "name": "fusion",
             "description": "Fusion cuisine combining different culinary traditions",
-            "color": "#FF6B6B",
+            "color": "gold",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -589,8 +609,10 @@
         "description": "Tofu with almonds",
         "long_description": null,
         "price": 14.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-5th-image.png",
+        "images": [
+          "/nila-3rd-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.199375Z",
         "updated_at": "2025-08-16T22:53:10.199375Z",
@@ -608,7 +630,7 @@
             "id": "3b1c2f48-654e-486d-909e-d1036592f43a",
             "name": "nepalese",
             "description": "Authentic Nepalese recipes and ingredients",
-            "color": "#45B7D1",
+            "color": "green",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -647,8 +669,10 @@
         "description": "Special chicken preparation",
         "long_description": null,
         "price": 15.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-6th-image.png",
+        "images": [
+          "/nila-3rd-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.199375Z",
         "updated_at": "2025-08-16T22:53:10.199375Z",
@@ -666,7 +690,7 @@
             "id": "3b1c2f48-654e-486d-909e-d1036592f43a",
             "name": "nepalese",
             "description": "Authentic Nepalese recipes and ingredients",
-            "color": "#45B7D1",
+            "color": "green",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -705,8 +729,10 @@
         "description": "Steamed dumplings with paneer",
         "long_description": null,
         "price": 11.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-1st-image.png",
+        "images": [
+          "/nila-3rd-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.194063Z",
         "updated_at": "2025-08-16T22:53:10.194063Z",
@@ -724,7 +750,7 @@
             "id": "380e57e9-760a-454c-ba67-fe279c6c3c97",
             "name": "tibetan",
             "description": "Traditional Tibetan dishes and flavors",
-            "color": "#4ECDC4",
+            "color": "purple",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -763,8 +789,10 @@
         "description": "Duck with almonds",
         "long_description": null,
         "price": 18.5,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-3rd-image.png",
+        "images": [
+          "/nila-6th-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.199375Z",
         "updated_at": "2025-08-16T22:53:10.199375Z",
@@ -782,7 +810,7 @@
             "id": "3b1c2f48-654e-486d-909e-d1036592f43a",
             "name": "nepalese",
             "description": "Authentic Nepalese recipes and ingredients",
-            "color": "#45B7D1",
+            "color": "green",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -821,8 +849,10 @@
         "description": "Traditional Nepali chicken curry",
         "long_description": null,
         "price": 13.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-2nd-image.png",
+        "images": [
+          "/nila-4th-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.199375Z",
         "updated_at": "2025-08-16T22:53:10.199375Z",
@@ -840,7 +870,7 @@
             "id": "3b1c2f48-654e-486d-909e-d1036592f43a",
             "name": "nepalese",
             "description": "Authentic Nepalese recipes and ingredients",
-            "color": "#45B7D1",
+            "color": "green",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -879,8 +909,10 @@
         "description": "Rice with lentils and meat",
         "long_description": null,
         "price": 20.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-3rd-image.png",
+        "images": [
+          "/nila-6th-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.199375Z",
         "updated_at": "2025-08-16T22:53:10.199375Z",
@@ -898,7 +930,7 @@
             "id": "3b1c2f48-654e-486d-909e-d1036592f43a",
             "name": "nepalese",
             "description": "Authentic Nepalese recipes and ingredients",
-            "color": "#45B7D1",
+            "color": "green",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -937,8 +969,10 @@
         "description": "Assorted non-vegetarian starters",
         "long_description": null,
         "price": 21.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-6th-image.png",
+        "images": [
+          "/nila-1st-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.194063Z",
         "updated_at": "2025-08-16T22:53:10.194063Z",
@@ -956,7 +990,7 @@
             "id": "4b8313b0-67db-4184-85c8-fc9160cf2e38",
             "name": "fusion",
             "description": "Fusion cuisine combining different culinary traditions",
-            "color": "#FF6B6B",
+            "color": "gold",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -995,8 +1029,10 @@
         "description": "Grilled lamb skewers",
         "long_description": null,
         "price": 22.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-3rd-image.png",
+        "images": [
+          "/nila-5th-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.199375Z",
         "updated_at": "2025-08-16T22:53:10.199375Z",
@@ -1014,7 +1050,7 @@
             "id": "4b8313b0-67db-4184-85c8-fc9160cf2e38",
             "name": "fusion",
             "description": "Fusion cuisine combining different culinary traditions",
-            "color": "#FF6B6B",
+            "color": "gold",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -1053,8 +1089,10 @@
         "description": "Everest-inspired appetizer",
         "long_description": null,
         "price": 6.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-4th-image.png",
+        "images": [
+          "/nila-2nd-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.194063Z",
         "updated_at": "2025-08-16T22:53:10.194063Z",
@@ -1072,7 +1110,7 @@
             "id": "4b8313b0-67db-4184-85c8-fc9160cf2e38",
             "name": "fusion",
             "description": "Fusion cuisine combining different culinary traditions",
-            "color": "#FF6B6B",
+            "color": "gold",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -1111,8 +1149,10 @@
         "description": "Lamb with potatoes",
         "long_description": null,
         "price": 16.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-2nd-image.png",
+        "images": [
+          "/nila-2nd-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.199375Z",
         "updated_at": "2025-08-16T22:53:10.199375Z",
@@ -1130,7 +1170,7 @@
             "id": "3b1c2f48-654e-486d-909e-d1036592f43a",
             "name": "nepalese",
             "description": "Authentic Nepalese recipes and ingredients",
-            "color": "#45B7D1",
+            "color": "green",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -1169,8 +1209,10 @@
         "description": "Spicy paneer with vegetables",
         "long_description": null,
         "price": 14.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-4th-image.png",
+        "images": [
+          "/nila-6th-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.199375Z",
         "updated_at": "2025-08-16T22:53:10.199375Z",
@@ -1188,7 +1230,7 @@
             "id": "3b1c2f48-654e-486d-909e-d1036592f43a",
             "name": "nepalese",
             "description": "Authentic Nepalese recipes and ingredients",
-            "color": "#45B7D1",
+            "color": "green",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -1227,8 +1269,10 @@
         "description": "Assorted steamed dumplings",
         "long_description": null,
         "price": 12.5,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-4th-image.png",
+        "images": [
+          "/nila-5th-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.194063Z",
         "updated_at": "2025-08-16T22:53:10.194063Z",
@@ -1246,7 +1290,7 @@
             "id": "380e57e9-760a-454c-ba67-fe279c6c3c97",
             "name": "tibetan",
             "description": "Traditional Tibetan dishes and flavors",
-            "color": "#4ECDC4",
+            "color": "purple",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -1285,8 +1329,10 @@
         "description": "Duck with coconut",
         "long_description": null,
         "price": 16.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-2nd-image.png",
+        "images": [
+          "/nila-5th-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.199375Z",
         "updated_at": "2025-08-16T22:53:10.199375Z",
@@ -1304,7 +1350,7 @@
             "id": "3b1c2f48-654e-486d-909e-d1036592f43a",
             "name": "nepalese",
             "description": "Authentic Nepalese recipes and ingredients",
-            "color": "#45B7D1",
+            "color": "green",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -1343,8 +1389,10 @@
         "description": "Sizzling chicken with vegetables",
         "long_description": null,
         "price": 18.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-4th-image.png",
+        "images": [
+          "/nila-1st-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.199375Z",
         "updated_at": "2025-08-16T22:53:10.199375Z",
@@ -1362,7 +1410,7 @@
             "id": "380e57e9-760a-454c-ba67-fe279c6c3c97",
             "name": "tibetan",
             "description": "Traditional Tibetan dishes and flavors",
-            "color": "#4ECDC4",
+            "color": "purple",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -1401,8 +1449,10 @@
         "description": "Spiced mixed vegetables",
         "long_description": null,
         "price": 6.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-3rd-image.png",
+        "images": [
+          "/nila-1st-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.194063Z",
         "updated_at": "2025-08-16T22:53:10.194063Z",
@@ -1420,7 +1470,7 @@
             "id": "3b1c2f48-654e-486d-909e-d1036592f43a",
             "name": "nepalese",
             "description": "Authentic Nepalese recipes and ingredients",
-            "color": "#45B7D1",
+            "color": "green",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -1459,8 +1509,10 @@
         "description": "Thai-style stir-fried noodles",
         "long_description": null,
         "price": 12.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-6th-image.png",
+        "images": [
+          "/nila-3rd-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.199375Z",
         "updated_at": "2025-08-16T22:53:10.199375Z",
@@ -1478,7 +1530,7 @@
             "id": "3b1c2f48-654e-486d-909e-d1036592f43a",
             "name": "nepalese",
             "description": "Authentic Nepalese recipes and ingredients",
-            "color": "#45B7D1",
+            "color": "green",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -1517,8 +1569,10 @@
         "description": "Tibetan noodle soup with tofu",
         "long_description": null,
         "price": 13.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-4th-image.png",
+        "images": [
+          "/nila-5th-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.194063Z",
         "updated_at": "2025-08-16T22:53:10.194063Z",
@@ -1536,7 +1590,7 @@
             "id": "4b8313b0-67db-4184-85c8-fc9160cf2e38",
             "name": "fusion",
             "description": "Fusion cuisine combining different culinary traditions",
-            "color": "#FF6B6B",
+            "color": "gold",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -1575,8 +1629,10 @@
         "description": "Spiced potato fritters",
         "long_description": null,
         "price": 6.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-3rd-image.png",
+        "images": [
+          "/nila-2nd-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.194063Z",
         "updated_at": "2025-08-16T22:53:10.194063Z",
@@ -1594,7 +1650,7 @@
             "id": "3b1c2f48-654e-486d-909e-d1036592f43a",
             "name": "nepalese",
             "description": "Authentic Nepalese recipes and ingredients",
-            "color": "#45B7D1",
+            "color": "green",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -1633,8 +1689,10 @@
         "description": "Chickpea curry with spices",
         "long_description": null,
         "price": 12.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-2nd-image.png",
+        "images": [
+          "/nila-4th-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.199375Z",
         "updated_at": "2025-08-16T22:53:10.199375Z",
@@ -1652,7 +1710,7 @@
             "id": "3b1c2f48-654e-486d-909e-d1036592f43a",
             "name": "nepalese",
             "description": "Authentic Nepalese recipes and ingredients",
-            "color": "#45B7D1",
+            "color": "green",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -1691,8 +1749,10 @@
         "description": "Assorted vegetarian starters",
         "long_description": null,
         "price": 18.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-6th-image.png",
+        "images": [
+          "/nila-1st-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.194063Z",
         "updated_at": "2025-08-16T22:53:10.194063Z",
@@ -1710,7 +1770,7 @@
             "id": "4b8313b0-67db-4184-85c8-fc9160cf2e38",
             "name": "fusion",
             "description": "Fusion cuisine combining different culinary traditions",
-            "color": "#FF6B6B",
+            "color": "gold",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -1749,8 +1809,10 @@
         "description": "Potato and eggplant curry",
         "long_description": null,
         "price": 13.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-4th-image.png",
+        "images": [
+          "/nila-4th-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.199375Z",
         "updated_at": "2025-08-16T22:53:10.199375Z",
@@ -1768,7 +1830,7 @@
             "id": "3b1c2f48-654e-486d-909e-d1036592f43a",
             "name": "nepalese",
             "description": "Authentic Nepalese recipes and ingredients",
-            "color": "#45B7D1",
+            "color": "green",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -1807,8 +1869,10 @@
         "description": "Vegetable chow mein",
         "long_description": null,
         "price": 12.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-5th-image.png",
+        "images": [
+          "/nila-4th-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.199375Z",
         "updated_at": "2025-08-16T22:53:10.199375Z",
@@ -1826,7 +1890,7 @@
             "id": "3b1c2f48-654e-486d-909e-d1036592f43a",
             "name": "nepalese",
             "description": "Authentic Nepalese recipes and ingredients",
-            "color": "#45B7D1",
+            "color": "green",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -1865,8 +1929,10 @@
         "description": "Spinach with fresh cheese",
         "long_description": null,
         "price": 11.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-6th-image.png",
+        "images": [
+          "/nila-6th-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.199375Z",
         "updated_at": "2025-08-16T22:53:10.199375Z",
@@ -1884,7 +1950,7 @@
             "id": "3b1c2f48-654e-486d-909e-d1036592f43a",
             "name": "nepalese",
             "description": "Authentic Nepalese recipes and ingredients",
-            "color": "#45B7D1",
+            "color": "green",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -1923,8 +1989,10 @@
         "description": "Mixed vegetables with cashews",
         "long_description": null,
         "price": 14.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-5th-image.png",
+        "images": [
+          "/nila-5th-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.199375Z",
         "updated_at": "2025-08-16T22:53:10.199375Z",
@@ -1942,7 +2010,7 @@
             "id": "3b1c2f48-654e-486d-909e-d1036592f43a",
             "name": "nepalese",
             "description": "Authentic Nepalese recipes and ingredients",
-            "color": "#45B7D1",
+            "color": "green",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -1981,8 +2049,10 @@
         "description": "Tibetan noodle soup with lamb",
         "long_description": null,
         "price": 16.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-6th-image.png",
+        "images": [
+          "/nila-2nd-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.194063Z",
         "updated_at": "2025-08-16T22:53:10.194063Z",
@@ -2000,7 +2070,7 @@
             "id": "4b8313b0-67db-4184-85c8-fc9160cf2e38",
             "name": "fusion",
             "description": "Fusion cuisine combining different culinary traditions",
-            "color": "#FF6B6B",
+            "color": "gold",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -2039,8 +2109,10 @@
         "description": "Spicy tofu with vegetables and peanuts",
         "long_description": null,
         "price": 16.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-2nd-image.png",
+        "images": [
+          "/nila-2nd-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.199375Z",
         "updated_at": "2025-08-16T22:53:10.199375Z",
@@ -2058,7 +2130,7 @@
             "id": "380e57e9-760a-454c-ba67-fe279c6c3c97",
             "name": "tibetan",
             "description": "Traditional Tibetan dishes and flavors",
-            "color": "#4ECDC4",
+            "color": "purple",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -2097,8 +2169,10 @@
         "description": "Rice with lentils and vegetables",
         "long_description": null,
         "price": 17.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-1st-image.png",
+        "images": [
+          "/nila-2nd-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.199375Z",
         "updated_at": "2025-08-16T22:53:10.199375Z",
@@ -2116,7 +2190,7 @@
             "id": "3b1c2f48-654e-486d-909e-d1036592f43a",
             "name": "nepalese",
             "description": "Authentic Nepalese recipes and ingredients",
-            "color": "#45B7D1",
+            "color": "green",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -2155,8 +2229,10 @@
         "description": "Fresh salad with crispy chicken",
         "long_description": null,
         "price": 11.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-1st-image.png",
+        "images": [
+          "/nila-5th-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.194063Z",
         "updated_at": "2025-08-16T22:53:10.194063Z",
@@ -2174,7 +2250,7 @@
             "id": "4b8313b0-67db-4184-85c8-fc9160cf2e38",
             "name": "fusion",
             "description": "Fusion cuisine combining different culinary traditions",
-            "color": "#FF6B6B",
+            "color": "gold",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -2213,8 +2289,10 @@
         "description": "Tibetan meat pie",
         "long_description": null,
         "price": 7.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-1st-image.png",
+        "images": [
+          "/nila-4th-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.194063Z",
         "updated_at": "2025-08-16T22:53:10.194063Z",
@@ -2232,7 +2310,7 @@
             "id": "380e57e9-760a-454c-ba67-fe279c6c3c97",
             "name": "tibetan",
             "description": "Traditional Tibetan dishes and flavors",
-            "color": "#4ECDC4",
+            "color": "purple",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -2271,8 +2349,10 @@
         "description": "Steamed dumplings with chicken",
         "long_description": null,
         "price": 12.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-4th-image.png",
+        "images": [
+          "/nila-5th-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.194063Z",
         "updated_at": "2025-08-16T22:53:10.194063Z",
@@ -2290,7 +2370,7 @@
             "id": "380e57e9-760a-454c-ba67-fe279c6c3c97",
             "name": "tibetan",
             "description": "Traditional Tibetan dishes and flavors",
-            "color": "#4ECDC4",
+            "color": "purple",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -2329,8 +2409,10 @@
         "description": "Grilled chicken skewers with peanut sauce",
         "long_description": null,
         "price": 7.5,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-4th-image.png",
+        "images": [
+          "/nila-5th-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.194063Z",
         "updated_at": "2025-08-16T22:53:10.194063Z",
@@ -2348,7 +2430,7 @@
             "id": "4b8313b0-67db-4184-85c8-fc9160cf2e38",
             "name": "fusion",
             "description": "Fusion cuisine combining different culinary traditions",
-            "color": "#FF6B6B",
+            "color": "gold",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"
@@ -2387,8 +2469,10 @@
         "description": "Fresh salad with crispy tofu",
         "long_description": null,
         "price": 9.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-5th-image.png",
+        "images": [
+          "/nila-6th-image.png"
+        ],
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.194063Z",
         "updated_at": "2025-08-16T22:53:10.194063Z",
@@ -2406,7 +2490,7 @@
             "id": "4b8313b0-67db-4184-85c8-fc9160cf2e38",
             "name": "fusion",
             "description": "Fusion cuisine combining different culinary traditions",
-            "color": "#FF6B6B",
+            "color": "gold",
             "is_active": true,
             "created_at": "2025-08-16T22:53:09.883425Z",
             "updated_at": "2025-08-16T22:53:09.883425Z"

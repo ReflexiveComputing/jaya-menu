@@ -1,0 +1,169 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Crispy Chicken Salad",
+      "description": "Leaf salad, arugula, cashew nuts, cherry tomatoes & chicken satay. The salad dressing includes mustard, agave syrup, olive oil, sesame oil, and apple cider vinegar. ",
+      "long_description": null,
+      "price": 11.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_sate.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_sate.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/65.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/36.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Tibetan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "chicken",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "de681e82-3a80-4671-944a-0d858ed5373c"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Raita",
+      "description": "Yogurt blended with roasted jeera, cucumber, coriander, honey & black salt",
+      "long_description": null,
+      "price": 2.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/16.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/16.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/35.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/yogi_bhat.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Tibetan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "New",
+          "description": "Newly added menu items",
+          "color": "default",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "c642c4fb-298b-455b-b118-bcfe8152c5f6"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Daal Bhat Masu",
+      "description": "The Classic features a rich Chicken Curry alongside Khasi Saag, a lamb and spinach stew cooked with Himalayan spices. It also includes Mustang Alu, potato wedges seasoned with Szechuan pepper and Jimbu, and Daal, the traditional lentil soup which is the staple food of the Himalayas.\nThe meal is served with papad, salad, rice, and Alu Achar, a potato-sesame salad.\nEnjoy a complimentary cup of tea when you dine in traditional Nepalese style by eating with your hands!",
+      "long_description": null,
+      "price": 20.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/70.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/70.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_sate.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/41.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Tibetan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Specials",
+          "description": "Special menu items",
+          "color": "gold",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Healthy Choice",
+          "description": "Nutritious and healthy",
+          "icon": "🥗"
+        }
+      ],
+      "protein": {
+        "name": "chicken, lamb",
+        "description": ""
+      },
+      "spice": {
+        "name": "warming",
+        "description": ""
+      },
+      "size": {
+        "name": "full",
+        "description": ""
+      },
+      "id": "bc54484e-c122-4d40-bb49-59d4a7c6299b"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Paneer Momo",
+      "description": "Filled with paneer cheese and vegetables. The dough and fillings are entirely homemade and then hand-rolled with care. Served with peanut and tomato-coriander chutney. Steaming time: minimum 20 minutes!",
+      "long_description": null,
+      "price": 11.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/alu_chop.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/alu_chop.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/3.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/21.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Tibetan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Specials",
+          "description": "Special menu items",
+          "color": "gold",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "paneer",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "7545317b-48b4-474b-80fc-81bb7ab72ad7"
+    }
+  }
+]

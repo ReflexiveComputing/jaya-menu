@@ -1,0 +1,110 @@
+[
+  {
+    "id": "ab906749-614f-41bd-812f-e022afca2067",
+    "restaurant_id": "09adb869-ff61-44d9-ac62-0e4b90e7f07b",
+    "name": "Softdrink",
+    "description": "Non-alcoholic beverages",
+    "is_active": true,
+    "created_at": "2025-08-24T10:28:20.205238Z",
+    "updated_at": "2025-08-24T10:28:20.205238Z"
+  },
+  {
+    "id": "d08245f6-6a28-4f47-85b2-b180cbdac2f8",
+    "restaurant_id": "09adb869-ff61-44d9-ac62-0e4b90e7f07b",
+    "name": "Tea",
+    "description": "Various types of tea",
+    "is_active": true,
+    "created_at": "2025-08-24T10:28:20.205238Z",
+    "updated_at": "2025-08-24T10:28:20.205238Z"
+  },
+  {
+    "id": "456c7949-7673-4291-bcce-0d123521d3e4",
+    "restaurant_id": "09adb869-ff61-44d9-ac62-0e4b90e7f07b",
+    "name": "Beer",
+    "description": "Beer selections",
+    "is_active": true,
+    "created_at": "2025-08-24T10:28:20.205238Z",
+    "updated_at": "2025-08-24T10:28:20.205238Z"
+  },
+  {
+    "id": "e9307a52-7ab9-493e-8f86-c1b41a837a87",
+    "restaurant_id": "09adb869-ff61-44d9-ac62-0e4b90e7f07b",
+    "name": "Cocktail",
+    "description": "Mixed alcoholic drinks",
+    "is_active": true,
+    "created_at": "2025-08-24T10:28:20.205238Z",
+    "updated_at": "2025-08-24T10:28:20.205238Z"
+  },
+  {
+    "id": "684bfe2d-3e7e-462e-971a-8aadaf93ba4f",
+    "restaurant_id": "09adb869-ff61-44d9-ac62-0e4b90e7f07b",
+    "name": "Wine",
+    "description": "Wine selections",
+    "is_active": true,
+    "created_at": "2025-08-24T10:28:20.205238Z",
+    "updated_at": "2025-08-24T10:28:20.205238Z"
+  },
+  {
+    "id": "65af3b26-a002-49b8-8187-957e247bc659",
+    "restaurant_id": "09adb869-ff61-44d9-ac62-0e4b90e7f07b",
+    "name": "Cafe",
+    "description": "Coffee drinks",
+    "is_active": true,
+    "created_at": "2025-08-24T10:28:20.205238Z",
+    "updated_at": "2025-08-24T10:28:20.205238Z"
+  },
+  {
+    "id": "f498c515-a813-4637-aba2-ddd6f5c3a9de",
+    "restaurant_id": "09adb869-ff61-44d9-ac62-0e4b90e7f07b",
+    "name": "Fresh Drinks",
+    "description": "Fresh drinks",
+    "is_active": true,
+    "created_at": "2025-08-24T10:28:20.205238Z",
+    "updated_at": "2025-08-24T10:28:20.205238Z"
+  },
+  {
+    "id": "14ac0ef2-8fda-4319-8dad-cd557ecf2963",
+    "restaurant_id": "09adb869-ff61-44d9-ac62-0e4b90e7f07b",
+    "name": "Aperitif",
+    "description": "Alcoholic drinks",
+    "is_active": true,
+    "created_at": "2025-08-24T10:28:20.205238Z",
+    "updated_at": "2025-08-24T10:28:20.205238Z"
+  },
+  {
+    "id": "009e4807-ae42-4495-a8be-0cf7888d2d4a",
+    "restaurant_id": "09adb869-ff61-44d9-ac62-0e4b90e7f07b",
+    "name": "Long Drinks",
+    "description": "Mixed alcoholic drinks",
+    "is_active": true,
+    "created_at": "2025-08-24T10:28:20.205238Z",
+    "updated_at": "2025-08-24T10:28:20.205238Z"
+  },
+  {
+    "id": "f58d6842-cc52-4e97-97c0-cacf6ba50997",
+    "restaurant_id": "09adb869-ff61-44d9-ac62-0e4b90e7f07b",
+    "name": "From Nepal",
+    "description": "Drinks from Nepal",
+    "is_active": true,
+    "created_at": "2025-08-24T10:28:20.205238Z",
+    "updated_at": "2025-08-24T10:28:20.205238Z"
+  },
+  {
+    "id": "f8c839f2-487a-4b93-a722-92f2ef8e9472",
+    "restaurant_id": "09adb869-ff61-44d9-ac62-0e4b90e7f07b",
+    "name": "Shots",
+    "description": "Alcoholic shots",
+    "is_active": true,
+    "created_at": "2025-08-24T10:28:20.205238Z",
+    "updated_at": "2025-08-24T10:28:20.205238Z"
+  },
+  {
+    "id": "930a1822-7330-4a43-bd4d-df45922b1a6c",
+    "restaurant_id": "09adb869-ff61-44d9-ac62-0e4b90e7f07b",
+    "name": "Whiskey",
+    "description": "Whiskey",
+    "is_active": true,
+    "created_at": "2025-08-24T10:28:20.205238Z",
+    "updated_at": "2025-08-24T10:28:20.205238Z"
+  }
+]

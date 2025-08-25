@@ -1,0 +1,222 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Saag",
+      "description": "Nepalese spinach sautéed with garlic & ginger ",
+      "long_description": null,
+      "price": 4.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_momo.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_momo.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/28.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/daal_bhat_masu.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Sekuwa Grill",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Specials",
+          "description": "Special menu items",
+          "color": "gold",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Limited Time",
+          "description": "Available for a limited time",
+          "icon": "⏳"
+        }
+      ],
+      "spice": {
+        "name": "warming",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "cad55d7c-90ff-415f-9c51-eb871df87685"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Butter Naan",
+      "description": "Fresh bread from the clay oven ",
+      "long_description": null,
+      "price": 3.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/bhanto_tareko.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/bhanto_tareko.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/16.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/4.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Sekuwa Grill",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Vegan",
+          "description": "Vegan friendly",
+          "color": "green",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Customer Favorite",
+          "description": "Loved by customers",
+          "icon": "⭐"
+        }
+      ],
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "047be4c8-e817-497e-ac5a-c98c23d12ce9"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Paneer Veg Sekuwa",
+      "description": "Grilled Paneer Cheese & Vegetable Skewer served with julienne salad, Sriracha-cumin aioli, and a free side dish of your choice.",
+      "long_description": null,
+      "price": 18.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/36.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/36.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/40.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/54.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Sekuwa Grill",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Vegan",
+          "description": "Vegan friendly",
+          "color": "green",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Healthy Choice",
+          "description": "Nutritious and healthy",
+          "icon": "🥗"
+        }
+      ],
+      "protein": {
+        "name": "paneer",
+        "description": ""
+      },
+      "spice": {
+        "name": "warming",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "463e2e36-6324-4ada-9bf5-09f3c86ba198"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Chicken 65",
+      "description": "Turmeric & Ginger-Marinated Chicken Tossed in Spicy Chili-Soy Reduction",
+      "long_description": null,
+      "price": 9.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chana_masala.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chana_masala.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/daal.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/58.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Sekuwa Grill",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Vegan",
+          "description": "Vegan friendly",
+          "color": "green",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Healthy Choice",
+          "description": "Nutritious and healthy",
+          "icon": "🥗"
+        }
+      ],
+      "protein": {
+        "name": "chicken",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "37a2b323-86ad-4d3a-8cc3-7f831f99729d"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Cheese Naan",
+      "description": "Fresh bread from the clay oven ",
+      "long_description": null,
+      "price": 4.2,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/68.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/68.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_sate.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/35.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Sekuwa Grill",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "183ceb6b-30d1-4a4e-bed9-e142ff3efb1c"
+    }
+  }
+]

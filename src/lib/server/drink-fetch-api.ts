@@ -1,43 +1,62 @@
+
 import "server-only";
 import type { Drink } from "@/types/drink";
-import apiResponseData from "@/lib/static/detailed_drinks_response.json";
+import categories from "@/lib/static/drink/categories.json";
+import fs from "fs";
+import path from "path";
+import { MenuItemNew } from "@/types/menu";
 
-const apiResponse = apiResponseData as unknown as { data?: Record<string, { drink_data: Drink }> };
+type DrinkCategory = {
+  id: string;
+  restaurant_id: string;
+  name: string;
+  description: string;
+  is_active: boolean;
+  created_at: string;
+  updated_at: string;
+};
 
-function getItems(): Drink[] {
-  if (!apiResponse || !apiResponse.data) return [];
-  return Object.values(apiResponse.data).map(entry => entry.drink_data).filter(Boolean);
+
+function getAllDrinkItems(): MenuItemNew[] {
+  // Read all sub-category JSON files and aggregate menu_item_data as Drink
+  const dir = path.join(process.cwd(), "src/lib/static/drink/sub-category");
+  if (!fs.existsSync(dir)) return [];
+  const files = fs.readdirSync(dir).filter(f => f.endsWith('.json'));
+  const items: MenuItemNew[] = [];
+  for (const file of files) {
+    const filePath = path.join(dir, file);
+    const data = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+    for (const entry of data) {
+      if (entry.menu_item_data) {
+        // Assign random likes for demo
+        entry.menu_item_data.likes = Math.floor(Math.random() * 100);
+        // Add id if missing (for demo)
+        if (!entry.menu_item_data.id) {
+          entry.menu_item_data.id = file + Math.random().toString(36).slice(2, 8);
+        }
+        items.push(entry.menu_item_data);
+      }
+    }
+  }
+  return items;
 }
 
 export async function fetchDrinksCategoriesFromApi(): Promise<string[]> {
-  const items = getItems();
-  const names = items.map(i => i.category?.name).filter(Boolean) as string[];
-  return Array.from(new Set(names));
+  // Return category names from static file
+  return (categories as DrinkCategory[]).map(cat => cat.name);
 }
 
-export async function fetchDrinksCategoryItemsFromApi(category: string): Promise<Drink[]> {
-  const items = getItems();
+export async function fetchDrinksCategoryItemsFromApi(category: string): Promise<MenuItemNew[]> {
+  const items = getAllDrinkItems();
   return items.filter(i => i.category?.name === category);
 }
 
-export async function fetchDrinksTopThisMonthFromApi(limit = 3): Promise<Drink[]> {
-  const items = getItems();
-
-  // Type guard for likes
-  function hasLikes(item: Drink): item is Drink & { likes: number } {
-    return typeof item.likes === "number";
-  }
-
-  const itemsWithLikes = items.filter(hasLikes);
-
-  if (itemsWithLikes.length > 0) {
-    return itemsWithLikes.sort((a, b) => (b.likes ?? 0) - (a.likes ?? 0)).slice(0, limit);
-  }
-
-  return items
-    .filter(i => !!i.created_at)
-    .sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime())
-    .slice(0, limit);
+export async function fetchDrinksTopThisMonthFromApi(limit = 3): Promise<MenuItemNew[]> {
+  const items = getAllDrinkItems();
+  // Return 3 random items
+  const shuffled = items.sort(() => 0.5 - Math.random());
+  return shuffled.slice(0, limit);
 }
 
-export default null;
+const _default = null;
+export default _default;

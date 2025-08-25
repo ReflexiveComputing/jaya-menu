@@ -1,0 +1,218 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Bhanto Tareko",
+      "description": "Crispy Eggplant Slices in Chickpea Batter",
+      "long_description": null,
+      "price": 6.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/23.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/23.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/alu_chop.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/papad.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Salad",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Specials",
+          "description": "Special menu items",
+          "color": "gold",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "tofu",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "580c1f72-497f-4ded-83fe-c1c88f444710"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Daal",
+      "description": "Lentil Soup – The Staple of the Himalayas",
+      "long_description": null,
+      "price": 5.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/daal.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/daal.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/61.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/roti.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Salad",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "New",
+          "description": "Newly added menu items",
+          "color": "default",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Customer Favorite",
+          "description": "Loved by customers",
+          "icon": "⭐"
+        }
+      ],
+      "protein": {
+        "name": "tofu",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "8ac05852-1593-4cc9-8e9c-22688ca5f056"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Salad",
+      "description": "Small salad with agave-sesame dressing.",
+      "long_description": null,
+      "price": 3.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/roti.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/roti.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/veg_chau_min.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/bhanto_tareko.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Salad",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Specials",
+          "description": "Special menu items",
+          "color": "gold",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "490b3d9a-511f-4fcf-812a-4e2301fcebed"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Chicken Sate",
+      "description": "Chicken Skewers with Peanut Chutney",
+      "long_description": null,
+      "price": 7.5,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/bhat.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/bhat.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/72.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/veg_chau_min.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Salad",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Favourites",
+          "description": "Customer favourites",
+          "color": "purple",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Limited Time",
+          "description": "Available for a limited time",
+          "icon": "⏳"
+        }
+      ],
+      "protein": {
+        "name": "chicken",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "30772010-25f1-4c36-a94e-9fc10aba5715"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Khasi Alu",
+      "description": "A traditional mountain farmer's dish recommended by the chef. Lamb & potato goulash cooked with Nepalese spices. Served with rice, salad, and potato chutney.",
+      "long_description": null,
+      "price": 16.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/papad.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/papad.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/lamb_sekuwa.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/64.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Salad",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "lamb",
+        "description": ""
+      },
+      "spice": {
+        "name": "warming",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "fe5342e5-b666-481d-93a5-c48104ea39d3"
+    }
+  }
+]

@@ -1,0 +1,189 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Mango Lassi",
+      "description": "Mango yogurt drink (contains milk)",
+      "long_description": null,
+      "price": 5.5,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/non_veg_mixed_starters.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/non_veg_mixed_starters.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/27.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/papad.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Fresh Drinks",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "e27e99e4-580a-4e55-bf74-3816ced4acf1"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Detox Lime Soda",
+      "description": "Lime, cucumber, and soda (sugar-free)",
+      "long_description": null,
+      "price": 5.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/paneer_momo.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/paneer_momo.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/41.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/4.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Fresh Drinks",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [
+        {
+          "name": "Chef Special",
+          "description": "Signature dish by the chef",
+          "icon": "👨‍🍳"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "2f883c91-2f4c-4ee9-955a-c2a69459f805"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Ginger-Mint Iced Tea",
+      "description": "Homemade iced tea with ginger & mint",
+      "long_description": null,
+      "price": 6.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/mustang_alu.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/mustang_alu.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/cocos_chicken.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/4.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Fresh Drinks",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Favourites",
+          "description": "Customer favourites",
+          "color": "purple",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "warming",
+        "description": ""
+      },
+      "id": "9dc55f12-dc5e-4e07-801a-3807fb0503a6"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Raspberry Lemonade",
+      "description": "Pureed raspberries, lime juice, soda",
+      "long_description": null,
+      "price": 6.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/daal_bhat_masu.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/daal_bhat_masu.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/67.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/69.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Fresh Drinks",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Favourites",
+          "description": "Customer favourites",
+          "color": "purple",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "a7843658-b778-4276-b174-0892f9853b03"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Dhania Iced Tea",
+      "description": "Homemade brewed coriander tea with rock crystal sugar",
+      "long_description": null,
+      "price": 6.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/19.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/19.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_sekuwa.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/71.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Fresh Drinks",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Vegan",
+          "description": "Vegan friendly",
+          "color": "green",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "1ed48272-26b0-42a7-b064-313f1bfc4ef2"
+    }
+  }
+]

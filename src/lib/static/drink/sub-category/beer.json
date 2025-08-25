@@ -1,0 +1,556 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Berliner Kindl",
+      "description": "Pilsener draft beer",
+      "long_description": null,
+      "price": 3.905,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chutneys.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chutneys.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/veg_mixed_starters.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/roti.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Beer",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [
+        {
+          "name": "Healthy Choice",
+          "description": "Nutritious and healthy",
+          "icon": "🥗"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "d60f5120-2f0c-46c0-be60-b256a39885f9"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Allgäuer Büble",
+      "description": "Büble Bayrisch Hell – South German Pale Draft Beer",
+      "long_description": null,
+      "price": 3.905,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/48.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/48.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/41.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_momo.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Beer",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "New",
+          "description": "Newly added menu items",
+          "color": "default",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Healthy Choice",
+          "description": "Nutritious and healthy",
+          "icon": "🥗"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "99934b6d-fad4-4ed3-a315-f573f9c5c9a6"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Radler",
+      "description": "Pilsener draft beer and Sprite",
+      "long_description": null,
+      "price": 3.905,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/74.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/74.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/bhat.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/4.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Beer",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Specials",
+          "description": "Special menu items",
+          "color": "gold",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "6d63c75c-1177-44a0-8260-9a68c920c2e4"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Sherpa Bier",
+      "description": "Nepali Beer, Ask for availability",
+      "long_description": null,
+      "price": 5.907,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/bhanto_tareko.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/bhanto_tareko.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/61.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/64.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Beer",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "New",
+          "description": "Newly added menu items",
+          "color": "default",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "45227295-9583-43d1-a018-61c93252ed8c"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Lukla Bier",
+      "description": "Nepali Beer, Ask for availability",
+      "long_description": null,
+      "price": 5.907,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/saag.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/saag.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/48.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/37.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Beer",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [
+        {
+          "name": "Customer Favorite",
+          "description": "Loved by customers",
+          "icon": "⭐"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "44cf5b86-ab5c-4e6d-9516-ea0fa2fc16ca"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Barasinghe Pale Ale",
+      "description": "Nepali Beer, Ask for availability",
+      "long_description": null,
+      "price": 5.907,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/70.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/70.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/saag.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/36.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Beer",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Specials",
+          "description": "Special menu items",
+          "color": "gold",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "c2403855-09f5-4242-864d-89f56b0e72bb"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Nepal Ice",
+      "description": "Nepali Beer, Ask for availability",
+      "long_description": null,
+      "price": 5.907,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/the_mitho_cha_experience.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/the_mitho_cha_experience.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/naan.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/everest_bites.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Beer",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Specials",
+          "description": "Special menu items",
+          "color": "gold",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "d6c4302e-4620-4a8c-95dd-fea33e56f96c"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Everest",
+      "description": "Nepali Beer, Ask for availability",
+      "long_description": null,
+      "price": 5.907,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/paneer_chilli.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/paneer_chilli.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/67.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/42.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Beer",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [
+        {
+          "name": "Limited Time",
+          "description": "Available for a limited time",
+          "icon": "⏳"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "4f6df783-ecc5-47fd-a606-931d5f47fd48"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Büble Edel Wheat Beer",
+      "description": "Büble Edel Wheat Beer",
+      "long_description": null,
+      "price": 5.5,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/69.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/69.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/58.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/43.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Beer",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Favourites",
+          "description": "Customer favourites",
+          "color": "purple",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Customer Favorite",
+          "description": "Loved by customers",
+          "icon": "⭐"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "60fb265b-029c-4423-b310-0f73abbd66f2"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Schöfferhofer Wheat Beer Dark",
+      "description": "Malty, roasted, full-bodied wheat beer",
+      "long_description": null,
+      "price": 5.5,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/lamb_thukpa.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/lamb_thukpa.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/veg_chau_min.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/29.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Beer",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Vegan",
+          "description": "Vegan friendly",
+          "color": "green",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "050a9c16-32a6-4f21-9611-64caf6b81976"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Schöfferhofer Wheat Beer Crystal",
+      "description": "Clear, crisp, refreshing wheat beer",
+      "long_description": null,
+      "price": 5.5,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/paneer_chilly.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/paneer_chilly.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/the_mitho_cha_experience.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/daal_bhat_masu.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Beer",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Vegan",
+          "description": "Vegan friendly",
+          "color": "green",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "eb180005-c795-4be9-add3-2c61120ef2a8"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Schöfferhofer Wheat Beer Alcohol-free",
+      "description": "Fruity, tangy, refreshing without alcohol",
+      "long_description": null,
+      "price": 5.5,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/the_mitho_cha_experience.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/the_mitho_cha_experience.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/16.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/pad_thai.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Beer",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Specials",
+          "description": "Special menu items",
+          "color": "gold",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Healthy Choice",
+          "description": "Nutritious and healthy",
+          "icon": "🥗"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "247cb660-1e38-4b1b-8bd0-ca96b24bdd79"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Lammsbräu Alcohol-free Beer",
+      "description": "Organic, light, crisp, malty taste",
+      "long_description": null,
+      "price": 4.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/19.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/19.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/raita.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/roti.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Beer",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Vegan",
+          "description": "Vegan friendly",
+          "color": "green",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "c74f1682-8625-4157-bcc7-415c86305dc0"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Clausthaler Alcohol-free Beer",
+      "description": "Naturally cloudy, smooth, hoppy finish",
+      "long_description": null,
+      "price": 4.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/papad.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/papad.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/70.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/veg_chau_min.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Beer",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "7f6d4ff0-f66c-4fca-a42f-5688f8a81697"
+    }
+  }
+]

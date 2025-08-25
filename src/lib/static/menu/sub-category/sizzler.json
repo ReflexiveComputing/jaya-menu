@@ -1,0 +1,208 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Roti",
+      "description": "Whole wheat flatbread",
+      "long_description": null,
+      "price": 3.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/70.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/70.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/42.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/daal_bhat_masu.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Sizzler",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [
+        {
+          "name": "Healthy Choice",
+          "description": "Nutritious and healthy",
+          "icon": "🥗"
+        }
+      ],
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "0dc13eab-dce7-49da-8f1f-04a13fcd21a7"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Khukri Nepal Rum",
+      "description": "Nepalese rum",
+      "long_description": null,
+      "price": 3.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/papad.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/papad.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/everest_bites.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/27.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Sizzler",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [
+        {
+          "name": "Chef Special",
+          "description": "Signature dish by the chef",
+          "icon": "👨‍🍳"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "4925dc58-c214-4d1a-bb35-9bc3f96d5dc5"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Plain Naan",
+      "description": "Fresh bread from the clay oven ",
+      "long_description": null,
+      "price": 3.7,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/23.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/23.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/alu_chop.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/daal.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Sizzler",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [
+        {
+          "name": "Customer Favorite",
+          "description": "Loved by customers",
+          "icon": "⭐"
+        }
+      ],
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "120a213a-0275-4f27-a54b-575fb91b244b"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "The Mitho Cha Experience",
+      "description": "For the starter, enjoy a Mixed Momo platter with 2 pieces each of Vegan, Paneer, and Chicken Momos, served with 2 different chutneys.\nThe main course is our Mitho Cha Thali, a curated selection of Daal Bhat specialties including Chicken Curry, Khasi Saag, Mustang Alu, Chana Masala, Vegetable Curry, Daal, and Spinach, served with salad, rice, and papadams.\nTo finish, the dessert is Shikarni – two small bowls of yogurt blended with cinnamon, cardamom, and cloves, topped with nuts and a Gulab Jamun.",
+      "long_description": null,
+      "price": 46.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/yogi_bhat.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/yogi_bhat.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/74.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/40.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Sizzler",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Favourites",
+          "description": "Customer favourites",
+          "color": "purple",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Customer Favorite",
+          "description": "Loved by customers",
+          "icon": "⭐"
+        }
+      ],
+      "protein": {
+        "name": "chicken, lamb",
+        "description": ""
+      },
+      "spice": {
+        "name": "warming",
+        "description": ""
+      },
+      "size": {
+        "name": "full",
+        "description": ""
+      },
+      "id": "ab5ccb33-4ac8-4e90-966e-3655a7f25612"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Chicken Curry",
+      "description": "The classic. Chicken breast sautéed with turmeric and coriander in homemade curry. Served with rice, salad, and potato chutney.",
+      "long_description": null,
+      "price": 13.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/19.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/19.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/bhat.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/roti.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Sizzler",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Vegan",
+          "description": "Vegan friendly",
+          "color": "green",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "chicken",
+        "description": ""
+      },
+      "spice": {
+        "name": "warming",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "630838ef-250b-47b5-9a52-bad650e42821"
+    }
+  }
+]

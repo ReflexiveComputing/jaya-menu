@@ -1,0 +1,225 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Kung Pao Soya",
+      "description": "Specialties with wild Szechuan pepper (Timur), found exclusively at altitudes above 3,000 meters in the Himalayas. Vegan soy chunks marinated in traditional Tibetan spices, sautéed to golden perfection in a wok with peanuts, spring onions, and Szechuan pepper.",
+      "long_description": null,
+      "price": 16.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/41.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/41.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/64.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/khasi_saag.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Nepalese",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Favourites",
+          "description": "Customer favourites",
+          "color": "purple",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "tofu",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "88312122-a6c2-4f44-bce6-513152de76fe"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Khasi saag",
+      "description": "Lamb goulash & spinach, refined with fenugreek leaves, ginger & Himalayan spices. Served with rice, salad, and potato chutney.",
+      "long_description": null,
+      "price": 16.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/47.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/47.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/36.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/roti.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Nepalese",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Vegan",
+          "description": "Vegan friendly",
+          "color": "green",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "lamb",
+        "description": ""
+      },
+      "spice": {
+        "name": "warming",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "ca34932d-6e0a-4830-ae0f-72234b08b9bc"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Papad",
+      "description": "5 pieces of papadam made from urad lentil and rice flour. (Gluten Free)",
+      "long_description": null,
+      "price": 3.5,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/68.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/68.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/19.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/everest_bites.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Nepalese",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "New",
+          "description": "Newly added menu items",
+          "color": "default",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "e53cf499-19be-4354-8a0b-90504237b148"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Lamm Sekuwa",
+      "description": "Grilled Lamb Skewer served with julienne salad, Sriracha-cumin aioli, and a free side dish of your choice.",
+      "long_description": null,
+      "price": 22.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/yogi_bhat.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/yogi_bhat.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/59.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/27.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Nepalese",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Vegan",
+          "description": "Vegan friendly",
+          "color": "green",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Limited Time",
+          "description": "Available for a limited time",
+          "icon": "⏳"
+        }
+      ],
+      "protein": {
+        "name": "lamb",
+        "description": ""
+      },
+      "spice": {
+        "name": "warming",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "efc96f72-76d7-4100-abc9-5e9a25816cad"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Alu Bhanta",
+      "description": "Potatoes and braised eggplants in our homemade curry. Served with rice, salad, and potato chutney.",
+      "long_description": null,
+      "price": 13.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/sha_phaley.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/sha_phaley.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/paneer_veg_sekuwa.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/everest_bites.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Nepalese",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Favourites",
+          "description": "Customer favourites",
+          "color": "purple",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Healthy Choice",
+          "description": "Nutritious and healthy",
+          "icon": "🥗"
+        }
+      ],
+      "protein": {
+        "name": "tofu",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "531e9add-8a52-4bea-a33b-263cface36e7"
+    }
+  }
+]

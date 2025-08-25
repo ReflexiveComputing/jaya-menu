@@ -1,0 +1,182 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Caffè Crema",
+      "description": "Caffè Crema",
+      "long_description": null,
+      "price": 340,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/21.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/21.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/bhanto_tareko.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/mix_momo.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Cafe",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "New",
+          "description": "Newly added menu items",
+          "color": "default",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "2c8349ce-7c9a-4db1-833c-57e2b2ddea9b"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Espresso",
+      "description": "Espresso",
+      "long_description": null,
+      "price": 240,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_sekuwa.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_sekuwa.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/saag.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/41.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Cafe",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "65c1b7d3-325b-4044-bcf1-f0039a34d74b"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Doppio",
+      "description": "Double espresso",
+      "long_description": null,
+      "price": 340,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/35.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/35.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/bhat.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/27.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Cafe",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "74f17bdd-1c1e-4903-8525-fd3865dac346"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Cappuccino",
+      "description": "Cappuccino",
+      "long_description": null,
+      "price": 390,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/27.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/27.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/non_veg_mixed_starters.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/46.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Cafe",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Vegan",
+          "description": "Vegan friendly",
+          "color": "green",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Limited Time",
+          "description": "Available for a limited time",
+          "icon": "⏳"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "6393fe0d-e7da-47b8-b0db-7c92a93253ad"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Milk coffee",
+      "description": "Milk coffee",
+      "long_description": null,
+      "price": 420,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/21.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/21.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/37.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/69.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Cafe",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "b8f4633b-21d7-4916-a2cb-6016716341e4"
+    }
+  }
+]

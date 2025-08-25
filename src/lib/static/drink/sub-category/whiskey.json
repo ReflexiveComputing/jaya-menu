@@ -1,0 +1,176 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Chivas Regal 12J",
+      "description": "12-year-old blended Scotch whisky",
+      "long_description": null,
+      "price": 390690,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/70.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/70.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/27.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/roti.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Whiskey",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "New",
+          "description": "Newly added menu items",
+          "color": "default",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "warming",
+        "description": ""
+      },
+      "id": "8d58ece6-2b58-4e55-a354-56e1b8e7d80a"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Old Durbar",
+      "description": "A blend of English grain spirit & 8-year-old Scottish malt whisky, aged in European oak casks that previously contained Oloroso sherry, and refined in Nepal.",
+      "long_description": null,
+      "price": 390690,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/paneer_momo.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/paneer_momo.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/36.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/54.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Whiskey",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "New",
+          "description": "Newly added menu items",
+          "color": "default",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "warming",
+        "description": ""
+      },
+      "id": "cb78fba3-721b-428b-b732-4bdd9fc0b848"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Old Durbar Black Chimney",
+      "description": "Smokier version of Old Durbar",
+      "long_description": null,
+      "price": 490890,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/mix_momo.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/mix_momo.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/raita.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/alu_chop.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Whiskey",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "warming",
+        "description": ""
+      },
+      "id": "e5639a91-a2f4-4847-970a-a71b674e7e56"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Jack Daniels",
+      "description": "American whiskey",
+      "long_description": null,
+      "price": 390690,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/70.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/70.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/mix_momo.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/43.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Whiskey",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "warming",
+        "description": ""
+      },
+      "id": "632a7b16-1d5d-40d3-bcdd-a5fe8e373f5a"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Jameson",
+      "description": "Irish whiskey",
+      "long_description": null,
+      "price": 390690,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/paneer_chilli.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/paneer_chilli.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/saag_paneer.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/71.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Whiskey",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "warming",
+        "description": ""
+      },
+      "id": "c609d209-6970-4f96-ba1a-04933ce28fc9"
+    }
+  }
+]

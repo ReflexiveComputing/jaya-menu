@@ -1,0 +1,451 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Primitivo",
+      "description": "Dry red wine from Apulia, Italy, fruity & smooth",
+      "long_description": null,
+      "price": 6.9013,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/48.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/48.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/khasi_saag.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/4.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Wine",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "c426c21a-4a82-4f25-a4ea-ebc796713523"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Rosé Chiaretto di Bardolino",
+      "description": "Dry rosé wine from Bardolino, bright berry notes",
+      "long_description": null,
+      "price": 6.9013,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/sha_phaley.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/sha_phaley.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/69.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/34.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Wine",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "2f157cd8-6de9-4a5b-99ca-70d0fc1688da"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Grauburgunder",
+      "description": "Dry white wine from Germany, fruity pear & quince notes",
+      "long_description": null,
+      "price": 6.9013,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/paneer_chilli.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/paneer_chilli.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/14.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/roti.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Wine",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "ce1830eb-894d-444a-a9f6-6ef1ec47ab67"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Chardonnay",
+      "description": "Dry Chardonnay from Italy, refreshing & invigorating",
+      "long_description": null,
+      "price": 6.9013,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/54.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/54.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/cocos_chicken.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chutneys.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Wine",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "e42e47a0-1749-4804-90e9-c6f57f4351c1"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "White Wine Spritzer",
+      "description": "Spritzer with dry white wine",
+      "long_description": null,
+      "price": 5.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/naan.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/naan.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/garlic_naan.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_momo.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Wine",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Vegan",
+          "description": "Vegan friendly",
+          "color": "green",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "8d6f4a3b-af7e-4b55-aa6e-b9bd21c26c72"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Riesling",
+      "description": "Off-dry Riesling from Mosel, Germany",
+      "long_description": null,
+      "price": 2490,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/71.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/71.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/saag_paneer.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/29.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Wine",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Favourites",
+          "description": "Customer favourites",
+          "color": "purple",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "784020db-0134-4591-987c-92cbd8107c57"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Weissburgunder",
+      "description": "Dry Pinot Blanc from Mosel, Germany",
+      "long_description": null,
+      "price": 2490,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/daal_bhat_masu.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/daal_bhat_masu.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_momo.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/mix_momo.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Wine",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "912026fb-2f83-469d-bfeb-88365bd96d78"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Sauvignon Blanc Parcival",
+      "description": "Dry Sauvignon Blanc from Spain, exotic fruit notes",
+      "long_description": null,
+      "price": 2490,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/67.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/67.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/naan.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/tofu_veg_thukpa.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Wine",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "36fe19a4-32ff-4ba2-a8d0-4042bb07e2f5"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Riesling Hochgewächs",
+      "description": "Dry Riesling with peach & citrus aromas",
+      "long_description": null,
+      "price": 2690,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/14.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/14.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_sate.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/23.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Wine",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [
+        {
+          "name": "Limited Time",
+          "description": "Available for a limited time",
+          "icon": "⏳"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "a0a5fb36-77ce-49ef-b89a-a7dd1b8d3eb7"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Nero d'Avola",
+      "description": "Dry red wine from Sicily, bold & elegant finish",
+      "long_description": null,
+      "price": 2690,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_sekuwa.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_sekuwa.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/34.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/37.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Wine",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Vegan",
+          "description": "Vegan friendly",
+          "color": "green",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Customer Favorite",
+          "description": "Loved by customers",
+          "icon": "⭐"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "9939d0b8-7695-497e-8244-a1254276602f"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Pinot Noir",
+      "description": "Dry Pinot Noir from Mosel, unfiltered with oak hint",
+      "long_description": null,
+      "price": 2990,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chutneys.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chutneys.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/65.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/papad.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Wine",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "edd002f3-7a3b-4146-86ff-310b82c36e94"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Cotes du Rhone",
+      "description": "Dry red from Lirac, France, ripe red berries & blackcurrant",
+      "long_description": null,
+      "price": 2990,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/tofu_veg_thukpa.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/tofu_veg_thukpa.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/16.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/59.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Wine",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "0c74f61a-b24f-498d-a5bf-a001ccc34aa2"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Blanc de Blancs Vin Mousseux",
+      "description": "Peach-almond note, lively & harmonious sparkling wine from France",
+      "long_description": null,
+      "price": 2990,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/naan.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/naan.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/58.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/cocos_chicken.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Wine",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "2218e46f-373e-401c-afd4-298ecb43a79a"
+    }
+  }
+]

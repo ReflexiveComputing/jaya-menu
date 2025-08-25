@@ -1,0 +1,2707 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Still Water",
+      "description": "Still water",
+      "long_description": null,
+      "price": 2.203,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/paneer_chilly.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/paneer_chilly.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/2.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/paneer_chilli.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "1b00aa05-77dd-468a-b321-912a2bf041d3"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Sparkling Water",
+      "description": "Sparkling water",
+      "long_description": null,
+      "price": 2.203,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/76.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/76.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/37.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/lamb_sekuwa.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Vegan",
+          "description": "Vegan friendly",
+          "color": "green",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Customer Favorite",
+          "description": "Loved by customers",
+          "icon": "⭐"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "72a58bfa-f0fd-4d96-8981-e81e94bba560"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Selters Mineral Water Naturell",
+      "description": "Selters Mineral Water Naturell",
+      "long_description": null,
+      "price": 6.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/64.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/64.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/daal_bhat_masu.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chutneys.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Vegan",
+          "description": "Vegan friendly",
+          "color": "green",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "35b62fa2-5411-44cd-ac95-fdbc5847a36f"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Selters Mineral Water Classic",
+      "description": "Selters Mineral Water Classic",
+      "long_description": null,
+      "price": 6.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/2.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/2.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/paneer_chilly.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/28.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "New",
+          "description": "Newly added menu items",
+          "color": "default",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "f22513d5-4282-42e5-9b31-58b1e583d2ff"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Coca Cola",
+      "description": "Coca Cola",
+      "long_description": null,
+      "price": 2.704,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/veg_chau_min.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/veg_chau_min.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/lamb_sekuwa.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/alu_chop.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "New",
+          "description": "Newly added menu items",
+          "color": "default",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Healthy Choice",
+          "description": "Nutritious and healthy",
+          "icon": "🥗"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "1266937b-9e99-427d-ad28-dd0a81a85b81"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Cola Zero",
+      "description": "Cola Zero",
+      "long_description": null,
+      "price": 2.704,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/2.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/2.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/26.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/lamb_thukpa.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "bae23267-403e-4158-958f-731abf193c04"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Fanta",
+      "description": "Fanta",
+      "long_description": null,
+      "price": 2.704,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/70.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/70.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/4.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/3.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "37f10daf-8610-4ec7-934b-1c6f2659d770"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Sprite",
+      "description": "Sprite",
+      "long_description": null,
+      "price": 2.704,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/51.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/51.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/raita.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/35.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Favourites",
+          "description": "Customer favourites",
+          "color": "purple",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "766d8516-5a29-4ec5-99f2-5d7e0f93bf61"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Thomas Henry Spicy Ginger",
+      "description": "Thomas Henry Spicy Ginger",
+      "long_description": null,
+      "price": 2.904,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/veg_chau_min.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/veg_chau_min.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/69.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/daal.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [
+        {
+          "name": "Limited Time",
+          "description": "Available for a limited time",
+          "icon": "⏳"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "2d4109be-772e-4749-a316-65d29fad41b7"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Thomas Henry Ginger Ale",
+      "description": "Thomas Henry Ginger Ale",
+      "long_description": null,
+      "price": 2.904,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/cocos_chicken.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/cocos_chicken.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/35.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/paneer_veg_sekuwa.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Specials",
+          "description": "Special menu items",
+          "color": "gold",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "9ba1a4bb-604d-410f-95f9-bdf8fea6902e"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Thomas Henry Bitter Lemon",
+      "description": "Thomas Henry Bitter Lemon",
+      "long_description": null,
+      "price": 2.904,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/48.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/48.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/67.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/26.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Specials",
+          "description": "Special menu items",
+          "color": "gold",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Customer Favorite",
+          "description": "Loved by customers",
+          "icon": "⭐"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "42dcb85f-c012-44b2-b86f-bbf34e76d24a"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Thomas Henry Pink Grapefruit",
+      "description": "Thomas Henry Pink Grapefruit",
+      "long_description": null,
+      "price": 2.904,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/47.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/47.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/naan.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/pad_thai.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Specials",
+          "description": "Special menu items",
+          "color": "gold",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "81da0110-dc47-4880-8611-764b54d78cc4"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Thomas Henry Tonic Water",
+      "description": "Thomas Henry Tonic Water",
+      "long_description": null,
+      "price": 2.904,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/sha_phaley.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/sha_phaley.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/42.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/veg_chau_min.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "New",
+          "description": "Newly added menu items",
+          "color": "default",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Customer Favorite",
+          "description": "Loved by customers",
+          "icon": "⭐"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "fa516342-30a1-4407-a4dc-6f172cc26bba"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Apple Juice",
+      "description": "Apple juice",
+      "long_description": null,
+      "price": 2.904,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/27.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/27.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/68.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/tofu_veg_thukpa.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Vegan",
+          "description": "Vegan friendly",
+          "color": "green",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Healthy Choice",
+          "description": "Nutritious and healthy",
+          "icon": "🥗"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "85eae541-1055-41e9-8601-255d7526bbc7"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Orange Juice",
+      "description": "Orange juice",
+      "long_description": null,
+      "price": 2.904,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/4.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/4.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/58.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/papad.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "New",
+          "description": "Newly added menu items",
+          "color": "default",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Customer Favorite",
+          "description": "Loved by customers",
+          "icon": "⭐"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "ee1d631e-8b26-4a52-abe8-6e19a35063b9"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Pineapple Juice",
+      "description": "Pineapple juice",
+      "long_description": null,
+      "price": 2.904,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/14.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/14.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/raita.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/paneer_momo.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Favourites",
+          "description": "Customer favourites",
+          "color": "purple",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "d3c15295-4921-487e-ae8f-039685268c35"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Guava",
+      "description": "Guava drink",
+      "long_description": null,
+      "price": 2.904,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/raita.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/raita.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/veg_chau_min.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/daal_bhat_masu.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [
+        {
+          "name": "Limited Time",
+          "description": "Available for a limited time",
+          "icon": "⏳"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "53d7a887-7df7-42b2-ac6f-c7e8e93dfe7f"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Lychee",
+      "description": "Lychee drink",
+      "long_description": null,
+      "price": 2.904,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/saag_paneer.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/saag_paneer.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/71.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/76.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Favourites",
+          "description": "Customer favourites",
+          "color": "purple",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "ebc33765-09ed-4305-b4d1-7b8182ebba0d"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Mango",
+      "description": "Mango drink",
+      "long_description": null,
+      "price": 2.904,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/veg_mixed_starters.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/veg_mixed_starters.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/vegan_momo.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/41.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "New",
+          "description": "Newly added menu items",
+          "color": "default",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "dc49ef33-65b7-4959-9c24-5c227c2ea668"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Maracuja",
+      "description": "Maracuja nectar",
+      "long_description": null,
+      "price": 2.904,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_momo.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_momo.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/43.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/28.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "New",
+          "description": "Newly added menu items",
+          "color": "default",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "1ad0a3a0-665b-46b5-bf2e-792f759ccbc2"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Juice Spritzer",
+      "description": "Juice spritzer – choose your juice",
+      "long_description": null,
+      "price": 2.904,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/khasi_saag.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/khasi_saag.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/35.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/43.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [
+        {
+          "name": "Customer Favorite",
+          "description": "Loved by customers",
+          "icon": "⭐"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "728e04fb-93ba-4359-81c4-83a0e2147ede"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Rhubarb Spritzer",
+      "description": "Rhubarb spritzer",
+      "long_description": null,
+      "price": 5.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/69.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/69.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/the_mitho_cha_experience.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/72.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "New",
+          "description": "Newly added menu items",
+          "color": "default",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "5d48bf7e-63fb-4356-8548-bb93c0fde661"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Basil Soda",
+      "description": "Basil soda",
+      "long_description": null,
+      "price": 5.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/65.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/65.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/mustang_alu.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/alu_chop.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Favourites",
+          "description": "Customer favourites",
+          "color": "purple",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Healthy Choice",
+          "description": "Nutritious and healthy",
+          "icon": "🥗"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "0ef0f23b-4d32-4cc8-8aff-a485e8b291d4"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Rixdorfer Fassbrause",
+      "description": "Rixdorfer Fassbrause",
+      "long_description": null,
+      "price": 3.204,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/bhanto_tareko.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/bhanto_tareko.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/2.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/veg_chau_min.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Vegan",
+          "description": "Vegan friendly",
+          "color": "green",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "da43e31f-3305-4801-97c0-7f72dfac98a9"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Aperol Spritz",
+      "description": "Prosecco, Aperol, Soda, Orange",
+      "long_description": null,
+      "price": 6.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chutneys.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chutneys.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/76.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/veg_mixed_starters.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "a3a92cf4-4cd7-40b5-97db-a0704b558f64"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Rhabarber Spritz",
+      "description": "Likör 43, Rhubarb Spritzer, Prosecco",
+      "long_description": null,
+      "price": 7.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/everest_bites.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/everest_bites.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/74.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chutneys.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Favourites",
+          "description": "Customer favourites",
+          "color": "purple",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "383692bd-85c8-441d-9470-b15e051b7d6e"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Basil Spritz",
+      "description": "Prosecco, Basil-Soda, Mint",
+      "long_description": null,
+      "price": 7.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/garlic_naan.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/garlic_naan.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/42.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/51.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [
+        {
+          "name": "Chef Special",
+          "description": "Signature dish by the chef",
+          "icon": "👨‍🍳"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "693aff55-9dda-4e92-b51f-bbce76e570e1"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Pink Spritz",
+      "description": "Aperol, Thomas Henry Pink Grapefruit",
+      "long_description": null,
+      "price": 7.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/36.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/36.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/lamb_sekuwa.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/65.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "4324a5a9-3003-4023-801c-cdf466a72f14"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Lychee Spritz",
+      "description": "Prosecco, Lychees, Soda, Mint",
+      "long_description": null,
+      "price": 6.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/59.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/59.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/2.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/70.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [
+        {
+          "name": "Limited Time",
+          "description": "Available for a limited time",
+          "icon": "⏳"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "2773e49c-a37e-41c2-9167-994e08b6ff1a"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Hugo",
+      "description": "Holundersirup, Prosecco, Mint, Lime",
+      "long_description": null,
+      "price": 6.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/27.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/27.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/lamb_sekuwa.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/tofu_veg_thukpa.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "New",
+          "description": "Newly added menu items",
+          "color": "default",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "0b7b4aaf-80d6-4a25-9462-cc716ee9a405"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Campari",
+      "description": "Campari",
+      "long_description": null,
+      "price": 390,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/46.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/46.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/40.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/41.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Favourites",
+          "description": "Customer favourites",
+          "color": "purple",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Chef Special",
+          "description": "Signature dish by the chef",
+          "icon": "👨‍🍳"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "3c5d28f5-f9bc-48b4-b364-dc86308d3a06"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Prosecco",
+      "description": "Prosecco",
+      "long_description": null,
+      "price": 290,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/59.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/59.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/raita.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/37.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "New",
+          "description": "Newly added menu items",
+          "color": "default",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "425195b9-5cca-4859-ae4c-125132e24c00"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Martini Bianco",
+      "description": "Martini Bianco",
+      "long_description": null,
+      "price": 390,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/paneer_veg_sekuwa.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/paneer_veg_sekuwa.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/veg_mixed_starters.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/paneer_chilli.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Vegan",
+          "description": "Vegan friendly",
+          "color": "green",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "f9b1dd66-f66a-4aa7-833c-940bf8b31570"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Negroni",
+      "description": "2cl Campari, 2cl Roter Wermut, 2cl Gin",
+      "long_description": null,
+      "price": 7.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/37.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/37.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/everest_bites.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/paneer_chilli.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Favourites",
+          "description": "Customer favourites",
+          "color": "purple",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "warming",
+        "description": ""
+      },
+      "id": "573fdafe-c1bf-4112-93fb-3c476e00060c"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Campari Soda",
+      "description": "Campari with soda",
+      "long_description": null,
+      "price": 7.5,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chutneys.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chutneys.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/28.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/everest_bites.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "ed39766a-8bf4-42a5-a4a2-b747ca8bcce2"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Campari Orange",
+      "description": "Campari with orange juice",
+      "long_description": null,
+      "price": 7.5,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/everest_bites.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/everest_bites.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/16.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/72.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "0e4c7e25-3a0d-44b5-875d-f4a19d898949"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Cuba Libre",
+      "description": "Rum and cola with lime",
+      "long_description": null,
+      "price": 7.5,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/27.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/27.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/mustang_alu.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/raita.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Vegan",
+          "description": "Vegan friendly",
+          "color": "green",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "e0815bb5-df56-41ac-9ab1-e47826047019"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Vodka Limone",
+      "description": "Vodka and lemon soda",
+      "long_description": null,
+      "price": 7.5,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/sha_phaley.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/sha_phaley.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/daal.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/mix_momo.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [
+        {
+          "name": "Customer Favorite",
+          "description": "Loved by customers",
+          "icon": "⭐"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "12f53d28-5894-4d11-9ba8-e590da28f86a"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Whiskey Cola",
+      "description": "Whiskey and cola",
+      "long_description": null,
+      "price": 7.5,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/raita.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/raita.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/59.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/43.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Specials",
+          "description": "Special menu items",
+          "color": "gold",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Chef Special",
+          "description": "Signature dish by the chef",
+          "icon": "👨‍🍳"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "3dc97f7e-cefd-47e0-9f68-56959348acdb"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Gin Tonic",
+      "description": "Gin and tonic (different gins available)",
+      "long_description": null,
+      "price": 7.5,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/bhat.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/bhat.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/saag.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/41.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [
+        {
+          "name": "Healthy Choice",
+          "description": "Nutritious and healthy",
+          "icon": "🥗"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "e9cf32ee-85f9-4b7c-b015-53fd7b5c06b6"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Lychee & Love",
+      "description": "Vodka, Lychee juice, Sprite",
+      "long_description": null,
+      "price": 7.5,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/65.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/65.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/47.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/mix_momo.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Favourites",
+          "description": "Customer favourites",
+          "color": "purple",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "baab37fc-c222-4161-954d-252fe69efa23"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Monkey Temple",
+      "description": "Monkey47 Gin, Lime, Sprite",
+      "long_description": null,
+      "price": 9.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/pad_thai.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/pad_thai.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/daal.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/non_veg_mixed_starters.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "853dc638-e429-4d9b-b506-3668af30e7c1"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Himalayan Salt Bae",
+      "description": "Tequila, Pink Himalayan Salt, Pink Grapefruit",
+      "long_description": null,
+      "price": 7.5,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/16.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/16.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/lamb_thukpa.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/raita.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Specials",
+          "description": "Special menu items",
+          "color": "gold",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Limited Time",
+          "description": "Available for a limited time",
+          "icon": "⏳"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "warming",
+        "description": ""
+      },
+      "id": "6a80201a-2360-4cb3-8f0e-8ed96a4e3732"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Vodka Energy",
+      "description": "Vodka and energy drink",
+      "long_description": null,
+      "price": 7.5,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_sekuwa.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_sekuwa.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/47.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chutneys.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "abdd043e-57a2-45bb-a871-834d8ff0c5fa"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Kathmandu Mule",
+      "description": "Nepali Vodka, Spicy Ginger, homemade iced tea",
+      "long_description": null,
+      "price": 9.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/59.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/59.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/non_veg_mixed_starters.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/72.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Vegan",
+          "description": "Vegan friendly",
+          "color": "green",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Limited Time",
+          "description": "Available for a limited time",
+          "icon": "⏳"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "warming",
+        "description": ""
+      },
+      "id": "2d87746c-b6c8-4ca7-819f-f35c7f386391"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Classic Margarita",
+      "description": "Tequila, Lime, Triple Sec, Sugar, Salt",
+      "long_description": null,
+      "price": 8.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_momo.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_momo.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/66.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/23.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [
+        {
+          "name": "Chef Special",
+          "description": "Signature dish by the chef",
+          "icon": "👨‍🍳"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "c9a5693f-cac0-44bd-824b-9b1672c6f386"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Strawberry Margarita",
+      "description": "Classic Margarita with strawberry",
+      "long_description": null,
+      "price": 8.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/46.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/46.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/khasi_saag.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/26.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Favourites",
+          "description": "Customer favourites",
+          "color": "purple",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "bac3fd75-75d8-450a-9904-edeb620d0c72"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Pina Colada",
+      "description": "Pineapple juice, coconut puree, coconut syrup, rum",
+      "long_description": null,
+      "price": 8.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/69.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/69.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/66.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/68.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Favourites",
+          "description": "Customer favourites",
+          "color": "purple",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "cb10f727-9a44-4b1f-9d87-f77290e1f163"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Moskow Mule",
+      "description": "Vodka, Spicy Ginger, Lime, Cucumber",
+      "long_description": null,
+      "price": 8.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/51.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/51.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/41.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/bhanto_tareko.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "warming",
+        "description": ""
+      },
+      "id": "96d0f21f-ed20-475b-b6b5-73169e3d3b7f"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Whiskey Sour",
+      "description": "Whiskey, Lime Juice, Egg White, Sugar Syrup",
+      "long_description": null,
+      "price": 9.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/2.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/2.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/lamb_sekuwa.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/64.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Vegan",
+          "description": "Vegan friendly",
+          "color": "green",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "0eacbd2e-0c46-473c-82aa-dab92443f1b3"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Vodka Sour",
+      "description": "Vodka, Lime Juice, Egg White, Sugar Syrup",
+      "long_description": null,
+      "price": 9.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/saag_paneer.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/saag_paneer.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chana_masala.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/16.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "ba5ee66b-e4c2-4c7e-9159-7230413326b3"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Classic Mojito",
+      "description": "White Rum, Lime Wedges, Mint, Cane Sugar",
+      "long_description": null,
+      "price": 8.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/41.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/41.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/35.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/74.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Vegan",
+          "description": "Vegan friendly",
+          "color": "green",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Healthy Choice",
+          "description": "Nutritious and healthy",
+          "icon": "🥗"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "e394dfbb-d865-478c-b6ed-ca764fc78b9b"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Himbeer Mojito",
+      "description": "Mojito with raspberry",
+      "long_description": null,
+      "price": 9.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/42.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/42.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/everest_bites.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/71.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "74a9444d-c0b7-4030-be2f-f723a9b13066"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Lychee Gin Mojito",
+      "description": "Gin, Lime Wedges, Mint, Lychee liqueur, Lychees",
+      "long_description": null,
+      "price": 9.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chana_masala.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chana_masala.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/47.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chutneys.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "New",
+          "description": "Newly added menu items",
+          "color": "default",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "84db531f-846b-42d1-8fc2-089e63bbe10c"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Annapurna Sunset",
+      "description": "Vodka, Peach Tree, Grenadine, Orange Juice, Pineapple Juice",
+      "long_description": null,
+      "price": 8.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/tofu_veg_thukpa.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/tofu_veg_thukpa.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/59.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/mix_momo.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Specials",
+          "description": "Special menu items",
+          "color": "gold",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "cf0168d7-63c6-45fb-b273-197e2321040b"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Himalayan Honey",
+      "description": "Gin, Maracuja syrup, Orange Juice, Wild Honey",
+      "long_description": null,
+      "price": 9.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/35.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/35.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/37.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/saag.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "c79eeabc-9338-49aa-ba95-57bef81ae4cf"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Himalayan Sour",
+      "description": "Nepalese Whiskey, Lime Juice, Egg White, Ginger Shot",
+      "long_description": null,
+      "price": 9.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/paneer_chilli.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/paneer_chilli.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/35.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/43.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Favourites",
+          "description": "Customer favourites",
+          "color": "purple",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Customer Favorite",
+          "description": "Loved by customers",
+          "icon": "⭐"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "warming",
+        "description": ""
+      },
+      "id": "7e6fb1b2-c62f-41cb-9c24-27734d97927c"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Manang Melon Magic",
+      "description": "White Rum, Lime Wedges, Mint, Watermelon syrup",
+      "long_description": null,
+      "price": 9.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/bhat.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/bhat.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_sekuwa.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/47.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Vegan",
+          "description": "Vegan friendly",
+          "color": "green",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "fd954002-9141-4698-9321-ba42f3fb2b8a"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Lumbini Lychee Sling",
+      "description": "Gin, Lime, Mint, Lychees, Basil Soda",
+      "long_description": null,
+      "price": 8.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/65.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/65.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/4.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/pad_thai.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [
+        {
+          "name": "Healthy Choice",
+          "description": "Nutritious and healthy",
+          "icon": "🥗"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "77181149-b54e-4ec8-b7ef-d8c97b8226b0"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Aila Ma Raila",
+      "description": "Rum, Lime Juice, Agave Syrup, Chhyang (Rice wine)",
+      "long_description": null,
+      "price": 8.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/76.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/76.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_momo.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/raita.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Favourites",
+          "description": "Customer favourites",
+          "color": "purple",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Customer Favorite",
+          "description": "Loved by customers",
+          "icon": "⭐"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "warming",
+        "description": ""
+      },
+      "id": "57fcebff-7bb8-48c5-a9fa-e8e46cf24246"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Love from Nepal",
+      "description": "Dark Rum, Lychee Juice, Peach Tree, Lychees",
+      "long_description": null,
+      "price": 8.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/59.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/59.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/bhanto_tareko.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/4.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Specials",
+          "description": "Special menu items",
+          "color": "gold",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "effc2e36-ab06-40a8-94f8-df0bcac33d78"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Summer in Lhasa",
+      "description": "Nepali Vodka, Mango syrup, Sprite, Triple Sec, Mint, Soda",
+      "long_description": null,
+      "price": 9.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/papad.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/papad.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/70.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/68.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Favourites",
+          "description": "Customer favourites",
+          "color": "purple",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Healthy Choice",
+          "description": "Nutritious and healthy",
+          "icon": "🥗"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "43f4fc40-39cf-4103-a910-d45368d86544"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Mustang Mango Madness",
+      "description": "Pitu do Brasil, Mango puree, Lime, Cane Sugar",
+      "long_description": null,
+      "price": 8.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/76.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/76.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/40.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/72.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Favourites",
+          "description": "Customer favourites",
+          "color": "purple",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "d890879c-eb8a-4c84-8067-5fc4147da3f6"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Mai Tai",
+      "description": "Dark & White Rum, Pineapple Juice, Triple Sec, Lime Juice, Almond",
+      "long_description": null,
+      "price": 10.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/cocos_chicken.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/cocos_chicken.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/garlic_naan.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/48.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "New",
+          "description": "Newly added menu items",
+          "color": "default",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "b743ebf8-35c7-41d7-a9af-13364aa00ae2"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Resham Firiri (Hot)",
+      "description": "Homemade Sherpa Tea (vegan), 4cl Amaretto",
+      "long_description": null,
+      "price": 6.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chutneys.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chutneys.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/66.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/46.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "fiery",
+        "description": ""
+      },
+      "id": "32331ecf-a0d0-4e54-ada6-b5c08247d3aa"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Everest Elixir (Hot)",
+      "description": "Cloves, Dark Rum, Lime Juice, Wild Honey, Cardamom",
+      "long_description": null,
+      "price": 7.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/28.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/28.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/66.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/yogi_bhat.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Specials",
+          "description": "Special menu items",
+          "color": "gold",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Chef Special",
+          "description": "Signature dish by the chef",
+          "icon": "👨‍🍳"
+        }
+      ],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "fiery",
+        "description": ""
+      },
+      "id": "68d66490-92c8-4f24-aa86-6e2a4fdc7e08"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Espresso Martini",
+      "description": "Vodka, Coffee syrup, Sugar syrup, Espresso",
+      "long_description": null,
+      "price": 8.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/28.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/28.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/saag_paneer.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/roti.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Specials",
+          "description": "Special menu items",
+          "color": "gold",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "4af0f78b-ef75-438a-8ca3-81f5e941ddd3"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Ipanema",
+      "description": "Maracuja Juice, Ginger Ale, Mint, Cane Sugar, Lime",
+      "long_description": null,
+      "price": 6.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/saag.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/saag.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/3.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/48.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [
+        {
+          "name": "Specials",
+          "description": "Special menu items",
+          "color": "gold",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "80b5e54e-654d-4246-91c7-2757f71a4e1e"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Mountain Breeze",
+      "description": "Ginger Ale, Mint, Soda, Lime",
+      "long_description": null,
+      "price": 6.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/28.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/28.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/papad.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/47.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "6b24747b-88ce-406a-9491-3a2b7ce0599f"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Coconut Kiss",
+      "description": "Coconut puree, Pineapple Juice, Grenadine",
+      "long_description": null,
+      "price": 6.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/non_veg_mixed_starters.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/non_veg_mixed_starters.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/daal.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/khasi_saag.png"
+      ],
+      "is_available": true,
+      "category": {
+         "name": "Softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "id": "48340cc2-e0ea-4247-9d31-dc40f19e1df6"
+    }
+  }
+]

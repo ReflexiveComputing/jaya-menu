@@ -9,8 +9,10 @@
         "description": "Vodka with lemon",
         "long_description": null,
         "price": 7.5,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-6th-image.png",
+        "images": [
+          "/nila-1st-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -35,8 +37,10 @@
         "description": "Berlin-style beer",
         "long_description": null,
         "price": 3.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-3rd-image.png",
+        "images": [
+          "/nila-5th-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.495792Z",
@@ -61,8 +65,10 @@
         "description": "Fresh lychee juice",
         "long_description": null,
         "price": 2.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-6th-image.png",
+        "images": [
+          "/nila-5th-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.491971Z",
@@ -87,8 +93,10 @@
         "description": "Italian red wine",
         "long_description": null,
         "price": 6.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-5th-image.png",
+        "images": [
+          "/nila-1st-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.502924Z",
@@ -113,8 +121,10 @@
         "description": "Italian aperitif cocktail",
         "long_description": null,
         "price": 6.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-4th-image.png",
+        "images": [
+          "/nila-3rd-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -139,8 +149,10 @@
         "description": "Classic gin and tonic",
         "long_description": null,
         "price": 7.5,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-4th-image.png",
+        "images": [
+          "/nila-6th-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -165,8 +177,10 @@
         "description": "Non-alcoholic wheat beer",
         "long_description": null,
         "price": 5.5,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-6th-image.png",
+        "images": [
+          "/nila-6th-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.495792Z",
@@ -191,8 +205,10 @@
         "description": "Vodka with energy drink",
         "long_description": null,
         "price": 7.5,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-2nd-image.png",
+        "images": [
+          "/nila-5th-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -217,8 +233,10 @@
         "description": "German white wine",
         "long_description": null,
         "price": 6.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-2nd-image.png",
+        "images": [
+          "/nila-6th-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.502924Z",
@@ -243,8 +261,10 @@
         "description": "Ginger ale",
         "long_description": null,
         "price": 2.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-6th-image.png",
+        "images": [
+          "/nila-3rd-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.491971Z",
@@ -269,8 +289,10 @@
         "description": "Vegan tea blend",
         "long_description": null,
         "price": 5.5,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-2nd-image.png",
+        "images": [
+          "/nila-6th-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.485844Z",
@@ -295,8 +317,10 @@
         "description": "Peace and power tea",
         "long_description": null,
         "price": 5.5,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-6th-image.png",
+        "images": [
+          "/nila-1st-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.485844Z",
@@ -321,8 +345,10 @@
         "description": "Refreshing iced tea",
         "long_description": null,
         "price": 6.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-3rd-image.png",
+        "images": [
+          "/nila-6th-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.491971Z",
@@ -347,8 +373,10 @@
         "description": "Allgäu-style beer",
         "long_description": null,
         "price": 3.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-6th-image.png",
+        "images": [
+          "/nila-1st-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.495792Z",
@@ -373,8 +401,10 @@
         "description": "Nepalese pale ale",
         "long_description": null,
         "price": 5.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-5th-image.png",
+        "images": [
+          "/nila-5th-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.495792Z",
@@ -399,8 +429,10 @@
         "description": "Classic chardonnay",
         "long_description": null,
         "price": 6.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-5th-image.png",
+        "images": [
+          "/nila-3rd-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.502924Z",
@@ -425,8 +457,10 @@
         "description": "Golden turmeric tea",
         "long_description": null,
         "price": 5.5,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-5th-image.png",
+        "images": [
+          "/nila-1st-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.485844Z",
@@ -451,8 +485,10 @@
         "description": "Premium white tea",
         "long_description": null,
         "price": 5.5,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-4th-image.png",
+        "images": [
+          "/nila-6th-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.485844Z",
@@ -477,8 +513,10 @@
         "description": "Fanta",
         "long_description": null,
         "price": 2.7,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-6th-image.png",
+        "images": [
+          "/nila-3rd-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.491971Z",
@@ -503,8 +541,10 @@
         "description": "Lychee-flavored spritz",
         "long_description": null,
         "price": 6.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-2nd-image.png",
+        "images": [
+          "/nila-4th-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -529,8 +569,10 @@
         "description": "Rice schnapps shot",
         "long_description": null,
         "price": 3.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-3rd-image.png",
+        "images": [
+          "/nila-5th-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -555,8 +597,10 @@
         "description": "Hot Everest cocktail",
         "long_description": null,
         "price": 7.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-2nd-image.png",
+        "images": [
+          "/nila-2nd-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -581,8 +625,10 @@
         "description": "Traditional Old Durbar",
         "long_description": null,
         "price": 3.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-2nd-image.png",
+        "images": [
+          "/nila-6th-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -607,8 +653,10 @@
         "description": "Fresh mango juice",
         "long_description": null,
         "price": 2.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-2nd-image.png",
+        "images": [
+          "/nila-2nd-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.491971Z",
@@ -633,8 +681,10 @@
         "description": "Spicy ginger tea",
         "long_description": null,
         "price": 5.5,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-6th-image.png",
+        "images": [
+          "/nila-1st-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.485844Z",
@@ -659,8 +709,10 @@
         "description": "Fresh guava juice",
         "long_description": null,
         "price": 2.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-2nd-image.png",
+        "images": [
+          "/nila-3rd-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.491971Z",
@@ -685,8 +737,10 @@
         "description": "Fresh orange juice",
         "long_description": null,
         "price": 2.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-5th-image.png",
+        "images": [
+          "/nila-2nd-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.491971Z",
@@ -711,8 +765,10 @@
         "description": "Classic whiskey sour",
         "long_description": null,
         "price": 9.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-2nd-image.png",
+        "images": [
+          "/nila-2nd-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -737,8 +793,10 @@
         "description": "Spicy ginger drink",
         "long_description": null,
         "price": 2.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-3rd-image.png",
+        "images": [
+          "/nila-2nd-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.491971Z",
@@ -763,8 +821,10 @@
         "description": "Juice with sparkling water",
         "long_description": null,
         "price": 2.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-5th-image.png",
+        "images": [
+          "/nila-2nd-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.491971Z",
@@ -789,8 +849,10 @@
         "description": "Detoxifying lime soda",
         "long_description": null,
         "price": 5.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-6th-image.png",
+        "images": [
+          "/nila-2nd-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.491971Z",
@@ -815,8 +877,10 @@
         "description": "Non-alcoholic beer",
         "long_description": null,
         "price": 4.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-4th-image.png",
+        "images": [
+          "/nila-5th-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.495792Z",
@@ -841,8 +905,10 @@
         "description": "Ginger mint tea with lemon",
         "long_description": null,
         "price": 5.5,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-3rd-image.png",
+        "images": [
+          "/nila-6th-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.485844Z",
@@ -867,8 +933,10 @@
         "description": "Refreshing mint tea",
         "long_description": null,
         "price": 5.5,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-3rd-image.png",
+        "images": [
+          "/nila-2nd-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.485844Z",
@@ -893,8 +961,10 @@
         "description": "Holy basil tea",
         "long_description": null,
         "price": 5.5,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-2nd-image.png",
+        "images": [
+          "/nila-5th-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.485844Z",
@@ -919,8 +989,10 @@
         "description": "Himalayan salt cocktail",
         "long_description": null,
         "price": 7.5,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-6th-image.png",
+        "images": [
+          "/nila-6th-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -945,8 +1017,10 @@
         "description": "Tropical pina colada",
         "long_description": null,
         "price": 8.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-4th-image.png",
+        "images": [
+          "/nila-2nd-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -971,8 +1045,10 @@
         "description": "Bitter lemon drink",
         "long_description": null,
         "price": 2.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-4th-image.png",
+        "images": [
+          "/nila-2nd-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.491971Z",
@@ -997,8 +1073,10 @@
         "description": "Classic mineral water",
         "long_description": null,
         "price": 6.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-3rd-image.png",
+        "images": [
+          "/nila-3rd-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.491971Z",
@@ -1023,8 +1101,10 @@
         "description": "Coriander meditation tea",
         "long_description": null,
         "price": 5.5,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-5th-image.png",
+        "images": [
+          "/nila-5th-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.485844Z",
@@ -1049,8 +1129,10 @@
         "description": "Strawberry margarita",
         "long_description": null,
         "price": 8.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-1st-image.png",
+        "images": [
+          "/nila-2nd-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -1075,8 +1157,10 @@
         "description": "Natural mineral water",
         "long_description": null,
         "price": 6.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-4th-image.png",
+        "images": [
+          "/nila-2nd-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.491971Z",
@@ -1101,8 +1185,10 @@
         "description": "Inner radiance tea",
         "long_description": null,
         "price": 5.5,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-1st-image.png",
+        "images": [
+          "/nila-6th-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.485844Z",
@@ -1127,8 +1213,10 @@
         "description": "Highland tea from Nepal",
         "long_description": null,
         "price": 5.5,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-3rd-image.png",
+        "images": [
+          "/nila-1st-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.485844Z",
@@ -1153,8 +1241,10 @@
         "description": "Nepalese love cocktail",
         "long_description": null,
         "price": 8.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-5th-image.png",
+        "images": [
+          "/nila-3rd-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -1179,8 +1269,10 @@
         "description": "Calming ginger chamomile",
         "long_description": null,
         "price": 5.5,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-6th-image.png",
+        "images": [
+          "/nila-3rd-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.485844Z",
@@ -1205,8 +1297,10 @@
         "description": "Fresh pineapple juice",
         "long_description": null,
         "price": 2.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-6th-image.png",
+        "images": [
+          "/nila-3rd-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.491971Z",
@@ -1231,8 +1325,10 @@
         "description": "Classic Negroni cocktail",
         "long_description": null,
         "price": 7.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-4th-image.png",
+        "images": [
+          "/nila-1st-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -1257,8 +1353,10 @@
         "description": "Sparkling Water",
         "long_description": null,
         "price": 2.2,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-3rd-image.png",
+        "images": [
+          "/nila-1st-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.491971Z",
@@ -1283,8 +1381,10 @@
         "description": "Ayurvedic balance tea",
         "long_description": null,
         "price": 5.5,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-1st-image.png",
+        "images": [
+          "/nila-2nd-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.485844Z",
@@ -1309,8 +1409,10 @@
         "description": "Everest brand beer",
         "long_description": null,
         "price": 5.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-2nd-image.png",
+        "images": [
+          "/nila-4th-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.495792Z",
@@ -1335,8 +1437,10 @@
         "description": "Traditional mojito",
         "long_description": null,
         "price": 8.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-3rd-image.png",
+        "images": [
+          "/nila-6th-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -1361,8 +1465,10 @@
         "description": "Cola Zero",
         "long_description": null,
         "price": 2.7,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-5th-image.png",
+        "images": [
+          "/nila-2nd-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.491971Z",
@@ -1387,8 +1493,10 @@
         "description": "Nepalese ice beer",
         "long_description": null,
         "price": 5.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-6th-image.png",
+        "images": [
+          "/nila-6th-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.495792Z",
@@ -1413,8 +1521,10 @@
         "description": "Coriander iced tea",
         "long_description": null,
         "price": 6.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-4th-image.png",
+        "images": [
+          "/nila-6th-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.491971Z",
@@ -1439,8 +1549,10 @@
         "description": "Tonic water",
         "long_description": null,
         "price": 2.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-5th-image.png",
+        "images": [
+          "/nila-3rd-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.491971Z",
@@ -1465,8 +1577,10 @@
         "description": "Zen meditation tea",
         "long_description": null,
         "price": 5.5,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-4th-image.png",
+        "images": [
+          "/nila-4th-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.485844Z",
@@ -1491,8 +1605,10 @@
         "description": "Campari with soda",
         "long_description": null,
         "price": 7.5,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-5th-image.png",
+        "images": [
+          "/nila-6th-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -1517,8 +1633,10 @@
         "description": "Manang melon cocktail",
         "long_description": null,
         "price": 9.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-1st-image.png",
+        "images": [
+          "/nila-2nd-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -1543,8 +1661,10 @@
         "description": "Crystal wheat beer",
         "long_description": null,
         "price": 5.5,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-5th-image.png",
+        "images": [
+          "/nila-1st-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.495792Z",
@@ -1569,8 +1689,10 @@
         "description": "Still Water",
         "long_description": null,
         "price": 2.2,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-2nd-image.png",
+        "images": [
+          "/nila-4th-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.491971Z",
@@ -1595,8 +1717,10 @@
         "description": "Annapurna sunset cocktail",
         "long_description": null,
         "price": 8.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-5th-image.png",
+        "images": [
+          "/nila-3rd-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -1621,8 +1745,10 @@
         "description": "Tibetan summer cocktail",
         "long_description": null,
         "price": 9.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-5th-image.png",
+        "images": [
+          "/nila-6th-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -1647,8 +1773,10 @@
         "description": "Basil-flavored spritz",
         "long_description": null,
         "price": 7.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-1st-image.png",
+        "images": [
+          "/nila-3rd-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -1673,8 +1801,10 @@
         "description": "Himalayan honey cocktail",
         "long_description": null,
         "price": 9.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-3rd-image.png",
+        "images": [
+          "/nila-5th-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -1699,8 +1829,10 @@
         "description": "Organic non-alcoholic beer",
         "long_description": null,
         "price": 4.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-1st-image.png",
+        "images": [
+          "/nila-5th-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.495792Z",
@@ -1725,8 +1857,10 @@
         "description": "Whiskey with cola",
         "long_description": null,
         "price": 7.5,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-2nd-image.png",
+        "images": [
+          "/nila-3rd-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -1751,8 +1885,10 @@
         "description": "Lychee gin mojito",
         "long_description": null,
         "price": 9.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-3rd-image.png",
+        "images": [
+          "/nila-2nd-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -1777,8 +1913,10 @@
         "description": "Campari with orange",
         "long_description": null,
         "price": 7.5,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-4th-image.png",
+        "images": [
+          "/nila-2nd-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -1803,8 +1941,10 @@
         "description": "Nepalese Lukla beer",
         "long_description": null,
         "price": 5.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-5th-image.png",
+        "images": [
+          "/nila-6th-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.495792Z",
@@ -1829,8 +1969,10 @@
         "description": "Traditional German drink",
         "long_description": null,
         "price": 3.2,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-6th-image.png",
+        "images": [
+          "/nila-3rd-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.491971Z",
@@ -1855,8 +1997,10 @@
         "description": "Coffee martini cocktail",
         "long_description": null,
         "price": 8.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-4th-image.png",
+        "images": [
+          "/nila-6th-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -1881,8 +2025,10 @@
         "description": "Sweet mango yogurt drink",
         "long_description": null,
         "price": 5.5,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-1st-image.png",
+        "images": [
+          "/nila-5th-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.491971Z",
@@ -1907,8 +2053,10 @@
         "description": "Fresh raspberry lemonade",
         "long_description": null,
         "price": 6.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-5th-image.png",
+        "images": [
+          "/nila-2nd-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.491971Z",
@@ -1933,8 +2081,10 @@
         "description": "Lychee love cocktail",
         "long_description": null,
         "price": 7.5,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-1st-image.png",
+        "images": [
+          "/nila-6th-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -1959,8 +2109,10 @@
         "description": "Pink-colored spritz",
         "long_description": null,
         "price": 7.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-2nd-image.png",
+        "images": [
+          "/nila-2nd-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -1985,8 +2137,10 @@
         "description": "Lumbini lychee sling",
         "long_description": null,
         "price": 8.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-1st-image.png",
+        "images": [
+          "/nila-1st-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -2011,8 +2165,10 @@
         "description": "Strong black tea",
         "long_description": null,
         "price": 5.5,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-5th-image.png",
+        "images": [
+          "/nila-4th-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.485844Z",
@@ -2037,8 +2193,10 @@
         "description": "Rhubarb spritz cocktail",
         "long_description": null,
         "price": 7.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-1st-image.png",
+        "images": [
+          "/nila-4th-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -2063,8 +2221,10 @@
         "description": "Rhubarb with sparkling water",
         "long_description": null,
         "price": 5.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-2nd-image.png",
+        "images": [
+          "/nila-3rd-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.491971Z",
@@ -2089,8 +2249,10 @@
         "description": "Russian mule cocktail",
         "long_description": null,
         "price": 8.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-2nd-image.png",
+        "images": [
+          "/nila-6th-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -2115,8 +2277,10 @@
         "description": "Basil-flavored soda",
         "long_description": null,
         "price": 5.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-2nd-image.png",
+        "images": [
+          "/nila-1st-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.491971Z",
@@ -2141,8 +2305,10 @@
         "description": "Tropical mai tai",
         "long_description": null,
         "price": 10.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-3rd-image.png",
+        "images": [
+          "/nila-4th-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -2167,8 +2333,10 @@
         "description": "Sun energy tea",
         "long_description": null,
         "price": 5.5,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-3rd-image.png",
+        "images": [
+          "/nila-6th-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.485844Z",
@@ -2193,8 +2361,10 @@
         "description": "Traditional Aila cocktail",
         "long_description": null,
         "price": 8.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-4th-image.png",
+        "images": [
+          "/nila-4th-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -2219,8 +2389,10 @@
         "description": "Brazilian Ipanema cocktail",
         "long_description": null,
         "price": 6.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-1st-image.png",
+        "images": [
+          "/nila-1st-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -2245,8 +2417,10 @@
         "description": "Himalayan sour cocktail",
         "long_description": null,
         "price": 9.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-2nd-image.png",
+        "images": [
+          "/nila-5th-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -2271,8 +2445,10 @@
         "description": "Nepalese vodka shot",
         "long_description": null,
         "price": 3.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-5th-image.png",
+        "images": [
+          "/nila-3rd-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -2297,8 +2473,10 @@
         "description": "Fresh passion fruit juice",
         "long_description": null,
         "price": 2.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-5th-image.png",
+        "images": [
+          "/nila-4th-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.491971Z",
@@ -2323,8 +2501,10 @@
         "description": "Herbal bliss tea",
         "long_description": null,
         "price": 5.5,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-6th-image.png",
+        "images": [
+          "/nila-5th-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.485844Z",
@@ -2349,8 +2529,10 @@
         "description": "Dark wheat beer",
         "long_description": null,
         "price": 5.5,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-6th-image.png",
+        "images": [
+          "/nila-6th-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.495792Z",
@@ -2375,8 +2557,10 @@
         "description": "Beer with lemonade",
         "long_description": null,
         "price": 3.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-3rd-image.png",
+        "images": [
+          "/nila-1st-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.495792Z",
@@ -2401,8 +2585,10 @@
         "description": "Sprite",
         "long_description": null,
         "price": 2.7,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-5th-image.png",
+        "images": [
+          "/nila-4th-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.491971Z",
@@ -2427,8 +2613,10 @@
         "description": "Hot Nepalese cocktail",
         "long_description": null,
         "price": 6.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-5th-image.png",
+        "images": [
+          "/nila-3rd-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -2453,8 +2641,10 @@
         "description": "Traditional Hugo cocktail",
         "long_description": null,
         "price": 6.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-2nd-image.png",
+        "images": [
+          "/nila-1st-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -2479,8 +2669,10 @@
         "description": "Fresh apple juice",
         "long_description": null,
         "price": 2.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-1st-image.png",
+        "images": [
+          "/nila-6th-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.491971Z",
@@ -2505,8 +2697,10 @@
         "description": "Premium wheat beer",
         "long_description": null,
         "price": 5.5,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-3rd-image.png",
+        "images": [
+          "/nila-3rd-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.495792Z",
@@ -2531,8 +2725,10 @@
         "description": "Mountain breeze cocktail",
         "long_description": null,
         "price": 6.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-5th-image.png",
+        "images": [
+          "/nila-5th-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -2557,8 +2753,10 @@
         "description": "Nepalese rum shot",
         "long_description": null,
         "price": 3.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-6th-image.png",
+        "images": [
+          "/nila-6th-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -2583,8 +2781,10 @@
         "description": "Mustang mango cocktail",
         "long_description": null,
         "price": 8.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-1st-image.png",
+        "images": [
+          "/nila-5th-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -2609,8 +2809,10 @@
         "description": "Italian rosé wine",
         "long_description": null,
         "price": 6.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-2nd-image.png",
+        "images": [
+          "/nila-1st-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.502924Z",
@@ -2635,8 +2837,10 @@
         "description": "Nepalese mule cocktail",
         "long_description": null,
         "price": 9.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-1st-image.png",
+        "images": [
+          "/nila-1st-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -2661,8 +2865,10 @@
         "description": "Nepalese Sherpa beer",
         "long_description": null,
         "price": 5.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-4th-image.png",
+        "images": [
+          "/nila-6th-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.495792Z",
@@ -2687,8 +2893,10 @@
         "description": "Coconut kiss cocktail",
         "long_description": null,
         "price": 6.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-6th-image.png",
+        "images": [
+          "/nila-3rd-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -2713,8 +2921,10 @@
         "description": "Cuban rum cocktail",
         "long_description": null,
         "price": 7.5,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-1st-image.png",
+        "images": [
+          "/nila-6th-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -2739,8 +2949,10 @@
         "description": "Exotic monkey temple cocktail",
         "long_description": null,
         "price": 9.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-2nd-image.png",
+        "images": [
+          "/nila-6th-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -2765,8 +2977,10 @@
         "description": "Vodka sour cocktail",
         "long_description": null,
         "price": 9.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-1st-image.png",
+        "images": [
+          "/nila-1st-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -2791,8 +3005,10 @@
         "description": "Traditional margarita",
         "long_description": null,
         "price": 8.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-3rd-image.png",
+        "images": [
+          "/nila-5th-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -2817,8 +3033,10 @@
         "description": "White wine with sparkling water",
         "long_description": null,
         "price": 5.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-1st-image.png",
+        "images": [
+          "/nila-5th-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.502924Z",
@@ -2843,8 +3061,10 @@
         "description": "Coca Cola",
         "long_description": null,
         "price": 2.7,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-5th-image.png",
+        "images": [
+          "/nila-4th-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.491971Z",
@@ -2869,8 +3089,10 @@
         "description": "Raspberry mojito",
         "long_description": null,
         "price": 9.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-1st-image.png",
+        "images": [
+          "/nila-3rd-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",
@@ -2895,8 +3117,10 @@
         "description": "Pink grapefruit drink",
         "long_description": null,
         "price": 2.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-1st-image.png",
+        "images": [
+          "/nila-3rd-image.png"
+        ],
         "is_alcoholic": false,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.491971Z",
@@ -2921,8 +3145,10 @@
         "description": "Premium Old Durbar",
         "long_description": null,
         "price": 4.9,
-        "thumbnail_url": null,
-        "images": [],
+        "thumbnail_url": "/nila-1st-image.png",
+        "images": [
+          "/nila-3rd-image.png"
+        ],
         "is_alcoholic": true,
         "is_available": true,
         "created_at": "2025-08-16T22:53:10.498067Z",

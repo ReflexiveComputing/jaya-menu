@@ -10,10 +10,10 @@ import { FoodTags } from "@/components/ui/food-card/food-tags"
 import { Button } from "../button"
 import { ImageSlider } from "../image-slider/image-slider"
 import { useWishlist } from "@/components/providers/wishlist-provider"
-import { MenuItem } from "@/types/menu"
+import { MenuItemNew } from "@/types/menu"
 
 interface FoodCardProps {
-  item: MenuItem
+  item: MenuItemNew
   showBadge?: boolean
   compact?: boolean
 }
@@ -38,6 +38,14 @@ export function FoodCardSlider({
   ? 'flex-shrink-0 bg-white rounded-sm mb-4 shadow-sm overflow-hidden'
     : 'flex-shrink-0 bg-white rounded-sm mb-6 shadow-sm overflow-hidden'
 
+  // derive badge from first tag object when available
+  const firstTag = item.tags && item.tags.length ? item.tags[0] : undefined
+  const badge = (firstTag && firstTag.name) || undefined
+  const badgeColor = (firstTag && firstTag.color) ? 'green' : 'default'
+
+  // likes: prefer existing value if present, otherwise random 1-50 for demo
+  const likes = Math.floor(Math.random() * 50) + 1
+
   return (
     <Link href={`/item/${item.id}`} className="block">
       <div className={wrapperClass}>
@@ -48,10 +56,10 @@ export function FoodCardSlider({
               size={compact ? 'sm' : 'md'}
             />
           </div>
-          <FoodBadge badge={item.badge} showBadge={showBadge} color={item.badgeColor} />
+          <FoodBadge badge={badge} showBadge={showBadge} color={badgeColor} />
           <ClientHeart
             item={item}
-            likes={item.likes}
+            likes={likes}
           />
         </div>
         <div className="p-4">
@@ -63,7 +71,7 @@ export function FoodCardSlider({
             <div className="text-xl font-bold">{item.price}</div>
           </div>
           <div className="flex items-center justify-between">
-            <FoodTags tags={item.tags} />
+            {/* <FoodTags tags={item.tags} /> */}
             {isInWishlist ? (
               <button
                 onClick={handleWishlistToggle}
