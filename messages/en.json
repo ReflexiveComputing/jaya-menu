@@ -7,13 +7,13 @@
     "showMenu": "Menu"
   },
   "Menu": {
-    "title": "Menu",
+    "title": "Food Menu",
     "popularThisMonth": "Popular This Month",
     "noItemsInCategory": "No items in this category yet.",
     "browseOtherCategories": "Browse other categories"
   },
   "Drinks": {
-    "title": "Drinks",
+    "title": "Drinks Menu",
     "popularThisMonth": "Popular This Month",
     "noItemsInCategory": "No drinks in this category yet.",
     "browseOtherCategories": "Browse other categories"

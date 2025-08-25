@@ -53,7 +53,7 @@ export function Header({
     >
       <div className="flex items-center">
         {showChevron && (
-          <Link href={linkTo} className="mr-4">
+          <Link href={linkTo} className="absolute mr-4">
             <ChevronLeft className="w-6 h-6 text-gray-600" />
           </Link>
         )}
