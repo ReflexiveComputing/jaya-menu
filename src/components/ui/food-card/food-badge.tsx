@@ -3,14 +3,14 @@ import { cva, type VariantProps } from "class-variance-authority"
 import { cn } from "@/lib/utils"
 
 const badgeVariants = cva(
-  " uppercase absolute top-4 left-4 backdrop-blur-sm px-3  py-1 rounded-full text-xs font-bold",
+  " absolute top-4 left-4 backdrop-blur-sm px-3  py-1 rounded-sm text-xs font-bold",
   {
     variants: {
       color: {
-        gold: "bg-yellow-300 text-yellow-900",
-        green: "bg-green-400 text-green-900",
-        purple: "bg-purple-400 text-purple-900",
-        default: "bg-white/90 text-gray-800",
+        gold: "bg-global-gold text-white",
+        green: "bg-global-green text-white",
+        purple: "bg-global-red text-white",
+        default: "bg-global-lightblue text-white",
       },
     },
     defaultVariants: {
