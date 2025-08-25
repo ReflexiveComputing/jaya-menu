@@ -58,7 +58,7 @@ export function Header({
           </Link>
         )}
         <div className="flex-1">
-          <h1 className={cn("text-2xl font-bold", align && `text-${align}`)}>
+          <h1 className={cn("text-2xl font-bold font-header", align && `text-${align}`)}>
             {title}
           </h1>
         </div>

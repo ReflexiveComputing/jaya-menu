@@ -42,10 +42,9 @@ export default function HomePage() {
 
           {/* Headline */}
           <div className="text-center mb-16 uppercase ">
-            <h1 className="text-6xl font-black text-white mb-4 tracking-tight drop-shadow-lg">{t('title')}</h1>
-            <h1 className="text-5xl font-black text-white  tracking-tight drop-shadow-lg">{t('subtitle')}</h1>
-            <h1 className="text-4xl font-black text-white mb-4 tracking-tight drop-shadow-lg">{t('subtitle2')}</h1>
-
+            <h1 className="text-6xl font-black text-white mb-4 tracking-tight drop-shadow-lg font-header">{t('title')}</h1>
+            <h1 className="text-5xl font-black text-white  tracking-tight drop-shadow-lg font-header">{t('subtitle')}</h1>
+            <h1 className="text-4xl font-black text-white mb-4 tracking-tight drop-shadow-lg font-header">{t('subtitle2')}</h1>
           </div>
         </div>
 
