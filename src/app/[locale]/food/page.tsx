@@ -85,7 +85,7 @@ export default async function MenuPage() {
         </div>
 
 
-        {topItems.length > 0 && (
+        {/* {topItems.length > 0 && (
           <div className="py-6">
             <SectionDivider href="/food/category/popular" title={t('popularThisMonth')} />
             <div className="overflow-x-auto scrollbar-hide">
@@ -100,7 +100,7 @@ export default async function MenuPage() {
               </div>
             </div>
           </div>
-        )}
+        )} */}
 
         {categoryEntries.map(([category, items]) => {
           if (!items.length) return null
