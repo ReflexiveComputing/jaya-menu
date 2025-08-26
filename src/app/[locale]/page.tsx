@@ -22,14 +22,14 @@ export default function HomePage() {
       />
 
       {/* Light overlay for better text readability */}
-      <div className="absolute inset-0 bg-black/20" />
+      <div className="absolute max-h-screen inset-0 bg-black/30" />
 
       {/* Content */}
-      <div className="relative z-10 min-h-screen flex flex-col">
+      <div className="relative z-10 pt-10 flex flex-col">
         {/* Main Content */}
-        <div className="flex-1 flex flex-col items-center justify-center px-6 py-5">
+        <div className="flex-1 flex flex-col items-center justify-center px-6 py-1">
           {/* Logo */}
-          <div className="mb-8">
+          <div className="">
             <Image
               src="/Mithocha_logo_transparent.png"
               alt="Mithocha Logo"
@@ -41,15 +41,15 @@ export default function HomePage() {
           </div>
 
           {/* Headline */}
-          <div className="text-center mb-16 uppercase ">
-            <h1 className="text-6xl font-black text-white mb-4 tracking-tight drop-shadow-lg font-header">{t('title')}</h1>
-            <h1 className="text-5xl font-black text-white  tracking-tight drop-shadow-lg font-header">{t('subtitle')}</h1>
-            <h1 className="text-4xl font-black text-white mb-4 tracking-tight drop-shadow-lg font-header">{t('subtitle2')}</h1>
+          <div className="text-center uppercase ">
+            <h1 className="text-6xl font-black text-white mb-2 tracking-tight drop-shadow-lg font-header">{t('title')}</h1>
+            <h1 className="text-5xl font-black text-white mb-2 tracking-tight drop-shadow-lg font-header">{t('subtitle')}</h1>
+            <h1 className="text-4xl font-black text-white tracking-tight drop-shadow-lg font-header">{t('subtitle2')}</h1>
           </div>
         </div>
 
         {/* Action Buttons - Positioned at bottom */}
-        <div className="px-6 pb-20">
+        <div className="px-6 pt-20">
           <div className="w-full max-w-sm mx-auto space-y-4 ">
             <Button variant="surpriseMe" asChild>
               <Link href="/surprise" className="w-block">
@@ -66,10 +66,11 @@ export default function HomePage() {
         </div>
 
         {/* Language Switcher */}
-        <div className="w-full bottom-0 right-0 flex justify-end p-4">
+       
+      </div>
+       <div className="absolute w-full bottom-20 right-0 flex justify-end p-4">
           <LanguageSwitcher />
         </div>
-      </div>
     </div>
   )
 }
