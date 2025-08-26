@@ -1,4 +1,3 @@
-
 import "server-only";
 
 import type { MenuItemNew } from "@/types/menu";
@@ -53,4 +52,3 @@ export async function fetchMenuTopThisMonthFromApi(limit = 3): Promise<MenuItemN
   const shuffled = allItems.sort(() => 0.5 - Math.random());
   return shuffled.slice(0, limit);
 }
-
