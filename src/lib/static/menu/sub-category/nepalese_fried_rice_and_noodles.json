@@ -1,0 +1,130 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Veg Chau Min",
+      "description": "Fried noodles with vegetables, egg & tofu. Tossed in the wok and served with salad.",
+      "long_description": null,
+      "price": 12.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/cocos_chicken.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/cocos_chicken.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/51.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/alu_chop.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Vegetarian",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Vegan",
+          "description": "Vegan friendly",
+          "color": "green",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "tofu",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "160419a5-784c-48c2-8e3f-3ef9a247cfce"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Pad Thai",
+      "description": "Rice Noodles with Egg, Sprouts, Pak Choi & Peanuts. Tossed in the wok and served with salad.",
+      "long_description": null,
+      "price": 12.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/saag.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/saag.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/19.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/naan.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Szechuan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "New",
+          "description": "Newly added menu items",
+          "color": "default",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Chef Special",
+          "description": "Signature dish by the chef",
+          "icon": "👨‍🍳"
+        }
+      ],
+      "protein": {
+        "name": "tofu, paneer",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "ef0af0fc-b345-416d-9401-c39c2e24eff8"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Yogi Bhat",
+      "description": "Paneer Fried Rice with Vegetables. Served with salad.",
+      "long_description": null,
+      "price": 12.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/saag.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/saag.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/58.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/76.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Vegetarian",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "paneer",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "d8a28cb4-be06-4236-84c8-7ba0b184313f"
+    }
+  }
+]

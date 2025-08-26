@@ -1,0 +1,473 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Bhat",
+      "description": "Small bowl of basmati rice.",
+      "long_description": null,
+      "price": 2.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/mix_momo.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/mix_momo.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/26.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/the_mitho_cha_experience.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Dumplings",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "New",
+          "description": "Newly added menu items",
+          "color": "default",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "6502cc98-7533-410c-a956-f642c39610c1"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Chutneys",
+      "description": "4 different chutneys ",
+      "long_description": null,
+      "price": 2.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/yogi_bhat.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/yogi_bhat.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/2.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/54.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Szechuan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Vegan",
+          "description": "Vegan friendly",
+          "color": "green",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "spice": {
+        "name": "warming",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "d2c94cff-a81d-4418-91c0-ef3a95232f7c"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Salad",
+      "description": "Small salad with agave-sesame dressing.",
+      "long_description": null,
+      "price": 3.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/roti.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/roti.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/veg_chau_min.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/bhanto_tareko.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Salad",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Specials",
+          "description": "Special menu items",
+          "color": "gold",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "490b3d9a-511f-4fcf-812a-4e2301fcebed"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Mustang Alu",
+      "description": "Potato wedges seasoned with Jimbu & Meethi  ",
+      "long_description": null,
+      "price": 4.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/daal_bhat_masu.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/daal_bhat_masu.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/21.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/76.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Vegetarian",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Specials",
+          "description": "Special menu items",
+          "color": "gold",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "spice": {
+        "name": "warming",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "09da7bac-5eaa-4dee-a3f9-3174946c17dc"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Saag",
+      "description": "Nepalese spinach sautéed with garlic & ginger ",
+      "long_description": null,
+      "price": 4.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_momo.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_momo.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/28.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/daal_bhat_masu.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Sekuwa Grill",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Specials",
+          "description": "Special menu items",
+          "color": "gold",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Limited Time",
+          "description": "Available for a limited time",
+          "icon": "⏳"
+        }
+      ],
+      "spice": {
+        "name": "warming",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "cad55d7c-90ff-415f-9c51-eb871df87685"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Plain Naan",
+      "description": "Fresh bread from the clay oven ",
+      "long_description": null,
+      "price": 3.7,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/23.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/23.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/alu_chop.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/daal.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Sizzler",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [
+        {
+          "name": "Customer Favorite",
+          "description": "Loved by customers",
+          "icon": "⭐"
+        }
+      ],
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "120a213a-0275-4f27-a54b-575fb91b244b"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Butter Naan",
+      "description": "Fresh bread from the clay oven ",
+      "long_description": null,
+      "price": 3.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/bhanto_tareko.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/bhanto_tareko.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/16.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/4.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Sekuwa Grill",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Vegan",
+          "description": "Vegan friendly",
+          "color": "green",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Customer Favorite",
+          "description": "Loved by customers",
+          "icon": "⭐"
+        }
+      ],
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "047be4c8-e817-497e-ac5a-c98c23d12ce9"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Garlic Naan",
+      "description": "Fresh bread from the clay oven ",
+      "long_description": null,
+      "price": 3.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/4.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/4.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/68.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/67.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Fusion",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Vegan",
+          "description": "Vegan friendly",
+          "color": "green",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "8fdcad55-2e69-4723-ab10-bc49c428f111"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Cheese Naan",
+      "description": "Fresh bread from the clay oven ",
+      "long_description": null,
+      "price": 4.2,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/68.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/68.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_sate.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/35.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Sekuwa Grill",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "183ceb6b-30d1-4a4e-bed9-e142ff3efb1c"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Roti",
+      "description": "Whole wheat flatbread",
+      "long_description": null,
+      "price": 3.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/70.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/70.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/42.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/daal_bhat_masu.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Sizzler",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [
+        {
+          "name": "Healthy Choice",
+          "description": "Nutritious and healthy",
+          "icon": "🥗"
+        }
+      ],
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "0dc13eab-dce7-49da-8f1f-04a13fcd21a7"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Papad",
+      "description": "5 pieces of papadam made from urad lentil and rice flour. (Gluten Free)",
+      "long_description": null,
+      "price": 3.5,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/68.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/68.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/19.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/everest_bites.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Nepalese",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "New",
+          "description": "Newly added menu items",
+          "color": "default",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "e53cf499-19be-4354-8a0b-90504237b148"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Raita",
+      "description": "Yogurt blended with roasted jeera, cucumber, coriander, honey & black salt",
+      "long_description": null,
+      "price": 2.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/16.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/16.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/35.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/yogi_bhat.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Tibetan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "New",
+          "description": "Newly added menu items",
+          "color": "default",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "c642c4fb-298b-455b-b118-bcfe8152c5f6"
+    }
+  }
+]

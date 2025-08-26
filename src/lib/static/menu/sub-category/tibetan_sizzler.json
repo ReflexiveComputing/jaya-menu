@@ -1,0 +1,81 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Lamm Fry",
+      "description": "Hot platter served with rice and salad. Lamb marinated for 24 hours, cooked on a sizzling cast-iron plate with bell peppers, tomatoes, chili, and onions.",
+      "long_description": null,
+      "price": 21.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/sha_phaley.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/sha_phaley.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/46.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/paneer_veg_sekuwa.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Noodles & Fried Rice",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Specials",
+          "description": "Special menu items",
+          "color": "gold",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "lamb",
+        "description": ""
+      },
+      "spice": {
+        "name": "fiery",
+        "description": ""
+      },
+      "size": {
+        "name": "full",
+        "description": ""
+      },
+      "id": "b8661a29-b9f6-4c08-9951-9438abb0883d"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Chicken Sizzler",
+      "description": "Hot platter served with rice and salad. Chicken marinated in Himalayan spices, cooked on a sizzling cast-iron plate with bell peppers, mushrooms, tomatoes, chili, and onions.",
+      "long_description": null,
+      "price": 18.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/bhat.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/bhat.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/2.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/saag.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Noodles & Fried Rice",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "chicken",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "full",
+        "description": ""
+      },
+      "id": "aa736f6b-8314-43b0-b0a1-369714a4f590"
+    }
+  }
+]

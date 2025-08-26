@@ -1,0 +1,81 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Kung Pao Lamb",
+      "description": "Specialties with wild Szechuan pepper (Timur), found exclusively at altitudes above 3,000 meters in the Himalayas. Lamb sautéed with peanuts in a wok, then deglazed with a hearty soy-garlic reduction. Garnished with fresh spring onions, tomatoes, and Timur Szechuan pepper.",
+      "long_description": null,
+      "price": 22.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/pad_thai.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/pad_thai.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/16.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/74.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Fusion",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "lamb",
+        "description": ""
+      },
+      "spice": {
+        "name": "fiery",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "4d351301-4808-4a69-8130-6bd72a1ee54b"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Kung Pao Soya",
+      "description": "Specialties with wild Szechuan pepper (Timur), found exclusively at altitudes above 3,000 meters in the Himalayas. Vegan soy chunks marinated in traditional Tibetan spices, sautéed to golden perfection in a wok with peanuts, spring onions, and Szechuan pepper.",
+      "long_description": null,
+      "price": 16.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/41.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/41.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/64.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/khasi_saag.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Nepalese",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Favourites",
+          "description": "Customer favourites",
+          "color": "purple",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "tofu",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "88312122-a6c2-4f44-bce6-513152de76fe"
+    }
+  }
+]

@@ -1,0 +1,252 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Chicken Curry",
+      "description": "The classic. Chicken breast sautéed with turmeric and coriander in homemade curry. Served with rice, salad, and potato chutney.",
+      "long_description": null,
+      "price": 13.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/19.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/19.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/bhat.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/roti.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Sizzler",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Vegan",
+          "description": "Vegan friendly",
+          "color": "green",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "chicken",
+        "description": ""
+      },
+      "spice": {
+        "name": "warming",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "630838ef-250b-47b5-9a52-bad650e42821"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Cocos Chicken",
+      "description": "Chicken breast sautéed with almonds, cashew nuts, & fresh vegetables in curry coconut milk. Served with rice, salad, and potato chutney.",
+      "long_description": null,
+      "price": 15.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/khasi_saag.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/khasi_saag.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/71.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/sha_phaley.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Noodles & Fried Rice",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Specials",
+          "description": "Special menu items",
+          "color": "gold",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "chicken",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "05a6ef94-624f-4f5e-80f0-c918fa6daac5"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Khasi saag",
+      "description": "Lamb goulash & spinach, refined with fenugreek leaves, ginger & Himalayan spices. Served with rice, salad, and potato chutney.",
+      "long_description": null,
+      "price": 16.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/47.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/47.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/36.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/roti.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Nepalese",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Vegan",
+          "description": "Vegan friendly",
+          "color": "green",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "lamb",
+        "description": ""
+      },
+      "spice": {
+        "name": "warming",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "ca34932d-6e0a-4830-ae0f-72234b08b9bc"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Khasi Alu",
+      "description": "A traditional mountain farmer's dish recommended by the chef. Lamb & potato goulash cooked with Nepalese spices. Served with rice, salad, and potato chutney.",
+      "long_description": null,
+      "price": 16.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/papad.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/papad.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/lamb_sekuwa.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/64.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Salad",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "lamb",
+        "description": ""
+      },
+      "spice": {
+        "name": "warming",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "fe5342e5-b666-481d-93a5-c48104ea39d3"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Haans Nariwal",
+      "description": "Crispy duck with vegetables in coconut curry, topped with cashew nuts and almonds. Served with rice, salad, and potato chutney.",
+      "long_description": null,
+      "price": 16.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/64.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/64.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/the_mitho_cha_experience.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/sha_phaley.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Dumplings",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [
+        {
+          "name": "Healthy Choice",
+          "description": "Nutritious and healthy",
+          "icon": "🥗"
+        }
+      ],
+      "protein": {
+        "name": "chicken, lamb",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "2c0fe683-688d-4211-8e30-984adc605aa6"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Haans Badam",
+      "description": "Crispy duck in homemade peanut curry (slightly sweet) with onions, potatoes & nuts. Served with rice, salad, and potato chutney.",
+      "long_description": null,
+      "price": 18.5,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/29.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/29.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/72.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/14.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Non Vegetarian",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Vegan",
+          "description": "Vegan friendly",
+          "color": "green",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "chicken, lamb",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "full",
+        "description": ""
+      },
+      "id": "2dd42807-da36-483d-8480-ee8af75ac518"
+    }
+  }
+]

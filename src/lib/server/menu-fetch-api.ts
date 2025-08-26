@@ -1,45 +1,56 @@
 
 import "server-only";
+
 import type { MenuItemNew } from "@/types/menu";
-import categories from "@/lib/static/menu/categories.json";
+import categoriesData from "@/lib/static/menu/categories.json";
 import fs from "fs";
 import path from "path";
+import { MenuCategory } from "@/types/category";
 
-function getAllMenuItems(): MenuItemNew[] {
-  // Read all sub-category JSON files and aggregate menu_item_data
-  const dir = path.join(process.cwd(), "src/lib/static/menu/sub-category");
-  const files = fs.readdirSync(dir).filter(f => f.endsWith('.json'));
+
+
+const categories: MenuCategory[] = categoriesData;
+
+function getMenuItemsByCategoryFilename(filename: string): MenuItemNew[] {
+  const filePath = path.join(process.cwd(), "src/lib/static/menu/sub-category", filename + ".json");
+  if (!fs.existsSync(filePath)) return [];
+  const data = JSON.parse(fs.readFileSync(filePath, "utf-8"));
   const items: MenuItemNew[] = [];
-  for (const file of files) {
-    const filePath = path.join(dir, file);
-    const data = JSON.parse(fs.readFileSync(filePath, "utf-8"));
-    for (const entry of data) {
-      if (entry.menu_item_data) {
-        // Assign random likes for demo
-        entry.menu_item_data.likes = Math.floor(Math.random() * 100);
-        items.push(entry.menu_item_data);
-      }
+  for (const entry of data) {
+    if (entry.menu_item_data) {
+      items.push(entry.menu_item_data);
     }
   }
   return items;
 }
 
-export async function fetchMenuCategoriesFromApi(): Promise<string[]> {
+
+export async function fetchMenuCategoriesFromApi(): Promise<MenuCategory[]> {
   // Return categories from static file
   return categories;
 }
 
-export async function fetchMenuCategoryItemsFromApi(category: string): Promise<MenuItemNew[]> {
-  const items = getAllMenuItems();
-  return items.filter(i => i.category?.name === category);
+
+export async function fetchMenuCategoryItemsFromApi(categoryKey: string): Promise<MenuItemNew[]> {
+  // Try to find by name first
+  let category = categories.find(c => c.name === categoryKey);
+  if (!category) {
+    // Try to find by filename (with or without .json)
+    category = categories.find(c => c.filename.replace(/\.json$/, "") === categoryKey);
+  }
+  if (!category) return [];
+  return getMenuItemsByCategoryFilename(category.filename);
 }
 
+
+// Optionally, you can implement a 'top this month' by picking random items from all categories
 export async function fetchMenuTopThisMonthFromApi(limit = 3): Promise<MenuItemNew[]> {
-  const items = getAllMenuItems();
-  // Return 3 random items
-  const shuffled = items.sort(() => 0.5 - Math.random());
+  let allItems: MenuItemNew[] = [];
+  for (const cat of categories) {
+    allItems = allItems.concat(getMenuItemsByCategoryFilename(cat.filename));
+  }
+  // Return random items
+  const shuffled = allItems.sort(() => 0.5 - Math.random());
   return shuffled.slice(0, limit);
 }
 
-const _default = null;
-export default _default;

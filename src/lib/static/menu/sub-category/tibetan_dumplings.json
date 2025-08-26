@@ -1,0 +1,172 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Vegan Momo",
+      "description": "Filled with a variety of vegetables, the dough and fillings are entirely homemade and hand-rolled with care. Served with peanut and tomato-coriander chutney. Steaming time: minimum 20 minutes!",
+      "long_description": null,
+      "price": 11.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/66.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/66.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/43.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/mix_momo.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Vegan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "New",
+          "description": "Newly added menu items",
+          "color": "default",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "tofu",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "3a8095e0-7d58-4de9-a654-773205860957"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Paneer Momo",
+      "description": "Filled with paneer cheese and vegetables. The dough and fillings are entirely homemade and then hand-rolled with care. Served with peanut and tomato-coriander chutney. Steaming time: minimum 20 minutes!",
+      "long_description": null,
+      "price": 11.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/alu_chop.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/alu_chop.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/3.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/21.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Tibetan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Specials",
+          "description": "Special menu items",
+          "color": "gold",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "paneer",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "7545317b-48b4-474b-80fc-81bb7ab72ad7"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Chicken Momo",
+      "description": "Filled with chicken. The dough and fillings are entirely homemade and then hand-rolled with care. Served with peanut and tomato-coriander chutney. Steaming time: minimum 20 minutes!",
+      "long_description": null,
+      "price": 12.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/pad_thai.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/pad_thai.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/40.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/51.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Vegan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [
+        {
+          "name": "Chef Special",
+          "description": "Signature dish by the chef",
+          "icon": "👨‍🍳"
+        }
+      ],
+      "protein": {
+        "name": "chicken",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "2d2d21f2-89be-41aa-8a85-b5c4f6d10276"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Mixed Momo",
+      "description": "Chicken, Veg & Paneer Momos 9pc. The dough and fillings are entirely homemade and then hand-rolled with care. Served with peanut and tomato-coriander chutney. Steaming time: minimum 20 minutes!",
+      "long_description": null,
+      "price": 12.5,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/58.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/58.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/37.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/14.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Soup",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [
+        {
+          "name": "Customer Favorite",
+          "description": "Loved by customers",
+          "icon": "⭐"
+        }
+      ],
+      "protein": {
+        "name": "chicken",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "full",
+        "description": ""
+      },
+      "id": "a4961194-0935-4b70-9639-bf9a6d241676"
+    }
+  }
+]

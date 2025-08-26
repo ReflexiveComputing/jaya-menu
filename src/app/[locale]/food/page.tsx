@@ -5,6 +5,7 @@ import { fetchMenuCategoriesFromApi, fetchMenuCategoryItemsFromApi, fetchMenuTop
 import type { MenuItemNew } from "@/types/menu"
 import { getTranslations } from 'next-intl/server';
 import { ComboCard } from "@/components/ui/combo-card/combo-card";
+import { MenuCategory } from "@/types/category"
 
 export const revalidate = 600  // ISR for full page
 function cap(s: string) { return s.charAt(0).toUpperCase() + s.slice(1) }
@@ -17,12 +18,12 @@ export default async function MenuPage() {
   const [categories, topItemsNew] = await Promise.all([
     fetchMenuCategoriesFromApi(),
     fetchMenuTopThisMonthFromApi(3)
-  ]) as [string[], MenuItemNew[]];
+  ]) as [MenuCategory[], MenuItemNew[]];
 
   // Preload all category items (API-shaped). We'll update components to accept this shape later.
   const categoryEntries = await Promise.all(
-    categories.map(async c => [c, await fetchMenuCategoryItemsFromApi(c)] as const)
-  ) as readonly (readonly [string, MenuItemNew[]])[];
+    categories.map(async c => [c, await fetchMenuCategoryItemsFromApi(c.name)] as const)
+  ) as readonly (readonly [MenuCategory, MenuItemNew[]])[];
 
   // keep naming compatible with rendering below
   const topItems = topItemsNew;
@@ -103,11 +104,12 @@ export default async function MenuPage() {
 
         {categoryEntries.map(([category, items]) => {
           if (!items.length) return null
+          // Use filename directly for URLs and keys
           return (
-            <div key={category} className="py-6">
+            <div key={category.filename} className="py-6">
               <SectionDivider
-                href={`/food/category/${category}`}
-                title={cap(category)}
+                href={`/food/category/${category.filename}`}
+                title={cap(category.name)}
               />
               <div className="overflow-x-auto scrollbar-hide">
                 <div className="flex gap-4 px-4 pb-2">

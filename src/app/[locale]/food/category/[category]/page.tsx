@@ -5,13 +5,14 @@ import { Button } from "@/components/ui/button";
 import { Link } from '@/i18n/routing';
 import { getTranslations } from 'next-intl/server';
 import { fetchMenuCategoriesFromApi, fetchMenuCategoryItemsFromApi } from "@/lib/server/menu-fetch-api";
+import { MenuCategory } from "@/types/category";
 
 
 export const revalidate = 600;
 
 export async function generateStaticParams() {
   const categories = await fetchMenuCategoriesFromApi();
-  return categories.map((c: string) => ({ category: c }));
+  return categories.map((c: MenuCategory) => ({ MenuCategory: c }));
 }
 
 function cap(s: string) { return s.charAt(0).toUpperCase() + s.slice(1) }
@@ -20,10 +21,14 @@ export default async function MenuCategoryPage({ params }: { params: Promise<{ c
   const resolvedParams = await params;
   const items = await fetchMenuCategoryItemsFromApi(resolvedParams.category);
   const t = await getTranslations('Menu');
+  const categories = await fetchMenuCategoriesFromApi();
+  // Find the category object by filename
+  const categoryObj = categories.find(c => c.filename === resolvedParams.category);
+  const categoryName = categoryObj ? categoryObj.name : resolvedParams.category;
 
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
-  <Header title={cap(resolvedParams.category)} showChevron linkTo="/food" align="center" size="default" />
+      <Header title={cap(categoryName)} showChevron linkTo="/food" align="center" size="default" />
       <div className="flex-1 overflow-y-auto p-6">
         {items.length ? (
           <div className="flex-1 overflow-y-auto mb-6">

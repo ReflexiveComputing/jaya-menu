@@ -1,0 +1,587 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Saag Paneer",
+      "description": "Paneer cheese in pureed spinach, refined with turmeric and ginger. Served with rice, salad, and potato chutney.",
+      "long_description": null,
+      "price": 11.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/cocos_chicken.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/cocos_chicken.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/48.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_sate.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Vegetarian",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Specials",
+          "description": "Special menu items",
+          "color": "gold",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "paneer",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "7af96cc2-37be-4d44-8de6-b34fb70e72a6"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Alu Bhanta",
+      "description": "Potatoes and braised eggplants in our homemade curry. Served with rice, salad, and potato chutney.",
+      "long_description": null,
+      "price": 13.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/sha_phaley.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/sha_phaley.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/paneer_veg_sekuwa.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/everest_bites.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Nepalese",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Favourites",
+          "description": "Customer favourites",
+          "color": "purple",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Healthy Choice",
+          "description": "Nutritious and healthy",
+          "icon": "🥗"
+        }
+      ],
+      "protein": {
+        "name": "tofu",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "531e9add-8a52-4bea-a33b-263cface36e7"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Chana Masala",
+      "description": "Chickpea and zucchini curry. Served with rice, salad, and potato chutney.",
+      "long_description": null,
+      "price": 12.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/the_mitho_cha_experience.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/the_mitho_cha_experience.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/37.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_momo.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Fusion",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "tofu",
+        "description": ""
+      },
+      "spice": {
+        "name": "warming",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "4f543fea-8694-41a1-aa47-ba7c8447f089"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Tarkari Kaju",
+      "description": "Seasonal vegetables in curry coconut milk with almonds and cashew nuts. Served with rice, salad, and potato chutney.",
+      "long_description": null,
+      "price": 14.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/veg_mixed_starters.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/veg_mixed_starters.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/40.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_momo.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Non Vegetarian",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "tofu",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "aaa6d7d7-ba71-452a-808a-8700fc833b6f"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Green Curry ",
+      "description": "Tofu & vegetables simmered in turmeric-infused yellow-green coconut curry, garnished with chopped lemongrass, fresh Thai basil, and toasted lime leaves (bitter, sweet, and spicy). Served with rice, salad, and potato chutney.",
+      "long_description": null,
+      "price": 15.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/veg_mixed_starters.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/veg_mixed_starters.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/paneer_momo.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/36.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Vegan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Specials",
+          "description": "Special menu items",
+          "color": "gold",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "tofu",
+        "description": ""
+      },
+      "spice": {
+        "name": "fiery",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "42656020-3e2f-4302-afd0-aabcad6cd13a"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Tofu Badam",
+      "description": "Tofu in homemade peanut curry with onions, potatoes & nuts. Served with rice, salad, and potato chutney.",
+      "long_description": null,
+      "price": 14.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/sha_phaley.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/sha_phaley.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/64.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/59.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Vegan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Specials",
+          "description": "Special menu items",
+          "color": "gold",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "tofu",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "230ca6a2-37f9-45a4-8af3-665c10bbc03b"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Paneer Chilli",
+      "description": "Paneer marinated in chili, spicy pan-fried. Served with rice, salad, and potato chutney.",
+      "long_description": null,
+      "price": 14.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/vegan_momo.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/vegan_momo.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/41.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/66.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Noodles & Fried Rice",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "paneer",
+        "description": ""
+      },
+      "spice": {
+        "name": "fiery",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "5f458d4b-5323-4724-ac55-14e131eea067"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Chicken Curry",
+      "description": "The classic. Chicken breast sautéed with turmeric and coriander in homemade curry. Served with rice, salad, and potato chutney.",
+      "long_description": null,
+      "price": 13.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/19.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/19.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/bhat.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/roti.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Sizzler",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Vegan",
+          "description": "Vegan friendly",
+          "color": "green",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "chicken",
+        "description": ""
+      },
+      "spice": {
+        "name": "warming",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "630838ef-250b-47b5-9a52-bad650e42821"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Cocos Chicken",
+      "description": "Chicken breast sautéed with almonds, cashew nuts, & fresh vegetables in curry coconut milk. Served with rice, salad, and potato chutney.",
+      "long_description": null,
+      "price": 15.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/khasi_saag.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/khasi_saag.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/71.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/sha_phaley.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Noodles & Fried Rice",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Specials",
+          "description": "Special menu items",
+          "color": "gold",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "chicken",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "05a6ef94-624f-4f5e-80f0-c918fa6daac5"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Khasi saag",
+      "description": "Lamb goulash & spinach, refined with fenugreek leaves, ginger & Himalayan spices. Served with rice, salad, and potato chutney.",
+      "long_description": null,
+      "price": 16.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/47.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/47.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/36.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/roti.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Nepalese",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Vegan",
+          "description": "Vegan friendly",
+          "color": "green",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "lamb",
+        "description": ""
+      },
+      "spice": {
+        "name": "warming",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "ca34932d-6e0a-4830-ae0f-72234b08b9bc"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Khasi Alu",
+      "description": "A traditional mountain farmer's dish recommended by the chef. Lamb & potato goulash cooked with Nepalese spices. Served with rice, salad, and potato chutney.",
+      "long_description": null,
+      "price": 16.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/papad.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/papad.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/lamb_sekuwa.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/64.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Salad",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "lamb",
+        "description": ""
+      },
+      "spice": {
+        "name": "warming",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "fe5342e5-b666-481d-93a5-c48104ea39d3"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Haans Nariwal",
+      "description": "Crispy duck with vegetables in coconut curry, topped with cashew nuts and almonds. Served with rice, salad, and potato chutney.",
+      "long_description": null,
+      "price": 16.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/64.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/64.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/the_mitho_cha_experience.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/sha_phaley.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Dumplings",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [
+        {
+          "name": "Healthy Choice",
+          "description": "Nutritious and healthy",
+          "icon": "🥗"
+        }
+      ],
+      "protein": {
+        "name": "chicken, lamb",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "2c0fe683-688d-4211-8e30-984adc605aa6"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Haans Badam",
+      "description": "Crispy duck in homemade peanut curry (slightly sweet) with onions, potatoes & nuts. Served with rice, salad, and potato chutney.",
+      "long_description": null,
+      "price": 18.5,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/29.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/29.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/72.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/14.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Non Vegetarian",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Vegan",
+          "description": "Vegan friendly",
+          "color": "green",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "chicken, lamb",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "full",
+        "description": ""
+      },
+      "id": "2dd42807-da36-483d-8480-ee8af75ac518"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Daal Bhat Masu",
+      "description": "The Classic features a rich Chicken Curry alongside Khasi Saag, a lamb and spinach stew cooked with Himalayan spices. It also includes Mustang Alu, potato wedges seasoned with Szechuan pepper and Jimbu, and Daal, the traditional lentil soup which is the staple food of the Himalayas.\nThe meal is served with papad, salad, rice, and Alu Achar, a potato-sesame salad.\nEnjoy a complimentary cup of tea when you dine in traditional Nepalese style by eating with your hands!",
+      "long_description": null,
+      "price": 20.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/70.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/70.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_sate.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/41.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Tibetan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Specials",
+          "description": "Special menu items",
+          "color": "gold",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Healthy Choice",
+          "description": "Nutritious and healthy",
+          "icon": "🥗"
+        }
+      ],
+      "protein": {
+        "name": "chicken, lamb",
+        "description": ""
+      },
+      "spice": {
+        "name": "warming",
+        "description": ""
+      },
+      "size": {
+        "name": "full",
+        "description": ""
+      },
+      "id": "bc54484e-c122-4d40-bb49-59d4a7c6299b"
+    }
+  }
+]

@@ -8,3 +8,10 @@ export interface Category {
   created_at: string;
   updated_at: string;
 }
+
+
+export type MenuCategory = {
+  name: string;
+  filename: string;
+  count: number;
+}

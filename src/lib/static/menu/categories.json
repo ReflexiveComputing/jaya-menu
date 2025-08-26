@@ -1,15 +1,68 @@
 [
-  "Dumplings",
-  "Fusion",
-  "Nepalese",
-  "Non Vegetarian",
-  "Noodles & Fried Rice",
-  "Salad",
-  "Sekuwa Grill",
-  "Sizzler",
-  "Soup",
-  "Szechuan",
-  "Tibetan",
-  "Vegan",
-  "Vegetarian"
+    {
+    "name": "MITHO CHA SPECIALS",
+  "filename": "mitho_cha_specials",
+    "count": 3
+  },
+  {
+    "name": "STARTERS",
+  "filename": "starters",
+    "count": 8
+  },
+  {
+    "name": "SOUPS",
+  "filename": "soups",
+    "count": 2
+  },
+  {
+    "name": "SALADS",
+  "filename": "salads",
+    "count": 2
+  },
+  {
+    "name": "TIBETAN DUMPLINGS",
+  "filename": "tibetan_dumplings",
+    "count": 4
+  },
+  {
+    "name": "TIBETAN SZECHUAN",
+  "filename": "tibetan_szechuan",
+    "count": 2
+  },
+  {
+    "name": "TIBETAN SIZZLER",
+  "filename": "tibetan_sizzler",
+    "count": 2
+  },
+  {
+    "name": "NEPALESE VEG",
+  "filename": "nepalese_veg",
+    "count": 7
+  },
+  {
+    "name": "NEPALESE NON VEG",
+  "filename": "nepalese_non_veg",
+    "count": 6
+  },
+  {
+    "name": "NEPALESE FRIED RICE AND NOODLES",
+  "filename": "nepalese_fried_rice_and_noodles",
+    "count": 3
+  },
+  {
+    "name": "SEKUWA GRILL",
+  "filename": "sekuwa_grill",
+    "count": 3
+  },
+  {
+    "name": "SIDES",
+  "filename": "sides",
+    "count": 12
+  },
+  {
+    "name": "DESSERT",
+  "filename": "dessert",
+    "count": 3
+  }
+
 ]

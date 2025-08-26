@@ -1,0 +1,342 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Chicken Sate",
+      "description": "Chicken Skewers with Peanut Chutney",
+      "long_description": null,
+      "price": 7.5,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/bhat.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/bhat.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/72.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/veg_chau_min.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Salad",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Favourites",
+          "description": "Customer favourites",
+          "color": "purple",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Limited Time",
+          "description": "Available for a limited time",
+          "icon": "⏳"
+        }
+      ],
+      "protein": {
+        "name": "chicken",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "30772010-25f1-4c36-a94e-9fc10aba5715"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Sha Phaley",
+      "description": "Tibetan Dumplings, Crispy-Fried with Veggie & Paneer Filling",
+      "long_description": null,
+      "price": 7.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/saag.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/saag.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/roti.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/lamb_thukpa.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Non Vegetarian",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Specials",
+          "description": "Special menu items",
+          "color": "gold",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Limited Time",
+          "description": "Available for a limited time",
+          "icon": "⏳"
+        }
+      ],
+      "protein": {
+        "name": "paneer",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "96771ca6-c534-4397-b4f9-02349c5fcfbe"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Bhanto Tareko",
+      "description": "Crispy Eggplant Slices in Chickpea Batter",
+      "long_description": null,
+      "price": 6.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/23.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/23.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/alu_chop.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/papad.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Salad",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Specials",
+          "description": "Special menu items",
+          "color": "gold",
+          "is_active": true
+        }
+      ],
+      "specials": [],
+      "protein": {
+        "name": "tofu",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "580c1f72-497f-4ded-83fe-c1c88f444710"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Everest Bites",
+      "description": "Rice Paper Rolls Filled with Red & Purple Potatoes",
+      "long_description": null,
+      "price": 6.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/68.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/68.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/61.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/28.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Fusion",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "tofu",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "26cddfea-3a81-4dac-b95e-8947f8a43cca"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Alu Chop",
+      "description": "Homemade Peanut & Potato Balls",
+      "long_description": null,
+      "price": 6.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/saag.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/saag.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/36.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/35.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Dumplings",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "tofu",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "cb8b15df-0ad2-4b74-89ed-4df519144cc6"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Chicken 65",
+      "description": "Turmeric & Ginger-Marinated Chicken Tossed in Spicy Chili-Soy Reduction",
+      "long_description": null,
+      "price": 9.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chana_masala.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chana_masala.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/daal.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/58.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Sekuwa Grill",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Vegan",
+          "description": "Vegan friendly",
+          "color": "green",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Healthy Choice",
+          "description": "Nutritious and healthy",
+          "icon": "🥗"
+        }
+      ],
+      "protein": {
+        "name": "chicken",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "37a2b323-86ad-4d3a-8cc3-7f831f99729d"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Veg Mixed Starters",
+      "description": "Perfectly crafted for 3–4 people, this sharing platter offers a delicious introduction to the diverse tastes of our cuisine – an ideal choice for a communal dining experience.",
+      "long_description": null,
+      "price": 18.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/lamb_sekuwa.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/lamb_sekuwa.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/alu_chop.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/everest_bites.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Non Vegetarian",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "paneer",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "full",
+        "description": ""
+      },
+      "id": "868d8fab-f06e-4ea2-904c-e3a6100d9f02"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Non - Veg Mixed Starters",
+      "description": "Perfectly crafted for 3–4 people, this sharing platter offers a delicious introduction to the diverse tastes of our cuisine – an ideal choice for a communal dining experience.",
+      "long_description": null,
+      "price": 21.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/70.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/70.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/4.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/16.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Dumplings",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [
+        {
+          "name": "Customer Favorite",
+          "description": "Loved by customers",
+          "icon": "⭐"
+        }
+      ],
+      "protein": {
+        "name": "chicken",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "full",
+        "description": ""
+      },
+      "id": "07bbc931-46be-4f28-baf9-7aff355b462d"
+    }
+  }
+]

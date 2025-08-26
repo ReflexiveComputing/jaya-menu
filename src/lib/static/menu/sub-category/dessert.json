@@ -1,0 +1,104 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Shikarni",
+      "description": "Yogurt blended with cinnamon & cardamom, featuring a milk ball, cashew nuts & almonds",
+      "long_description": null,
+      "price": 4.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/paneer_momo.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/paneer_momo.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/the_mitho_cha_experience.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/mix_momo.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Soup",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [
+        {
+          "name": "Healthy Choice",
+          "description": "Nutritious and healthy",
+          "icon": "🥗"
+        }
+      ],
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "2dd9b094-312b-4d2b-9912-a0bfb6808d6d"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Mystic Mountain",
+      "description": "A „mountain\" of fried banana, vanilla ice cream, and Oreos, topped with nuts & chocolate",
+      "long_description": null,
+      "price": 6.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/16.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/16.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/naan.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_sekuwa.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Szechuan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "f270962d-7554-45f4-a265-ea20401db80c"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Panna Cotta",
+      "description": "Vegan vanilla-coconut panna cotta with a sweet mango cream",
+      "long_description": null,
+      "price": 4.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_sekuwa.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_sekuwa.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/65.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/4.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Fusion",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "7cbe6ccc-2909-4bbb-bbf3-c266e37dfc4b"
+    }
+  }
+]

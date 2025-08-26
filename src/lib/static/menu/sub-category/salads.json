@@ -1,0 +1,80 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Crunchy Tofu Salad",
+      "description": "Leaf salad, arugula, cashew nuts, cherry tomatoes & crunchy tofu. The salad dressing includes mustard, agave syrup, olive oil, sesame oil, and apple cider vinegar.",
+      "long_description": null,
+      "price": 9.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/tofu_veg_thukpa.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/tofu_veg_thukpa.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/paneer_chilli.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/alu_chop.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Soup",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [
+        {
+          "name": "Limited Time",
+          "description": "Available for a limited time",
+          "icon": "⏳"
+        }
+      ],
+      "protein": {
+        "name": "tofu",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "453bdc48-3dc7-473c-bd50-789c1fef1c99"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Crispy Chicken Salad",
+      "description": "Leaf salad, arugula, cashew nuts, cherry tomatoes & chicken satay. The salad dressing includes mustard, agave syrup, olive oil, sesame oil, and apple cider vinegar. ",
+      "long_description": null,
+      "price": 11.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_sate.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_sate.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/65.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/36.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Tibetan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "chicken",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "small",
+        "description": ""
+      },
+      "id": "de681e82-3a80-4671-944a-0d858ed5373c"
+    }
+  }
+]

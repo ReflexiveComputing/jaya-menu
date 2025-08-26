@@ -1,0 +1,142 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Daal Bhat Tarkari",
+      "description": "A vegan favorite, this menu features Chana Masala, a hearty chickpea curry, alongside Saag Tareko, fresh pak choi sautéed with turmeric and jeera. It also includes Mustang Alu, potato wedges seasoned with Szechuan pepper and Jimbu, and Daal, the traditional lentil soup which is the staple food of the Himalayas.\nThe meal is served with papad, salad, rice, and Alu Achar, a potato-sesame salad.\nEnjoy a complimentary cup of tea when you dine in traditional Nepalese style by eating with your hand",
+      "long_description": null,
+      "price": 17.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/lamb_sekuwa.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/lamb_sekuwa.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/76.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/paneer_chilli.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Dumplings",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [
+        {
+          "name": "Customer Favorite",
+          "description": "Loved by customers",
+          "icon": "⭐"
+        }
+      ],
+      "protein": {
+        "name": "tofu",
+        "description": ""
+      },
+      "spice": {
+        "name": "gentle",
+        "description": ""
+      },
+      "size": {
+        "name": "full",
+        "description": ""
+      },
+      "id": "0164ad19-5706-48e4-bff8-0663f9505256"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "The Mitho Cha Experience",
+      "description": "For the starter, enjoy a Mixed Momo platter with 2 pieces each of Vegan, Paneer, and Chicken Momos, served with 2 different chutneys.\nThe main course is our Mitho Cha Thali, a curated selection of Daal Bhat specialties including Chicken Curry, Khasi Saag, Mustang Alu, Chana Masala, Vegetable Curry, Daal, and Spinach, served with salad, rice, and papadams.\nTo finish, the dessert is Shikarni – two small bowls of yogurt blended with cinnamon, cardamom, and cloves, topped with nuts and a Gulab Jamun.",
+      "long_description": null,
+      "price": 46.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/yogi_bhat.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/yogi_bhat.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/74.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/40.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Sizzler",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Favourites",
+          "description": "Customer favourites",
+          "color": "purple",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Customer Favorite",
+          "description": "Loved by customers",
+          "icon": "⭐"
+        }
+      ],
+      "protein": {
+        "name": "chicken, lamb",
+        "description": ""
+      },
+      "spice": {
+        "name": "warming",
+        "description": ""
+      },
+      "size": {
+        "name": "full",
+        "description": ""
+      },
+      "id": "ab5ccb33-4ac8-4e90-966e-3655a7f25612"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Daal Bhat Masu",
+      "description": "The Classic features a rich Chicken Curry alongside Khasi Saag, a lamb and spinach stew cooked with Himalayan spices. It also includes Mustang Alu, potato wedges seasoned with Szechuan pepper and Jimbu, and Daal, the traditional lentil soup which is the staple food of the Himalayas.\nThe meal is served with papad, salad, rice, and Alu Achar, a potato-sesame salad.\nEnjoy a complimentary cup of tea when you dine in traditional Nepalese style by eating with your hands!",
+      "long_description": null,
+      "price": 20.9,
+      "thumbnail_url": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/70.png",
+      "images": [
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/70.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/chicken_sate.png",
+        "https://snhltnwklxscjle7.public.blob.vercel-storage.com/Mitho-cha/41.png"
+      ],
+      "is_available": true,
+      "category": {
+        "name": "Tibetan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [
+        {
+          "name": "Specials",
+          "description": "Special menu items",
+          "color": "gold",
+          "is_active": true
+        }
+      ],
+      "specials": [
+        {
+          "name": "Healthy Choice",
+          "description": "Nutritious and healthy",
+          "icon": "🥗"
+        }
+      ],
+      "protein": {
+        "name": "chicken, lamb",
+        "description": ""
+      },
+      "spice": {
+        "name": "warming",
+        "description": ""
+      },
+      "size": {
+        "name": "full",
+        "description": ""
+      },
+      "id": "bc54484e-c122-4d40-bb49-59d4a7c6299b"
+    }
+  }
+]
