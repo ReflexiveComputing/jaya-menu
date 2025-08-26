@@ -22,7 +22,7 @@ export default function HomePage() {
       />
 
       {/* Light overlay for better text readability */}
-      <div className="absolute max-h-screen inset-0 bg-black/30" />
+      <div className="absolute min-h-full inset-0 bg-black/30" />
 
       {/* Content */}
       <div className="relative z-10 pt-10 flex flex-col">
