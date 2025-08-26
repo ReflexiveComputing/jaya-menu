@@ -34,7 +34,7 @@ const buttonVariants = cva(
           "bg-global-green text-white text-lg font-bold shadow-xs hover:bg-primary/90",
       },
       size: {
-        default: "py-4 px-8 has-[>svg]:px-3",
+        default: "py-2 px-8 has-[>svg]:px-3",
         mid: "py-2 px-8 has-[>svg]:px-3",
         sm: "h-8 rounded-md gap-1.5 px-3 has-[>svg]:px-2.5",
         lg: "h-10 rounded-md px-6 has-[>svg]:px-4",

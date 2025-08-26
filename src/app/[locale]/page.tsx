@@ -58,7 +58,7 @@ export default function HomePage() {
             </Button>
 
             <Button variant="surpriseMeSecondary" asChild>
-              <Link href="/food" className="w-block">
+              <Link href="/food" className="w-block uppercase">
                 {t('showMenu')}
               </Link>
             </Button>
