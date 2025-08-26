@@ -1,0 +1,461 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Turmeric",
+      "description": "Fresh turmeric infusion",
+      "long_description": null,
+      "price": 5.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "tea",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "warming",
+        "description": "Moderate heat and warmth"
+      },
+      "id": "05ff8699-3cce-4969-8727-890dcd133dfd"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Black Dragon",
+      "description": "Oolong Tea – Black Dragon, a tea that falls between green and black tea",
+      "long_description": null,
+      "price": 5.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "tea",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "0ce3d648-1a26-4800-9b3a-a38c50ece92e"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Dhania Dhyana",
+      "description": "Coriander seeds, cumin, agave syrup",
+      "long_description": null,
+      "price": 5.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "tea",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "warming",
+        "description": "Moderate heat and warmth"
+      },
+      "id": "0e955d08-86b5-4c99-9999-338c18ae422b"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Ginger-Mint-Lemon",
+      "description": "Blend of ginger, mint, and lemon",
+      "long_description": null,
+      "price": 5.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "tea",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "warming",
+        "description": "Moderate heat and warmth"
+      },
+      "id": "0ffec4a7-4556-436c-9d1b-dbdf450f8076"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Shanti Shakti",
+      "description": "Ajowan, fennel, coriander seeds, cardamom, cloves, cinnamon, ginger",
+      "long_description": null,
+      "price": 5.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "tea",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "warming",
+        "description": "Moderate heat and warmth"
+      },
+      "id": "1e017d92-7fdd-4194-8a5f-fd85656ac8a9"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Zen Infusion",
+      "description": "Japanese Genmaicha green tea with puffed & roasted rice grains",
+      "long_description": null,
+      "price": 5.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "tea",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "2b76e060-4e84-47d1-b818-86ff0cbf60cf"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Dosha Balance",
+      "description": "Jasmine tea should be steeped for a maximum of 2 minutes to preserve its floral",
+      "long_description": null,
+      "price": 5.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "tea",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "3832ab41-802b-456d-aebe-0476680c20eb"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Mint Tea",
+      "description": "Refreshing mint tea",
+      "long_description": null,
+      "price": 5.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "tea",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "385b2d5f-399a-4373-b014-5b5a54b91539"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Ginger Tea",
+      "description": "Fresh ginger tea with warming spices",
+      "long_description": null,
+      "price": 5.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "tea",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "warming",
+        "description": "Moderate heat and warmth"
+      },
+      "id": "4127bd5c-86b1-4f70-8662-fb859d71c148"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Sherpa Tee Vegan",
+      "description": "Homemade oat-yogi chai prepared with fresh ingredients using an old family recipe",
+      "long_description": null,
+      "price": 5.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "tea",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "5e604ff5-637d-49f5-959b-273f6628192d"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Nepali Highland Tea",
+      "description": "Black Nepali tea with freshly squeezed lemon juice, ginger, honey, cardamom & cloves",
+      "long_description": null,
+      "price": 5.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "tea",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "69b8a998-c45f-4e69-ac38-b862312aef09"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Surya Sip",
+      "description": "Fresh turmeric, cinnamon, ginger",
+      "long_description": null,
+      "price": 5.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "tea",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "warming",
+        "description": "Moderate heat and warmth"
+      },
+      "id": "904461b6-b58b-44f0-92ba-9e91939dd452"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "White Monkey",
+      "description": "The high content of polyphenols makes this Chinese white tea particularly precious",
+      "long_description": null,
+      "price": 5.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "tea",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "bf1c2e32-b470-409e-9f2b-f2bd0f7cec82"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Herbal Nirvana",
+      "description": "Lemongrass, lemon verbena, lemon balm, rose petals",
+      "long_description": null,
+      "price": 5.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "tea",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "bfbb5408-c293-4664-92ae-381d118c79a3"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Tulsi Tapasya",
+      "description": "Cardamom, cloves, cinnamon, fennel, ginger, peppercorns, Tulsi (holy basil)",
+      "long_description": null,
+      "price": 5.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "tea",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "warming",
+        "description": "Moderate heat and warmth"
+      },
+      "id": "cf634c78-b66f-4996-a307-30a3ed085ee3"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Ginger Chamomile",
+      "description": "Ginger and chamomile infusion",
+      "long_description": null,
+      "price": 5.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "tea",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "warming",
+        "description": "Moderate heat and warmth"
+      },
+      "id": "e8807813-7271-4799-b773-d47a024e721c"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Inner Glow",
+      "description": "Nepal Kanchanjunga green tea from the highest tea-growing region in the world",
+      "long_description": null,
+      "price": 5.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "tea",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "ecade787-fa75-4877-aa36-efcf2ea76778"
+    }
+  }
+]

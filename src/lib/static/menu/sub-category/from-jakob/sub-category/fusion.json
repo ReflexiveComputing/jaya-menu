@@ -1,0 +1,422 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Paneer Veg Sekuwa",
+      "description": "Hot platter served with rice and salad. Paneer and vegetables marinated in Himalayan spices, grilled on a sizzling cast-iron plate with bell peppers, mushrooms, tomatoes, chili, and onions.",
+      "long_description": null,
+      "price": 18.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "fusion",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "2d8dcb7f-aa4c-4cc5-89a7-9addf97c58c9",
+        "name": "paneer",
+        "description": "Fresh cheese",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "6107ec11-d282-4015-b552-c9d98d0caaf7",
+        "name": "warming",
+        "heat_level": 2,
+        "description": "Moderate heat and warmth",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "079f0913-1dc4-453c-a9d3-447dca2df069"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Everest Bites",
+      "description": "Rice Paper Rolls Filled with Red & Purple Potatoes",
+      "long_description": null,
+      "price": 6.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "fusion",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "d3a3b029-63f5-401b-a813-785bf76dd9ba",
+        "name": "tofu",
+        "description": "Soy-based protein",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "7ec15e9b-a51e-4a1f-bc48-d52f48430600",
+        "name": "gentle",
+        "heat_level": 1,
+        "description": "Mild and subtle spicing",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "1d77d05c-0d63-4ad9-80c5-244fd6e31ab1"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Crunchy Tofu Salad",
+      "description": "Leaf salad, arugula, cashew nuts, cherry tomatoes & crunchy tofu. The salad dressing includes mustard, agave syrup, olive oil, sesame oil, and apple cider vinegar.",
+      "long_description": null,
+      "price": 9.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "fusion",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "d3a3b029-63f5-401b-a813-785bf76dd9ba",
+        "name": "tofu",
+        "description": "Soy-based protein",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "7ec15e9b-a51e-4a1f-bc48-d52f48430600",
+        "name": "gentle",
+        "heat_level": 1,
+        "description": "Mild and subtle spicing",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "332842ba-cc53-444c-b659-33e4b3ecc822"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Non - Veg Mixed Starters",
+      "description": "Perfectly crafted for 3–4 people, this sharing platter offers a delicious introduction to the diverse tastes of our cuisine – an ideal choice for a communal dining experience.",
+      "long_description": null,
+      "price": 21.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "fusion",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "6a3cdf80-d779-48b6-87da-95ca8170ae0d",
+        "name": "chicken",
+        "description": "Chicken meat",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "7ec15e9b-a51e-4a1f-bc48-d52f48430600",
+        "name": "gentle",
+        "heat_level": 1,
+        "description": "Mild and subtle spicing",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "b3238467-76bb-4f92-ab7e-277c1072cb58",
+        "name": "full",
+        "description": "Full portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "35bd3dec-40f5-4731-b2fb-25501337fb1e"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Lamm Sekuwa",
+      "description": "Hot platter served with rice and salad. Lamb marinated for 24 hours, grilled on a sizzling cast-iron plate with bell peppers, tomatoes, chili, and onions.",
+      "long_description": null,
+      "price": 22.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "fusion",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "43259192-d857-4ec8-84e6-0883544e851e",
+        "name": "lamb",
+        "description": "Lamb meat",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "6107ec11-d282-4015-b552-c9d98d0caaf7",
+        "name": "warming",
+        "heat_level": 2,
+        "description": "Moderate heat and warmth",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "6192e5a4-2167-4979-aa3f-766973c29aed"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Chicken Sate",
+      "description": "Chicken Skewers with Peanut Chutney",
+      "long_description": null,
+      "price": 7.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "fusion",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "6a3cdf80-d779-48b6-87da-95ca8170ae0d",
+        "name": "chicken",
+        "description": "Chicken meat",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "7ec15e9b-a51e-4a1f-bc48-d52f48430600",
+        "name": "gentle",
+        "heat_level": 1,
+        "description": "Mild and subtle spicing",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "6b1982e9-d315-4ce1-9d29-07f2f19eda62"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Chicken 65",
+      "description": "Turmeric & Ginger-Marinated Chicken Tossed in Spicy Chili-Soy Reduction",
+      "long_description": null,
+      "price": 9.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "fusion",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "6a3cdf80-d779-48b6-87da-95ca8170ae0d",
+        "name": "chicken",
+        "description": "Chicken meat",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "a97bae55-45c5-4d86-956a-70ae5ce9fa0a",
+        "name": "fiery",
+        "heat_level": 3,
+        "description": "Intense and spicy heat",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "7fc954e5-2923-4505-a966-1ad745ee9f80"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Veg Mixed Starters",
+      "description": "Perfectly crafted for 3–4 people, this sharing platter offers a delicious introduction to the diverse tastes of our cuisine – an ideal choice for a communal dining experience.",
+      "long_description": null,
+      "price": 18.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "fusion",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "2d8dcb7f-aa4c-4cc5-89a7-9addf97c58c9",
+        "name": "paneer",
+        "description": "Fresh cheese",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "7ec15e9b-a51e-4a1f-bc48-d52f48430600",
+        "name": "gentle",
+        "heat_level": 1,
+        "description": "Mild and subtle spicing",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "b3238467-76bb-4f92-ab7e-277c1072cb58",
+        "name": "full",
+        "description": "Full portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "970e4ed8-5410-4b82-93b1-030430309f46"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Crispy Chicken Salad",
+      "description": "Leaf salad, arugula, cashew nuts, cherry tomatoes & chicken satay. The salad dressing includes mustard, agave syrup, olive oil, sesame oil, and apple cider vinegar.",
+      "long_description": null,
+      "price": 11.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "fusion",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "6a3cdf80-d779-48b6-87da-95ca8170ae0d",
+        "name": "chicken",
+        "description": "Chicken meat",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "7ec15e9b-a51e-4a1f-bc48-d52f48430600",
+        "name": "gentle",
+        "heat_level": 1,
+        "description": "Mild and subtle spicing",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "ad01df25-d12a-47ef-92a6-8a29ed366297"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Chicken Sekuwa",
+      "description": "Hot platter served with rice and salad. Chicken marinated for 24 hours, grilled on a sizzling cast-iron plate with bell peppers, tomatoes, chili, and onions.",
+      "long_description": null,
+      "price": 19.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "fusion",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "6a3cdf80-d779-48b6-87da-95ca8170ae0d",
+        "name": "chicken",
+        "description": "Chicken meat",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "7ec15e9b-a51e-4a1f-bc48-d52f48430600",
+        "name": "gentle",
+        "heat_level": 1,
+        "description": "Mild and subtle spicing",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "fa0a4ed0-a2f2-4b28-b31d-9c0310b537e1"
+    }
+  }
+]

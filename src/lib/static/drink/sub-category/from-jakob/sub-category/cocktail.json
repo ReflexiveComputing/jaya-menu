@@ -1,0 +1,1298 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Mai Tai",
+      "description": "Tropical mai tai",
+      "long_description": null,
+      "price": 10.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "1d6b0c50-2d8f-40f6-b664-a0cf902d222c"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Mustang Mango Madness",
+      "description": "Mustang mango cocktail",
+      "long_description": null,
+      "price": 8.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "295abdd2-8777-4fb3-8dd6-1ca934c5e2e5"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Manang Melon Magic",
+      "description": "Manang melon cocktail",
+      "long_description": null,
+      "price": 9.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "2b4e352f-87ef-47f3-bf49-2691374fe22f"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Cuba Libre",
+      "description": "Cuban rum cocktail",
+      "long_description": null,
+      "price": 7.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "306c227c-fc6c-4ebc-8e8e-03338cd78326"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Vodka Sour",
+      "description": "Vodka sour cocktail",
+      "long_description": null,
+      "price": 9.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "31622e84-d3f5-43a0-8b58-fa33917bb348"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Old Durbar",
+      "description": "Traditional Old Durbar",
+      "long_description": null,
+      "price": 3.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "399193ae-f5b7-4bfd-a5f8-ee9ca8d0b819"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Basil Spritz",
+      "description": "Basil-flavored spritz",
+      "long_description": null,
+      "price": 7.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "40fd0c30-4b78-4a5e-b3a5-ace051d79948"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Khukri Nepal Rum",
+      "description": "Nepalese rum shot",
+      "long_description": null,
+      "price": 3.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "411f1747-206b-4c93-89ee-a418cb3503de"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Kathmandu Mule",
+      "description": "Nepalese mule cocktail",
+      "long_description": null,
+      "price": 9.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "4b08eaaa-5e23-4cc9-8282-264be541dbcc"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Himalayan Sour",
+      "description": "Himalayan sour cocktail",
+      "long_description": null,
+      "price": 9.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "4db308f7-e160-42b4-80a3-72478abc5027"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Everest Elixir (Hot)",
+      "description": "Hot Everest cocktail",
+      "long_description": null,
+      "price": 7.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "531955a8-926a-4351-8da4-c4c038ea3b25"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Pina Colada",
+      "description": "Tropical pina colada",
+      "long_description": null,
+      "price": 8.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "5c0925d9-c9c6-4a1e-8f81-7aa0ae6581a6"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Resham Firiri (Hot)",
+      "description": "Hot Nepalese cocktail",
+      "long_description": null,
+      "price": 6.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "613fc62c-a90e-47d0-86da-b11e7ec33cf3"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Reisschnaps",
+      "description": "Rice schnapps shot",
+      "long_description": null,
+      "price": 3.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "619156c6-cf87-4adc-b4e1-b9cac2623281"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Gin Tonic",
+      "description": "Classic gin and tonic",
+      "long_description": null,
+      "price": 7.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "64ed661f-9b6d-4c8c-bb95-b58f0e5ff3ad"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Moskow Mule",
+      "description": "Russian mule cocktail",
+      "long_description": null,
+      "price": 8.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "6d687377-fd33-4ac5-92fa-0d9e6758c2b7"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Classic Margarita",
+      "description": "Traditional margarita",
+      "long_description": null,
+      "price": 8.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "6f241d00-8ac1-4e1a-a9aa-32c59e9c1393"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Whiskey Kola",
+      "description": "Whiskey with cola",
+      "long_description": null,
+      "price": 7.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "703d15a5-8980-4da0-a85f-4acbc6277a4d"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Summer in Lhasa",
+      "description": "Tibetan summer cocktail",
+      "long_description": null,
+      "price": 9.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "7fc840e2-533a-45ea-8211-09ae696e1989"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Strawberry Margarita",
+      "description": "Strawberry margarita",
+      "long_description": null,
+      "price": 8.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "83b033dd-b0dc-487b-8aae-7d5d61219879"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Ipanema",
+      "description": "Brazilian Ipanema cocktail",
+      "long_description": null,
+      "price": 6.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "84093bce-d468-49d7-aee3-dcaac332a26d"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Himalayan Salt Bae",
+      "description": "Himalayan salt cocktail",
+      "long_description": null,
+      "price": 7.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "840d01dd-97ed-4514-9d59-99ae93ee5a7c"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Pink Spritz",
+      "description": "Pink-colored spritz",
+      "long_description": null,
+      "price": 7.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "8d912b1a-48fa-48b4-af33-d13dedbfbec2"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Himalayan Honey",
+      "description": "Himalayan honey cocktail",
+      "long_description": null,
+      "price": 9.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "90178f15-7f91-461f-aa82-c2b859339659"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Aperol Spritz",
+      "description": "Italian aperitif cocktail",
+      "long_description": null,
+      "price": 6.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "910e4fbc-fc10-4cfa-b303-f16288cd98e8"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Old Durbar Black Chimney",
+      "description": "Premium Old Durbar",
+      "long_description": null,
+      "price": 4.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "93d3c10a-dc41-4c3b-baae-f91688e6bd4f"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Rhabarber Spritz",
+      "description": "Rhubarb spritz cocktail",
+      "long_description": null,
+      "price": 7.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "990d0549-b18d-4ed6-aae4-1d27ce08839c"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Mountain Breeze",
+      "description": "Mountain breeze cocktail",
+      "long_description": null,
+      "price": 6.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "99e044fd-57e4-47f0-b9fa-1a60448b7ac8"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Vodka Limone",
+      "description": "Vodka with lemon",
+      "long_description": null,
+      "price": 7.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "9f00026f-1260-4834-a4d9-e237f7f9fb00"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Hugo",
+      "description": "Traditional Hugo cocktail",
+      "long_description": null,
+      "price": 6.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "a8cecc28-82d0-4d89-aaa3-0dc04b523530"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Whiskey Sour",
+      "description": "Classic whiskey sour",
+      "long_description": null,
+      "price": 9.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "aa8414ec-59bc-43d7-bd67-f87e04d96d95"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Annapurna Sunset",
+      "description": "Annapurna sunset cocktail",
+      "long_description": null,
+      "price": 8.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "b91b3665-5421-4236-aeeb-caa01185cb88"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Himbeer Mojito",
+      "description": "Raspberry mojito",
+      "long_description": null,
+      "price": 9.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "bbaf80e8-d5b7-4640-bd96-82f65bd6dc34"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Campari Soda",
+      "description": "Campari with soda",
+      "long_description": null,
+      "price": 7.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "bf5e8559-7f95-4e8b-9581-2b6a780caa5f"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Campari Orange",
+      "description": "Campari with orange",
+      "long_description": null,
+      "price": 7.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "c187afb7-5baf-4641-9cae-76692bdfcd15"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Lychee Gin Mojito",
+      "description": "Lychee gin mojito",
+      "long_description": null,
+      "price": 9.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "c861ded1-ae0e-4c7c-a99d-4b7ee66211eb"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Ruslan Nepal Vodka",
+      "description": "Nepalese vodka shot",
+      "long_description": null,
+      "price": 3.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "cb25060a-8367-4de4-a04d-4c2f8c81c453"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Espresso Martini",
+      "description": "Coffee martini cocktail",
+      "long_description": null,
+      "price": 8.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "cbbdcbd5-66e7-4f4f-a561-436979527832"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Aila Ma Raila",
+      "description": "Traditional Aila cocktail",
+      "long_description": null,
+      "price": 8.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "d5359b54-6ba4-40e5-8e1e-63222f79db97"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Coconut Kiss",
+      "description": "Coconut kiss cocktail",
+      "long_description": null,
+      "price": 6.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "d6311048-0c64-43ac-b538-ba41ba1693ca"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Negroni",
+      "description": "Classic Negroni cocktail",
+      "long_description": null,
+      "price": 7.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "d6b19ed8-6322-48db-a511-2f9d9997130c"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Monkey Temple",
+      "description": "Exotic monkey temple cocktail",
+      "long_description": null,
+      "price": 9.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "d8737565-f32e-458a-ad8c-c29ec3d96b89"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Vodka Energy",
+      "description": "Vodka with energy drink",
+      "long_description": null,
+      "price": 7.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "dcbb48af-6eaf-40e8-826a-34d9bc63039e"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Lychee Spritz",
+      "description": "Lychee-flavored spritz",
+      "long_description": null,
+      "price": 6.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "dd020774-bad2-47c0-a5d3-7aed40d2d9b1"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Classic Mojito",
+      "description": "Traditional mojito",
+      "long_description": null,
+      "price": 8.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "e0eb82f0-d471-4077-95c6-672d53323877"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Lychee & Love",
+      "description": "Lychee love cocktail",
+      "long_description": null,
+      "price": 7.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "e207b26e-c21c-4a15-b74c-617b0c04cd00"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Love from Nepal",
+      "description": "Nepalese love cocktail",
+      "long_description": null,
+      "price": 8.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "ed11ee29-4ee9-4b74-84b5-a8e98a8d084d"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Lumbini Lychee Sling",
+      "description": "Lumbini lychee sling",
+      "long_description": null,
+      "price": 8.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cocktail",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "fcc5b0b6-7f65-4de6-a5f1-d8a7641949f1"
+    }
+  }
+]

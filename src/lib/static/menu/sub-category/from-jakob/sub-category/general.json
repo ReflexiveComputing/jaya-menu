@@ -1,0 +1,278 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Mystic Mountain",
+      "description": "A mountain of fried banana, vanilla ice cream, and Oreos, topped with nuts & chocolate",
+      "long_description": null,
+      "price": 6.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "general",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "-"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "04fbe752-a74f-4194-85bb-37f036804c5a"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Saag",
+      "description": "Nepalese spinach sautéed with garlic & ginger",
+      "long_description": null,
+      "price": 4.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "general",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "-"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "0dbf52e1-10b9-4366-9232-1503c3bad36c"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Cheese Naan",
+      "description": "Fresh bread from the clay oven",
+      "long_description": null,
+      "price": 4.2,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "general",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "2d8dcb7f-aa4c-4cc5-89a7-9addf97c58c9",
+        "name": "paneer",
+        "description": "Fresh cheese",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "name": "-"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "3ec620a0-b74b-4c6e-9fbb-945b127a8380"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Raita",
+      "description": "Yogurt blended with roasted jeera, cucumber, coriander, honey & black salt",
+      "long_description": null,
+      "price": 2.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "general",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "2d8dcb7f-aa4c-4cc5-89a7-9addf97c58c9",
+        "name": "paneer",
+        "description": "Fresh cheese",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "name": "-"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "47b7e75e-0375-484b-92f5-510127bd5b58"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Shikarni",
+      "description": "Yogurt blended with cinnamon & cardamom, featuring a milk ball, cashew nuts & almonds",
+      "long_description": null,
+      "price": 4.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "general",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "2d8dcb7f-aa4c-4cc5-89a7-9addf97c58c9",
+        "name": "paneer",
+        "description": "Fresh cheese",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "name": "-"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "48098665-df4a-4914-9cee-9bb34742b133"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Plain Naan",
+      "description": "Fresh bread from the clay oven",
+      "long_description": null,
+      "price": 3.7,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "general",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "-"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "a0efaa31-0f8e-4ad8-a9a0-ebb62390c7a6"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Butter Naan",
+      "description": "Fresh bread from the clay oven",
+      "long_description": null,
+      "price": 3.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "general",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "-"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "b7544f14-abd2-42a1-b11c-23ff9209512f"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Garlic Naan",
+      "description": "Fresh bread from the clay oven",
+      "long_description": null,
+      "price": 3.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "general",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "-"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "d5557105-4566-48b4-8a9b-6468a8a8804c"
+    }
+  }
+]

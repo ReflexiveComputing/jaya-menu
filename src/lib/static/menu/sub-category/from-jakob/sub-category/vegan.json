@@ -1,0 +1,788 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Everest Bites",
+      "description": "Rice Paper Rolls Filled with Red & Purple Potatoes",
+      "long_description": null,
+      "price": 6.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "vegan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "d3a3b029-63f5-401b-a813-785bf76dd9ba",
+        "name": "tofu",
+        "description": "Soy-based protein",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "7ec15e9b-a51e-4a1f-bc48-d52f48430600",
+        "name": "gentle",
+        "heat_level": 1,
+        "description": "Mild and subtle spicing",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "1d77d05c-0d63-4ad9-80c5-244fd6e31ab1"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Crunchy Tofu Salad",
+      "description": "Leaf salad, arugula, cashew nuts, cherry tomatoes & crunchy tofu. The salad dressing includes mustard, agave syrup, olive oil, sesame oil, and apple cider vinegar.",
+      "long_description": null,
+      "price": 9.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "vegan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "d3a3b029-63f5-401b-a813-785bf76dd9ba",
+        "name": "tofu",
+        "description": "Soy-based protein",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "7ec15e9b-a51e-4a1f-bc48-d52f48430600",
+        "name": "gentle",
+        "heat_level": 1,
+        "description": "Mild and subtle spicing",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "332842ba-cc53-444c-b659-33e4b3ecc822"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Alu Bhanta",
+      "description": "Potatoes and braised eggplants in our homemade curry. Served with rice, salad, and potato chutney.",
+      "long_description": null,
+      "price": 13.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "vegan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "d3a3b029-63f5-401b-a813-785bf76dd9ba",
+        "name": "tofu",
+        "description": "Soy-based protein",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "7ec15e9b-a51e-4a1f-bc48-d52f48430600",
+        "name": "gentle",
+        "heat_level": 1,
+        "description": "Mild and subtle spicing",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "35e2df7d-265a-4a9c-8653-0bcdf87b0572"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Daal",
+      "description": "Lentil Soup – The Staple of the Himalayas",
+      "long_description": null,
+      "price": 5.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "vegan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "d3a3b029-63f5-401b-a813-785bf76dd9ba",
+        "name": "tofu",
+        "description": "Soy-based protein",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "7ec15e9b-a51e-4a1f-bc48-d52f48430600",
+        "name": "gentle",
+        "heat_level": 1,
+        "description": "Mild and subtle spicing",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "42105f28-16f9-44ad-a375-4ae564912abe"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Daal Bhat Masu",
+      "description": "Rice with lentils and meat curry. Served with rice, salad, and potato chutney.",
+      "long_description": null,
+      "price": 20.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "vegan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "6a3cdf80-d779-48b6-87da-95ca8170ae0d",
+        "name": "chicken",
+        "description": "Chicken meat",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "6107ec11-d282-4015-b552-c9d98d0caaf7",
+        "name": "warming",
+        "heat_level": 2,
+        "description": "Moderate heat and warmth",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "b3238467-76bb-4f92-ab7e-277c1072cb58",
+        "name": "full",
+        "description": "Full portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "4ac029c1-5a3c-4666-96bd-7587c42deebd"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Vegan Momo",
+      "description": "Filled with a variety of vegetables, the dough and fillings are entirely homemade and hand-rolled with care. Served with peanut and tomato-coriander chutney. Steaming time: minimum 20 minutes!",
+      "long_description": null,
+      "price": 11.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "vegan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "d3a3b029-63f5-401b-a813-785bf76dd9ba",
+        "name": "tofu",
+        "description": "Soy-based protein",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "7ec15e9b-a51e-4a1f-bc48-d52f48430600",
+        "name": "gentle",
+        "heat_level": 1,
+        "description": "Mild and subtle spicing",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "57d233e0-9b82-4987-894b-13ba7e1d18eb"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Bhanto Tareko",
+      "description": "Crispy Eggplant Slices in Chickpea Batter",
+      "long_description": null,
+      "price": 6.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "vegan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "d3a3b029-63f5-401b-a813-785bf76dd9ba",
+        "name": "tofu",
+        "description": "Soy-based protein",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "7ec15e9b-a51e-4a1f-bc48-d52f48430600",
+        "name": "gentle",
+        "heat_level": 1,
+        "description": "Mild and subtle spicing",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "5da62910-b05f-489b-997c-b943f8fce286"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Roti",
+      "description": "Whole wheat flatbread",
+      "long_description": null,
+      "price": 3.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "vegan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "-"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "6e5e9c65-69ae-495e-9fc2-8c0e5053201c"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Tofu Badam",
+      "description": "Tofu in homemade peanut curry with onions, potatoes & nuts. Served with rice, salad, and potato chutney.",
+      "long_description": null,
+      "price": 14.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "vegan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "d3a3b029-63f5-401b-a813-785bf76dd9ba",
+        "name": "tofu",
+        "description": "Soy-based protein",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "7ec15e9b-a51e-4a1f-bc48-d52f48430600",
+        "name": "gentle",
+        "heat_level": 1,
+        "description": "Mild and subtle spicing",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "776a843c-4ffe-43f3-8a66-e6a49e6735e6"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Chana Masala",
+      "description": "Chickpea and zucchini curry. Served with rice, salad, and potato chutney.",
+      "long_description": null,
+      "price": 12.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "vegan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "d3a3b029-63f5-401b-a813-785bf76dd9ba",
+        "name": "tofu",
+        "description": "Soy-based protein",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "6107ec11-d282-4015-b552-c9d98d0caaf7",
+        "name": "warming",
+        "heat_level": 2,
+        "description": "Moderate heat and warmth",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "8882b507-4d35-4bd8-ae4e-394ecd416fbc"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Mustang Alu",
+      "description": "Potato wedges seasoned with Jimbu & Meethi",
+      "long_description": null,
+      "price": 4.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "vegan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "-"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "8b83c29e-9ab1-46bc-93f1-33ab01473c22"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Kung Pao Soya",
+      "description": "Specialties with wild Szechuan pepper (Timur), found exclusively at altitudes above 3,000 meters in the Himalayas. Vegan soy chunks marinated in traditional Tibetan spices, sautéed to golden perfection in a wok with peanuts, spring onions, and Szechuan pepper.",
+      "long_description": null,
+      "price": 16.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "vegan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "d3a3b029-63f5-401b-a813-785bf76dd9ba",
+        "name": "tofu",
+        "description": "Soy-based protein",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "7ec15e9b-a51e-4a1f-bc48-d52f48430600",
+        "name": "gentle",
+        "heat_level": 1,
+        "description": "Mild and subtle spicing",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "9362afb7-67c1-4d2c-a4fe-9e0767016921"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Bhat",
+      "description": "Small bowl of basmati rice",
+      "long_description": null,
+      "price": 2.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "vegan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "-"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "a4a1feb7-3201-49d3-8899-ab390a8d3e43"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Alu Chop",
+      "description": "Homemade Peanut & Potato Balls",
+      "long_description": null,
+      "price": 6.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "vegan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "d3a3b029-63f5-401b-a813-785bf76dd9ba",
+        "name": "tofu",
+        "description": "Soy-based protein",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "7ec15e9b-a51e-4a1f-bc48-d52f48430600",
+        "name": "gentle",
+        "heat_level": 1,
+        "description": "Mild and subtle spicing",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "ce29fe7f-370e-446f-9d58-83ea3cc819f8"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Green Curry",
+      "description": "Tofu & vegetables simmered in turmeric-infused yellow-green coconut curry, garnished with chopped lemongrass, fresh Thai basil, and toasted lime leaves (bitter, sweet, and spicy). Served with rice, salad, and potato chutney.",
+      "long_description": null,
+      "price": 15.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "vegan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "d3a3b029-63f5-401b-a813-785bf76dd9ba",
+        "name": "tofu",
+        "description": "Soy-based protein",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "a97bae55-45c5-4d86-956a-70ae5ce9fa0a",
+        "name": "fiery",
+        "heat_level": 3,
+        "description": "Intense and spicy heat",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "d85a8594-83bd-4648-9663-f7740bf8d36d"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Papad",
+      "description": "5 pieces of papadam made from urad lentil and rice flour",
+      "long_description": null,
+      "price": 3.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "vegan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "-"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "e0cdb5d2-40ac-44aa-8798-82deea8cf51f"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Panna Cotta",
+      "description": "Vegan vanilla-coconut panna cotta with a sweet mango cream",
+      "long_description": null,
+      "price": 4.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "vegan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "-"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "e84a2654-864c-4ff5-98ce-b65d46a67f10"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Tofu - Veg Thukpa",
+      "description": "A traditional Tibetan noodle soup with roasted cumin, seasonal vegetables, and Szechuan pepper, served in a large bowl. Choose from rice noodles or wheat noodles.",
+      "long_description": null,
+      "price": 13.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "vegan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "d3a3b029-63f5-401b-a813-785bf76dd9ba",
+        "name": "tofu",
+        "description": "Soy-based protein",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "6107ec11-d282-4015-b552-c9d98d0caaf7",
+        "name": "warming",
+        "heat_level": 2,
+        "description": "Moderate heat and warmth",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "edc3d189-350a-42ab-b92d-42328bced5f0"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Tarkari Kaju",
+      "description": "Seasonal vegetables in curry coconut milk with almonds and cashew nuts. Served with rice, salad, and potato chutney.",
+      "long_description": null,
+      "price": 14.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "vegan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "d3a3b029-63f5-401b-a813-785bf76dd9ba",
+        "name": "tofu",
+        "description": "Soy-based protein",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "7ec15e9b-a51e-4a1f-bc48-d52f48430600",
+        "name": "gentle",
+        "heat_level": 1,
+        "description": "Mild and subtle spicing",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "f2c61a68-1f13-4d78-b8e7-a22bcbcf278b"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Salad",
+      "description": "Small salad with agave-sesame dressing",
+      "long_description": null,
+      "price": 3.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "vegan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "-"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "fc88255e-75a2-426a-b34b-46b41a9213b4"
+    }
+  }
+]

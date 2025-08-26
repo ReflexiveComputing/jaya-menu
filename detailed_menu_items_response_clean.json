@@ -1,0 +1,2441 @@
+{
+  "data": {
+    "0626e6cb-c30a-4901-8b9a-a207ea57ff70": {
+      "menu_item_data": {
+        "id": "0626e6cb-c30a-4901-8b9a-a207ea57ff70",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "17227940-cb0c-4791-b070-4774c2ea2476",
+        "name": "Vegan Momo",
+        "description": "Steamed dumplings with vegetables",
+        "long_description": null,
+        "price": 11.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.194063Z",
+        "updated_at": "2025-08-16T22:53:10.194063Z",
+        "category": {
+          "id": "17227940-cb0c-4791-b070-4774c2ea2476",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "starter",
+          "description": "Appetizers and small plates",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "380e57e9-760a-454c-ba67-fe279c6c3c97",
+            "name": "tibetan",
+            "description": "Traditional Tibetan dishes and flavors",
+            "color": "#4ECDC4",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "dda47674-3a06-4c78-8d59-46d02fc9d953",
+          "name": "tofu",
+          "description": "Soy-based protein",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "42c6a55a-350f-4804-8176-ea9ff045df5a",
+          "name": "gentle",
+          "heat_level": 1,
+          "description": "Mild and subtle spicing",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "24cbfe8e-77c5-4c02-b180-9a24571ba91a",
+          "name": "small",
+          "description": "Small portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "06e2b445-2031-427e-97f0-3ac1fa562be5": {
+      "menu_item_data": {
+        "id": "06e2b445-2031-427e-97f0-3ac1fa562be5",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+        "name": "Green Curry",
+        "description": "Spicy green curry with vegetables",
+        "long_description": null,
+        "price": 15.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.199375Z",
+        "updated_at": "2025-08-16T22:53:10.199375Z",
+        "category": {
+          "id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "main",
+          "description": "Main course dishes",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "3b1c2f48-654e-486d-909e-d1036592f43a",
+            "name": "nepalese",
+            "description": "Authentic Nepalese recipes and ingredients",
+            "color": "#45B7D1",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "dda47674-3a06-4c78-8d59-46d02fc9d953",
+          "name": "tofu",
+          "description": "Soy-based protein",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "edfa8d2f-08f6-42a5-ab84-00baef36432d",
+          "name": "fiery",
+          "heat_level": 3,
+          "description": "Intense and spicy heat",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "24cbfe8e-77c5-4c02-b180-9a24571ba91a",
+          "name": "small",
+          "description": "Small portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "0d8c7de9-0053-43d5-a588-c51c9ab3c42d": {
+      "menu_item_data": {
+        "id": "0d8c7de9-0053-43d5-a588-c51c9ab3c42d",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+        "name": "Lamm Fry",
+        "description": "Stir-fried lamb with spices",
+        "long_description": null,
+        "price": 21.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.199375Z",
+        "updated_at": "2025-08-16T22:53:10.199375Z",
+        "category": {
+          "id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "main",
+          "description": "Main course dishes",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "380e57e9-760a-454c-ba67-fe279c6c3c97",
+            "name": "tibetan",
+            "description": "Traditional Tibetan dishes and flavors",
+            "color": "#4ECDC4",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "489bbeb1-2a12-4bff-97dd-1d70e04fd325",
+          "name": "lamb",
+          "description": "Lamb meat",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "edfa8d2f-08f6-42a5-ab84-00baef36432d",
+          "name": "fiery",
+          "heat_level": 3,
+          "description": "Intense and spicy heat",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "7b1baa86-8ea9-4b2c-a3f2-9623a1047e05",
+          "name": "full",
+          "description": "Full portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "0e609e23-523d-41ed-9c14-5118bc113e59": {
+      "menu_item_data": {
+        "id": "0e609e23-523d-41ed-9c14-5118bc113e59",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+        "name": "Khasi Saag",
+        "description": "Lamb with spinach",
+        "long_description": null,
+        "price": 16.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.199375Z",
+        "updated_at": "2025-08-16T22:53:10.199375Z",
+        "category": {
+          "id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "main",
+          "description": "Main course dishes",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "3b1c2f48-654e-486d-909e-d1036592f43a",
+            "name": "nepalese",
+            "description": "Authentic Nepalese recipes and ingredients",
+            "color": "#45B7D1",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "489bbeb1-2a12-4bff-97dd-1d70e04fd325",
+          "name": "lamb",
+          "description": "Lamb meat",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "36f33911-ad78-4582-bb7a-1cde053f173e",
+          "name": "warming",
+          "heat_level": 2,
+          "description": "Moderate heat and warmth",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "24cbfe8e-77c5-4c02-b180-9a24571ba91a",
+          "name": "small",
+          "description": "Small portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "14f0ff4e-0e71-4662-bf14-3519d6e9ed93": {
+      "menu_item_data": {
+        "id": "14f0ff4e-0e71-4662-bf14-3519d6e9ed93",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "17227940-cb0c-4791-b070-4774c2ea2476",
+        "name": "Daal",
+        "description": "Traditional lentil soup",
+        "long_description": null,
+        "price": 5.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.194063Z",
+        "updated_at": "2025-08-16T22:53:10.194063Z",
+        "category": {
+          "id": "17227940-cb0c-4791-b070-4774c2ea2476",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "starter",
+          "description": "Appetizers and small plates",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "4b8313b0-67db-4184-85c8-fc9160cf2e38",
+            "name": "fusion",
+            "description": "Fusion cuisine combining different culinary traditions",
+            "color": "#FF6B6B",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "dda47674-3a06-4c78-8d59-46d02fc9d953",
+          "name": "tofu",
+          "description": "Soy-based protein",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "42c6a55a-350f-4804-8176-ea9ff045df5a",
+          "name": "gentle",
+          "heat_level": 1,
+          "description": "Mild and subtle spicing",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "24cbfe8e-77c5-4c02-b180-9a24571ba91a",
+          "name": "small",
+          "description": "Small portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "17326cd4-5f82-47cc-92af-37454d0432f8": {
+      "menu_item_data": {
+        "id": "17326cd4-5f82-47cc-92af-37454d0432f8",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+        "name": "Chicken Sekuwa",
+        "description": "Grilled chicken skewers",
+        "long_description": null,
+        "price": 19.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.199375Z",
+        "updated_at": "2025-08-16T22:53:10.199375Z",
+        "category": {
+          "id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "main",
+          "description": "Main course dishes",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "4b8313b0-67db-4184-85c8-fc9160cf2e38",
+            "name": "fusion",
+            "description": "Fusion cuisine combining different culinary traditions",
+            "color": "#FF6B6B",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "e5f3378f-86dc-4abe-bdf0-5ea63cd419cb",
+          "name": "chicken",
+          "description": "Chicken meat",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "42c6a55a-350f-4804-8176-ea9ff045df5a",
+          "name": "gentle",
+          "heat_level": 1,
+          "description": "Mild and subtle spicing",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "24cbfe8e-77c5-4c02-b180-9a24571ba91a",
+          "name": "small",
+          "description": "Small portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "1817a623-5226-4072-a72b-2fa2645cc6f9": {
+      "menu_item_data": {
+        "id": "1817a623-5226-4072-a72b-2fa2645cc6f9",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+        "name": "Yogi Bhat",
+        "description": "Yogic rice preparation",
+        "long_description": null,
+        "price": 12.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.199375Z",
+        "updated_at": "2025-08-16T22:53:10.199375Z",
+        "category": {
+          "id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "main",
+          "description": "Main course dishes",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "3b1c2f48-654e-486d-909e-d1036592f43a",
+            "name": "nepalese",
+            "description": "Authentic Nepalese recipes and ingredients",
+            "color": "#45B7D1",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "e3c9a27f-7211-44fb-b8a6-8dd0eb83fdd5",
+          "name": "paneer",
+          "description": "Fresh cheese",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "42c6a55a-350f-4804-8176-ea9ff045df5a",
+          "name": "gentle",
+          "heat_level": 1,
+          "description": "Mild and subtle spicing",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "24cbfe8e-77c5-4c02-b180-9a24571ba91a",
+          "name": "small",
+          "description": "Small portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "1c85bf23-02d6-4a18-b881-a648b5ca29f5": {
+      "menu_item_data": {
+        "id": "1c85bf23-02d6-4a18-b881-a648b5ca29f5",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "17227940-cb0c-4791-b070-4774c2ea2476",
+        "name": "Chicken 65",
+        "description": "Spicy chicken appetizer",
+        "long_description": null,
+        "price": 9.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.194063Z",
+        "updated_at": "2025-08-16T22:53:10.194063Z",
+        "category": {
+          "id": "17227940-cb0c-4791-b070-4774c2ea2476",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "starter",
+          "description": "Appetizers and small plates",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "4b8313b0-67db-4184-85c8-fc9160cf2e38",
+            "name": "fusion",
+            "description": "Fusion cuisine combining different culinary traditions",
+            "color": "#FF6B6B",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "e5f3378f-86dc-4abe-bdf0-5ea63cd419cb",
+          "name": "chicken",
+          "description": "Chicken meat",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "42c6a55a-350f-4804-8176-ea9ff045df5a",
+          "name": "gentle",
+          "heat_level": 1,
+          "description": "Mild and subtle spicing",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "24cbfe8e-77c5-4c02-b180-9a24571ba91a",
+          "name": "small",
+          "description": "Small portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "2631fe06-bc89-4b6b-8b81-0fcb5e3b70c5": {
+      "menu_item_data": {
+        "id": "2631fe06-bc89-4b6b-8b81-0fcb5e3b70c5",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+        "name": "Kung Pao Lamb",
+        "description": "Spicy lamb with vegetables and peanuts",
+        "long_description": null,
+        "price": 22.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.199375Z",
+        "updated_at": "2025-08-16T22:53:10.199375Z",
+        "category": {
+          "id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "main",
+          "description": "Main course dishes",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "380e57e9-760a-454c-ba67-fe279c6c3c97",
+            "name": "tibetan",
+            "description": "Traditional Tibetan dishes and flavors",
+            "color": "#4ECDC4",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "489bbeb1-2a12-4bff-97dd-1d70e04fd325",
+          "name": "lamb",
+          "description": "Lamb meat",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "edfa8d2f-08f6-42a5-ab84-00baef36432d",
+          "name": "fiery",
+          "heat_level": 3,
+          "description": "Intense and spicy heat",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "24cbfe8e-77c5-4c02-b180-9a24571ba91a",
+          "name": "small",
+          "description": "Small portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "36687a2e-2d42-4ac0-8f52-01a7e3c72bca": {
+      "menu_item_data": {
+        "id": "36687a2e-2d42-4ac0-8f52-01a7e3c72bca",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+        "name": "Paneer Veg Sekuwa",
+        "description": "Grilled paneer and vegetables",
+        "long_description": null,
+        "price": 18.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.199375Z",
+        "updated_at": "2025-08-16T22:53:10.199375Z",
+        "category": {
+          "id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "main",
+          "description": "Main course dishes",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "4b8313b0-67db-4184-85c8-fc9160cf2e38",
+            "name": "fusion",
+            "description": "Fusion cuisine combining different culinary traditions",
+            "color": "#FF6B6B",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "e3c9a27f-7211-44fb-b8a6-8dd0eb83fdd5",
+          "name": "paneer",
+          "description": "Fresh cheese",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "36f33911-ad78-4582-bb7a-1cde053f173e",
+          "name": "warming",
+          "heat_level": 2,
+          "description": "Moderate heat and warmth",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "24cbfe8e-77c5-4c02-b180-9a24571ba91a",
+          "name": "small",
+          "description": "Small portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "382e8fec-70a0-4925-b5c7-495e51f2691e": {
+      "menu_item_data": {
+        "id": "382e8fec-70a0-4925-b5c7-495e51f2691e",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+        "name": "Tofu Badam",
+        "description": "Tofu with almonds",
+        "long_description": null,
+        "price": 14.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.199375Z",
+        "updated_at": "2025-08-16T22:53:10.199375Z",
+        "category": {
+          "id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "main",
+          "description": "Main course dishes",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "3b1c2f48-654e-486d-909e-d1036592f43a",
+            "name": "nepalese",
+            "description": "Authentic Nepalese recipes and ingredients",
+            "color": "#45B7D1",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "dda47674-3a06-4c78-8d59-46d02fc9d953",
+          "name": "tofu",
+          "description": "Soy-based protein",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "42c6a55a-350f-4804-8176-ea9ff045df5a",
+          "name": "gentle",
+          "heat_level": 1,
+          "description": "Mild and subtle spicing",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "24cbfe8e-77c5-4c02-b180-9a24571ba91a",
+          "name": "small",
+          "description": "Small portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "3d88d76f-e6ac-4ea1-bdc7-0bb476dcbd17": {
+      "menu_item_data": {
+        "id": "3d88d76f-e6ac-4ea1-bdc7-0bb476dcbd17",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+        "name": "Cococs Chicken",
+        "description": "Special chicken preparation",
+        "long_description": null,
+        "price": 15.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.199375Z",
+        "updated_at": "2025-08-16T22:53:10.199375Z",
+        "category": {
+          "id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "main",
+          "description": "Main course dishes",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "3b1c2f48-654e-486d-909e-d1036592f43a",
+            "name": "nepalese",
+            "description": "Authentic Nepalese recipes and ingredients",
+            "color": "#45B7D1",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "e5f3378f-86dc-4abe-bdf0-5ea63cd419cb",
+          "name": "chicken",
+          "description": "Chicken meat",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "42c6a55a-350f-4804-8176-ea9ff045df5a",
+          "name": "gentle",
+          "heat_level": 1,
+          "description": "Mild and subtle spicing",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "24cbfe8e-77c5-4c02-b180-9a24571ba91a",
+          "name": "small",
+          "description": "Small portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "3e44c76c-b55d-4078-be87-b5271691cfcb": {
+      "menu_item_data": {
+        "id": "3e44c76c-b55d-4078-be87-b5271691cfcb",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "17227940-cb0c-4791-b070-4774c2ea2476",
+        "name": "Paneer Momo",
+        "description": "Steamed dumplings with paneer",
+        "long_description": null,
+        "price": 11.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.194063Z",
+        "updated_at": "2025-08-16T22:53:10.194063Z",
+        "category": {
+          "id": "17227940-cb0c-4791-b070-4774c2ea2476",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "starter",
+          "description": "Appetizers and small plates",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "380e57e9-760a-454c-ba67-fe279c6c3c97",
+            "name": "tibetan",
+            "description": "Traditional Tibetan dishes and flavors",
+            "color": "#4ECDC4",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "e3c9a27f-7211-44fb-b8a6-8dd0eb83fdd5",
+          "name": "paneer",
+          "description": "Fresh cheese",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "42c6a55a-350f-4804-8176-ea9ff045df5a",
+          "name": "gentle",
+          "heat_level": 1,
+          "description": "Mild and subtle spicing",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "24cbfe8e-77c5-4c02-b180-9a24571ba91a",
+          "name": "small",
+          "description": "Small portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "3e758748-5bf4-44cc-874b-718e063aa3a5": {
+      "menu_item_data": {
+        "id": "3e758748-5bf4-44cc-874b-718e063aa3a5",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+        "name": "Haans Badam",
+        "description": "Duck with almonds",
+        "long_description": null,
+        "price": 18.5,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.199375Z",
+        "updated_at": "2025-08-16T22:53:10.199375Z",
+        "category": {
+          "id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "main",
+          "description": "Main course dishes",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "3b1c2f48-654e-486d-909e-d1036592f43a",
+            "name": "nepalese",
+            "description": "Authentic Nepalese recipes and ingredients",
+            "color": "#45B7D1",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "e5f3378f-86dc-4abe-bdf0-5ea63cd419cb",
+          "name": "chicken",
+          "description": "Chicken meat",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "42c6a55a-350f-4804-8176-ea9ff045df5a",
+          "name": "gentle",
+          "heat_level": 1,
+          "description": "Mild and subtle spicing",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "7b1baa86-8ea9-4b2c-a3f2-9623a1047e05",
+          "name": "full",
+          "description": "Full portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "44d6f546-d96d-4f9d-96c3-96b3ac40dec7": {
+      "menu_item_data": {
+        "id": "44d6f546-d96d-4f9d-96c3-96b3ac40dec7",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+        "name": "Chicken Curry",
+        "description": "Traditional Nepali chicken curry",
+        "long_description": null,
+        "price": 13.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.199375Z",
+        "updated_at": "2025-08-16T22:53:10.199375Z",
+        "category": {
+          "id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "main",
+          "description": "Main course dishes",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "3b1c2f48-654e-486d-909e-d1036592f43a",
+            "name": "nepalese",
+            "description": "Authentic Nepalese recipes and ingredients",
+            "color": "#45B7D1",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "e5f3378f-86dc-4abe-bdf0-5ea63cd419cb",
+          "name": "chicken",
+          "description": "Chicken meat",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "36f33911-ad78-4582-bb7a-1cde053f173e",
+          "name": "warming",
+          "heat_level": 2,
+          "description": "Moderate heat and warmth",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "24cbfe8e-77c5-4c02-b180-9a24571ba91a",
+          "name": "small",
+          "description": "Small portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "49792352-cefe-4934-a15f-e567cf7e223a": {
+      "menu_item_data": {
+        "id": "49792352-cefe-4934-a15f-e567cf7e223a",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+        "name": "Daal Bhat Masu",
+        "description": "Rice with lentils and meat",
+        "long_description": null,
+        "price": 20.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.199375Z",
+        "updated_at": "2025-08-16T22:53:10.199375Z",
+        "category": {
+          "id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "main",
+          "description": "Main course dishes",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "3b1c2f48-654e-486d-909e-d1036592f43a",
+            "name": "nepalese",
+            "description": "Authentic Nepalese recipes and ingredients",
+            "color": "#45B7D1",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "e5f3378f-86dc-4abe-bdf0-5ea63cd419cb",
+          "name": "chicken",
+          "description": "Chicken meat",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "36f33911-ad78-4582-bb7a-1cde053f173e",
+          "name": "warming",
+          "heat_level": 2,
+          "description": "Moderate heat and warmth",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "7b1baa86-8ea9-4b2c-a3f2-9623a1047e05",
+          "name": "full",
+          "description": "Full portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "497a37cb-1e00-474e-843a-88ee3b22013a": {
+      "menu_item_data": {
+        "id": "497a37cb-1e00-474e-843a-88ee3b22013a",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "17227940-cb0c-4791-b070-4774c2ea2476",
+        "name": "Non - Veg Mixed Starters",
+        "description": "Assorted non-vegetarian starters",
+        "long_description": null,
+        "price": 21.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.194063Z",
+        "updated_at": "2025-08-16T22:53:10.194063Z",
+        "category": {
+          "id": "17227940-cb0c-4791-b070-4774c2ea2476",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "starter",
+          "description": "Appetizers and small plates",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "4b8313b0-67db-4184-85c8-fc9160cf2e38",
+            "name": "fusion",
+            "description": "Fusion cuisine combining different culinary traditions",
+            "color": "#FF6B6B",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "e5f3378f-86dc-4abe-bdf0-5ea63cd419cb",
+          "name": "chicken",
+          "description": "Chicken meat",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "42c6a55a-350f-4804-8176-ea9ff045df5a",
+          "name": "gentle",
+          "heat_level": 1,
+          "description": "Mild and subtle spicing",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "7b1baa86-8ea9-4b2c-a3f2-9623a1047e05",
+          "name": "full",
+          "description": "Full portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "4adb0cfe-8835-47c3-9114-2193c6f17db8": {
+      "menu_item_data": {
+        "id": "4adb0cfe-8835-47c3-9114-2193c6f17db8",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+        "name": "Lamm Sekuwa",
+        "description": "Grilled lamb skewers",
+        "long_description": null,
+        "price": 22.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.199375Z",
+        "updated_at": "2025-08-16T22:53:10.199375Z",
+        "category": {
+          "id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "main",
+          "description": "Main course dishes",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "4b8313b0-67db-4184-85c8-fc9160cf2e38",
+            "name": "fusion",
+            "description": "Fusion cuisine combining different culinary traditions",
+            "color": "#FF6B6B",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "489bbeb1-2a12-4bff-97dd-1d70e04fd325",
+          "name": "lamb",
+          "description": "Lamb meat",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "36f33911-ad78-4582-bb7a-1cde053f173e",
+          "name": "warming",
+          "heat_level": 2,
+          "description": "Moderate heat and warmth",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "24cbfe8e-77c5-4c02-b180-9a24571ba91a",
+          "name": "small",
+          "description": "Small portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "56d686fa-b908-4f21-b2e3-0f69e7905faf": {
+      "menu_item_data": {
+        "id": "56d686fa-b908-4f21-b2e3-0f69e7905faf",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "17227940-cb0c-4791-b070-4774c2ea2476",
+        "name": "Everest Bites",
+        "description": "Everest-inspired appetizer",
+        "long_description": null,
+        "price": 6.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.194063Z",
+        "updated_at": "2025-08-16T22:53:10.194063Z",
+        "category": {
+          "id": "17227940-cb0c-4791-b070-4774c2ea2476",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "starter",
+          "description": "Appetizers and small plates",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "4b8313b0-67db-4184-85c8-fc9160cf2e38",
+            "name": "fusion",
+            "description": "Fusion cuisine combining different culinary traditions",
+            "color": "#FF6B6B",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "dda47674-3a06-4c78-8d59-46d02fc9d953",
+          "name": "tofu",
+          "description": "Soy-based protein",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "42c6a55a-350f-4804-8176-ea9ff045df5a",
+          "name": "gentle",
+          "heat_level": 1,
+          "description": "Mild and subtle spicing",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "24cbfe8e-77c5-4c02-b180-9a24571ba91a",
+          "name": "small",
+          "description": "Small portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "65017a36-2a9d-4c25-b5b6-3962e3c7a133": {
+      "menu_item_data": {
+        "id": "65017a36-2a9d-4c25-b5b6-3962e3c7a133",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+        "name": "Khasi Alu",
+        "description": "Lamb with potatoes",
+        "long_description": null,
+        "price": 16.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.199375Z",
+        "updated_at": "2025-08-16T22:53:10.199375Z",
+        "category": {
+          "id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "main",
+          "description": "Main course dishes",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "3b1c2f48-654e-486d-909e-d1036592f43a",
+            "name": "nepalese",
+            "description": "Authentic Nepalese recipes and ingredients",
+            "color": "#45B7D1",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "489bbeb1-2a12-4bff-97dd-1d70e04fd325",
+          "name": "lamb",
+          "description": "Lamb meat",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "36f33911-ad78-4582-bb7a-1cde053f173e",
+          "name": "warming",
+          "heat_level": 2,
+          "description": "Moderate heat and warmth",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "24cbfe8e-77c5-4c02-b180-9a24571ba91a",
+          "name": "small",
+          "description": "Small portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "70725db9-0493-49ac-968e-4ca054def327": {
+      "menu_item_data": {
+        "id": "70725db9-0493-49ac-968e-4ca054def327",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+        "name": "Paneer Chilli",
+        "description": "Spicy paneer with vegetables",
+        "long_description": null,
+        "price": 14.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.199375Z",
+        "updated_at": "2025-08-16T22:53:10.199375Z",
+        "category": {
+          "id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "main",
+          "description": "Main course dishes",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "3b1c2f48-654e-486d-909e-d1036592f43a",
+            "name": "nepalese",
+            "description": "Authentic Nepalese recipes and ingredients",
+            "color": "#45B7D1",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "e3c9a27f-7211-44fb-b8a6-8dd0eb83fdd5",
+          "name": "paneer",
+          "description": "Fresh cheese",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "edfa8d2f-08f6-42a5-ab84-00baef36432d",
+          "name": "fiery",
+          "heat_level": 3,
+          "description": "Intense and spicy heat",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "24cbfe8e-77c5-4c02-b180-9a24571ba91a",
+          "name": "small",
+          "description": "Small portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "7c11361a-35f3-4678-8216-fe305d18b00e": {
+      "menu_item_data": {
+        "id": "7c11361a-35f3-4678-8216-fe305d18b00e",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "17227940-cb0c-4791-b070-4774c2ea2476",
+        "name": "Mixed Momo",
+        "description": "Assorted steamed dumplings",
+        "long_description": null,
+        "price": 12.5,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.194063Z",
+        "updated_at": "2025-08-16T22:53:10.194063Z",
+        "category": {
+          "id": "17227940-cb0c-4791-b070-4774c2ea2476",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "starter",
+          "description": "Appetizers and small plates",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "380e57e9-760a-454c-ba67-fe279c6c3c97",
+            "name": "tibetan",
+            "description": "Traditional Tibetan dishes and flavors",
+            "color": "#4ECDC4",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "e5f3378f-86dc-4abe-bdf0-5ea63cd419cb",
+          "name": "chicken",
+          "description": "Chicken meat",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "42c6a55a-350f-4804-8176-ea9ff045df5a",
+          "name": "gentle",
+          "heat_level": 1,
+          "description": "Mild and subtle spicing",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "7b1baa86-8ea9-4b2c-a3f2-9623a1047e05",
+          "name": "full",
+          "description": "Full portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "87cb8ceb-2572-4720-a7cd-21378b7c4e2b": {
+      "menu_item_data": {
+        "id": "87cb8ceb-2572-4720-a7cd-21378b7c4e2b",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+        "name": "Haans Nariwal",
+        "description": "Duck with coconut",
+        "long_description": null,
+        "price": 16.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.199375Z",
+        "updated_at": "2025-08-16T22:53:10.199375Z",
+        "category": {
+          "id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "main",
+          "description": "Main course dishes",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "3b1c2f48-654e-486d-909e-d1036592f43a",
+            "name": "nepalese",
+            "description": "Authentic Nepalese recipes and ingredients",
+            "color": "#45B7D1",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "e5f3378f-86dc-4abe-bdf0-5ea63cd419cb",
+          "name": "chicken",
+          "description": "Chicken meat",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "42c6a55a-350f-4804-8176-ea9ff045df5a",
+          "name": "gentle",
+          "heat_level": 1,
+          "description": "Mild and subtle spicing",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "24cbfe8e-77c5-4c02-b180-9a24571ba91a",
+          "name": "small",
+          "description": "Small portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "8f9d1f59-038f-47aa-bf24-b726f650cda8": {
+      "menu_item_data": {
+        "id": "8f9d1f59-038f-47aa-bf24-b726f650cda8",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+        "name": "Chicken Sizzler",
+        "description": "Sizzling chicken with vegetables",
+        "long_description": null,
+        "price": 18.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.199375Z",
+        "updated_at": "2025-08-16T22:53:10.199375Z",
+        "category": {
+          "id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "main",
+          "description": "Main course dishes",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "380e57e9-760a-454c-ba67-fe279c6c3c97",
+            "name": "tibetan",
+            "description": "Traditional Tibetan dishes and flavors",
+            "color": "#4ECDC4",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "e5f3378f-86dc-4abe-bdf0-5ea63cd419cb",
+          "name": "chicken",
+          "description": "Chicken meat",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "42c6a55a-350f-4804-8176-ea9ff045df5a",
+          "name": "gentle",
+          "heat_level": 1,
+          "description": "Mild and subtle spicing",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "7b1baa86-8ea9-4b2c-a3f2-9623a1047e05",
+          "name": "full",
+          "description": "Full portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "9b296b83-00d5-4451-9908-f34e8aa7ee4e": {
+      "menu_item_data": {
+        "id": "9b296b83-00d5-4451-9908-f34e8aa7ee4e",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "17227940-cb0c-4791-b070-4774c2ea2476",
+        "name": "Bhanto Tareko",
+        "description": "Spiced mixed vegetables",
+        "long_description": null,
+        "price": 6.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.194063Z",
+        "updated_at": "2025-08-16T22:53:10.194063Z",
+        "category": {
+          "id": "17227940-cb0c-4791-b070-4774c2ea2476",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "starter",
+          "description": "Appetizers and small plates",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "3b1c2f48-654e-486d-909e-d1036592f43a",
+            "name": "nepalese",
+            "description": "Authentic Nepalese recipes and ingredients",
+            "color": "#45B7D1",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "dda47674-3a06-4c78-8d59-46d02fc9d953",
+          "name": "tofu",
+          "description": "Soy-based protein",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "42c6a55a-350f-4804-8176-ea9ff045df5a",
+          "name": "gentle",
+          "heat_level": 1,
+          "description": "Mild and subtle spicing",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "24cbfe8e-77c5-4c02-b180-9a24571ba91a",
+          "name": "small",
+          "description": "Small portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "a0ad107b-69b3-47a0-b606-05860ba144f6": {
+      "menu_item_data": {
+        "id": "a0ad107b-69b3-47a0-b606-05860ba144f6",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+        "name": "Pad Thai",
+        "description": "Thai-style stir-fried noodles",
+        "long_description": null,
+        "price": 12.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.199375Z",
+        "updated_at": "2025-08-16T22:53:10.199375Z",
+        "category": {
+          "id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "main",
+          "description": "Main course dishes",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "3b1c2f48-654e-486d-909e-d1036592f43a",
+            "name": "nepalese",
+            "description": "Authentic Nepalese recipes and ingredients",
+            "color": "#45B7D1",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "dda47674-3a06-4c78-8d59-46d02fc9d953",
+          "name": "tofu",
+          "description": "Soy-based protein",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "42c6a55a-350f-4804-8176-ea9ff045df5a",
+          "name": "gentle",
+          "heat_level": 1,
+          "description": "Mild and subtle spicing",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "24cbfe8e-77c5-4c02-b180-9a24571ba91a",
+          "name": "small",
+          "description": "Small portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "a4c60c8d-0b97-40a5-861c-6c9a857f6e98": {
+      "menu_item_data": {
+        "id": "a4c60c8d-0b97-40a5-861c-6c9a857f6e98",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "17227940-cb0c-4791-b070-4774c2ea2476",
+        "name": "Tofu - Veg Thukpa",
+        "description": "Tibetan noodle soup with tofu",
+        "long_description": null,
+        "price": 13.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.194063Z",
+        "updated_at": "2025-08-16T22:53:10.194063Z",
+        "category": {
+          "id": "17227940-cb0c-4791-b070-4774c2ea2476",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "starter",
+          "description": "Appetizers and small plates",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "4b8313b0-67db-4184-85c8-fc9160cf2e38",
+            "name": "fusion",
+            "description": "Fusion cuisine combining different culinary traditions",
+            "color": "#FF6B6B",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "dda47674-3a06-4c78-8d59-46d02fc9d953",
+          "name": "tofu",
+          "description": "Soy-based protein",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "36f33911-ad78-4582-bb7a-1cde053f173e",
+          "name": "warming",
+          "heat_level": 2,
+          "description": "Moderate heat and warmth",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "24cbfe8e-77c5-4c02-b180-9a24571ba91a",
+          "name": "small",
+          "description": "Small portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "a6885eec-3f07-42fe-a474-181c348bbf88": {
+      "menu_item_data": {
+        "id": "a6885eec-3f07-42fe-a474-181c348bbf88",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "17227940-cb0c-4791-b070-4774c2ea2476",
+        "name": "Alu Chop",
+        "description": "Spiced potato fritters",
+        "long_description": null,
+        "price": 6.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.194063Z",
+        "updated_at": "2025-08-16T22:53:10.194063Z",
+        "category": {
+          "id": "17227940-cb0c-4791-b070-4774c2ea2476",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "starter",
+          "description": "Appetizers and small plates",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "3b1c2f48-654e-486d-909e-d1036592f43a",
+            "name": "nepalese",
+            "description": "Authentic Nepalese recipes and ingredients",
+            "color": "#45B7D1",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "dda47674-3a06-4c78-8d59-46d02fc9d953",
+          "name": "tofu",
+          "description": "Soy-based protein",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "42c6a55a-350f-4804-8176-ea9ff045df5a",
+          "name": "gentle",
+          "heat_level": 1,
+          "description": "Mild and subtle spicing",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "24cbfe8e-77c5-4c02-b180-9a24571ba91a",
+          "name": "small",
+          "description": "Small portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "b99a4836-addc-49b6-850d-80f430714399": {
+      "menu_item_data": {
+        "id": "b99a4836-addc-49b6-850d-80f430714399",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+        "name": "Chana Masala",
+        "description": "Chickpea curry with spices",
+        "long_description": null,
+        "price": 12.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.199375Z",
+        "updated_at": "2025-08-16T22:53:10.199375Z",
+        "category": {
+          "id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "main",
+          "description": "Main course dishes",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "3b1c2f48-654e-486d-909e-d1036592f43a",
+            "name": "nepalese",
+            "description": "Authentic Nepalese recipes and ingredients",
+            "color": "#45B7D1",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "dda47674-3a06-4c78-8d59-46d02fc9d953",
+          "name": "tofu",
+          "description": "Soy-based protein",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "36f33911-ad78-4582-bb7a-1cde053f173e",
+          "name": "warming",
+          "heat_level": 2,
+          "description": "Moderate heat and warmth",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "24cbfe8e-77c5-4c02-b180-9a24571ba91a",
+          "name": "small",
+          "description": "Small portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "be1e72c1-af40-4b1e-b243-efd24747f83e": {
+      "menu_item_data": {
+        "id": "be1e72c1-af40-4b1e-b243-efd24747f83e",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "17227940-cb0c-4791-b070-4774c2ea2476",
+        "name": "Veg Mixed Starters",
+        "description": "Assorted vegetarian starters",
+        "long_description": null,
+        "price": 18.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.194063Z",
+        "updated_at": "2025-08-16T22:53:10.194063Z",
+        "category": {
+          "id": "17227940-cb0c-4791-b070-4774c2ea2476",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "starter",
+          "description": "Appetizers and small plates",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "4b8313b0-67db-4184-85c8-fc9160cf2e38",
+            "name": "fusion",
+            "description": "Fusion cuisine combining different culinary traditions",
+            "color": "#FF6B6B",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "e3c9a27f-7211-44fb-b8a6-8dd0eb83fdd5",
+          "name": "paneer",
+          "description": "Fresh cheese",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "42c6a55a-350f-4804-8176-ea9ff045df5a",
+          "name": "gentle",
+          "heat_level": 1,
+          "description": "Mild and subtle spicing",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "7b1baa86-8ea9-4b2c-a3f2-9623a1047e05",
+          "name": "full",
+          "description": "Full portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "bedb79c6-c7dc-42f6-a461-cdb2581a2857": {
+      "menu_item_data": {
+        "id": "bedb79c6-c7dc-42f6-a461-cdb2581a2857",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+        "name": "Alu Bhanta",
+        "description": "Potato and eggplant curry",
+        "long_description": null,
+        "price": 13.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.199375Z",
+        "updated_at": "2025-08-16T22:53:10.199375Z",
+        "category": {
+          "id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "main",
+          "description": "Main course dishes",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "3b1c2f48-654e-486d-909e-d1036592f43a",
+            "name": "nepalese",
+            "description": "Authentic Nepalese recipes and ingredients",
+            "color": "#45B7D1",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "dda47674-3a06-4c78-8d59-46d02fc9d953",
+          "name": "tofu",
+          "description": "Soy-based protein",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "42c6a55a-350f-4804-8176-ea9ff045df5a",
+          "name": "gentle",
+          "heat_level": 1,
+          "description": "Mild and subtle spicing",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "24cbfe8e-77c5-4c02-b180-9a24571ba91a",
+          "name": "small",
+          "description": "Small portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "d2ea49a0-831e-4c2d-8360-581d15456030": {
+      "menu_item_data": {
+        "id": "d2ea49a0-831e-4c2d-8360-581d15456030",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+        "name": "Veg Chau Min",
+        "description": "Vegetable chow mein",
+        "long_description": null,
+        "price": 12.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.199375Z",
+        "updated_at": "2025-08-16T22:53:10.199375Z",
+        "category": {
+          "id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "main",
+          "description": "Main course dishes",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "3b1c2f48-654e-486d-909e-d1036592f43a",
+            "name": "nepalese",
+            "description": "Authentic Nepalese recipes and ingredients",
+            "color": "#45B7D1",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "dda47674-3a06-4c78-8d59-46d02fc9d953",
+          "name": "tofu",
+          "description": "Soy-based protein",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "42c6a55a-350f-4804-8176-ea9ff045df5a",
+          "name": "gentle",
+          "heat_level": 1,
+          "description": "Mild and subtle spicing",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "24cbfe8e-77c5-4c02-b180-9a24571ba91a",
+          "name": "small",
+          "description": "Small portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "d632cf64-e327-4093-ab8b-3067732da966": {
+      "menu_item_data": {
+        "id": "d632cf64-e327-4093-ab8b-3067732da966",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+        "name": "Sag Paneer",
+        "description": "Spinach with fresh cheese",
+        "long_description": null,
+        "price": 11.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.199375Z",
+        "updated_at": "2025-08-16T22:53:10.199375Z",
+        "category": {
+          "id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "main",
+          "description": "Main course dishes",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "3b1c2f48-654e-486d-909e-d1036592f43a",
+            "name": "nepalese",
+            "description": "Authentic Nepalese recipes and ingredients",
+            "color": "#45B7D1",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "e3c9a27f-7211-44fb-b8a6-8dd0eb83fdd5",
+          "name": "paneer",
+          "description": "Fresh cheese",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "42c6a55a-350f-4804-8176-ea9ff045df5a",
+          "name": "gentle",
+          "heat_level": 1,
+          "description": "Mild and subtle spicing",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "24cbfe8e-77c5-4c02-b180-9a24571ba91a",
+          "name": "small",
+          "description": "Small portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "d7a34bb8-8064-44f1-96c7-6322c5c2de6e": {
+      "menu_item_data": {
+        "id": "d7a34bb8-8064-44f1-96c7-6322c5c2de6e",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+        "name": "Tarkari Kaju",
+        "description": "Mixed vegetables with cashews",
+        "long_description": null,
+        "price": 14.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.199375Z",
+        "updated_at": "2025-08-16T22:53:10.199375Z",
+        "category": {
+          "id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "main",
+          "description": "Main course dishes",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "3b1c2f48-654e-486d-909e-d1036592f43a",
+            "name": "nepalese",
+            "description": "Authentic Nepalese recipes and ingredients",
+            "color": "#45B7D1",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "dda47674-3a06-4c78-8d59-46d02fc9d953",
+          "name": "tofu",
+          "description": "Soy-based protein",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "42c6a55a-350f-4804-8176-ea9ff045df5a",
+          "name": "gentle",
+          "heat_level": 1,
+          "description": "Mild and subtle spicing",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "24cbfe8e-77c5-4c02-b180-9a24571ba91a",
+          "name": "small",
+          "description": "Small portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "ddbd0431-ed71-47f4-9de6-6c8ab861c600": {
+      "menu_item_data": {
+        "id": "ddbd0431-ed71-47f4-9de6-6c8ab861c600",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "17227940-cb0c-4791-b070-4774c2ea2476",
+        "name": "Lamm Thukpa",
+        "description": "Tibetan noodle soup with lamb",
+        "long_description": null,
+        "price": 16.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.194063Z",
+        "updated_at": "2025-08-16T22:53:10.194063Z",
+        "category": {
+          "id": "17227940-cb0c-4791-b070-4774c2ea2476",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "starter",
+          "description": "Appetizers and small plates",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "4b8313b0-67db-4184-85c8-fc9160cf2e38",
+            "name": "fusion",
+            "description": "Fusion cuisine combining different culinary traditions",
+            "color": "#FF6B6B",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "489bbeb1-2a12-4bff-97dd-1d70e04fd325",
+          "name": "lamb",
+          "description": "Lamb meat",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "36f33911-ad78-4582-bb7a-1cde053f173e",
+          "name": "warming",
+          "heat_level": 2,
+          "description": "Moderate heat and warmth",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "24cbfe8e-77c5-4c02-b180-9a24571ba91a",
+          "name": "small",
+          "description": "Small portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "ea032f41-7bcf-413a-b191-1f805693e9d0": {
+      "menu_item_data": {
+        "id": "ea032f41-7bcf-413a-b191-1f805693e9d0",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+        "name": "Kung Pao Soya",
+        "description": "Spicy tofu with vegetables and peanuts",
+        "long_description": null,
+        "price": 16.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.199375Z",
+        "updated_at": "2025-08-16T22:53:10.199375Z",
+        "category": {
+          "id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "main",
+          "description": "Main course dishes",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "380e57e9-760a-454c-ba67-fe279c6c3c97",
+            "name": "tibetan",
+            "description": "Traditional Tibetan dishes and flavors",
+            "color": "#4ECDC4",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "dda47674-3a06-4c78-8d59-46d02fc9d953",
+          "name": "tofu",
+          "description": "Soy-based protein",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "42c6a55a-350f-4804-8176-ea9ff045df5a",
+          "name": "gentle",
+          "heat_level": 1,
+          "description": "Mild and subtle spicing",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "24cbfe8e-77c5-4c02-b180-9a24571ba91a",
+          "name": "small",
+          "description": "Small portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "ea0eb745-9925-4812-be88-6cc611f8aba0": {
+      "menu_item_data": {
+        "id": "ea0eb745-9925-4812-be88-6cc611f8aba0",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+        "name": "Daal Bhat Tarkari",
+        "description": "Rice with lentils and vegetables",
+        "long_description": null,
+        "price": 17.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.199375Z",
+        "updated_at": "2025-08-16T22:53:10.199375Z",
+        "category": {
+          "id": "ca10102c-f0a7-4c82-adba-e6dd2081493b",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "main",
+          "description": "Main course dishes",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "3b1c2f48-654e-486d-909e-d1036592f43a",
+            "name": "nepalese",
+            "description": "Authentic Nepalese recipes and ingredients",
+            "color": "#45B7D1",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "dda47674-3a06-4c78-8d59-46d02fc9d953",
+          "name": "tofu",
+          "description": "Soy-based protein",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "42c6a55a-350f-4804-8176-ea9ff045df5a",
+          "name": "gentle",
+          "heat_level": 1,
+          "description": "Mild and subtle spicing",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "7b1baa86-8ea9-4b2c-a3f2-9623a1047e05",
+          "name": "full",
+          "description": "Full portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "ea653442-5ee3-4d98-8fa1-7542d8ac2dee": {
+      "menu_item_data": {
+        "id": "ea653442-5ee3-4d98-8fa1-7542d8ac2dee",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "17227940-cb0c-4791-b070-4774c2ea2476",
+        "name": "Crispy Chicken Salad",
+        "description": "Fresh salad with crispy chicken",
+        "long_description": null,
+        "price": 11.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.194063Z",
+        "updated_at": "2025-08-16T22:53:10.194063Z",
+        "category": {
+          "id": "17227940-cb0c-4791-b070-4774c2ea2476",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "starter",
+          "description": "Appetizers and small plates",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "4b8313b0-67db-4184-85c8-fc9160cf2e38",
+            "name": "fusion",
+            "description": "Fusion cuisine combining different culinary traditions",
+            "color": "#FF6B6B",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "e5f3378f-86dc-4abe-bdf0-5ea63cd419cb",
+          "name": "chicken",
+          "description": "Chicken meat",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "42c6a55a-350f-4804-8176-ea9ff045df5a",
+          "name": "gentle",
+          "heat_level": 1,
+          "description": "Mild and subtle spicing",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "24cbfe8e-77c5-4c02-b180-9a24571ba91a",
+          "name": "small",
+          "description": "Small portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "f6bd89b2-a67c-43dc-9428-e20cbacbb2bf": {
+      "menu_item_data": {
+        "id": "f6bd89b2-a67c-43dc-9428-e20cbacbb2bf",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "17227940-cb0c-4791-b070-4774c2ea2476",
+        "name": "Sha Phaley",
+        "description": "Tibetan meat pie",
+        "long_description": null,
+        "price": 7.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.194063Z",
+        "updated_at": "2025-08-16T22:53:10.194063Z",
+        "category": {
+          "id": "17227940-cb0c-4791-b070-4774c2ea2476",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "starter",
+          "description": "Appetizers and small plates",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "380e57e9-760a-454c-ba67-fe279c6c3c97",
+            "name": "tibetan",
+            "description": "Traditional Tibetan dishes and flavors",
+            "color": "#4ECDC4",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "e3c9a27f-7211-44fb-b8a6-8dd0eb83fdd5",
+          "name": "paneer",
+          "description": "Fresh cheese",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "42c6a55a-350f-4804-8176-ea9ff045df5a",
+          "name": "gentle",
+          "heat_level": 1,
+          "description": "Mild and subtle spicing",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "24cbfe8e-77c5-4c02-b180-9a24571ba91a",
+          "name": "small",
+          "description": "Small portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "f7f435e0-69fd-4706-8ef4-0ac86f69e7cd": {
+      "menu_item_data": {
+        "id": "f7f435e0-69fd-4706-8ef4-0ac86f69e7cd",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "17227940-cb0c-4791-b070-4774c2ea2476",
+        "name": "Chicken Momo",
+        "description": "Steamed dumplings with chicken",
+        "long_description": null,
+        "price": 12.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.194063Z",
+        "updated_at": "2025-08-16T22:53:10.194063Z",
+        "category": {
+          "id": "17227940-cb0c-4791-b070-4774c2ea2476",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "starter",
+          "description": "Appetizers and small plates",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "380e57e9-760a-454c-ba67-fe279c6c3c97",
+            "name": "tibetan",
+            "description": "Traditional Tibetan dishes and flavors",
+            "color": "#4ECDC4",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "e5f3378f-86dc-4abe-bdf0-5ea63cd419cb",
+          "name": "chicken",
+          "description": "Chicken meat",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "42c6a55a-350f-4804-8176-ea9ff045df5a",
+          "name": "gentle",
+          "heat_level": 1,
+          "description": "Mild and subtle spicing",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "24cbfe8e-77c5-4c02-b180-9a24571ba91a",
+          "name": "small",
+          "description": "Small portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "fe351990-ceb6-43f2-8c25-04419ee3730f": {
+      "menu_item_data": {
+        "id": "fe351990-ceb6-43f2-8c25-04419ee3730f",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "17227940-cb0c-4791-b070-4774c2ea2476",
+        "name": "Chicken Sate",
+        "description": "Grilled chicken skewers with peanut sauce",
+        "long_description": null,
+        "price": 7.5,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.194063Z",
+        "updated_at": "2025-08-16T22:53:10.194063Z",
+        "category": {
+          "id": "17227940-cb0c-4791-b070-4774c2ea2476",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "starter",
+          "description": "Appetizers and small plates",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "4b8313b0-67db-4184-85c8-fc9160cf2e38",
+            "name": "fusion",
+            "description": "Fusion cuisine combining different culinary traditions",
+            "color": "#FF6B6B",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "e5f3378f-86dc-4abe-bdf0-5ea63cd419cb",
+          "name": "chicken",
+          "description": "Chicken meat",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "42c6a55a-350f-4804-8176-ea9ff045df5a",
+          "name": "gentle",
+          "heat_level": 1,
+          "description": "Mild and subtle spicing",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "24cbfe8e-77c5-4c02-b180-9a24571ba91a",
+          "name": "small",
+          "description": "Small portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    },
+    "fefdf465-84a1-4ae5-a568-538b2c063e87": {
+      "menu_item_data": {
+        "id": "fefdf465-84a1-4ae5-a568-538b2c063e87",
+        "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+        "category_id": "17227940-cb0c-4791-b070-4774c2ea2476",
+        "name": "Crunchy Tofu Salad",
+        "description": "Fresh salad with crispy tofu",
+        "long_description": null,
+        "price": 9.9,
+        "thumbnail_url": null,
+        "images": [],
+        "is_available": true,
+        "created_at": "2025-08-16T22:53:10.194063Z",
+        "updated_at": "2025-08-16T22:53:10.194063Z",
+        "category": {
+          "id": "17227940-cb0c-4791-b070-4774c2ea2476",
+          "restaurant_id": "35526ce5-a46e-48d4-bcf4-20672597515a",
+          "name": "starter",
+          "description": "Appetizers and small plates",
+          "is_active": true,
+          "created_at": "2025-08-16T22:53:09.884434Z",
+          "updated_at": "2025-08-16T22:53:09.884434Z"
+        },
+        "tags": [
+          {
+            "id": "4b8313b0-67db-4184-85c8-fc9160cf2e38",
+            "name": "fusion",
+            "description": "Fusion cuisine combining different culinary traditions",
+            "color": "#FF6B6B",
+            "is_active": true,
+            "created_at": "2025-08-16T22:53:09.883425Z",
+            "updated_at": "2025-08-16T22:53:09.883425Z"
+          }
+        ],
+        "protein": {
+          "id": "dda47674-3a06-4c78-8d59-46d02fc9d953",
+          "name": "tofu",
+          "description": "Soy-based protein",
+          "created_at": "2025-08-16T22:53:09.890367Z",
+          "updated_at": "2025-08-16T22:53:09.890367Z"
+        },
+        "spice": {
+          "id": "42c6a55a-350f-4804-8176-ea9ff045df5a",
+          "name": "gentle",
+          "heat_level": 1,
+          "description": "Mild and subtle spicing",
+          "created_at": "2025-08-16T22:53:09.888122Z",
+          "updated_at": "2025-08-16T22:53:09.888122Z"
+        },
+        "size": {
+          "id": "24cbfe8e-77c5-4c02-b180-9a24571ba91a",
+          "name": "small",
+          "description": "Small portion size",
+          "created_at": "2025-08-16T22:53:09.891634Z",
+          "updated_at": "2025-08-16T22:53:09.891634Z"
+        }
+      }
+    }
+  },
+  "success": true
+}

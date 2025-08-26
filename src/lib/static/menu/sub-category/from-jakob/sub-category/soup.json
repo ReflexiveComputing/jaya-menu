@@ -1,0 +1,128 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Daal",
+      "description": "Lentil Soup – The Staple of the Himalayas",
+      "long_description": null,
+      "price": 5.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "soup",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "d3a3b029-63f5-401b-a813-785bf76dd9ba",
+        "name": "tofu",
+        "description": "Soy-based protein",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "7ec15e9b-a51e-4a1f-bc48-d52f48430600",
+        "name": "gentle",
+        "heat_level": 1,
+        "description": "Mild and subtle spicing",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "42105f28-16f9-44ad-a375-4ae564912abe"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Lamm Thukpa",
+      "description": "A traditional Tibetan noodle soup with roasted cumin, seasonal vegetables, and Szechuan pepper, served in a large bowl. Choose from rice noodles or wheat noodles.",
+      "long_description": null,
+      "price": 16.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "soup",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "43259192-d857-4ec8-84e6-0883544e851e",
+        "name": "lamb",
+        "description": "Lamb meat",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "6107ec11-d282-4015-b552-c9d98d0caaf7",
+        "name": "warming",
+        "heat_level": 2,
+        "description": "Moderate heat and warmth",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "5e3d69bf-8bda-401a-a356-e03a32a5b84a"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Tofu - Veg Thukpa",
+      "description": "A traditional Tibetan noodle soup with roasted cumin, seasonal vegetables, and Szechuan pepper, served in a large bowl. Choose from rice noodles or wheat noodles.",
+      "long_description": null,
+      "price": 13.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "soup",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "d3a3b029-63f5-401b-a813-785bf76dd9ba",
+        "name": "tofu",
+        "description": "Soy-based protein",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "6107ec11-d282-4015-b552-c9d98d0caaf7",
+        "name": "warming",
+        "heat_level": 2,
+        "description": "Moderate heat and warmth",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "edc3d189-350a-42ab-b92d-42328bced5f0"
+    }
+  }
+]

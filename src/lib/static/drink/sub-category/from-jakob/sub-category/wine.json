@@ -1,0 +1,353 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Nero d'Avola",
+      "description": "Dry red wine from Sicily, bold & elegant finish",
+      "long_description": null,
+      "price": 26.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "wine",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "05714f89-0ba3-4e54-8e89-87ba6c947b89"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Primitivo",
+      "description": "Italian red wine",
+      "long_description": null,
+      "price": 6.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "wine",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "22e5bee2-2952-46fc-8e91-5bc4d26fc82b"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Pinot Noir",
+      "description": "Dry Pinot Noir from Mosel, unfiltered with oak hint",
+      "long_description": null,
+      "price": 29.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "wine",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "27309d87-6965-4baa-acd6-7d060613d94b"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Weissburgunder",
+      "description": "Dry Pinot Blanc from Mosel, Germany",
+      "long_description": null,
+      "price": 24.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "wine",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "297e3527-b1c3-40ae-875b-101ac4585f39"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Rosé Chiaretto di Bardolino",
+      "description": "Italian rosé wine",
+      "long_description": null,
+      "price": 6.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "wine",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "3ac564a2-f78c-4058-a43f-4ba2741ecb9a"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Riesling",
+      "description": "Off-dry Riesling from Mosel, Germany",
+      "long_description": null,
+      "price": 24.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "wine",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "4a97bee3-4345-412d-8ced-9e45d5a060e1"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Riesling Hochgewächs",
+      "description": "Dry Riesling with peach & citrus aromas",
+      "long_description": null,
+      "price": 26.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "wine",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "55ed0e85-6d56-41e1-9e4b-7d752d555045"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Cotes du Rhone",
+      "description": "Dry red from Lirac, France, ripe red berries & blackcurrant",
+      "long_description": null,
+      "price": 29.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "wine",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "5885d90f-f7c4-4bc6-a1ee-b766df3a3060"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Sauvignon Blanc Parcival",
+      "description": "Dry Sauvignon Blanc from Spain, exotic fruit notes",
+      "long_description": null,
+      "price": 24.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "wine",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "88c9036d-adf7-4264-9478-6d17009ea5f6"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Chardonnay",
+      "description": "Classic chardonnay",
+      "long_description": null,
+      "price": 6.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "wine",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "8998037b-31e1-4390-abf4-75e922df1bd4"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Grauburgunder",
+      "description": "German white wine",
+      "long_description": null,
+      "price": 6.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "wine",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "8c74c159-70ea-47fa-82f6-e97a43457323"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Blanc de Blancs Vin Mousseux",
+      "description": "Peach-almond note, lively & harmonious sparkling wine from France",
+      "long_description": null,
+      "price": 29.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "wine",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "e791f8e2-10f2-4ff8-81ae-7a4bab377917"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "White Wine Spritzer",
+      "description": "White wine with sparkling water",
+      "long_description": null,
+      "price": 5.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "wine",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "ee052421-52be-4f23-95de-a6fc2232cb31"
+    }
+  }
+]

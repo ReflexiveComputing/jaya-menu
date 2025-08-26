@@ -1,0 +1,86 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Crunchy Tofu Salad",
+      "description": "Leaf salad, arugula, cashew nuts, cherry tomatoes & crunchy tofu. The salad dressing includes mustard, agave syrup, olive oil, sesame oil, and apple cider vinegar.",
+      "long_description": null,
+      "price": 9.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "salad",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "d3a3b029-63f5-401b-a813-785bf76dd9ba",
+        "name": "tofu",
+        "description": "Soy-based protein",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "7ec15e9b-a51e-4a1f-bc48-d52f48430600",
+        "name": "gentle",
+        "heat_level": 1,
+        "description": "Mild and subtle spicing",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "332842ba-cc53-444c-b659-33e4b3ecc822"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Crispy Chicken Salad",
+      "description": "Leaf salad, arugula, cashew nuts, cherry tomatoes & chicken satay. The salad dressing includes mustard, agave syrup, olive oil, sesame oil, and apple cider vinegar.",
+      "long_description": null,
+      "price": 11.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "salad",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "6a3cdf80-d779-48b6-87da-95ca8170ae0d",
+        "name": "chicken",
+        "description": "Chicken meat",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "7ec15e9b-a51e-4a1f-bc48-d52f48430600",
+        "name": "gentle",
+        "heat_level": 1,
+        "description": "Mild and subtle spicing",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "ad01df25-d12a-47ef-92a6-8a29ed366297"
+    }
+  }
+]

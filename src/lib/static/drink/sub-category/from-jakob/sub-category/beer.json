@@ -1,0 +1,380 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Lukla Bier",
+      "description": "Nepali Beer, Ask for availability",
+      "long_description": null,
+      "price": 5.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "beer",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "08bdc12d-0592-4db8-864b-fdc34ebfa19b"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Barasinghe Pale Ale",
+      "description": "Nepali Beer, Ask for availability",
+      "long_description": null,
+      "price": 5.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "beer",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "0d722969-9e7b-4930-bf22-7e20cc66065b"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Schöfferhofer Wheat Beer Dark",
+      "description": "Malty, roasted, full-bodied wheat beer",
+      "long_description": null,
+      "price": 5.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "beer",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "277e8e56-1332-4be3-b6a4-2ee3d4f37e86"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Büble Edel Wheat Beer",
+      "description": "Büble Edel Wheat Beer",
+      "long_description": null,
+      "price": 5.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "beer",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "27f376a3-530f-48c7-8c98-5a6f9e008017"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Schöfferhofer Wheat Beer Alcohol-free",
+      "description": "Fruity, tangy, refreshing without alcohol",
+      "long_description": null,
+      "price": 5.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "beer",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "34e7e212-efbf-4e78-8b93-ca30be6593fd"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Clausthaler Alcohol-free Beer",
+      "description": "Naturally cloudy, smooth, hoppy finish",
+      "long_description": null,
+      "price": 4.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "beer",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "4e463ce3-1bf0-4e38-9648-7edb632f084b"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Lammsbräu Alcohol-free Beer",
+      "description": "Organic, light, crisp, malty taste",
+      "long_description": null,
+      "price": 4.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "beer",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "7860ebe8-ea7a-4dc1-9c9f-12749d04078e"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Everest",
+      "description": "Nepali Beer, Ask for availability",
+      "long_description": null,
+      "price": 5.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "beer",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "8c827d1b-eeb2-44e3-8b60-18343dd5dd0f"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Allgäuer Büble",
+      "description": "Büble Bayrisch Hell – South German Pale Draft Beer",
+      "long_description": null,
+      "price": 3.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "beer",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "a746ac31-7721-4f02-80c8-09203081f519"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Sherpa Bier",
+      "description": "Nepali Beer, Ask for availability",
+      "long_description": null,
+      "price": 5.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "beer",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "b871946f-5dcb-469a-9114-3feba9514dbc"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Berliner Kindl",
+      "description": "Pilsener draft beer",
+      "long_description": null,
+      "price": 3.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "beer",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "bed575fb-5128-4495-8bf8-bdcf5640132e"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Radler",
+      "description": "Pilsener draft beer and Sprite",
+      "long_description": null,
+      "price": 3.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "beer",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "c08945cb-09db-4800-acd0-92fa621970db"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Schöfferhofer Wheat Beer Crystal",
+      "description": "Clear, crisp, refreshing wheat beer",
+      "long_description": null,
+      "price": 5.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "beer",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "da7f1eb5-d15c-46c5-baf1-0e4ba05da32f"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Nepal Ice",
+      "description": "Nepali Beer, Ask for availability",
+      "long_description": null,
+      "price": 5.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "beer",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "ed34d019-7f07-4c66-97c8-ec430db284b2"
+    }
+  }
+]

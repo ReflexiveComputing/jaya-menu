@@ -1,0 +1,137 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Espresso",
+      "description": "Espresso",
+      "long_description": null,
+      "price": 2.4,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cafe",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "0ccfa656-b8b5-4ed8-92c3-93782ddfeb54"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Cappuccino",
+      "description": "Cappuccino",
+      "long_description": null,
+      "price": 3.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cafe",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "52170311-1750-45a3-b109-172e896f1e41"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Milk Coffee",
+      "description": "Milk coffee",
+      "long_description": null,
+      "price": 4.2,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cafe",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "92ccc828-a0de-4d81-879b-cdbdfd730b8e"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Caffè Crema",
+      "description": "Caffè Crema",
+      "long_description": null,
+      "price": 3.4,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cafe",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "beae5be7-087b-47f8-89c7-f6a87a59003c"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Doppio",
+      "description": "Double espresso",
+      "long_description": null,
+      "price": 3.4,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "cafe",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "eb4eceac-be60-48bc-93e5-f7c101c08207"
+    }
+  }
+]

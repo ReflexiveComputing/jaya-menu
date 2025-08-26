@@ -1,0 +1,464 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Lamm Fry",
+      "description": "Hot platter served with rice and salad. Lamb marinated for 24 hours, cooked on a sizzling cast-iron plate with bell peppers, tomatoes, chili, and onions.",
+      "long_description": null,
+      "price": 21.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "tibetan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "43259192-d857-4ec8-84e6-0883544e851e",
+        "name": "lamb",
+        "description": "Lamb meat",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "a97bae55-45c5-4d86-956a-70ae5ce9fa0a",
+        "name": "fiery",
+        "heat_level": 3,
+        "description": "Intense and spicy heat",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "b3238467-76bb-4f92-ab7e-277c1072cb58",
+        "name": "full",
+        "description": "Full portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "1ca1b686-b56a-45b4-9272-ed0f64481f0a"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Sha Phaley",
+      "description": "Tibetan Dumplings, Crispy-Fried with Veggie & Paneer Filling",
+      "long_description": null,
+      "price": 7.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "tibetan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "2d8dcb7f-aa4c-4cc5-89a7-9addf97c58c9",
+        "name": "paneer",
+        "description": "Fresh cheese",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "7ec15e9b-a51e-4a1f-bc48-d52f48430600",
+        "name": "gentle",
+        "heat_level": 1,
+        "description": "Mild and subtle spicing",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "2a4c862f-5da6-40a1-a979-b52ef836e372"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Chicken Momo",
+      "description": "Filled with chicken. The dough and fillings are entirely homemade and then hand-rolled with care. Served with peanut and tomato-coriander chutney. Steaming time: minimum 20 minutes!",
+      "long_description": null,
+      "price": 12.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "tibetan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "6a3cdf80-d779-48b6-87da-95ca8170ae0d",
+        "name": "chicken",
+        "description": "Chicken meat",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "7ec15e9b-a51e-4a1f-bc48-d52f48430600",
+        "name": "gentle",
+        "heat_level": 1,
+        "description": "Mild and subtle spicing",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "43b250a1-3db3-4843-bb7a-d90e6590c6ef"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Vegan Momo",
+      "description": "Filled with a variety of vegetables, the dough and fillings are entirely homemade and hand-rolled with care. Served with peanut and tomato-coriander chutney. Steaming time: minimum 20 minutes!",
+      "long_description": null,
+      "price": 11.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "tibetan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "d3a3b029-63f5-401b-a813-785bf76dd9ba",
+        "name": "tofu",
+        "description": "Soy-based protein",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "7ec15e9b-a51e-4a1f-bc48-d52f48430600",
+        "name": "gentle",
+        "heat_level": 1,
+        "description": "Mild and subtle spicing",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "57d233e0-9b82-4987-894b-13ba7e1d18eb"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Lamm Thukpa",
+      "description": "A traditional Tibetan noodle soup with roasted cumin, seasonal vegetables, and Szechuan pepper, served in a large bowl. Choose from rice noodles or wheat noodles.",
+      "long_description": null,
+      "price": 16.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "tibetan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "43259192-d857-4ec8-84e6-0883544e851e",
+        "name": "lamb",
+        "description": "Lamb meat",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "6107ec11-d282-4015-b552-c9d98d0caaf7",
+        "name": "warming",
+        "heat_level": 2,
+        "description": "Moderate heat and warmth",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "5e3d69bf-8bda-401a-a356-e03a32a5b84a"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Mixed Momo",
+      "description": "Chicken, Veg & Paneer Momos 9pc. The dough and fillings are entirely homemade and then hand-rolled with care. Served with peanut and tomato-coriander chutney. Steaming time: minimum 20 minutes!",
+      "long_description": null,
+      "price": 12.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "tibetan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "6a3cdf80-d779-48b6-87da-95ca8170ae0d",
+        "name": "chicken",
+        "description": "Chicken meat",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "7ec15e9b-a51e-4a1f-bc48-d52f48430600",
+        "name": "gentle",
+        "heat_level": 1,
+        "description": "Mild and subtle spicing",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "b3238467-76bb-4f92-ab7e-277c1072cb58",
+        "name": "full",
+        "description": "Full portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "619a787f-2b83-4ba5-9fd5-70b52ffaabbc"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Kung Pao Soya",
+      "description": "Specialties with wild Szechuan pepper (Timur), found exclusively at altitudes above 3,000 meters in the Himalayas. Vegan soy chunks marinated in traditional Tibetan spices, sautéed to golden perfection in a wok with peanuts, spring onions, and Szechuan pepper.",
+      "long_description": null,
+      "price": 16.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "tibetan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "d3a3b029-63f5-401b-a813-785bf76dd9ba",
+        "name": "tofu",
+        "description": "Soy-based protein",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "7ec15e9b-a51e-4a1f-bc48-d52f48430600",
+        "name": "gentle",
+        "heat_level": 1,
+        "description": "Mild and subtle spicing",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "9362afb7-67c1-4d2c-a4fe-9e0767016921"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Paneer Momo",
+      "description": "Filled with paneer cheese and vegetables. The dough and fillings are entirely homemade and then hand-rolled with care. Served with peanut and tomato-coriander chutney. Steaming time: minimum 20 minutes!",
+      "long_description": null,
+      "price": 11.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "tibetan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "2d8dcb7f-aa4c-4cc5-89a7-9addf97c58c9",
+        "name": "paneer",
+        "description": "Fresh cheese",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "7ec15e9b-a51e-4a1f-bc48-d52f48430600",
+        "name": "gentle",
+        "heat_level": 1,
+        "description": "Mild and subtle spicing",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "b274aecc-68e8-44bd-823b-9d8be1356793"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Kung Pao Lamb",
+      "description": "Specialties with wild Szechuan pepper (Timur), found exclusively at altitudes above 3,000 meters in the Himalayas. Lamb sautéed with peanuts in a wok, then deglazed with a hearty soy-garlic reduction. Garnished with fresh spring onions, tomatoes, and Timur Szechuan pepper.",
+      "long_description": null,
+      "price": 22.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "tibetan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "43259192-d857-4ec8-84e6-0883544e851e",
+        "name": "lamb",
+        "description": "Lamb meat",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "a97bae55-45c5-4d86-956a-70ae5ce9fa0a",
+        "name": "fiery",
+        "heat_level": 3,
+        "description": "Intense and spicy heat",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "c3fadb27-d058-41ca-9b41-ad4781c4ff57"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Chicken Sizzler",
+      "description": "Hot platter served with rice and salad. Chicken marinated in Himalayan spices, cooked on a sizzling cast-iron plate with bell peppers, mushrooms, tomatoes, chili, and onions.",
+      "long_description": null,
+      "price": 18.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "tibetan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "6a3cdf80-d779-48b6-87da-95ca8170ae0d",
+        "name": "chicken",
+        "description": "Chicken meat",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "7ec15e9b-a51e-4a1f-bc48-d52f48430600",
+        "name": "gentle",
+        "heat_level": 1,
+        "description": "Mild and subtle spicing",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "b3238467-76bb-4f92-ab7e-277c1072cb58",
+        "name": "full",
+        "description": "Full portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "cf08c95d-cd00-41ca-8460-e0c6a2477123"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Tofu - Veg Thukpa",
+      "description": "A traditional Tibetan noodle soup with roasted cumin, seasonal vegetables, and Szechuan pepper, served in a large bowl. Choose from rice noodles or wheat noodles.",
+      "long_description": null,
+      "price": 13.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "tibetan",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "d3a3b029-63f5-401b-a813-785bf76dd9ba",
+        "name": "tofu",
+        "description": "Soy-based protein",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "6107ec11-d282-4015-b552-c9d98d0caaf7",
+        "name": "warming",
+        "heat_level": 2,
+        "description": "Moderate heat and warmth",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "edc3d189-350a-42ab-b92d-42328bced5f0"
+    }
+  }
+]

@@ -1,0 +1,254 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Haans Nariwal",
+      "description": "Crispy duck with vegetables in coconut curry, topped with cashew nuts and almonds. Served with rice, salad, and potato chutney.",
+      "long_description": null,
+      "price": 16.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "non_veg",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "6a3cdf80-d779-48b6-87da-95ca8170ae0d",
+        "name": "chicken",
+        "description": "Chicken meat",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "7ec15e9b-a51e-4a1f-bc48-d52f48430600",
+        "name": "gentle",
+        "heat_level": 1,
+        "description": "Mild and subtle spicing",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "208eea55-710a-4ea4-a3d3-b8c9733f8228"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Khasi Alu",
+      "description": "A traditional mountain farmer's dish recommended by the chef. Lamb & potato goulash cooked with Nepalese spices. Served with rice, salad, and potato chutney.",
+      "long_description": null,
+      "price": 16.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "non_veg",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "43259192-d857-4ec8-84e6-0883544e851e",
+        "name": "lamb",
+        "description": "Lamb meat",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "6107ec11-d282-4015-b552-c9d98d0caaf7",
+        "name": "warming",
+        "heat_level": 2,
+        "description": "Moderate heat and warmth",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "79f048f2-37e0-4465-98fb-f35acee5e2e7"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Khasi Saag",
+      "description": "Lamb goulash & spinach, refined with fenugreek leaves, ginger & Himalayan spices. Served with rice, salad, and potato chutney.",
+      "long_description": null,
+      "price": 16.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "non_veg",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "43259192-d857-4ec8-84e6-0883544e851e",
+        "name": "lamb",
+        "description": "Lamb meat",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "6107ec11-d282-4015-b552-c9d98d0caaf7",
+        "name": "warming",
+        "heat_level": 2,
+        "description": "Moderate heat and warmth",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "9b7544e1-2700-4b36-8dbc-4f4967f42bbb"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Haans Badam",
+      "description": "Crispy duck in homemade peanut curry (slightly sweet) with onions, potatoes & nuts. Served with rice, salad, and potato chutney.",
+      "long_description": null,
+      "price": 18.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "non_veg",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "6a3cdf80-d779-48b6-87da-95ca8170ae0d",
+        "name": "chicken",
+        "description": "Chicken meat",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "7ec15e9b-a51e-4a1f-bc48-d52f48430600",
+        "name": "gentle",
+        "heat_level": 1,
+        "description": "Mild and subtle spicing",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "b3238467-76bb-4f92-ab7e-277c1072cb58",
+        "name": "full",
+        "description": "Full portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "a02253ad-3fb5-4d30-95ed-8c727782fa56"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Chicken Curry",
+      "description": "The classic. Chicken breast sautéed with turmeric and coriander in homemade curry. Served with rice, salad, and potato chutney.",
+      "long_description": null,
+      "price": 13.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "non_veg",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "6a3cdf80-d779-48b6-87da-95ca8170ae0d",
+        "name": "chicken",
+        "description": "Chicken meat",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "6107ec11-d282-4015-b552-c9d98d0caaf7",
+        "name": "warming",
+        "heat_level": 2,
+        "description": "Moderate heat and warmth",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "a96741e2-4bc3-46e3-a4cc-37542701da50"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Cocos Chicken",
+      "description": "Chicken breast sautéed with almonds, cashew nuts, & fresh vegetables in curry coconut milk. Served with rice, salad, and potato chutney.",
+      "long_description": null,
+      "price": 15.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "non_veg",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "6a3cdf80-d779-48b6-87da-95ca8170ae0d",
+        "name": "chicken",
+        "description": "Chicken meat",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "7ec15e9b-a51e-4a1f-bc48-d52f48430600",
+        "name": "gentle",
+        "heat_level": 1,
+        "description": "Mild and subtle spicing",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "f186892e-2717-4761-8244-9e12b7fbeb29"
+    }
+  }
+]

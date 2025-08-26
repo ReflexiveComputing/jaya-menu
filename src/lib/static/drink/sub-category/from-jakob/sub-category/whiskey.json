@@ -1,0 +1,83 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Jameson",
+      "description": "Irish whiskey",
+      "long_description": null,
+      "price": 3.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "whiskey",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "186ed899-cd20-47f5-ab81-fa0e355889f2"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Jack Daniels",
+      "description": "American whiskey",
+      "long_description": null,
+      "price": 3.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "whiskey",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "53fdaa86-2d7a-4842-8f84-e627448bc7bc"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Chivas Regal 12J",
+      "description": "12-year-old blended Scotch whisky",
+      "long_description": null,
+      "price": 3.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "whiskey",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "a31b6b47-5540-44ad-b027-796794f9a7a2"
+    }
+  }
+]

@@ -1,0 +1,380 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Ramazotti Shot",
+      "description": "Ramazotti shot",
+      "long_description": null,
+      "price": 2.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "shots",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "1529b730-4c30-4cd5-a0a6-aa6506c52b16"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Likör 43 with Milk",
+      "description": "Likör 43 with milk (+1€)",
+      "long_description": null,
+      "price": 2.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "shots",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "2fd35038-6817-4db6-999e-8d3f89e6739f"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Orgasmus",
+      "description": "Sambuca & Bailey's mix",
+      "long_description": null,
+      "price": 4.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "shots",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "361e958a-e0bd-4d27-8cde-b22525c9ab8a"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Mango Shot",
+      "description": "Mango liqueur shot",
+      "long_description": null,
+      "price": 2.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "shots",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "59f1d3e9-1e91-4cae-ac11-b84f63fdcbed"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Berliner Luft",
+      "description": "Minty German herbal shot",
+      "long_description": null,
+      "price": 2.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "shots",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "74508bf5-baaa-4941-8cf0-16ca5f2a47a8"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Jägermeister Shot",
+      "description": "Jägermeister shot",
+      "long_description": null,
+      "price": 2.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "shots",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "8cefd15d-fe6f-4d1a-b5e7-84b4ef884f2d"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Grappa Shot",
+      "description": "Grappa shot",
+      "long_description": null,
+      "price": 2.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "shots",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "9ad87f7e-38be-412e-adea-2bfe291a3fa0"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Amaretto Shot",
+      "description": "Amaretto shot",
+      "long_description": null,
+      "price": 2.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "shots",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "a8d18ac4-ae05-4b98-bd20-8e8e268458bd"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "B52",
+      "description": "Kahlua, Bailey's, 73% rum layered shot",
+      "long_description": null,
+      "price": 4.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "shots",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "b6ae7afb-2b67-4ea1-be99-df30f884e251"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Sambuca Shot",
+      "description": "Sambuca shot",
+      "long_description": null,
+      "price": 2.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "shots",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "b92666c5-b51b-4f24-8ea6-0f2f9fa43af3"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Tequila Shot",
+      "description": "Tequila shot",
+      "long_description": null,
+      "price": 2.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "shots",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "bc665a7e-2f5d-437f-9c2a-1e54bbc2b3a0"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Guava Shot",
+      "description": "Guava liqueur shot",
+      "long_description": null,
+      "price": 2.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "shots",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "ce97a043-172d-4dfc-a0d4-cebdee7cfb87"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Vodka Shot",
+      "description": "Vodka shot",
+      "long_description": null,
+      "price": 2.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "shots",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "e7f812f3-1152-458f-ab68-17ec1a2abc33"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Jäger Bomb",
+      "description": "Jägermeister & Red Bull",
+      "long_description": null,
+      "price": 4.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "shots",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "f9bf8861-d630-43d1-9c0d-4025357ba3a9"
+    }
+  }
+]

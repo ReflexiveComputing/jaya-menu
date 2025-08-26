@@ -1,0 +1,785 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Coca Cola",
+      "description": "Coca Cola",
+      "long_description": null,
+      "price": 2.7,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "00d25559-ed18-42ad-8f5f-ddd436d2c7e7"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Detox Lime Soda",
+      "description": "Lime, cucumber, and soda (sugar-free)",
+      "long_description": null,
+      "price": 5.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "012b0e0d-7d79-44a6-b431-d41617216419"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Sparkling Water",
+      "description": "Sparkling water",
+      "long_description": null,
+      "price": 2.2,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "01d6fc05-35e0-4e06-bebe-731c17d0a1d6"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Thomas Henry Spicy Ginger",
+      "description": "Spicy ginger drink",
+      "long_description": null,
+      "price": 2.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "warming",
+        "description": "Moderate heat and warmth"
+      },
+      "id": "0ac674ae-d0d9-4364-924c-a5574d5fe246"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Thomas Henry Bitter Lemon",
+      "description": "Bitter lemon drink",
+      "long_description": null,
+      "price": 2.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "0b252c3a-1679-45e1-b7b5-9b3740f896c3"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Pineapple Juice",
+      "description": "Fresh pineapple juice",
+      "long_description": null,
+      "price": 2.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "0be59fcd-629b-40aa-8a45-db4bff9b6e2d"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Rixdorfer Fassbrause",
+      "description": "Traditional German drink",
+      "long_description": null,
+      "price": 3.2,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "0f3030fd-592b-4f88-91bc-36da8d4aa25d"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Selters Mineral Water Classic",
+      "description": "Selters Mineral Water Classic",
+      "long_description": null,
+      "price": 6.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "0fd3536f-008a-4e37-8baf-7e8ff4476e4a"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Thomas Henry Ginger Ale",
+      "description": "Ginger ale",
+      "long_description": null,
+      "price": 2.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "warming",
+        "description": "Moderate heat and warmth"
+      },
+      "id": "12a5345c-56ce-4db9-a824-9cea3e54b466"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Mango",
+      "description": "Fresh mango juice",
+      "long_description": null,
+      "price": 2.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "13e4efe4-0ca6-47b0-93f5-81bde19ca74d"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Thomas Henry Pink Grapefruit",
+      "description": "Pink grapefruit drink",
+      "long_description": null,
+      "price": 2.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "2bc0f8c8-6376-488d-8354-1731b74cb9c6"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Dhania Iced Tea",
+      "description": "Homemade brewed coriander tea with rock crystal sugar",
+      "long_description": null,
+      "price": 6.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "warming",
+        "description": "Moderate heat and warmth"
+      },
+      "id": "40f1910a-be4e-4b35-9bfd-192284fe073e"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Still Water",
+      "description": "Still water",
+      "long_description": null,
+      "price": 2.2,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "4d336ac7-9d00-4810-994e-3f4cd09ab9f6"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Rhubarb Spritzer",
+      "description": "Rhubarb with sparkling water",
+      "long_description": null,
+      "price": 5.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "62623d43-c400-4476-a5cf-9d733d89c7ec"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Apple Juice",
+      "description": "Fresh apple juice",
+      "long_description": null,
+      "price": 2.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "6a4085c1-6d93-4334-aed1-f8291c371e22"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Ginger-Mint Iced Tea",
+      "description": "Homemade iced tea with ginger & mint",
+      "long_description": null,
+      "price": 6.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "warming",
+        "description": "Moderate heat and warmth"
+      },
+      "id": "79dbe505-4675-41b6-9e29-ecee0cc926d2"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Guava",
+      "description": "Fresh guava juice",
+      "long_description": null,
+      "price": 2.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "899a1082-9cc9-4971-a8fa-6d23e594c3c9"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Cola Zero",
+      "description": "Cola Zero",
+      "long_description": null,
+      "price": 2.7,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "9428566c-76c8-4910-bbc3-5408c881d5a8"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Fanta",
+      "description": "Fanta",
+      "long_description": null,
+      "price": 2.7,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "9c2d62ba-aa9e-4068-8870-f72aae49bf11"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Mango Lassi",
+      "description": "Mango yogurt drink (contains milk)",
+      "long_description": null,
+      "price": 5.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "a05312c5-dee0-4259-96ef-480e513fba87"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Basil Soda",
+      "description": "Basil-flavored soda",
+      "long_description": null,
+      "price": 5.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "c84632ab-5df4-4bf9-9050-82b5de92352b"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Maracuja",
+      "description": "Fresh passion fruit juice",
+      "long_description": null,
+      "price": 2.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "d22c897d-5bc6-44a8-8bfe-70a40e96933c"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Juice Spritzer",
+      "description": "Juice with sparkling water",
+      "long_description": null,
+      "price": 2.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "d6b06ada-9603-4c02-86d7-48bbd5776224"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Sprite",
+      "description": "Sprite",
+      "long_description": null,
+      "price": 2.7,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "e7b1609f-fae3-44b4-af2c-c1007f99dc59"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Thomas Henry Tonic Water",
+      "description": "Tonic water",
+      "long_description": null,
+      "price": 2.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "f04df6b7-aafa-403a-b9f2-37287987a9bf"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Lychee",
+      "description": "Fresh lychee juice",
+      "long_description": null,
+      "price": 2.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "f200390b-6d0b-4c91-9bb4-31e5e6c28270"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Raspberry Lemonade",
+      "description": "Pureed raspberries, lime juice, soda",
+      "long_description": null,
+      "price": 6.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "f5d98bd3-63ee-42c8-999b-7aece3ae8f7e"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Selters Mineral Water Naturell",
+      "description": "Selters Mineral Water Naturell",
+      "long_description": null,
+      "price": 6.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "fa7b6d0b-a4b3-4b9c-8380-024314d2fd06"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Orange Juice",
+      "description": "Fresh orange juice",
+      "long_description": null,
+      "price": 2.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "softdrink",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "fd00af32-cce4-4a66-9cec-6dbefabc6359"
+    }
+  }
+]

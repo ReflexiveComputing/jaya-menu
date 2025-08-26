@@ -1,0 +1,162 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Daal Bhat Masu",
+      "description": "Rice with lentils and meat curry. Served with rice, salad, and potato chutney.",
+      "long_description": null,
+      "price": 20.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "favourites",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "6a3cdf80-d779-48b6-87da-95ca8170ae0d",
+        "name": "chicken",
+        "description": "Chicken meat",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "6107ec11-d282-4015-b552-c9d98d0caaf7",
+        "name": "warming",
+        "heat_level": 2,
+        "description": "Moderate heat and warmth",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "b3238467-76bb-4f92-ab7e-277c1072cb58",
+        "name": "full",
+        "description": "Full portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "4ac029c1-5a3c-4666-96bd-7587c42deebd"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "The Mitho Cha Experience",
+      "description": "For the starter, enjoy a Mixed Momo platter with 2 pieces each of Vegan, Paneer, and Chicken Momos, served with 2 different chutneys. The main course is our Mitho Cha Thali, a curated selection of Daal Bhat specialties including Chicken Curry, Khasi Saag, Mustang Alu, Chana Masala, Vegetable Curry, Daal, and Spinach, served with salad, rice, and papadams. To finish, the dessert is Shikarni – two small bowls of yogurt blended with cinnamon, cardamom, and cloves, topped with nuts and a Gulab Jamun.",
+      "long_description": null,
+      "price": 46.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "favourites",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "id": "6107ec11-d282-4015-b552-c9d98d0caaf7",
+        "name": "warming",
+        "heat_level": 2,
+        "description": "Moderate heat and warmth",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "name": "-"
+      },
+      "id": "505afaaf-dd1a-4718-824d-cee0152305ac"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Mixed Momo",
+      "description": "Chicken, Veg & Paneer Momos 9pc. The dough and fillings are entirely homemade and then hand-rolled with care. Served with peanut and tomato-coriander chutney. Steaming time: minimum 20 minutes!",
+      "long_description": null,
+      "price": 12.5,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "favourites",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "6a3cdf80-d779-48b6-87da-95ca8170ae0d",
+        "name": "chicken",
+        "description": "Chicken meat",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "7ec15e9b-a51e-4a1f-bc48-d52f48430600",
+        "name": "gentle",
+        "heat_level": 1,
+        "description": "Mild and subtle spicing",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "b3238467-76bb-4f92-ab7e-277c1072cb58",
+        "name": "full",
+        "description": "Full portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "619a787f-2b83-4ba5-9fd5-70b52ffaabbc"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Chicken Sekuwa",
+      "description": "Hot platter served with rice and salad. Chicken marinated for 24 hours, grilled on a sizzling cast-iron plate with bell peppers, tomatoes, chili, and onions.",
+      "long_description": null,
+      "price": 19.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "favourites",
+        "description": "",
+        "is_active": true,
+        "is_drink": false
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "id": "6a3cdf80-d779-48b6-87da-95ca8170ae0d",
+        "name": "chicken",
+        "description": "Chicken meat",
+        "created_at": "2025-08-25T13:09:53.642442Z",
+        "updated_at": "2025-08-25T13:09:53.642442Z"
+      },
+      "spice": {
+        "id": "7ec15e9b-a51e-4a1f-bc48-d52f48430600",
+        "name": "gentle",
+        "heat_level": 1,
+        "description": "Mild and subtle spicing",
+        "created_at": "2025-08-25T13:09:53.641124Z",
+        "updated_at": "2025-08-25T13:09:53.641124Z"
+      },
+      "size": {
+        "id": "2b0be3c3-7114-45d3-a045-12cae8c408d3",
+        "name": "small",
+        "description": "Small portion size",
+        "created_at": "2025-08-25T13:09:53.643472Z",
+        "updated_at": "2025-08-25T13:09:53.643472Z"
+      },
+      "id": "fa0a4ed0-a2f2-4b28-b31d-9c0310b537e1"
+    }
+  }
+]

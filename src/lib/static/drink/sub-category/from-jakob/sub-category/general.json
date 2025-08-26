@@ -1,0 +1,83 @@
+[
+  {
+    "menu_item_data": {
+      "name": "Martini Bianco",
+      "description": "Martini Bianco",
+      "long_description": null,
+      "price": 3.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "general",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "13535cbd-48d1-47ab-8d9e-7b2f45dc037b"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Campari",
+      "description": "Campari",
+      "long_description": null,
+      "price": 3.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "general",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "404f4b28-b218-4bf6-87e2-71f703c8bf61"
+    }
+  },
+  {
+    "menu_item_data": {
+      "name": "Prosecco",
+      "description": "Prosecco",
+      "long_description": null,
+      "price": 2.9,
+      "thumbnail_url": null,
+      "images": [],
+      "is_available": true,
+      "category": {
+        "name": "general",
+        "description": "",
+        "is_active": true,
+        "is_drink": true
+      },
+      "tags": [],
+      "specials": [],
+      "protein": {
+        "name": "-"
+      },
+      "spice": {
+        "name": "gentle",
+        "description": "Mild and subtle spicing"
+      },
+      "id": "bed78be7-a68a-48d9-9178-843444054022"
+    }
+  }
+]

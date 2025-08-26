@@ -30,6 +30,7 @@ export default async function SurprisePage() {
       title: "Safe Ingredients",
       question: "The Himalayas offer many blessings, which ingredients should we gently leave out?",
       answers: [
+        "All Are Welcome!",
         "Peanuts",
         "Dairy",
         "Gluten",
@@ -38,8 +39,7 @@ export default async function SurprisePage() {
         "Mustard",
         "Sesame",
         "Soy",
-        "Tree nuts",
-        "None"
+        "Tree nuts"
       ],
     },
     {
