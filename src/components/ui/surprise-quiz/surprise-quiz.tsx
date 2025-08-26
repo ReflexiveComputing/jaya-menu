@@ -24,18 +24,33 @@ function AllergenButtons({
     return (
         <>
             {/* First row: Single "All are welcome!" button */}
-            <div className="">
+            {/* <div className="">
                 <Button
-                    className={`text-lg font-semibold h-20 w-full text-center text-wrap`}
+                    className={`text-lg font-semibold h-16 w-full text-center text-wrap`}
                     size="mid"
                     variant={"surpriseMeSecondary"}
                     onClick={() => handleAnswerSelect(answers[0])}
                 >
                     {answers[0]}
                 </Button>
-            </div>
+            </div> */}
             {/* Second row: Allergen options in 2-column grid */}
             <div className="grid grid-cols-2 gap-3">
+                {answers.slice(0,1).map((answer, idx) => (
+                    <Button
+                        className={`text-lg font-semibold h-16 text-center text-wrap ${selectedAllergens.includes(answer)
+                                ? 'bg-white text-gray-900 border-2 border-white'
+                                : ''
+                            }`}
+                        size="mid"
+                        variant={selectedAllergens.includes(answer) ? "default" : "surpriseMeSecondary"}
+                        key={idx}
+                        onClick={() => handleAnswerSelect(answer)}
+                    >
+                        {answer}
+                    </Button>
+                ))}
+                
                 {answers.slice(1).map((answer, idx) => (
                     <Button
                         className={`text-lg font-semibold h-16 text-center text-wrap ${selectedAllergens.includes(answer)
@@ -72,7 +87,7 @@ function QuestionButtons({ answers, handleAnswerSelect }: { answers: string[]; h
         <>
             {answers.map((answer, idx) => (
                 <Button
-                    className="text-lg font-semibold h-24 text-center text-wrap"
+                    className="text-lg font-semibold h-16 text-center text-wrap"
                     size="mid"
                     variant="surpriseMeSecondary"
                     key={idx}
@@ -99,7 +114,8 @@ export default function SurpriseQuiz({ questions }: { questions: { id: number, q
         'bg-global-blue',
         'bg-global-green',
         'bg-global-lightblue',
-        'bg-global-gold'
+        'bg-global-gold',
+        'bg-gray-900'
     ]
 
     const currentBg = bgClasses[currentQuestion % bgClasses.length]

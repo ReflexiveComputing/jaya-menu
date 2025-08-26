@@ -8,7 +8,7 @@ export default async function SurprisePage() {
     {
       id: 1,
       title: "Himalayan Warmth",
-      question: "The mountains can be gentle or fierce — how warm should your flavors be today?",
+      question: "The mountains can be gentle or fierce, how warm should your flavors be today?",
       answers: [
         "Gentle as a spring breeze",
         "Warming like a mountain hearth",
@@ -20,9 +20,9 @@ export default async function SurprisePage() {
       title: "Ancient Paths",
       question: "Which path shall we walk together?",
       answers: [
-        "The Tibetan road — momos, thukpa & sizzling woks",
-        "The Nepalese heartland — dal bhat, tarkari & curry",
-        "A fusion trek — spices & ideas from all over Asia"
+        "The Tibetan road, momos, thukpa & sizzling woks",
+        "The Nepalese heartland, dal bhat, tarkari & curry",
+        "A fusion trek, spices & ideas from all over Asia"
       ],
     },
     {
@@ -30,7 +30,7 @@ export default async function SurprisePage() {
       title: "Safe Ingredients",
       question: "The Himalayas offer many blessings, which ingredients should we gently leave out?",
       answers: [
-        "All Are Welcome!",
+        "NONE!",
         "Peanuts",
         "Dairy",
         "Gluten",
@@ -45,12 +45,12 @@ export default async function SurprisePage() {
     {
       id: 4,
       title: "Energy for the Journey",
-      question: "Every traveler needs strength — what shall be yours?",
+      question: "Every traveler needs strength, what shall be yours?",
       answers: [
-        "Chicken — for steady stamina",
-        "Lamb — for bold strength",
-        "Paneer — for comforting nourishment",
-        "Tofu & vegetables — for light harmony"
+        "Chicken, for steady stamina",
+        "Lamb, for bold strength",
+        "Paneer, for comforting nourishment",
+        "Tofu & vegetables, for light harmony"
       ],
     },
     {
