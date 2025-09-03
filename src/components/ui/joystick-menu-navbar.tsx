@@ -11,26 +11,33 @@ interface BottomNavbarProps {
 }
 
 export function JoystickMenuNavbar({ selectedNav, onNavClick }: BottomNavbarProps) {
-  const [showBottomNav, setShowBottomNav] = React.useState(true)
+  // whether the user is actively scrolling (controls transparency)
+  const [isScrolling, setIsScrolling] = React.useState(false)
   const [open, setOpen] = React.useState(false)
   const lastScrollY = React.useRef(0)
+  const scrollTimeout = React.useRef<number | null>(null)
   const t = useTranslations('Navigation')
 
   React.useEffect(() => {
     const handleScroll = () => {
-      const currentScrollY = window.scrollY
-      if (currentScrollY < lastScrollY.current) {
-        setShowBottomNav(true) // scrolling up
-      } else if (currentScrollY > lastScrollY.current) {
-        setShowBottomNav(false) // scrolling down
-        // consider closing menu while scrolling
-        setOpen(false)
-      }
-      lastScrollY.current = currentScrollY
+      // any scroll marks the navbar as 'scrolling' (more transparent)
+      setIsScrolling(true)
+      // close menu immediately on scroll
+      setOpen(false)
+      // debounce returning to non-scrolling state
+      if (scrollTimeout.current) window.clearTimeout(scrollTimeout.current)
+      scrollTimeout.current = window.setTimeout(() => {
+        setIsScrolling(false)
+        scrollTimeout.current = null
+      }, 200)
+      lastScrollY.current = window.scrollY
     }
 
     window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
+    return () => {
+      window.removeEventListener("scroll", handleScroll)
+      if (scrollTimeout.current) window.clearTimeout(scrollTimeout.current)
+    }
   }, [])
 
   // radial menu items (order matches existing nav)
@@ -65,7 +72,7 @@ export function JoystickMenuNavbar({ selectedNav, onNavClick }: BottomNavbarProp
       />
 
       <div
-        className={`fixed z-50 bottom-6 right-6 transition-transform duration-300 ${showBottomNav ? 'translate-y-0' : 'translate-y-20'}`}
+        className={`fixed z-50 bottom-6 right-6 transition-opacity duration-200 ${isScrolling ? 'opacity-40' : 'opacity-95'}`}
         aria-expanded={open}
       >
         <div className="relative w-14 h-14">
