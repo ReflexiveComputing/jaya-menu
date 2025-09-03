@@ -32,11 +32,32 @@ export function FoodCard({
 
   // likes: prefer existing value if present, otherwise random 1-50 for demo
   const likes = Math.floor(Math.random() * 50) + 1
+  // color testing: pick a background color per item using a stable hash of the id
+  const colorClasses = [
+    'bg-global-lightblue',
+    'bg-stone-200',
+    'bg-amber-200',
+    'bg-emerald-200',
+    'bg-global-global-green',
+    'bg-global-gold',
+  ]
+
+  function stableHash(str: string) {
+    let h = 0
+    for (let i = 0; i < str.length; i++) {
+      h = (h << 5) - h + str.charCodeAt(i)
+      h |= 0
+    }
+    return Math.abs(h)
+  }
+
+  const idStr = String(item.id ?? Math.random())
+  const colorClass = colorClasses[stableHash(idStr) % colorClasses.length]
   return (
 
     <div className="flex-shrink-0 w-55 bg-white rounded-sm shadow-sm overflow-hidden">
       <div className="relative">
-        <div className="h-48 bg-stone-200 rounded-t-sm overflow-hidden">
+  <div className={`h-48 ${colorClass} rounded-t-sm overflow-hidden`}>
           <Link href={`/item/${item.id}`} className="block">
             <Image
               src={item.thumbnail_url || "/nila-qst-image.png"}
