@@ -1,9 +1,10 @@
-import {Link} from '@/i18n/routing';
+import { Link } from '@/i18n/routing';
 import Image from "next/image"
 import { FoodBadge } from "@/components/ui/food-card/food-badge"
 import { FoodTags } from "@/components/ui/food-card/food-tags"
 import { ClientHeart } from "@/components/ui/food-card/client-heart"
 import { MenuItemNew, TagObject } from "@/types/menu"
+import { Plus } from "lucide-react"
 
 interface FoodCardProps {
   item: MenuItemNew
@@ -32,46 +33,47 @@ export function FoodCard({
   // likes: prefer existing value if present, otherwise random 1-50 for demo
   const likes = Math.floor(Math.random() * 50) + 1
   return (
-    <Link href={`/item/${item.id}`} className="block">
-      <div className="flex-shrink-0 w-75 bg-white rounded-sm shadow-sm overflow-hidden">
-        <div className="relative">
-          <div className="h-48 bg-stone-200 rounded-t-sm overflow-hidden">
+
+    <div className="flex-shrink-0 w-55 bg-white rounded-sm shadow-sm overflow-hidden">
+      <div className="relative">
+        <div className="h-48 bg-stone-200 rounded-t-sm overflow-hidden">
+          <Link href={`/item/${item.id}`} className="block">
             <Image
               src={item.thumbnail_url || "/nila-qst-image.png"}
               alt={item.name}
               width={300}
               height={200}
-              className="w-full h-full object-contain"
+              className="w-full h-full object-cover"
             />
-          </div>
-          <FoodBadge badge={badge} showBadge={showBadge} color={badgeColor} />
-          <ClientHeart
-            item={item}
-            likes={likes}
-          />
+          </Link>
         </div>
-        <div className="px-4 py-2">
-          <div className="flex flex-col items-center justify-between mb-2">
-            <div className="flex items-left justify-between w-full">
-              <h3 className="font-bold text-lg mb-1">{item.name}</h3>
-              <p className="font-bold text-lg mb-1">{item.price}€</p>
+        <FoodBadge badge={badge} showBadge={showBadge} color={badgeColor} />
+        <ClientHeart
+          item={item}
+          likes={likes}
+        />
+      </div>
+      <div className="flex flex-col relative w-full min-h-32">
+        <div className="m-auto flex w-full flex-col justify-between ">
+          <Link href={`/item/${item.id}`}>
+            <div className="m-auto flex justify-between w-full px-2 py-2">
+              <h3 className="m-auto w-3/4 text-left font-semibold text-lg">{item.name}</h3>
+              <p className="m-auto w-1/4 text-right font-semibold text-lg">{item.price}€</p>
             </div>
-            <div className="justify-start w-full">
-              <p className="text-gray-600 text-sm mb-1 min-h-10 max-h-10">
-                {item.description
-                  .split(' ')
-                  .slice(0, 10)
-                  .join(' ')
-                }
-                {item.description.split(' ').length > 10 ? '…' : ''}
-              </p>
-            </div>
+          </Link>
+
+        </div>
+        <div className="flex w-full justify-between relative">
+          <div className="px-2 py-2 flex items-center justify-between">
+            <FoodTags tags={["beef", "wheat-off", "bean"]} />
           </div>
-          <div className="flex items-center justify-between">
-            {/* <FoodTags tags={item.tags} /> */}
+
+          <div className='absolute right-0 bottom-0 w-8 h-8 rounded-br-sm rounded-tl-xl bg-global-green flex justify-center items-center'>
+            <Plus className='w-6 h-6 m-auto text-white' />
           </div>
         </div>
       </div>
-    </Link>
+
+    </div>
   )
 }
