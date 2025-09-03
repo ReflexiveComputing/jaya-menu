@@ -9,7 +9,7 @@ interface FoodTagsProps {
 
 export function FoodTags({
     tags,
-    iconSize = 24,
+    iconSize = 22,
     className,
 }: FoodTagsProps) {
     if (!tags || tags.length === 0) return (<div style={{ width: "40px", height: "32px" }} />)
