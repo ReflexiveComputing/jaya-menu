@@ -52,13 +52,13 @@ export default function HomePage() {
         <div className="px-6 pt-20">
           <div className="w-full max-w-sm mx-auto space-y-4 ">
             <Button variant="surpriseMe" asChild>
-              <Link href="/surprise" className="w-block">
+              <Link href="/food" className="w-block">
                 {t('helpMeChoose')}
               </Link>
             </Button>
 
             <Button variant="surpriseMeSecondary" asChild>
-              <Link href="/food" className="w-block uppercase">
+              <Link href="/drinks" className="w-block uppercase">
                 {t('showMenu')}
               </Link>
             </Button>

@@ -2,8 +2,8 @@
     "HomePage": {
         "title": "HUNGRIG?",
         "subtitle": "Lass uns anfangen!",
-        "helpMeChoose": "Hilf mir zu wählen!",
-        "showMenu": "Menü anzeigen"
+        "helpMeChoose": "Menü",
+        "showMenu": "Getränke"
     },
     "Menu": {
         "title": "Menü",
