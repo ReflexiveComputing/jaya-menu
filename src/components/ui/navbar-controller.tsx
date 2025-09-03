@@ -4,6 +4,7 @@ import { usePathname } from "next/navigation"
 
 import { BottomNavbar } from "./bottom-navbar"
 import { OptionsModal } from "./options-modal"
+import { JoystickMenuNavbar } from "./joystick-menu-navbar"
 
 export function NavbarController() {
       const pathname = usePathname()
@@ -32,7 +33,7 @@ export function NavbarController() {
   if (shouldHideNavbar) return null
   return (
     <>
-      <BottomNavbar selectedNav={selectedNav} onNavClick={handleNavClick} />
+      <JoystickMenuNavbar selectedNav={selectedNav} onNavClick={handleNavClick} />
       <OptionsModal open={optionsOpen} onClose={() => setOptionsOpen(false)} />
     </>
   )
