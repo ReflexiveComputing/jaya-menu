@@ -37,7 +37,7 @@ export function FoodCard({
 
     <div className="flex-shrink-0 w-55 bg-white rounded-sm shadow-sm overflow-hidden">
       <div className="relative">
-        <div className={`h-48 bg-white rounded-t-sm overflow-hidden`}>
+        <div className={`h-52 bg-white rounded-t-sm overflow-hidden`}>
           <Link href={`/item/${item.id}`} className="block">
             <Image
               src={item.thumbnail_url || "/nila-qst-image.png"}
