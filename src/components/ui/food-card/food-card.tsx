@@ -74,7 +74,7 @@ export function FoodCard({
           likes={likes}
         />
       </div>
-      <div className="flex flex-col relative w-full min-h-32">
+      <div className="flex flex-col bg-stone-50 relative w-full min-h-32">
         <div className="m-auto flex w-full flex-col justify-between ">
           <Link href={`/item/${item.id}`}>
             <div className="m-auto flex justify-between w-full px-2 py-2">
@@ -89,7 +89,7 @@ export function FoodCard({
             <FoodTags tags={["beef", "wheat-off", "bean"]} />
           </div>
 
-          <div className='absolute right-0 bottom-0 w-8 h-8 rounded-br-sm rounded-tl-xl bg-global-green flex justify-center items-center'>
+          <div className='absolute right-0 bottom-0 w-8 h-8 rounded-br-sm rounded-tl-xl bg-global-gold flex justify-center items-center'>
             <Plus className='w-6 h-6 m-auto text-white' />
           </div>
         </div>
