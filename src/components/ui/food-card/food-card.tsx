@@ -32,39 +32,19 @@ export function FoodCard({
 
   // likes: prefer existing value if present, otherwise random 1-50 for demo
   const likes = Math.floor(Math.random() * 50) + 1
-  // color testing: pick a background color per item using a stable hash of the id
-  const colorClasses = [
-    'bg-global-lightblue',
-    'bg-stone-200',
-    'bg-amber-200',
-    'bg-emerald-200',
-    'bg-global-global-green',
-    'bg-global-gold',
-  ]
 
-  function stableHash(str: string) {
-    let h = 0
-    for (let i = 0; i < str.length; i++) {
-      h = (h << 5) - h + str.charCodeAt(i)
-      h |= 0
-    }
-    return Math.abs(h)
-  }
-
-  const idStr = String(item.id ?? Math.random())
-  const colorClass = colorClasses[stableHash(idStr) % colorClasses.length]
   return (
 
     <div className="flex-shrink-0 w-55 bg-white rounded-sm shadow-sm overflow-hidden">
       <div className="relative">
-  <div className={`h-48 ${colorClass} rounded-t-sm overflow-hidden`}>
+        <div className={`h-48 bg-white rounded-t-sm overflow-hidden`}>
           <Link href={`/item/${item.id}`} className="block">
             <Image
               src={item.thumbnail_url || "/nila-qst-image.png"}
               alt={item.name}
               width={300}
               height={200}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover object-bottom"
             />
           </Link>
         </div>
@@ -74,18 +54,18 @@ export function FoodCard({
           likes={likes}
         />
       </div>
-      <div className="flex flex-col bg-stone-50 relative w-full min-h-32">
+      <div className="flex flex-col bg-stone-50 relative w-full min-h-24">
         <div className="m-auto flex w-full flex-col justify-between ">
           <Link href={`/item/${item.id}`}>
-            <div className="m-auto flex justify-between w-full px-2 py-2">
-              <h3 className="m-auto w-3/4 text-left font-semibold text-lg">{item.name}</h3>
-              <p className="m-auto w-1/4 text-right font-semibold text-lg">{item.price}€</p>
+            <div className="m-auto flex justify-between w-full px-2">
+              <h3 className="m-auto w-3/4 text-left font-semibold">{item.name}</h3>
+              <p className="m-auto w-1/4 text-right font-semibold">{item.price}€</p>
             </div>
           </Link>
 
         </div>
         <div className="flex w-full justify-between relative">
-          <div className="px-2 py-2 flex items-center justify-between">
+          <div className="px-2 pb-2 flex items-center justify-between">
             <FoodTags tags={["beef", "wheat-off", "bean"]} />
           </div>
 
