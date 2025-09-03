@@ -83,21 +83,13 @@ export function OptionsModal({ open, onClose }: OptionsModalProps) {
             {/* Options List */}
             <div className="flex-1 flex flex-col items-center justify-center w-full ">
                 <div className="w-full flex flex-col gap-1">
-                    {/* Option Card Example */}
-                    <Link onClick={onClose} href="/surprise">
-                        <OptionsItem
-                            title={"Retake Quiz"}
-                            description={"Retake the quiz and get new recommendations"}
-                            icon="message-circle-question-mark"
-                        />
-                    </Link>
-                    <Link onClick={onClose} href="/dietary-preferences">
+                    {/* <Link onClick={onClose} href="/dietary-preferences">
                         <OptionsItem
                             title={"Dietary Preferences"}
                             description={"Manage your dietary restrictions"}
                             icon="alert-triangle"
                         />
-                    </Link>
+                    </Link> */}
                     <Popover open={languagePopoverOpen} onOpenChange={setLanguagePopoverOpen}>
                         <PopoverTrigger asChild>
                             <div>
