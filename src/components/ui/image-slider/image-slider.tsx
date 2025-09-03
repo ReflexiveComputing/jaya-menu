@@ -86,7 +86,7 @@ export function ImageSlider(
                         alt={image}
                         width={300}
                         height={200}
-                        className={`w-full object-contain ${imgHeightClass}`}
+                        className={`w-full object-cover ${imgHeightClass}`}
                       />
                     )
                   })()
