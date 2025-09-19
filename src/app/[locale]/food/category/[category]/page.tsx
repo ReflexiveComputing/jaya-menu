@@ -5,14 +5,14 @@ import { Button } from "@/components/ui/button";
 import { Link } from '@/i18n/routing';
 import { getTranslations } from 'next-intl/server';
 import { fetchMenuCategoriesFromApi, fetchMenuCategoryItemsFromApi } from "@/lib/server/menu-fetch-api";
-import { MenuCategory } from "@/types/category";
+import { Category } from "@/types/category";
 
 
 export const revalidate = 600;
 
 export async function generateStaticParams() {
   const categories = await fetchMenuCategoriesFromApi();
-  return categories.map((c: MenuCategory) => ({ MenuCategory: c }));
+  return categories.map((c: Category) => ({ MenuCategory: c }));
 }
 
 function cap(s: string) { return s.charAt(0).toUpperCase() + s.slice(1) }
@@ -21,9 +21,10 @@ export default async function MenuCategoryPage({ params }: { params: Promise<{ c
   const resolvedParams = await params;
   const items = await fetchMenuCategoryItemsFromApi(resolvedParams.category);
   const t = await getTranslations('Menu');
+  //categories need to be stored in a state
   const categories = await fetchMenuCategoriesFromApi();
   // Find the category object by filename
-  const categoryObj = categories.find(c => c.filename === resolvedParams.category);
+  const categoryObj = categories.find(c => c.name === resolvedParams.category);
   const categoryName = categoryObj ? categoryObj.name : resolvedParams.category;
 
   return (

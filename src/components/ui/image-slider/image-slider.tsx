@@ -5,9 +5,10 @@ import { Carousel, CarouselContent, CarouselItem, CarouselPrevious, CarouselNext
 import * as React from "react"
 import { cva, type VariantProps } from "class-variance-authority"
 import { cn } from "@/lib/utils"
+import { Image as MenuImage } from "@/types/menu"
 
 const headerVariants = cva(
-  "bg-muted",
+  "bg-app-background",
   {
     variants: {
 
@@ -24,7 +25,7 @@ const headerVariants = cva(
 )
 
 const counterVariants = cva(
-  "absolute right-2 text-muted-foreground py-2 text-right text-sm px-2",
+  "absolute right-2 text-app-dark-highlight py-2 text-right text-sm px-2",
   {
     variants: {
 
@@ -44,7 +45,7 @@ export function ImageSlider(
   { className, size, images, margin, ...props }: React.HTMLAttributes<HTMLDivElement>
     & VariantProps<typeof headerVariants>
     & VariantProps<typeof counterVariants>
-    & { images: string[] }) {
+    & { images: MenuImage[] }) {
 
   const [api, setApi] = React.useState<CarouselApi>()
   const [current, setCurrent] = React.useState(0)
@@ -82,8 +83,8 @@ export function ImageSlider(
                     const imgHeightClass = (headerClass.split(/\s+/).find(c => c.startsWith('h-')) || 'h-96')
                     return (
                       <Image
-                        src={image || "/placeholder.svg"}
-                        alt={image}
+                        src={image.url || "/placeholder.svg"}
+                        alt={image.id.toString() || "Food image"}
                         width={300}
                         height={200}
                         className={`w-full object-cover ${imgHeightClass}`}

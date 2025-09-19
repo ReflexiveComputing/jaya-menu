@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils"
 import { ChevronLeft } from "lucide-react"
 
 const headerVariants = cva(
-  "bg-white border-b border-gray-200 z-10 transition-transform duration-300",
+  "border-b border-app-dark-highlight z-10 transition-transform duration-300",
   {
     variants: {
       align: {
@@ -54,10 +54,10 @@ export function Header({
       <div className="flex items-center">
         {showChevron && (
           <Link href={linkTo} className="absolute mr-4">
-            <ChevronLeft className="w-6 h-6 text-gray-600" />
+            <ChevronLeft className="w-6 h-6 text-gray-50" />
           </Link>
         )}
-        <div className="flex-1">
+        <div className="flex-1 text-gray-50">
           <h1 className={cn("text-2xl font-bold font-header", align && `text-${align}`)}>
             {title}
           </h1>

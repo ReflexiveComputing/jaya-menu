@@ -2,18 +2,14 @@
 
 import {Link} from '@/i18n/routing';
 import {useTranslations} from 'next-intl';
-import Image from "next/image"
 import { Trash2 } from "lucide-react"
-import { FoodBadge } from "@/components/ui/food-card/food-badge"
-import { ClientHeart } from "@/components/ui/food-card/client-heart"
-import { FoodTags } from "@/components/ui/food-card/food-tags"
 import { Button } from "../button"
 import { ImageSlider } from "../image-slider/image-slider"
 import { useWishlist } from "@/components/providers/wishlist-provider"
-import { MenuItemNew } from "@/types/menu"
+import { MenuItemFull } from "@/types/menu"
 
 interface FoodCardProps {
-  item: MenuItemNew
+  item: MenuItemFull
   showBadge?: boolean
   compact?: boolean
 }
@@ -35,16 +31,10 @@ export function FoodCardSlider({
   }
 
   const wrapperClass = compact
-  ? 'flex-shrink-0 bg-white rounded-sm mb-4 shadow-sm overflow-hidden'
-    : 'flex-shrink-0 bg-white rounded-sm mb-6 shadow-sm overflow-hidden'
+  ? 'flex-shrink-0 rounded-sm mb-4 shadow-sm overflow-hidden'
+    : 'flex-shrink-0 rounded-sm mb-6 shadow-sm overflow-hidden'
 
-  // derive badge from first tag object when available
-  const firstTag = item.tags && item.tags.length ? item.tags[0] : undefined
-  const badge = (firstTag && firstTag.name) || undefined
-  const badgeColor = (firstTag && firstTag.color) ? 'green' : 'default'
-
-  // likes: prefer existing value if present, otherwise random 1-50 for demo
-  const likes = Math.floor(Math.random() * 50) + 1
+  // likes: preer existing value if present, otherwise random 1-50 for demo
 
   return (
     <Link href={`/item/${item.id}`} className="block">
@@ -52,30 +42,29 @@ export function FoodCardSlider({
         <div className="relative">
           <div className="rounded-t-sm bg-stone-200">
             <ImageSlider
-              images={item.images}
+              images={item.images ?? []}
               size={compact ? 'sm' : 'md'}
             />
           </div>
-          <FoodBadge badge={badge} showBadge={showBadge} color={badgeColor} />
-          <ClientHeart
+          {/* <ClientHeart
             item={item}
             likes={likes}
-          />
+          /> */}
         </div>
         <div className="p-4">
           <div className="flex items-center justify-between mb-2">
             <div className="flex flex-col items-left gap-2">
-              <h3 className={compact ? 'font-bold text-md mb-1' : 'font-bold text-lg mb-1'}>{item.name}</h3>
-              <p className={compact ? 'text-gray-600 text-xs mb-2' : 'text-gray-600 text-sm mb-3'}>
-                 {item.description
+              <h3 className={compact ? 'font-bold text-app-light-highlight text-md mb-1' : 'font-bold uppercase text-2xl mb-1 text-app-light-highlight'}>{item.name}</h3>
+              <p className={compact ? 'text-app-light-highlight text-xs mb-2' : 'text-gray-50 text-sm mb-3'}>
+                 {(item.description ?? '')
                   .split(' ')
                   .slice(0, 10)
                   .join(' ')
                 }
-                {item.description.split(' ').length > 10 ? '…' : ''}
+                {(item.description ?? '').split(' ').length > 10 ? '…' : ''}
               </p>
             </div>
-            <div className="text-xl font-bold">{item.price}</div>
+            <div className="text-xl text-app-light-highlight font-bold">{item.price}€</div>
           </div>
           <div className="flex items-center justify-between">
             {/* <FoodTags tags={item.tags} /> */}

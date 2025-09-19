@@ -1,54 +1,83 @@
 import "server-only";
 
-import type { MenuItemNew } from "@/types/menu";
-import categoriesData from "@/lib/static/menu/categories.json";
-import fs from "fs";
-import path from "path";
-import { MenuCategory } from "@/types/category";
+import type { MenuItemFull } from "@/types/menu";
+import { Category } from "@/types/category";
 
 
 
-const categories: MenuCategory[] = categoriesData;
+const BACKEND = process.env.BACKEND_REST_URL || process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8443/v1/api'
 
-function getMenuItemsByCategoryFilename(filename: string): MenuItemNew[] {
-  const filePath = path.join(process.cwd(), "src/lib/static/menu/sub-category", filename + ".json");
-  if (!fs.existsSync(filePath)) return [];
-  const data = JSON.parse(fs.readFileSync(filePath, "utf-8"));
-  const items: MenuItemNew[] = [];
-  for (const entry of data) {
-    if (entry.menu_item_data) {
-      items.push(entry.menu_item_data);
+
+
+
+export async function fetchMenuCategoriesFromApi(): Promise<Category[]> {
+  // Try fetching categories from the backend API. If anything goes wrong,
+  // fall back to the static categories bundled with the app.
+  try {
+    const url = `${BACKEND.replace(/\/$/, '')}/categories`;
+    const res = await fetch(url, { cache: 'no-store' });
+    if (!res.ok) {
+      console.error('fetchMenuCategoriesFromApi: network response not ok', res.status, res.statusText);
+      return [];
     }
+
+    const payload = await res.json();
+    // expected shape: { success: boolean, data: Category[] }
+    if (payload && payload.success && Array.isArray(payload.data)) {
+      return payload.data as Category[];
+    }
+
+    console.error('fetchMenuCategoriesFromApi: unexpected payload', payload);
+    return [];
+  } catch (err) {
+    console.error('fetchMenuCategoriesFromApi: error fetching categories', err);
+    return [];
   }
-  return items;
 }
 
+export async function fetchMenuCategoryItemsFromApi(categoryName: string): Promise<MenuItemFull[]> {
+  try {
+    const url = `${BACKEND.replace(/\/$/, '')}/menu-items/full/category/${encodeURIComponent(categoryName)}`;
+    const res = await fetch(url, { cache: 'no-store' });
+    if (!res.ok) {
+      console.error('fetchMenuCategoryItemsFromApi: network response not ok', res.status, res.statusText);
+      return [];
+    }
 
-export async function fetchMenuCategoriesFromApi(): Promise<MenuCategory[]> {
-  // Return categories from static file
-  return categories;
-}
+    const payload = await res.json();
+    // expected shape: { success: boolean, data: MenuItemFull[] }
+    if (payload && payload.success && Array.isArray(payload.data)) {
+      return payload.data as MenuItemFull[];
+    }
 
-
-export async function fetchMenuCategoryItemsFromApi(categoryKey: string): Promise<MenuItemNew[]> {
-  // Try to find by name first
-  let category = categories.find(c => c.name === categoryKey);
-  if (!category) {
-    // Try to find by filename (with or without .json)
-    category = categories.find(c => c.filename.replace(/\.json$/, "") === categoryKey);
+    console.error('fetchMenuCategoryItemsFromApi: unexpected payload', payload);
+    return [];
+  } catch (err) {
+    console.error('fetchMenuCategoryItemsFromApi: error fetching category items', err);
+    return [];
   }
-  if (!category) return [];
-  return getMenuItemsByCategoryFilename(category.filename);
 }
 
+export async function fetchFullMenuItemById(id: number): Promise<MenuItemFull | null> {
+  try {
+    const url = `${BACKEND.replace(/\/$/, '')}/menu-items/full?id=${encodeURIComponent(String(id))}`;
+    const res = await fetch(url, { cache: 'no-store' });
+    if (!res.ok) {
+      console.error('fetchFullMenuItemById: network response not ok', res.status, res.statusText);
+      return null;
+    }
 
-// Optionally, you can implement a 'top this month' by picking random items from all categories
-export async function fetchMenuTopThisMonthFromApi(limit = 3): Promise<MenuItemNew[]> {
-  let allItems: MenuItemNew[] = [];
-  for (const cat of categories) {
-    allItems = allItems.concat(getMenuItemsByCategoryFilename(cat.filename));
+    const payload = await res.json();
+    // expected shape: { success: boolean, data: MenuItemFull }
+    if (payload && payload.success && payload.data) {
+      return payload.data as MenuItemFull;
+    }
+
+    console.error('fetchFullMenuItemById: unexpected payload', payload);
+    return null;
+  } catch (err) {
+    console.error('fetchFullMenuItemById: error fetching item', err);
+    return null;
   }
-  // Return random items
-  const shuffled = allItems.sort(() => 0.5 - Math.random());
-  return shuffled.slice(0, limit);
 }
+

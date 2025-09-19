@@ -4,7 +4,9 @@ import { FoodCard } from "@/components/ui/food-card/food-card"
 import { fetchDrinksCategoriesFromApi, fetchDrinksCategoryItemsFromApi, fetchDrinksTopThisMonthFromApi } from "@/lib/server/drink-fetch-api"
 import type { Drink } from '@/types/drink'
 import {getTranslations} from 'next-intl/server';
-import { MenuItemNew } from "@/types/menu"
+import { MenuItemFull } from "@/types/menu"
+import { fetchMenuCategoriesFromApi, fetchMenuCategoryItemsFromApi } from "@/lib/server/menu-fetch-api"
+import { Category } from "@/types/category"
 
 export const revalidate = 600  // ISR for full page
 function cap(s: string) { return s.charAt(0).toUpperCase() + s.slice(1) }
@@ -13,21 +15,19 @@ export default async function DrinksPage() {
   const t = await getTranslations('Drinks');
   
   // Parallel fetch (API-shaped)
-  const [categories, topItemsNew] = await Promise.all([
-    fetchDrinksCategoriesFromApi(),
-    fetchDrinksTopThisMonthFromApi(3)
-  ]) as [string[], MenuItemNew[]]
+  const [categories] = await Promise.all([
+    fetchMenuCategoriesFromApi(),
+  ]) as [Category[]]
 
   // Preload all category items (API-shaped)
   const categoryEntries = await Promise.all(
-    categories.map(async c => [c, await fetchDrinksCategoryItemsFromApi(c)] as const)
-  ) as readonly (readonly [string, MenuItemNew[]])[];
+    categories.map(async c => [c, await fetchMenuCategoryItemsFromApi(c.name)] as const)
+  ) as readonly (readonly [Category, MenuItemFull[]])[];
 
-  const topItems = topItemsNew
 
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col">
-      <div className="bg-white">
+    <div className="min-h-screen bg-app-background flex flex-col">
+      <div className="bg-app-dark-highlight">
         <Header title={t('title')} showChevron linkTo="/" align="center" size="default" />
       </div>
 
@@ -52,10 +52,10 @@ export default async function DrinksPage() {
         {categoryEntries.map(([category, items]) => {
           if (!items.length) return null
             return (
-              <div key={category} className="py-6">
+              <div key={category.id} className="py-6">
                 <SectionDivider
-                  href={`/drinks/${category}`}
-                  title={cap(category)}
+
+                  title={cap(category.displayName?? category.name)}
                 />
                 <div className="overflow-x-auto scrollbar-hide">
                   <div className="flex gap-4 px-4 pb-2">
@@ -63,7 +63,6 @@ export default async function DrinksPage() {
                       <FoodCard
                         key={item.id}
                         item={item}
-                        showBadge
                       />
                     ))}
                   </div>

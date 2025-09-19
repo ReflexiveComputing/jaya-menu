@@ -1,30 +1,30 @@
 import { Header } from "@/components/ui/header"
-import { fetchDrinksCategoriesFromApi, fetchDrinksCategoryItemsFromApi } from "@/lib/server/drink-fetch-api"
 import { FoodCardSlider } from "@/components/ui/food-card/food-card-slider"
 import { Button } from "@/components/ui/button"
-import {Link} from '@/i18n/routing';
-import {getTranslations} from 'next-intl/server';
+import { Link } from '@/i18n/routing';
+import { getTranslations } from 'next-intl/server';
+import { fetchMenuCategoriesFromApi, fetchMenuCategoryItemsFromApi } from "@/lib/server/menu-fetch-api";
+import { Category } from "@/types/category";
 
 
 export const revalidate = 600;
 
 export async function generateStaticParams() {
-  const categories = await fetchDrinksCategoriesFromApi();
-  return categories.map((c: string) => ({ category: c }));
+  const categories = await fetchMenuCategoriesFromApi();
+  return categories.map((c: Category) => ({ MenuCategory: c }));
 }
-
 
 function cap(s: string) { return s.charAt(0).toUpperCase() + s.slice(1); }
 
 
 export default async function DrinksCategoryPage({ params }: { params: Promise<{ category: string }> }) {
   const resolvedParams = await params;
-  const items = await fetchDrinksCategoryItemsFromApi(resolvedParams.category);
+  const items = await fetchMenuCategoryItemsFromApi(resolvedParams.category);
   const t = await getTranslations('Drinks');
 
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
-  <Header title={cap(resolvedParams.category)} showChevron linkTo="/drinks" align="center" size="default" />
+      <Header title={cap(resolvedParams.category)} showChevron linkTo="/drinks" align="center" size="default" />
       <div className="flex-1 overflow-y-auto p-6">
         {items.length ? (
           <div className="flex-1 overflow-y-auto mb-6">

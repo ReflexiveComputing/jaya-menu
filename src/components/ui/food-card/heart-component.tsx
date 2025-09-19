@@ -2,7 +2,7 @@ import * as React from "react"
 import { cva, type VariantProps } from "class-variance-authority"
 import { cn } from "@/lib/utils"
 import { Heart } from "lucide-react"
-import type { MenuItemNew } from "@/types/menu"
+import type { MenuItemFull } from "@/types/menu"
 import { Drink } from "@/types/drink"
 
 const heartVariants = cva(
@@ -31,8 +31,8 @@ interface HeartProps extends VariantProps<typeof heartVariants> {
   className?: string
   liked?: boolean
   likes?: number
-  item: MenuItemNew
-  toggleFavorite: (item: MenuItemNew) => void
+  item: MenuItemFull
+  toggleFavorite: (item: MenuItemFull) => void
 }
 
 export function HeartCounter({

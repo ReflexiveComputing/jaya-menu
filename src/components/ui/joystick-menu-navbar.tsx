@@ -45,7 +45,7 @@ export function JoystickMenuNavbar({ selectedNav, onNavClick }: BottomNavbarProp
     { key: 'food', icon: <Utensils className="w-5 h-5" />, label: t('food'), href: '/food' },
     { key: 'combos', icon: <Coffee className="w-5 h-5" />, label: t('drinks'), href: '/drinks' },
     { key: 'favorites', icon: <Heart className="w-5 h-5" />, label: t('wishlist'), href: '/wishlist' },
-    { key: 'options', icon: <Settings2 className="w-5 h-5" />, label: t('options'), href: undefined },
+    // { key: 'options', icon: <Settings2 className="w-5 h-5" />, label: t('options'), href: undefined },
   ]
 
   const radius = 85 // px - how far buttons travel
