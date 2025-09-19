@@ -1,11 +1,10 @@
 import { Header } from "@/components/ui/header"
 import { SectionDivider } from "@/components/ui/section-divider"
 import { FoodCard } from "@/components/ui/food-card/food-card"
-import { fetchDrinksCategoriesFromApi, fetchDrinksCategoryItemsFromApi, fetchDrinksTopThisMonthFromApi } from "@/lib/server/drink-fetch-api"
+import { fetchDrinkCategoriesFromApi, fetchDrinkCategoryItemsFromApi } from "@/lib/server/drink-fetch-api"
 import type { Drink } from '@/types/drink'
 import {getTranslations} from 'next-intl/server';
 import { MenuItemFull } from "@/types/menu"
-import { fetchMenuCategoriesFromApi, fetchMenuCategoryItemsFromApi } from "@/lib/server/menu-fetch-api"
 import { Category } from "@/types/category"
 
 export const revalidate = 600  // ISR for full page
@@ -16,12 +15,12 @@ export default async function DrinksPage() {
   
   // Parallel fetch (API-shaped)
   const [categories] = await Promise.all([
-    fetchMenuCategoriesFromApi(),
+    fetchDrinkCategoriesFromApi(),
   ]) as [Category[]]
 
   // Preload all category items (API-shaped)
   const categoryEntries = await Promise.all(
-    categories.map(async c => [c, await fetchMenuCategoryItemsFromApi(c.name)] as const)
+    categories.map(async c => [c, await fetchDrinkCategoryItemsFromApi(c.name)] as const)
   ) as readonly (readonly [Category, MenuItemFull[]])[];
 
 

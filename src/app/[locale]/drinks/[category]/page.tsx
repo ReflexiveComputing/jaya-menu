@@ -3,14 +3,14 @@ import { FoodCardSlider } from "@/components/ui/food-card/food-card-slider"
 import { Button } from "@/components/ui/button"
 import { Link } from '@/i18n/routing';
 import { getTranslations } from 'next-intl/server';
-import { fetchMenuCategoriesFromApi, fetchMenuCategoryItemsFromApi } from "@/lib/server/menu-fetch-api";
+import { fetchDrinkCategoriesFromApi, fetchDrinkCategoryItemsFromApi } from "@/lib/server/drink-fetch-api"
 import { Category } from "@/types/category";
 
 
 export const revalidate = 600;
 
 export async function generateStaticParams() {
-  const categories = await fetchMenuCategoriesFromApi();
+  const categories = await fetchDrinkCategoriesFromApi();
   return categories.map((c: Category) => ({ MenuCategory: c }));
 }
 
@@ -19,7 +19,7 @@ function cap(s: string) { return s.charAt(0).toUpperCase() + s.slice(1); }
 
 export default async function DrinksCategoryPage({ params }: { params: Promise<{ category: string }> }) {
   const resolvedParams = await params;
-  const items = await fetchMenuCategoryItemsFromApi(resolvedParams.category);
+  const items = await fetchDrinkCategoryItemsFromApi(resolvedParams.category);
   const t = await getTranslations('Drinks');
 
   return (
