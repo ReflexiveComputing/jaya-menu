@@ -11,6 +11,7 @@ import { Button } from "@/components/ui/button"
 import { useParams } from 'next/navigation'
 import { useWishlist } from '@/components/providers/wishlist-provider'
 import { MenuItemFull } from "@/types/menu";
+import { ImageSliderHeartComponent } from "@/components/ui/image-slider/slider-heart-component";
 
 
 export default function ItemDetails() {

@@ -2,6 +2,7 @@ import { Link } from '@/i18n/routing';
 import Image from "next/image"
 import { MenuItemFull } from "@/types/menu"
 import { PriceBox } from './price-box';
+import { ClientHeart } from './client-heart';
 
 interface FoodCardProps {
   item: MenuItemFull
@@ -40,10 +41,10 @@ export function FoodCard({
           </Link>
         </div>
         {/* <FoodBadge badge={badge} showBadge={showBadge} color={badgeColor} /> */}
-        {/* <ClientHeart
+        <ClientHeart
           item={item}
           likes={likes}
-        /> */}
+        />
       <PriceBox price={item.price || 0} />
       </div>
       <div className="flex flex-col  relative w-full min-h-24">
