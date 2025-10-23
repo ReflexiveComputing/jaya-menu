@@ -35,10 +35,15 @@ export async function fetchDrinkCategoriesFromApi(): Promise<Category[]> {
   }
 }
 
-export async function fetchDrinkCategoryItemsFromApi(categoryName: string): Promise<MenuItemFull[]> {
+export async function fetchDrinkCategoryItemsFromApi(categoryName: string, locale?: string): Promise<MenuItemFull[]> {
   try {
     const url = `${BACKEND.replace(/\/$/, '')}/menu-items/full/drink-category/${encodeURIComponent(categoryName)}`;
-    const res = await fetch(url, { cache: 'no-store' });
+    const res = await fetch(url, {
+       cache: 'no-store',
+       headers: {
+        'Accept-Language': locale || 'en',
+      }, 
+      });
     if (!res.ok) {
       console.error('fetchDrinkCategoryItemsFromApi: network response not ok', res.status, res.statusText);
       return [];

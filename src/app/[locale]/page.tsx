@@ -66,9 +66,9 @@ export default function HomePage() {
         </div>
 
         {/* Language Switcher */}
-           {/* <div className="w-full pt-30 bottom-0 right-0 flex justify-end p-4">
+           <div className="w-full pt-30 bottom-0 right-0 flex justify-end p-4">
           <LanguageSwitcher />
-        </div> */}
+        </div>
        
       </div>
     
