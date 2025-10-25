@@ -13,6 +13,8 @@ function cap(s: string) { return s.charAt(0).toUpperCase() + s.slice(1) }
 
 export default async function MenuPage() {
   const t = await getTranslations('Menu');
+  const drinks = await getTranslations('Drinks');
+
   const locale = await getLocale(); // Get current locale
 
 
@@ -30,7 +32,7 @@ export default async function MenuPage() {
   return (
     <div className="min-h-screen flex flex-col">
       <div className="">
-        <Header title={t('title')} showChevron linkTo="/" align="center" size="default" />
+        <Header title={t('title')} secondaryTitle={drinks("title")} showChevron linkTo="/" size="default" />
       </div>
 
       <div className="flex-1 overflow-y-auto">
@@ -45,8 +47,8 @@ export default async function MenuPage() {
                 
                 title={cap(category.displayName?? category.name)}
               />
-              <div className="overflow-x-auto scrollbar-hide">
-                <div className="flex gap-4 px-4 pb-2">
+              <div className="overflow-x-auto px-4 scrollbar-hide">
+                <div className="flex gap-4 pb-2">
                   {items.map(item => (
                     <FoodCard
                       key={item.id}

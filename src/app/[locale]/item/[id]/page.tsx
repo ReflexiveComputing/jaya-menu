@@ -3,7 +3,7 @@
 import type React from "react"
 
 import { useState, useEffect } from "react"
-import { ChevronLeft, Beef, Flame, Beer, Trash2 } from "lucide-react"
+import { ChevronLeft, Beef, Flame, Beer, Trash2, ArrowLeft } from "lucide-react"
 import { Link } from '@/i18n/routing';
 import { useTranslations, useLocale } from 'next-intl';
 import { ImageSlider } from "@/components/ui/image-slider/image-slider"
@@ -12,11 +12,14 @@ import { useParams } from 'next/navigation'
 import { useWishlist } from '@/components/providers/wishlist-provider'
 import { MenuItemFull } from "@/types/menu";
 import { ImageSliderHeartComponent } from "@/components/ui/image-slider/slider-heart-component";
+import NepaliSunIcon from "@/components/ui/icons/svg/nepali-sun";
+import VerticalDashedLines from "@/components/ui/vertical-dashed-lines";
+import MenuItemAllergens from "@/components/ui/menu-item-allergens";
+import { JoystickMenuNavbar } from "@/components/ui/joystick-menu-navbar";
 
 
 export default function ItemDetails() {
   // wishlist is persisted via the WishlistProvider (localStorage)
-  const { toggle, isFavorite: providerIsFavorite } = useWishlist()
   const [showFullDescription, setShowFullDescription] = useState(false)
   const t = useTranslations('Common');
   const params = useParams()
@@ -53,11 +56,6 @@ export default function ItemDetails() {
     return () => { cancelled = true }
   }, [params])
 
-  const toggleFavorite = () => {
-    if (!menuItemDetails) return
-    toggle(menuItemDetails)
-  }
-
 
 
 
@@ -71,32 +69,29 @@ export default function ItemDetails() {
     )
   }
 
+  // format price into main + decimals like PriceBox
+  const priceNumber = typeof menuItemDetails.price === "number"
+    ? menuItemDetails.price
+    : parseFloat(String(menuItemDetails.price)) || 0;
+  const priceStr = priceNumber.toFixed(2);
+  const [priceMain, priceDec] = priceStr.split(".");
+
   return (
     <div className="min-h-screen bg-app-background flex flex-col">
       {/* Back Button */}
       <Link href="/food" className="absolute top-4 left-4 z-20  backdrop-blur-sm rounded-full p-2">
-        <ChevronLeft className="w-6 h-6 text-app-dark-highlight " />
+        <ArrowLeft className="w-6 h-6  text-app-dark-highlight " />
       </Link>
       {/* Image Carousel */}
       <div className="relative h-96 ">
 
 
-        {/* Favorite Button */}
-        {/* <ImageSliderHeartComponent
-          variant="red"
-
-          liked={isFavorite}
-          likes={likes}
-          toggleFavorite={toggleFavorite}
-        /> */}
-
-        {/* Carousel Images */}
         <ImageSlider
           images={(menuItemDetails.images && menuItemDetails.images.length > 0)
             ? menuItemDetails.images
             : [
-                { id: 0, url: menuItemDetails.mainImage?.url || '/combo-background-2.jpg', menuItemId: Number(menuItemDetails.id || 0), sequence: 1 },
-              ]}
+              { id: 0, url: menuItemDetails.mainImage?.url || '/combo-background-2.jpg', menuItemId: Number(menuItemDetails.id || 0), sequence: 1 },
+            ]}
           margin="md"
         />
 
@@ -104,55 +99,44 @@ export default function ItemDetails() {
       </div>
 
       {/* Content */}
-      <div className="flex-1 bg-app-dark-highlight -mt-4 z-10 px-6 py-6 border-t border-app-dark-highlight rounded-3xl">
+      <div className="flex-1 bg-app-dark-highlight z-10 px-4 py-6 border-t border-app-dark-highlight ">
         {/* Header */}
-        <div className="mb-6 text-gray-50">
-          <h1 className="text-2xl uppercase font-header text-app-light-highlight font-bold mb-2">{menuItemDetails.name}</h1>
-          <div className="text-2xl  font-header font-bold w-full flex flex-row justify-between pr-4">
-            {menuItemDetails.price}€ 
-           <div className="flex items-center justify-between">
-            {/* <FoodTags tags={item.tags} /> */}
-            {providerIsFavorite(menuItemDetails?.id) ? (
-              <button
-                onClick={toggleFavorite}
-                className="p-2 rounded-full bg-red-100 hover:bg-red-200 transition-colors"
-                aria-label="Remove from wishlist"
-              >
-                <Trash2 className="h-4 w-4 text-global-red" />
-              </button>
-            ) : (
-              <Button variant={"wishlist"} size="mid" onClick={toggleFavorite}>
-                {t('addToWishlist')}
-              </Button>
-            )}
+        <div className="pb-2 text-gray-50">
+          <div className="m-auto w-full flex flex-row flex-start">
+            <div className="m-auto px-2 ">
+              <NepaliSunIcon size={24} backgroundColor="#febd3a" />
+            </div>
+            <h1 className="m-auto w-full text-2xl uppercase font-header text-app-light-highlight font-bold mb-2">{menuItemDetails.name}</h1>
           </div>
-          </div>
+
+
+
         </div>
 
-        {/* Features
-        <div className="mb-6">
-          {itemDetails.features.map((feature, index) => (
-            <div key={index} className="flex items-center gap-4 mb-4">
-              <div className="text-gray-800">{feature.icon}</div>
-              <div>
-                <h3 className="font-semibold text-lg">{feature.title}</h3>
-                <p className="text-gray-600">{feature.description}</p>
-              </div>
-            </div>
-          ))}
-        </div> */}
+
 
         {/* Description */}
-        <div className="mb-6">
-          <p className="text-gray-50 leading-relaxed pb-4">
+        <div className="flex w-full mb-6 h-max">
+          <VerticalDashedLines className="mx-4 min-h-full" color="#febd3a" dashHeight={4} gap={3} width={2} />
+          <p className="text-gray-50 leading-relaxed w-2/3 pb-4 text-right">
             {menuItemDetails.description}
           </p>
 
-          {/* <Button
-            onClick={() => setShowFullDescription(!showFullDescription)}
-            size="full" variant={"grayGhost"}>
-            {showFullDescription ? t('showLess') : t('showMore')}
-          </Button> */}
+          <div className="mx-auto w-1/3 flex flex-col items-end">
+
+            <div className="text-2xl font-header font-bold  flex flex-row justify-end">
+              <p>
+                <span className="text-app-light-highlight font-semibold mr-2">€</span>
+                <span className="font-header font-bold text-2xl text-gray-50">{priceMain}</span>
+                <span className="text-sm ml-1 text-gray-200">.{priceDec}</span>
+              </p>
+
+            </div>
+            <div className="mt-4 ">
+              <MenuItemAllergens iconSize={24} allergens={menuItemDetails.allergens || []} className="text-app-light-highlight w-1/3 pr-1 m-auto" />
+            </div>
+          </div>
+
         </div>
 
         {/* Found in these combos */}
@@ -168,10 +152,9 @@ export default function ItemDetails() {
         </div> */}
       </div>
 
-      {/* Bottom Action Button
-      <div className="m-auto px-6 pb-6">
-        <Button variant="wishlist" size="mid" onClick={toggleFavorite} >Add to Wishlist</Button>
-      </div> */}
+          <JoystickMenuNavbar item={menuItemDetails} selectedNav={""} onNavClick={function (nav: string): void {
+        throw new Error("Function not implemented.");
+      } } />
     </div>
   )
 }

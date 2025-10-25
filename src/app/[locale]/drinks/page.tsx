@@ -12,6 +12,7 @@ function cap(s: string) { return s.charAt(0).toUpperCase() + s.slice(1) }
 
 export default async function DrinksPage() {
   const t = await getTranslations('Drinks');
+  const menu = await getTranslations('Menu');
   const locale = await getLocale(); // Get current locale
   
   // Parallel fetch (API-shaped)
@@ -28,7 +29,7 @@ export default async function DrinksPage() {
   return (
     <div className="min-h-screen bg-app-background flex flex-col">
       <div className="bg-app-dark-highlight">
-        <Header title={t('title')} showChevron linkTo="/" align="center" size="default" />
+        <Header title={menu('title')} secondaryTitle={t('title')} titleHighlighted={false} showChevron linkTo="/" size="default" />
       </div>
 
       <div className="flex-1 overflow-y-auto">

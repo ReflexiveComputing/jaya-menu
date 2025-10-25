@@ -8,6 +8,7 @@ import { notFound } from 'next/navigation';
 import { Locale, routing } from '@/i18n/routing';
 import { NavbarController } from "@/components/ui/navbar-controller";
 import { WishlistProvider } from "@/components/providers/wishlist-provider";
+import { NavbarProvider } from "@/components/providers/navbar-provider";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -47,12 +48,14 @@ export default async function LocaleLayout({ children, params }: Props) {
     <html lang={locale}>
       <body className={` antialiased bg-app-background`}>
         <NextIntlClientProvider messages={messages} locale={locale}>
-          <WishlistProvider>
-            {children}
-            <NavbarController />
-          </WishlistProvider>
+          <NavbarProvider>
+            <WishlistProvider>
+              {children}
+              <NavbarController />
+            </WishlistProvider>
+          </NavbarProvider>
         </NextIntlClientProvider>
-      </body>
-    </html>
+      </body >
+    </html >
   );
 }

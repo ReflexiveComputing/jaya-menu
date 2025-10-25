@@ -91,23 +91,23 @@ export interface MenuItem {
   shortDescription?: string;
   description?: string;
   restaurantId: number;
-  ingrediants?: Ingrediant[];
-  mainIngrediants?: MenuItemMainIngrediant[];
+  ingredients?: Ingredient[];
+  mainIngredients?: MenuItemMainIngredient[];
 }
 
-export interface MainIngrediantJoin {
+export interface MainIngredientJoin {
   id: number;
   menuItemId: number;
-  ingrediantId: number;
+  ingredientId: number;
   position: number;
-  ingrediant?: Ingrediant;
+  ingredient?: Ingredient;
 }
 
 export interface MenuItemFull extends MenuItem {
   categories?: Category[];
   allergens?: Allergen[];
   images?: Image[];
-  mainIngrediants?: MainIngrediantJoin[];
+  mainIngredients?: MainIngredientJoin[];
   mainImage?: Image | null;
   drinkCategories?: Category[];
 }
@@ -144,7 +144,7 @@ export interface Allergen {
   iconName?: string;
 }
 
-export interface Ingrediant {
+export interface Ingredient {
   id: number;
   name: string;
   description?: string;
@@ -159,13 +159,13 @@ export interface Image {
   sequence?: number;
 }
 
-export interface MenuItemMainIngrediant {
+export interface MenuItemMainIngredient {
   id: number;
   menuItemId: number;
-  ingrediantId: number;
+  ingredientId: number;
   position: number;       // DB enforces 1..3
-  ingrediant?: Ingrediant; // optional nested payload (use Ingrediant here)
+  ingredient?: Ingredient; // optional nested payload (use Ingredient here)
 }
 
-export type MenuItemMainIngrediantWithIngrediant = MenuItemMainIngrediant & { ingrediant: Ingrediant };
-export type MenuItemWithMainIngrediants = MenuItem & { mainIngrediants: MenuItemMainIngrediantWithIngrediant[] };
+export type MenuItemMainIngredientWithIngredient = MenuItemMainIngredient & { ingredient: Ingredient };
+export type MenuItemWithMainIngredients = MenuItem & { mainIngredients: MenuItemMainIngredientWithIngredient[] };

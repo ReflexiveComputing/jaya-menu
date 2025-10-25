@@ -5,7 +5,7 @@ import { cva, type VariantProps } from "class-variance-authority"
 import { cn } from "@/lib/utils"
 
 const buttonVariants = cva(
-  "inline-flex items-center justify-center gap-2 rounded-sm text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive",
+  "inline-flex items-center justify-center gap-2 text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive",
   {
     variants: {
       variant: {
@@ -27,11 +27,11 @@ const buttonVariants = cva(
         grayGhost:
           "bg-gray-100 text-gray-700 hover:bg-gray-200",
         surpriseMe:
-          "uppercase w-full bg-white text-highlight text-4xl font-bold rounded-xs shadow-lg",
+          "uppercase w-full bg-white text-app-background-highlight text-3xl",
         surpriseMeSecondary:
-          "flex capitalize w-full bg-none text-white text-4xl font-bold rounded-xs border-4 border-white shadow-lg",
+          "flex capitalize w-full bg-app-dark-highlight text-white text-3xl",
         wishlist:
-          "bg-app-light-highlight text-app-dark-highlight text-lg font-bold shadow-xs hover:bg-primary/90",
+          "bg-app-light-highlight text-app-dark-highlight text-lg font-semibold ",
       },
       size: {
         default: "py-2 px-8 has-[>svg]:px-3",

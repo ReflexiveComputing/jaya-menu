@@ -4,14 +4,14 @@ import { usePathname } from "next/navigation"
 
 import { BottomNavbar } from "./bottom-navbar"
 import { OptionsModal } from "./options-modal"
-import { JoystickMenuNavbar } from "./joystick-menu-navbar"
+import { JoystickNavigation } from "./joystick-navigation"
+import { useNavbar } from "@/components/providers/navbar-provider"
+
 
 export function NavbarController() {
-      const pathname = usePathname()
-
-  const [selectedNav, setSelectedNav] = React.useState<string>("")
-  const [optionsOpen, setOptionsOpen] = React.useState(false)
-
+  const { selectedNav, setSelectedNav } = useNavbar()
+  const pathname = usePathname()
+  const { optionsOpen, setOptionsOpen } = useNavbar()
   const handleNavClick = (nav: string) => {
     setSelectedNav(nav)
     if (nav === "options") {
@@ -27,13 +27,17 @@ export function NavbarController() {
     /^\/de$/,         // "/de"
     /^\/surprise.*/,  // "/surprise*"
     /^\/de\/surprise.*/,  // "/de/surprise*"
+    /^\/item.*/,            // "/item" and "/item/*"
+    /^\/de\/item.*/,        // "/de/item" and "/de/item/*"
+    /^\/wishlist.*/,        // "/wishlist" and "/wishlist/*"
+    /^\/de\/wishlist.*/,
   ]
 
   const shouldHideNavbar = hideNavbarPatterns.some((pattern) => pattern.test(pathname))
   if (shouldHideNavbar) return null
   return (
     <>
-      <JoystickMenuNavbar selectedNav={selectedNav} onNavClick={handleNavClick} />
+      <JoystickNavigation selectedNav={selectedNav} onNavClick={handleNavClick} />
       <OptionsModal open={optionsOpen} onClose={() => setOptionsOpen(false)} />
     </>
   )

@@ -5,19 +5,21 @@ interface FoodTagsProps {
     tags: string[]
     iconSize?: number
     className?: string
+    color?: string
 }
 
 export function FoodTags({
     tags,
-    iconSize = 22,
+    iconSize = 16,
     className,
+    color,
 }: FoodTagsProps) {
-    if (!tags || tags.length === 0) return (<div style={{ width: "40px", height: "32px" }} />)
+    if (tags.length === 0) tags = ["bean", "pizza", "ham"]
     return (
-        <div className="flex gap-1">
+        <div className="m-auto mt-1 pr-2 flex flex-col gap-2">
             {tags.map((tag, idx) => (
-                <div key={tag + idx} className="w-8 h-8 rounded-full flex items-center justify-center">
-                    <DynamicIcon name={tag as IconName} size={iconSize} color="#000" />
+                <div key={tag + idx} className="  m-auto flex items-center justify-center">
+                    <DynamicIcon name={tag as IconName} size={iconSize} color={color || "#fff"} />
                 </div>
             ))}
         </div>

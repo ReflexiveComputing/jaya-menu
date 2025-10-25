@@ -5,10 +5,11 @@ import { LanguageSwitcher } from "@/components/ui/language-switcher"
 import Image from "next/image"
 import { Link } from '@/i18n/routing';
 import { useTranslations } from 'next-intl';
+import { useNavbar } from "@/components/providers/navbar-provider";
 
 export default function HomePage() {
   const t = useTranslations('HomePage');
-
+  const { setSelectedNav } = useNavbar();
   return (
     <div className="min-h-screen relative overflow-hidden">
       {/* Background Image */}
@@ -52,13 +53,13 @@ export default function HomePage() {
         <div className="px-6 pt-20">
           <div className="w-full max-w-sm mx-auto space-y-4 ">
             <Button variant="surpriseMe" asChild>
-              <Link href="/food" className="w-block">
+              <Link href="/food" className="w-block" onClick={() => setSelectedNav('food')}>
                 {t('helpMeChoose')}
               </Link>
             </Button>
 
             <Button variant="surpriseMeSecondary" asChild>
-              <Link href="/drinks" className="w-block uppercase">
+              <Link href="/drinks" className="w-block uppercase" onClick={() => setSelectedNav('drinks')}>
                 {t('showMenu')}
               </Link>
             </Button>
@@ -66,12 +67,12 @@ export default function HomePage() {
         </div>
 
         {/* Language Switcher */}
-           <div className="w-full pt-30 bottom-0 right-0 flex justify-end p-4">
+        <div className="w-full pt-30 bottom-0 right-0 flex justify-end p-4">
           <LanguageSwitcher />
         </div>
-       
+
       </div>
-    
+
     </div>
   )
 }

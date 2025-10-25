@@ -19,11 +19,12 @@
     "browseOtherCategories": "Browse other categories"
   },
   "Wishlist": {
-    "title": "My Wishlist",
-    "emptyMessage": "Nothing in your wishlist yet.",
-    "emptySubMessage": "Let me help you choose or go through the menu!",
+    "title": "Your Plate",
+    "emptyMessage": "Your plate is empty!",
+    "emptySubMessage": "Lets go back to the menu and add something!",
     "ourRecommendation": "Our Recommendation",
-    "goToMenu": "Go to Menu"
+    "goToMenu": "Go to Menu",
+    "readyToOrder": "Ready to Order"
   },
   "Surprise": {
     "title": "Surprise Me!",

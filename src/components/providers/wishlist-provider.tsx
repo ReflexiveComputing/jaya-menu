@@ -2,18 +2,23 @@
 
 import React, { createContext, useContext, useEffect, useState } from "react"
 import type { MenuItemFull } from "@/types/menu"
-import type { Drink } from "@/types/drink"
+
+type WishlistItem = {
+  count: number
+  menuItem: MenuItemFull
+}
 
 interface WishlistContextValue {
-  favorites: MenuItemFull[]
-  toggle: (item: MenuItemFull) => void
-  isFavorite: (id: string | number) => boolean
+  favorites: WishlistItem[]
+  addMenuItem: (item: MenuItemFull) => void
+  removeMenuItem: (item: MenuItemFull) => void
+  isFavorite: (id: number) => boolean
 }
 
 const WishlistContext = createContext<WishlistContextValue | null>(null)
 
 export function WishlistProvider({ children }: { children: React.ReactNode }) {
-  const [favorites, setFavorites] = useState<MenuItemFull[]>([])
+  const [favorites, setFavorites] = useState<WishlistItem[]>([])
 
   useEffect(() => {
     const stored = localStorage.getItem("wishlist")
@@ -24,17 +29,31 @@ export function WishlistProvider({ children }: { children: React.ReactNode }) {
     localStorage.setItem("wishlist", JSON.stringify(favorites))
   }, [favorites])
 
-  const toggle = (item: MenuItemFull) => {
+  const addMenuItem = (item: MenuItemFull) => {
     setFavorites(favorites =>
-      favorites.some(i => String(i.id) === String(item.id)) ? favorites.filter(i => String(i.id) !== String(item.id)) : [...favorites, item]
+      favorites.some(i => i.menuItem.id === item.id)
+        ? favorites.map(i =>
+            i.menuItem.id === item.id ? { ...i, count: i.count + 1 } : i
+          )
+        : [...favorites, { count: 1, menuItem: item }]
     )
   }
 
-  const isFavorite = (id: string | number) => favorites.some(item => String(item.id) === String(id))
+  const removeMenuItem = (item: MenuItemFull) => {
+    setFavorites(favorites =>
+      favorites.some(i => i.menuItem.id === item.id)
+        ? favorites.map(i =>
+            i.menuItem.id === item.id ? { ...i, count: i.count - 1 } : i
+          ).filter(i => i.count > 0)
+        : favorites
+    )
+  }
+
+  const isFavorite = (id: number) => favorites.some(item => item.menuItem.id === id)
 
 
   return (
-    <WishlistContext.Provider value={{ favorites, toggle, isFavorite }}>
+    <WishlistContext.Provider value={{ favorites, addMenuItem, removeMenuItem, isFavorite }}>
       {children}
     </WishlistContext.Provider>
   )
