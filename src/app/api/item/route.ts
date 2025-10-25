@@ -8,7 +8,10 @@ export async function GET(request: Request) {
     const qp = url.search ? `?${url.searchParams.toString()}` : ''
     const backendUrl = `${BACKEND.replace(/\/$/, '')}/menu-items/full${qp}`
 
-    const res = await fetch(backendUrl, { method: 'GET' })
+     // forward Accept-Language (if present) to backend
+    const acceptLang = request.headers.get('accept-language') || undefined
+
+    const res = await fetch(backendUrl, { method: 'GET', headers: acceptLang? { 'Accept-Language': acceptLang } : {}})
     // Try to parse JSON and forward it; fall back to text if parsing fails
     const contentType = res.headers.get('content-type') || ''
     if (contentType.includes('application/json')) {

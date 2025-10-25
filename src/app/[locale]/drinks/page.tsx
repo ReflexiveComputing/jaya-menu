@@ -3,7 +3,7 @@ import { SectionDivider } from "@/components/ui/section-divider"
 import { FoodCard } from "@/components/ui/food-card/food-card"
 import { fetchDrinkCategoriesFromApi, fetchDrinkCategoryItemsFromApi } from "@/lib/server/drink-fetch-api"
 import type { Drink } from '@/types/drink'
-import {getTranslations} from 'next-intl/server';
+import {getTranslations, getLocale} from 'next-intl/server';
 import { MenuItemFull } from "@/types/menu"
 import { Category } from "@/types/category"
 
@@ -12,6 +12,7 @@ function cap(s: string) { return s.charAt(0).toUpperCase() + s.slice(1) }
 
 export default async function DrinksPage() {
   const t = await getTranslations('Drinks');
+  const locale = await getLocale(); // Get current locale
   
   // Parallel fetch (API-shaped)
   const [categories] = await Promise.all([
@@ -20,7 +21,7 @@ export default async function DrinksPage() {
 
   // Preload all category items (API-shaped)
   const categoryEntries = await Promise.all(
-    categories.map(async c => [c, await fetchDrinkCategoryItemsFromApi(c.name)] as const)
+    categories.map(async c => [c, await fetchDrinkCategoryItemsFromApi(c.name, locale)] as const)
   ) as readonly (readonly [Category, MenuItemFull[]])[];
 
 

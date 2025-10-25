@@ -5,7 +5,7 @@ import type React from "react"
 import { useState, useEffect } from "react"
 import { ChevronLeft, Beef, Flame, Beer, Trash2 } from "lucide-react"
 import { Link } from '@/i18n/routing';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { ImageSlider } from "@/components/ui/image-slider/image-slider"
 import { Button } from "@/components/ui/button"
 import { useParams } from 'next/navigation'
@@ -20,6 +20,7 @@ export default function ItemDetails() {
   const [showFullDescription, setShowFullDescription] = useState(false)
   const t = useTranslations('Common');
   const params = useParams()
+  const locale = useLocale();
 
   // menu item fetched from the API (client-side)
   const [menuItemDetails, setMenuItemDetails] = useState<MenuItemFull | null>(null)
@@ -33,7 +34,11 @@ export default function ItemDetails() {
     async function load() {
       try {
         console.log(`Fetching menu item with id: ${id}`)
-        const res = await fetch(`/api/item?id=${encodeURIComponent(String(id))}`)
+        const res = await fetch(`/api/item?id=${encodeURIComponent(String(id))}`, {
+          headers: {
+            'Accept-Language': locale || 'en',
+          },
+        })
         if (!res.ok) throw new Error(`HTTP ${res.status}`)
         const payload = await res.json()
         // backend shape: { success: true, data: ... }
