@@ -12,10 +12,11 @@ const BACKEND = process.env.BACKEND_REST_URL || process.env.NEXT_PUBLIC_API_URL 
 
 export async function fetchMenuCategoriesFromApi(): Promise<Category[]> {
   // Try fetching categories from the backend API. If anything goes wrong,
-  // fall back to the static categories bundled with the app.
   try {
     const url = `${BACKEND.replace(/\/$/, '')}/categories`;
-    const res = await fetch(url, { cache: 'no-store' });
+    const res = await fetch(url, {
+      next: { revalidate: 1800 } // 30 minutes cache
+    });
     if (!res.ok) {
       console.error('fetchMenuCategoriesFromApi: network response not ok', res.status, res.statusText);
       return [];
@@ -39,7 +40,7 @@ export async function fetchMenuCategoryItemsFromApi(categoryName: string, locale
   try {
     const url = `${BACKEND.replace(/\/$/, '')}/menu-items/full/category/${encodeURIComponent(categoryName)}`;
     const res = await fetch(url, { 
-      cache: 'no-store',
+      next: { revalidate: 1800 }, // 30 minutes cache (cached separately per locale)
       headers: {
         'Accept-Language': locale || 'en',
       },
@@ -63,10 +64,13 @@ export async function fetchMenuCategoryItemsFromApi(categoryName: string, locale
   }
 }
 
+// this one is unused but might be useful later
 export async function fetchFullMenuItemById(id: number): Promise<MenuItemFull | null> {
   try {
     const url = `${BACKEND.replace(/\/$/, '')}/menu-items/full?id=${encodeURIComponent(String(id))}`;
-    const res = await fetch(url, { cache: 'no-store' });
+    const res = await fetch(url, {
+      next: { revalidate: 1800 }, // 30 minutes cache
+    });
     if (!res.ok) {
       console.error('fetchFullMenuItemById: network response not ok', res.status, res.statusText);
       return null;
