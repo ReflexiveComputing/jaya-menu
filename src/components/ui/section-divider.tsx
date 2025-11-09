@@ -11,7 +11,7 @@ interface SectionDividerProps {
 export const SectionDivider: React.FC<SectionDividerProps> = ({ href, title }) => {
   const content = (
     <>
-      <h2 className="m-auto uppercase text-lg text-app-light-highlight font-bold font-header">{title}</h2>
+      <h2 className="m-auto uppercase text-lg text-app-light-highlight font-bold font-fajala">{title}</h2>
     </>
   );
 
