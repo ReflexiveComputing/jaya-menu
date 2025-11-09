@@ -88,7 +88,7 @@ export function ComboCard({ image, title, subtitle, tag, href, className, items 
             </div>
             {/* Text at the bottom, above overlay */}
             <div className="absolute bottom-0 left-0 right-0 flex flex-col items-center w-full text-white z-20 pb-6">
-                <h3 className="text-3xl uppercase text-center font-semibold drop-shadow-md font-fajala">{title}</h3>
+                <h3 className="text-3xl uppercase text-center font-semibold drop-shadow-md font-fjala">{title}</h3>
                 {subtitle && <p className="text-lg opacity-90 mt-1 drop-shadow-sm">{subtitle}</p>}
             </div>
         </div>

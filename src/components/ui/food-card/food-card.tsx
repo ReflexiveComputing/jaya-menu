@@ -54,7 +54,7 @@ export function FoodCard({
           <div className="flex w-full flex-col ">
             <Link href={`/item/${item.id}`}>
               <div className="m-auto flex justify-between w-full">
-                <h3 className="m-auto font-fajala uppercase w-full text-app-light-highlight text-left font-semibold">{item.name}</h3>
+                <h3 className="m-auto font-fjala uppercase w-full text-app-light-highlight text-left font-semibold">{item.name}</h3>
                 {/* <p className="m-auto w-1/4 text-right font-semibold">{item.price}€</p> */}
               </div>
             </Link>
