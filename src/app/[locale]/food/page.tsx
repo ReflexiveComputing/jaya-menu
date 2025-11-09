@@ -27,38 +27,44 @@ export default async function MenuPage() {
   const categoryEntries = await Promise.all(
     categories.map(async c => [c, await fetchMenuCategoryItemsFromApi(c.name, locale)] as const)
   ) as readonly (readonly [Category, MenuItemFull[]])[];
+  const colors = ["#FEBD3A", "#E64342", "#E4C4AE"]
 
-
+  // Only keep categories that will actually render (have items)
+  const visibleEntries = categoryEntries.filter(([, items]) => items.length > 0)
+  
   return (
     <div className="min-h-screen flex flex-col">
       <div className="">
         <Header title={t('title')} secondaryTitle={drinks("title")} showChevron linkTo="/" size="default" />
       </div>
-
+ 
       <div className="flex-1 overflow-y-auto">
-
-
-        {categoryEntries.map(([category, items]) => {
-          if (!items.length) return null
-          // Use filename directly for URLs and keys
-          return (
-            <div key={category.name} className="py-6">
-              <SectionDivider
-                
-                title={cap(category.displayName?? category.name)}
-              />
-              <div className="overflow-x-auto px-4 scrollbar-hide">
-                <div className="flex gap-4 pb-2">
-                  {items.map(item => (
-                    <FoodCard
-                      key={item.id}
-                      item={item}
-                    />
-                  ))}
-                </div>
-              </div>
-            </div>
-          )
+ 
+ 
+        {visibleEntries.map(([category, items], index) => {
+          // index here counts only rendered categories, so colors cycle correctly
+          const color = colors[index % colors.length];
+          console.log('Rendering category:', category.name, 'with color:', color);
+           return (
+             <div key={category.name} className="py-6">
+               <SectionDivider
+                 
+                 title={cap(category.displayName?? category.name)}
+                 color={color}
+               />
+               <div className="overflow-x-auto px-4 scrollbar-hide">
+                 <div className="flex gap-4 pb-2">
+                   {items.map(item => (
+                     <FoodCard
+                       key={item.id}
+                       item={item}
+                       color={color}
+                     />
+                   ))}
+                 </div>
+               </div>
+             </div>
+           )
         })}
       </div>
     </div>

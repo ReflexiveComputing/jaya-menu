@@ -8,10 +8,12 @@ import { AddItem } from './add-item';
 interface FoodCardProps {
   item: MenuItemFull
   // Remove legacy props - client heart handles its own state
+   color: string,
 }
 
 export function FoodCard({
   item,
+  color,
 }: FoodCardProps) {
   // derive badge from first tag object when available
 
@@ -49,12 +51,12 @@ export function FoodCard({
         <PriceBox price={item.price || 0} />
       </div>
       <div className='flex w-full pt-2 px-2 m-auto'>
-        <FoodTags tags={item.mainIngredients?.flatMap(mainIngredient => mainIngredient.ingredient?.iconName ?? "") ?? []} />
+        <FoodTags color={color} tags={item.mainIngredients?.flatMap(mainIngredient => mainIngredient.ingredient?.iconName ?? "") ?? []} />
         <div className="flex flex-col justify-start relative w-full min-h-20">
           <div className="flex w-full flex-col ">
             <Link href={`/item/${item.id}`}>
               <div className="m-auto flex justify-between w-full">
-                <h3 className="m-auto font-fjala uppercase w-full text-app-light-highlight text-left font-semibold">{item.name}</h3>
+                <h3 style={{ color }} className="m-auto font-fjala uppercase w-full text-left font-semibold">{item.name}</h3>
                 {/* <p className="m-auto w-1/4 text-right font-semibold">{item.price}€</p> */}
               </div>
             </Link>
