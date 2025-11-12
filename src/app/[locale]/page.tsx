@@ -43,9 +43,9 @@ export default function HomePage() {
 
           {/* Headline */}
           <div className="text-center uppercase ">
-            <h1 className="text-6xl font-black text-white mb-2 tracking-tight drop-shadow-lg font-header">{t('title')}</h1>
-            <h1 className="text-5xl font-black text-white mb-2 tracking-tight drop-shadow-lg font-header">{t('subtitle')}</h1>
-            <h1 className="text-4xl font-black text-white tracking-tight drop-shadow-lg font-header">{t('subtitle2')}</h1>
+            <h1 className="text-6xl font-black text-white mb-2 tracking-tight drop-shadow-lg font-fjala">{t('title')}</h1>
+            <h1 className="text-5xl font-black text-white mb-2 tracking-tight drop-shadow-lg font-fjala">{t('subtitle')}</h1>
+            <h1 className="text-4xl font-black text-white tracking-tight drop-shadow-lg font-fjala">{t('subtitle2')}</h1>
           </div>
         </div>
 
@@ -53,13 +53,13 @@ export default function HomePage() {
         <div className="px-6 pt-20">
           <div className="w-full max-w-sm mx-auto space-y-4 ">
             <Button variant="surpriseMe" asChild>
-              <Link href="/food" className="w-block" onClick={() => setSelectedNav('food')}>
+              <Link href="/food" className="w-block font-fjala" onClick={() => setSelectedNav('food')}>
                 {t('helpMeChoose')}
               </Link>
             </Button>
 
             <Button variant="surpriseMeSecondary" asChild>
-              <Link href="/drinks" className="w-block uppercase" onClick={() => setSelectedNav('drinks')}>
+              <Link href="/drinks" className="w-block uppercase font-fjala" onClick={() => setSelectedNav('drinks')}>
                 {t('showMenu')}
               </Link>
             </Button>

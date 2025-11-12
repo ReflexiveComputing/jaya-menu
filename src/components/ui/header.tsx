@@ -59,12 +59,12 @@ export function Header({
           </Link>
         )}
         <div className="m-auto w-5/6 flex">
-            <h1 className={`w-1/2 text-2xl font-bold font-header text-left ${titleHighlighted ? 'text-gray-50' : 'text-gray-950'}`}>
+            <h1 className={`w-1/2 text-2xl font-bold font-fjala text-left ${titleHighlighted ? 'text-gray-50' : 'text-gray-950'}`}>
             {title}
            
           </h1>
           {secondaryTitle && (
-            <h1 className={`w-1/2 text-2xl pl-2 font-bold font-header text-right ${titleHighlighted ? 'text-gray-950' : 'text-gray-50'}`}>
+            <h1 className={`w-1/2 text-2xl pl-2 font-bold font-fjala text-right ${titleHighlighted ? 'text-gray-950' : 'text-gray-50'}`}>
               {secondaryTitle}
             </h1>
           )}  
