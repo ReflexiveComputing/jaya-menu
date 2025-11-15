@@ -26,7 +26,7 @@ function AllergenButtons({
             {/* First row: Single "All are welcome!" button */}
             {/* <div className="">
                 <Button
-                    className={`text-lg font-semibold h-16 w-full text-center text-wrap`}
+                    className={`text-lg font-medium h-16 w-full text-center text-wrap`}
                     size="mid"
                     variant={"surpriseMeSecondary"}
                     onClick={() => handleAnswerSelect(answers[0])}
@@ -38,7 +38,7 @@ function AllergenButtons({
             <div className="grid grid-cols-2 gap-3">
                 {answers.slice(0,1).map((answer, idx) => (
                     <Button
-                        className={`text-lg font-semibold h-16 text-center text-wrap ${selectedAllergens.includes(answer)
+                        className={`text-lg font-medium h-16 text-center text-wrap ${selectedAllergens.includes(answer)
                                 ? 'bg-white text-gray-900 border-2 border-white'
                                 : ''
                             }`}
@@ -53,7 +53,7 @@ function AllergenButtons({
                 
                 {answers.slice(1).map((answer, idx) => (
                     <Button
-                        className={`text-lg font-semibold h-16 text-center text-wrap ${selectedAllergens.includes(answer)
+                        className={`text-lg font-medium h-16 text-center text-wrap ${selectedAllergens.includes(answer)
                                 ? 'bg-white text-gray-900 border-2 border-white'
                                 : ''
                             }`}
@@ -69,7 +69,7 @@ function AllergenButtons({
             {/* Confirm button at bottom, only if at least one allergen is selected */}
             {selectedAllergens.length > 0 && (
                 <Button
-                    className="text-lg font-semibold h-16 bg-white text-gray-900 hover:bg-gray-100 border-2 border-white"
+                    className="text-lg font-medium h-16 bg-white text-gray-900 hover:bg-gray-100 border-2 border-white"
                     size="mid"
                     variant="default"
                     onClick={() => handleAnswerSelect("")}
@@ -87,7 +87,7 @@ function QuestionButtons({ answers, handleAnswerSelect }: { answers: string[]; h
         <>
             {answers.map((answer, idx) => (
                 <Button
-                    className="text-lg font-semibold h-16 text-center text-wrap"
+                    className="text-lg font-medium h-16 text-center text-wrap"
                     size="mid"
                     variant="surpriseMeSecondary"
                     key={idx}

@@ -97,7 +97,7 @@ export default function FeedbackPage() {
                 name="rating"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel className="text-lg font-semibold">
+                    <FormLabel className="text-lg font-medium">
                       {t('ratingQuestion')}
                     </FormLabel>
                     <FormControl>

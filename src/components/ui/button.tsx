@@ -16,7 +16,7 @@ const buttonVariants = cva(
         outline:
           "border bg-none shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50",
         secondary:
-          "w-full bg-white text-gray-900 text-lg font-semibold rounded-full border-2 border-gray-900",
+          "w-full bg-white text-gray-900 text-lg font-medium rounded-full border-2 border-gray-900",
         ghost:
           "hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50",
         link: "text-primary underline-offset-4 hover:underline",
@@ -31,7 +31,7 @@ const buttonVariants = cva(
         surpriseMeSecondary:
           "flex capitalize w-full bg-app-dark-highlight text-white text-3xl",
         wishlist:
-          "bg-app-light-highlight text-app-dark-highlight text-lg font-semibold ",
+          "bg-app-light-highlight text-app-dark-highlight text-lg font-medium ",
       },
       size: {
         default: "py-2 px-8 has-[>svg]:px-3",

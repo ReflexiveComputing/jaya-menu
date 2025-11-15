@@ -63,7 +63,7 @@ export function LanguageSwitcher() {
       </PopoverTrigger>
       <PopoverContent className="w-48 p-0">
         <div className="p-1">
-          <div className="px-2 py-1.5 text-sm font-semibold text-gray-900 border-b border-gray-100">
+          <div className="px-2 py-1.5 text-sm font-medium text-gray-900 border-b border-gray-100">
             {t('switchLanguage')}
           </div>
           {languages.map((language) => (

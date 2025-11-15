@@ -126,7 +126,7 @@ export default function ItemDetails() {
 
             <div className="text-2xl font-[family-name:var(--font-fjalla-one)] font-bold  flex flex-row justify-end">
               <p>
-                <span className="text-app-light-highlight font-semibold mr-2">€</span>
+                <span className="text-app-light-highlight font-medium mr-2">€</span>
                 <span className="font-[family-name:var(--font-fjalla-one)] font-bold text-2xl text-gray-50">{priceMain}</span>
                 <span className="text-sm ml-1 text-gray-200">.{priceDec}</span>
               </p>
