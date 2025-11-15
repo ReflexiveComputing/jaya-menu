@@ -1,11 +1,11 @@
 import * as React from "react";
 import { Icon } from '@iconify-icon/react';
-import { Allergen } from "@/types/menu";
+import { Allergen, Ingredient } from "@/types/menu";
 
 
 
 type MenuItemAllergensProps = {
-  allergens: Allergen[]; // each item supplies its own icon + name
+  allergens: Ingredient[]; // each item supplies its own icon + name
   iconSize?: number;
   className?: string;
   color?: string;

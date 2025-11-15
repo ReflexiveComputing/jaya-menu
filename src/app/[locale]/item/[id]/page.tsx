@@ -10,7 +10,7 @@ import { ImageSlider } from "@/components/ui/image-slider/image-slider"
 import { Button } from "@/components/ui/button"
 import { useParams } from 'next/navigation'
 import { useWishlist } from '@/components/providers/wishlist-provider'
-import { MenuItemFull } from "@/types/menu";
+import { Ingredient, MenuItemFull } from "@/types/menu";
 import { ImageSliderHeartComponent } from "@/components/ui/image-slider/slider-heart-component";
 import NepaliSunIcon from "@/components/ui/icons/svg/nepali-sun";
 import VerticalDashedLines from "@/components/ui/vertical-dashed-lines";
@@ -106,7 +106,7 @@ export default function ItemDetails() {
             <div className="m-auto px-2 ">
               <NepaliSunIcon size={24} backgroundColor="#febd3a" />
             </div>
-            <h1 className="m-auto w-full text-2xl uppercase font-[family-name:var(--font-fjalla-one)] text-app-light-highlight font-bold mb-2">{menuItemDetails.name}</h1>
+            <h1 className="m-auto w-full text-2xl uppercase font-[family-name:var(--font-fjalla-one)] text-app-light-highlight font-medium mb-2">{menuItemDetails.name}</h1>
           </div>
 
 
@@ -124,16 +124,16 @@ export default function ItemDetails() {
 
           <div className="mx-auto w-1/3 flex flex-col items-end">
 
-            <div className="text-2xl font-[family-name:var(--font-fjalla-one)] font-bold  flex flex-row justify-end">
+            <div className="text-2xl font-[family-name:var(--font-fjalla-one)] font-medium  flex flex-row justify-end">
               <p>
                 <span className="text-app-light-highlight font-medium mr-2">€</span>
-                <span className="font-[family-name:var(--font-fjalla-one)] font-bold text-2xl text-gray-50">{priceMain}</span>
+                <span className="font-[family-name:var(--font-fjalla-one)] font-medium text-2xl text-gray-50">{priceMain}</span>
                 <span className="text-sm ml-1 text-gray-200">.{priceDec}</span>
               </p>
 
             </div>
             <div className="mt-4 ">
-              <MenuItemAllergens iconSize={24} allergens={menuItemDetails.allergens || []} className="text-app-light-highlight w-1/3 pr-1 m-auto" />
+              <MenuItemAllergens iconSize={24} allergens={menuItemDetails.mainIngredients?.flatMap(mainIngredient => mainIngredient.ingredient).filter((ing): ing is Ingredient => ing !== undefined) || []} className="text-app-light-highlight w-1/3 pr-1 m-auto" />
             </div>
           </div>
 
@@ -141,7 +141,7 @@ export default function ItemDetails() {
 
         {/* Found in these combos */}
         {/* <div className="mb-8">
-          <h3 className="text-xl font-bold mb-4">Goes Well Wtih</h3>
+          <h3 className="text-xl font-medium mb-4">Goes Well Wtih</h3>
           <div className="w-16 h-1 bg-black mb-6"></div>
 
           {itemDetails.combos.map((combo) => (
