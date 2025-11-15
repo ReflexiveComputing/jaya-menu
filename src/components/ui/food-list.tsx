@@ -27,18 +27,7 @@ export default function FoodListItem({ favorite }: { favorite: WishlistItem }) {
                                 <Icon key={mi.ingredient?.id} className="text-app-light-highlight w-3 h-3" icon={mi.ingredient?.iconName || "mdi:information-outline"} />
 
                             )}
-                            <Icon className="text-app-light-highlight w-3 h-3"
-                                icon={"mdi:information-outline"}
-
-                            />
-                            <Icon className="text-app-light-highlight w-3 h-3"
-                                icon={"mdi:information-outline"}
-
-                            />
-                            <Icon className="text-app-light-highlight w-3 h-3"
-                                icon={"mdi:information-outline"}
-
-                            />
+                           
                         </div>
 
                     </div>
