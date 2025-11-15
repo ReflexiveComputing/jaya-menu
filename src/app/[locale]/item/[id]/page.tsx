@@ -106,7 +106,7 @@ export default function ItemDetails() {
             <div className="m-auto px-2 ">
               <NepaliSunIcon size={24} backgroundColor="#febd3a" />
             </div>
-            <h1 className="m-auto w-full text-2xl uppercase font-fjala text-app-light-highlight font-bold mb-2">{menuItemDetails.name}</h1>
+            <h1 className="m-auto w-full text-2xl uppercase font-[family-name:var(--font-fjalla-one)] text-app-light-highlight font-bold mb-2">{menuItemDetails.name}</h1>
           </div>
 
 
@@ -124,10 +124,10 @@ export default function ItemDetails() {
 
           <div className="mx-auto w-1/3 flex flex-col items-end">
 
-            <div className="text-2xl font-fjala font-bold  flex flex-row justify-end">
+            <div className="text-2xl font-[family-name:var(--font-fjalla-one)] font-bold  flex flex-row justify-end">
               <p>
                 <span className="text-app-light-highlight font-semibold mr-2">€</span>
-                <span className="font-fjala font-bold text-2xl text-gray-50">{priceMain}</span>
+                <span className="font-[family-name:var(--font-fjalla-one)] font-bold text-2xl text-gray-50">{priceMain}</span>
                 <span className="text-sm ml-1 text-gray-200">.{priceDec}</span>
               </p>
 

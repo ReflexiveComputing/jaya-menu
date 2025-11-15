@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next"
-import { Geist, Geist_Mono } from "next/font/google";
+import { Fjalla_One } from "next/font/google";
 import React from "react";
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
@@ -11,15 +11,12 @@ import { WishlistProvider } from "@/components/providers/wishlist-provider";
 import { NavbarProvider } from "@/components/providers/navbar-provider";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const fjallaOne = Fjalla_One({
+  variable: "--font-fjalla-one",
   subsets: ["latin"],
+  weight: "400"
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "Flavar MVP",
@@ -46,7 +43,7 @@ export default async function LocaleLayout({ children, params }: Props) {
 
   return (
     <html lang={locale}>
-      <body className={` antialiased bg-app-background`}>
+      <body className={`${fjallaOne.variable} antialiased bg-app-background`}>
         <NextIntlClientProvider messages={messages} locale={locale}>
           <NavbarProvider>
             <WishlistProvider>
