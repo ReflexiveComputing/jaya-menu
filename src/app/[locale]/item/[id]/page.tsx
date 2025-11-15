@@ -103,10 +103,18 @@ export default function ItemDetails() {
         {/* Header */}
         <div className="pb-2 text-gray-50">
           <div className="m-auto w-full flex flex-row flex-start">
-            <div className="m-auto px-2 ">
+            <div className="m-auto px-1 ">
               <NepaliSunIcon size={24} backgroundColor="#febd3a" />
             </div>
-            <h1 className="m-auto w-full text-2xl uppercase font-[family-name:var(--font-fjalla-one)] text-app-light-highlight font-medium mb-2">{menuItemDetails.name}</h1>
+            <h1 className="m-auto px-1 w-full text-2xl uppercase font-[family-name:var(--font-fjalla-one)] text-app-light-highlight font-medium mb-2">{menuItemDetails.name}</h1>
+             <div className="text-2xl font-[family-name:var(--font-fjalla-one)] font-medium  flex flex-row justify-end">
+              <p>
+                <span className="text-app-light-highlight font-medium mr-2">€</span>
+                <span className="font-[family-name:var(--font-fjalla-one)] font-medium text-2xl text-gray-50">{priceMain}</span>
+                <span className="text-sm ml-1 text-gray-200">.{priceDec}</span>
+              </p>
+
+            </div>
           </div>
 
 
@@ -118,20 +126,13 @@ export default function ItemDetails() {
         {/* Description */}
         <div className="flex w-full mb-6 h-max">
           <VerticalDashedLines className="mx-4 min-h-full" color="#febd3a" dashHeight={4} gap={3} width={2} />
-          <p className="text-gray-50 leading-relaxed w-2/3 pb-4 text-right">
+          <p className="text-gray-50 leading-relaxed w-2/3 pb-4 text-left">
             {menuItemDetails.description}
           </p>
 
           <div className="mx-auto w-1/3 flex flex-col items-end">
 
-            <div className="text-2xl font-[family-name:var(--font-fjalla-one)] font-medium  flex flex-row justify-end">
-              <p>
-                <span className="text-app-light-highlight font-medium mr-2">€</span>
-                <span className="font-[family-name:var(--font-fjalla-one)] font-medium text-2xl text-gray-50">{priceMain}</span>
-                <span className="text-sm ml-1 text-gray-200">.{priceDec}</span>
-              </p>
-
-            </div>
+           
             <div className="mt-4 ">
               <MenuItemAllergens iconSize={24} allergens={menuItemDetails.mainIngredients?.flatMap(mainIngredient => mainIngredient.ingredient).filter((ing): ing is Ingredient => ing !== undefined) || []} className="text-app-light-highlight w-1/3 pr-1 m-auto" />
             </div>
