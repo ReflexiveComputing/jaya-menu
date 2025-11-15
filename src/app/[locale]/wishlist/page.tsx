@@ -21,7 +21,7 @@ export default function Wishlist() {
     favorites.length > 0 ? (
       <div className="min-h-screen bg-app-background flex flex-col">
         <div className="bg-app-dark-highlight">
-          <Header title={t('title')} showChevron />
+          <Header title={t('title')} showChevron className="uppercase" />
         </div>
 
         <div className="flex-1 flex flex-col px-6 mb-6 min-h-0">       {/* container can shrink */}
