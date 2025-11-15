@@ -35,13 +35,9 @@ export default function Wishlist() {
             <Button asChild variant="wishlist" size={"mid"} className="w-3/4 m-auto">
               <Link href="/wishlist/ready-to-order">{t('readyToOrder')}</Link>
             </Button>
-            <button
-              type="button"
-              aria-label="Decrease quantity"
-              className="w-1/4 max-w-12 h-full bg-app-dark-highlight flex items-center justify-center"
-            >
+            <Link href="/food" className="w-1/4 max-w-12 h-full bg-app-dark-highlight flex items-center justify-center">
               <X className="w-12 h-12 m-auto text-app-light-highlight" />
-            </button>
+            </Link>
           </div>
         </div>
       </div>
