@@ -12,7 +12,7 @@ interface SectionDividerProps {
 export const SectionDivider: React.FC<SectionDividerProps> = ({ href, title, color="#FEBD3A",}) => {
   const content = (
     <>
-      <h2 style={{ color }} className={`m-auto uppercase text-lg font-bold font-[family-name:var(--font-fjalla-one)]`}>{title}</h2>
+      <h2 style={{ color }} className={`m-auto uppercase text-lg font-medium font-[family-name:var(--font-fjalla-one)]`}>{title}</h2>
     </>
   );
 

@@ -43,9 +43,9 @@ export default function HomePage() {
 
           {/* Headline */}
           <div className="text-center uppercase ">
-            <h1 className="text-6xl font-semibold text-white mb-2 tracking-tight drop-shadow-lg font-[family-name:var(--font-fjalla-one)]">{t('title')}</h1>
-            <h1 className="text-5xl font-semibold text-white mb-2 tracking-tight drop-shadow-lg font-[family-name:var(--font-fjalla-one)]">{t('subtitle')}</h1>
-            <h1 className="text-4xl font-semibold text-white tracking-tight drop-shadow-lg font-[family-name:var(--font-fjalla-one)]">{t('subtitle2')}</h1>
+            <h1 className="text-6xl font-medium text-white mb-2 tracking-tight drop-shadow-lg font-[family-name:var(--font-fjalla-one)]">{t('title')}</h1>
+            <h1 className="text-5xl font-medium text-white mb-2 tracking-tight drop-shadow-lg font-[family-name:var(--font-fjalla-one)]">{t('subtitle')}</h1>
+            <h1 className="text-4xl font-medium text-white tracking-tight drop-shadow-lg font-[family-name:var(--font-fjalla-one)]">{t('subtitle2')}</h1>
           </div>
         </div>
 
@@ -57,7 +57,7 @@ export default function HomePage() {
                 {t('helpMeChoose')}
               </Link>
             </Button>
-
+            
             <Button variant="surpriseMeSecondary" asChild>
               <Link href="/drinks" className="w-block uppercase font-[family-name:var(--font-fjalla-one)]" onClick={() => setSelectedNav('drinks')}>
                 {t('showMenu')}
