@@ -39,20 +39,19 @@ export function FoodCard({
         </div>
         <PriceBox price={item.price || 0} />
       </div>
-      <div className='flex w-full pt-2 px-2 m-auto'>
+      <div className='flex w-full pt-2 px-2'>
         <FoodTags color={color} tags={item.mainIngredients?.flatMap(mainIngredient => mainIngredient.ingredient?.iconName ?? "") ?? []} />
         <div className="flex flex-col justify-start relative px-2 w-full min-h-20">
           <div className="flex w-full flex-col ">
             <Link href={`/item/${item.id}`}>
               <div className="m-auto flex justify-between w-full">
-                <h3 style={{ color }} className="m-auto font-[family-name:var(--font-fjalla-one)] uppercase w-full text-left font-medium">{item.name}</h3>
-                {/* <p className="m-auto w-1/4 text-right font-medium">{item.price}€</p> */}
+                <h3 style={{ color }} className="m-auto font-[family-name:var(--font-fjalla-one)] uppercase w-full text-left font-medium leading-tight">{item.name}</h3>
               </div>
             </Link>
 
           </div>
           <div className="flex pt-1 w-full justify-between relative">
-            <div className="w-full text-sm text-gray-50 text-justify leading-tight">
+            <div className="w-full text-sm text-gray-50 leading-tight">
               <p>{previewDescription}</p>
             </div>
 
