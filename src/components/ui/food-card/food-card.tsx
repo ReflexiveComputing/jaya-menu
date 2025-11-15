@@ -15,17 +15,6 @@ export function FoodCard({
   item,
   color,
 }: FoodCardProps) {
-  // derive badge from first tag object when available
-
-
-  const badge: string | undefined = undefined;
-  const badgeColor: 'gold' | 'green' | 'purple' | 'default' | null | undefined = 'default';
-
-
-  // likes: prefer existing value if present, otherwise random 1-50 for demo
-  const likes = Math.floor(Math.random() * 50) + 1
-
-  // price formatting for split styling (stable, avoids hydration mismatch)
 
   const previewDescription = item.shortDescription?.trim() || (() => {
     const words = item.description?.trim().split(/\s+/) ?? [];
