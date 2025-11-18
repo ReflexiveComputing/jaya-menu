@@ -44,9 +44,8 @@ export default async function MenuPage() {
         {visibleEntries.map(([category, items], index) => {
           // index here counts only rendered categories, so colors cycle correctly
           const color = colors[index % colors.length];
-          console.log('Rendering category:', category.name, 'with color:', color);
            return (
-             <div key={category.name} className="py-6">
+             <div id={category.name} key={category.name} className="py-6">
                <SectionDivider
                  
                  title={cap(category.displayName?? category.name)}

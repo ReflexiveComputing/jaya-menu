@@ -3,19 +3,15 @@
 import type React from "react"
 
 import { useState, useEffect } from "react"
-import { ChevronLeft, Beef, Flame, Beer, Trash2, ArrowLeft } from "lucide-react"
-import { Link } from '@/i18n/routing';
 import { useTranslations, useLocale } from 'next-intl';
 import { ImageSlider } from "@/components/ui/image-slider/image-slider"
-import { Button } from "@/components/ui/button"
-import { useParams } from 'next/navigation'
-import { useWishlist } from '@/components/providers/wishlist-provider'
+import { useParams, useRouter, useSearchParams } from 'next/navigation'
 import { Ingredient, MenuItemFull } from "@/types/menu";
-import { ImageSliderHeartComponent } from "@/components/ui/image-slider/slider-heart-component";
 import NepaliSunIcon from "@/components/ui/icons/svg/nepali-sun";
 import VerticalDashedLines from "@/components/ui/vertical-dashed-lines";
 import MenuItemAllergens from "@/components/ui/menu-item-allergens";
 import { JoystickMenuNavbar } from "@/components/ui/joystick-menu-navbar";
+import { NavigateBack } from "@/components/ui/navigate-back";
 
 
 export default function ItemDetails() {
@@ -27,6 +23,7 @@ export default function ItemDetails() {
 
   // menu item fetched from the API (client-side)
   const [menuItemDetails, setMenuItemDetails] = useState<MenuItemFull | null>(null)
+  const router = useRouter()
 
   useEffect(() => {
     const id = params?.id
@@ -79,9 +76,7 @@ export default function ItemDetails() {
   return (
     <div className="min-h-screen bg-app-background flex flex-col">
       {/* Back Button */}
-      <Link href="/food" className="absolute top-4 left-4 z-20  backdrop-blur-sm rounded-full p-2">
-        <ArrowLeft className="w-6 h-6  text-app-dark-highlight " />
-      </Link>
+      <NavigateBack />
       {/* Image Carousel */}
       <div className="relative h-96 ">
 

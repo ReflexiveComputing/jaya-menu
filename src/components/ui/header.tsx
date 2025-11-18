@@ -3,6 +3,7 @@ import Link from "next/link"
 import { cva, type VariantProps } from "class-variance-authority"
 import { cn } from "@/lib/utils"
 import { ArrowLeft, EllipsisVertical } from "lucide-react"
+import { NavigateBack } from "./navigate-back"
 
 const headerVariants = cva(
   "border-b border-app-dark-highlight z-10 transition-transform duration-300",
@@ -58,9 +59,7 @@ export function Header({
     >
       <div className="flex items-center">
         {showChevron && (
-          <Link href={linkTo} className="absolute mr-4">
-            <ArrowLeft className="w-6 h-6 text-gray-50" />
-          </Link>
+         <NavigateBack className="absolute mr-4 text-white" />
         )}
         <div className="m-auto w-5/6 flex">
         <Link href={titleLink??"#"} className="w-1/2">
