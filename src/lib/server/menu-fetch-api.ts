@@ -15,7 +15,7 @@ export async function fetchMenuCategoriesFromApi(): Promise<Category[]> {
   try {
     const url = `${BACKEND.replace(/\/$/, '')}/categories`;
     const res = await fetch(url, {
-      next: { revalidate: 1800 } // 30 minutes cache
+      next: { revalidate: 60 } // 2 minutes cache
     });
     if (!res.ok) {
       console.error('fetchMenuCategoriesFromApi: network response not ok', res.status, res.statusText);
