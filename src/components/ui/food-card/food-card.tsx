@@ -24,7 +24,7 @@ export function FoodCard({
 
   return (
 
-    <div className="flex flex-col flex-shrink-0 w-40 bg-app-dark-highlight rounded-xs shadow-sm overflow-hidden">
+    <div className="relative flex flex-col flex-shrink-0 w-40 bg-app-dark-highlight rounded-xs shadow-sm overflow-hidden">
       <div className="relative">
         <div className={`m-auto h-52 rounded-t-sm overflow-hidden relative`}>
           <Link href={`/item/${item.id}`} className="block">
@@ -60,7 +60,8 @@ export function FoodCard({
 
         </div>
       </div>
-      <div className='w-full m-auto bottom-0 text-right'>
+      <div className='w-6 h-6'></div>
+      <div className='absolute w-full m-auto bottom-0 text-right'>
         <AddItem item={item} />
       </div>
 
