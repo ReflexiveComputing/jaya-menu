@@ -50,12 +50,12 @@ export default function HomePage() {
 
           {/* Headline */}
           <div className=" flex flex-col text-center uppercase font-[family-name:var(--font-fjalla-one)] ">
-            <h1 className="text-2xl font-medium text-white mb-2 tracking-tight drop-shadow-lg ">{t('subtitle')}</h1>
+            <h1 className="text-2xl font-medium text-white tracking-tight drop-shadow-lg ">{t('subtitle')}</h1>
           </div>
         </div>
 
         {/* Action Buttons - Positioned at bottom */}
-        <div className="px-6 pt-20">
+        <div className="px-6 pt-10">
           <div className="w-2/3 max-w-sm mx-auto space-y-4 ">
             <Button variant="surpriseMe" asChild>
               <Link href="/food" className="w-block font-[family-name:var(--font-fjalla-one)]" onClick={() => setSelectedNav('food')}>
@@ -72,7 +72,7 @@ export default function HomePage() {
         </div>
 
         {/* Language Switcher */}
-        <div className="w-full pt-30 bottom-0 right-0 flex justify-end p-4">
+        <div className="w-full pt-10 bottom-0 right-0 flex justify-end p-4">
           <LanguageSwitcher />
         </div>
 
