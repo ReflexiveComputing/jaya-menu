@@ -13,7 +13,10 @@ import {
 
 const languages = [
   { code: 'en', name: 'english', flag: '🇺🇸' },
-  { code: 'de', name: 'german', flag: '🇩🇪' }
+  { code: 'de', name: 'german', flag: '🇩🇪' },
+  { code: 'es', name: 'spanish', flag: '🇪🇸' },
+  { code: 'fr', name: 'french', flag: '🇫🇷' },
+  { code: 'hi', name: 'hindi', flag: '🇮🇳' }
 ]
 
 const LOCALE_COOKIE = 'NEXT_LOCALE'

@@ -6,13 +6,13 @@
     "showMenu": "Drinks"
   },
   "Menu": {
-    "title": "Food Menu",
+    "title": "Food",
     "popularThisMonth": "Popular This Month",
     "noItemsInCategory": "No items in this category yet.",
     "browseOtherCategories": "Browse other categories"
   },
   "Drinks": {
-    "title": "Drinks Menu",
+    "title": "Drinks",
     "popularThisMonth": "Popular This Month",
     "noItemsInCategory": "No drinks in this category yet.",
     "browseOtherCategories": "Browse other categories"
@@ -99,6 +99,9 @@
   "LanguageSwitcher": {
     "switchLanguage": "Switch Language",
     "english": "English",
-    "german": "German"
+    "german": "German",
+    "spanish": "Spanish",
+    "french": "French",
+    "hindi": "Hindi"
   }
 }

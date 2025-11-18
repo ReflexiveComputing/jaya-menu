@@ -1,12 +1,12 @@
 {
     "HomePage": {
-        "title": "HUNGRIG?",
-        "subtitle": "Lass uns anfangen!",
-        "helpMeChoose": "Menü",
+        "title": "NAMASTE",
+        "subtitle": "Was möchtest du?",
+        "helpMeChoose": "Essen",
         "showMenu": "Getränke"
     },
     "Menu": {
-        "title": "Menü",
+        "title": "Essen",
         "popularThisMonth": "Beliebt diesen Monat",
         "noItemsInCategory": "Noch keine Artikel in dieser Kategorie.",
         "browseOtherCategories": "Andere Kategorien durchstöbern"
@@ -18,18 +18,19 @@
         "browseOtherCategories": "Andere Kategorien durchstöbern"
     },
     "Wishlist": {
-        "title": "Meine Wunschliste",
-        "emptyMessage": "Noch nichts in deiner Wunschliste.",
-        "emptySubMessage": "Lass mich dir helfen zu wählen oder geh durch das Menü!",
+        "title": "Dein Teller",
+        "emptyMessage": "Dein Teller ist leer!",
+        "emptySubMessage": "Lass uns zurück zum Menü gehen und etwas hinzufügen!",
         "ourRecommendation": "Unsere Empfehlung",
-        "goToMenu": "Zum Menü gehen"
+        "goToMenu": "Zum Menü gehen",
+        "readyToOrder": "Bereit zu bestellen"
     },
     "Surprise": {
         "title": "Überrasche mich!",
-        "discoverYourTaste": "Entdecke Deinen Geschmack",
+        "discoverYourTaste": "Entdecke deinen Geschmack",
         "answerFewQuestions": "Beantworte ein paar Fragen",
         "questions": {
-            "memories": "Wohin führen dich deine Erinnerungen?",
+            "memories": "Begib dich auf eine nepalesisch-tibetische Geschmacksreise",
             "mealTime": "Was ist deine ideale Essenszeit?",
             "adventurous": "Wie abenteuerlustig ist dein Gaumen?"
         },
@@ -89,7 +90,7 @@
         "options": "Optionen"
     },
     "Common": {
-        "addToWishlist": "Wunschliste",
+        "addToWishlist": "Zur Wunschliste hinzufügen",
         "showMore": "Mehr anzeigen",
         "showLess": "Weniger anzeigen",
         "backToMenu": "Zurück zum Menü",
@@ -98,6 +99,9 @@
     "LanguageSwitcher": {
         "switchLanguage": "Sprache wechseln",
         "english": "Englisch",
-        "german": "Deutsch"
+        "german": "Deutsch",
+        "spanish": "Spanisch",
+        "french": "Französisch",
+        "hindi": "Hindi"
     }
 }

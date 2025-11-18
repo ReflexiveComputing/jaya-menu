@@ -1,0 +1,107 @@
+{
+  "HomePage": {
+    "title": "नमस्ते",
+    "subtitle": "आप क्या लेना चाहेंगे?",
+    "helpMeChoose": "खाना",
+    "showMenu": "पेय"
+  },
+  "Menu": {
+    "title": "खाना",
+    "popularThisMonth": "इस महीने लोकप्रिय",
+    "noItemsInCategory": "इस श्रेणी में अभी तक कोई आइटम नहीं है।",
+    "browseOtherCategories": "अन्य श्रेणियां देखें"
+  },
+  "Drinks": {
+    "title": "पेय",
+    "popularThisMonth": "इस महीने लोकप्रिय",
+    "noItemsInCategory": "इस श्रेणी में अभी तक कोई पेय नहीं है।",
+    "browseOtherCategories": "अन्य श्रेणियां देखें"
+  },
+  "Wishlist": {
+    "title": "आपकी प्लेट",
+    "emptyMessage": "आपकी प्लेट खाली है!",
+    "emptySubMessage": "चलिए मेनू पर वापस जाएं और कुछ जोड़ें!",
+    "ourRecommendation": "हमारी सिफारिश",
+    "goToMenu": "मेनू पर जाएं",
+    "readyToOrder": "ऑर्डर करने के लिए तैयार"
+  },
+  "Surprise": {
+    "title": "मुझे आश्चर्यचकित करें!",
+    "discoverYourTaste": "अपना स्वाद खोजें",
+    "answerFewQuestions": "कुछ सवालों के जवाब दें",
+    "questions": {
+      "memories": "नेपाली-तिब्बती स्वाद यात्रा पर निकलें",
+      "mealTime": "आपका आदर्श भोजन समय क्या है?",
+      "adventurous": "आपका स्वाद कितना साहसी है?"
+    },
+    "answers": {
+      "grandmothersKitchen": "दादी की रसोई",
+      "streetFood": "स्ट्रीट फूड बाजार",
+      "familyDinners": "आरामदायक पारिवारिक भोजन",
+      "weekendBarbecues": "सप्ताहांत बारबेक्यू",
+      "quickBreakfast": "त्वरित नाश्ता",
+      "heartyLunch": "भरपूर दोपहर का भोजन",
+      "lateNightSnack": "देर रात का नाश्ता",
+      "weekendBrunch": "सप्ताहांत ब्रंच",
+      "keepClassic": "क्लासिक रखें",
+      "mildExploration": "हल्की खोज",
+      "bringHeat": "मसालेदार लाएं",
+      "surpriseMe": "मुझे आश्चर्यचकित करें!"
+    }
+  },
+  "Feedback": {
+    "title": "अपनी प्रतिक्रिया साझा करें",
+    "thankYou": {
+      "title": "धन्यवाद!",
+      "message": "आपकी प्रतिक्रिया के लिए धन्यवाद!",
+      "description": "हम आभारी हैं कि आपने अपने विचार हमारे साथ साझा करने के लिए समय निकाला। आपकी प्रतिक्रिया हमें सुधार करने और सभी के लिए बेहतर भोजन अनुभव प्रदान करने में मदद करती है।",
+      "disclaimer": "हम व्यक्तिगत रूप से जवाब नहीं दे सकते, लेकिन हम इसे उन टीमों को भेज देंगे जो सभी के लिए हमारे रेस्तरां को बेहतर बनाने के लिए काम कर रहे हैं।",
+      "backToMenu": "मेनू पर वापस जाएं"
+    },
+    "subtitle": "अपनी प्रतिक्रिया साझा करने के लिए समय निकालने के लिए धन्यवाद। आपका इनपुट हमें आपके भोजन अनुभव को बेहतर बनाने में मदद करता है।",
+    "ratingQuestion": "आप अपने समग्र अनुभव को कैसे रेट करेंगे?",
+    "categoryLabel": "आप किस बारे में प्रतिक्रिया देना चाहेंगे?",
+    "detailsLabel": "हमें अपने अनुभव के बारे में और बताएं",
+    "detailsPlaceholder": "कृपया अपने अनुभव के बारे में विशिष्ट विवरण साझा करें...",
+    "submitButton": "प्रतिक्रिया सबमिट करें",
+    "submitting": "सबमिट हो रहा है...",
+    "categories": {
+      "foodQuality": "खाने की गुणवत्ता",
+      "service": "सेवा",
+      "menuVariety": "मेनू विविधता",
+      "atmosphere": "रेस्तरां का वातावरण",
+      "pricing": "मूल्य निर्धारण",
+      "cleanliness": "स्वच्छता",
+      "waitTime": "प्रतीक्षा समय",
+      "appExperience": "ऐप अनुभव",
+      "delivery": "डिलीवरी",
+      "other": "अन्य"
+    },
+    "validation": {
+      "selectRating": "कृपया एक रेटिंग चुनें",
+      "selectCategory": "कृपया एक श्रेणी चुनें",
+      "minDetails": "कृपया कम से कम 2 अक्षरों की प्रतिक्रिया प्रदान करें"
+    }
+  },
+  "Navigation": {
+    "food": "खाना",
+    "drinks": "पेय",
+    "wishlist": "इच्छा सूची",
+    "options": "विकल्प"
+  },
+  "Common": {
+    "addToWishlist": "इच्छा सूची में जोड़ें",
+    "showMore": "और दिखाएं",
+    "showLess": "कम दिखाएं",
+    "backToMenu": "मेनू पर वापस जाएं",
+    "cancel": "रद्द करें"
+  },
+  "LanguageSwitcher": {
+    "switchLanguage": "भाषा बदलें",
+    "english": "अंग्रेज़ी",
+    "german": "जर्मन",
+    "spanish": "स्पेनिश",
+    "french": "फ्रेंच",
+    "hindi": "हिंदी"
+  }
+}

@@ -23,14 +23,14 @@ export function NavbarController() {
   // Hide navbar on main page "/"
   // Paths and patterns to hide navbar
   const hideNavbarPatterns = [
-    /^\/$/,           // "/"
-    /^\/de$/,         // "/de"
-    /^\/surprise.*/,  // "/surprise*"
-    /^\/de\/surprise.*/,  // "/de/surprise*"
-    /^\/item.*/,            // "/item" and "/item/*"
-    /^\/de\/item.*/,        // "/de/item" and "/de/item/*"
-    /^\/wishlist.*/,        // "/wishlist" and "/wishlist/*"
-    /^\/de\/wishlist.*/,
+    /^\/$/,                     // "/"
+    /^\/(en|de|es|fr|hi)$/,     // "/:locale"
+    /^\/surprise.*/,            // "/surprise*"
+    /^\/(en|de|es|fr|hi)\/surprise.*/,  // "/:locale/surprise*"
+    /^\/item.*/,                // "/item" and "/item/*"
+    /^\/(en|de|es|fr|hi)\/item.*/,      // "/:locale/item" and "/:locale/item/*"
+    /^\/wishlist.*/,            // "/wishlist" and "/wishlist/*"
+    /^\/(en|de|es|fr|hi)\/wishlist.*/,  // "/:locale/wishlist" and "/:locale/wishlist/*"
   ]
 
   const shouldHideNavbar = hideNavbarPatterns.some((pattern) => pattern.test(pathname))

@@ -1,0 +1,107 @@
+{
+  "HomePage": {
+    "title": "NAMASTE",
+    "subtitle": "¿Qué te gustaría?",
+    "helpMeChoose": "Comida",
+    "showMenu": "Bebidas"
+  },
+  "Menu": {
+    "title": "Comida",
+    "popularThisMonth": "Popular este mes",
+    "noItemsInCategory": "No hay artículos en esta categoría todavía.",
+    "browseOtherCategories": "Explorar otras categorías"
+  },
+  "Drinks": {
+    "title": "Bebidas",
+    "popularThisMonth": "Popular este mes",
+    "noItemsInCategory": "No hay bebidas en esta categoría todavía.",
+    "browseOtherCategories": "Explorar otras categorías"
+  },
+  "Wishlist": {
+    "title": "Tu Plato",
+    "emptyMessage": "¡Tu plato está vacío!",
+    "emptySubMessage": "¡Volvamos al menú y agreguemos algo!",
+    "ourRecommendation": "Nuestra Recomendación",
+    "goToMenu": "Ir al Menú",
+    "readyToOrder": "Listo para Ordenar"
+  },
+  "Surprise": {
+    "title": "¡Sorpréndeme!",
+    "discoverYourTaste": "Descubre tu Gusto",
+    "answerFewQuestions": "Responde unas preguntas",
+    "questions": {
+      "memories": "Embárcate en un viaje de sabores nepalí-tibetano",
+      "mealTime": "¿Cuál es tu hora ideal de comida?",
+      "adventurous": "¿Qué tan aventurero es tu paladar?"
+    },
+    "answers": {
+      "grandmothersKitchen": "La cocina de la abuela",
+      "streetFood": "Mercados de comida callejera",
+      "familyDinners": "Cenas familiares acogedoras",
+      "weekendBarbecues": "Parrilladas de fin de semana",
+      "quickBreakfast": "Desayuno rápido",
+      "heartyLunch": "Almuerzo abundante",
+      "lateNightSnack": "Bocadillo nocturno",
+      "weekendBrunch": "Brunch de fin de semana",
+      "keepClassic": "Mantenerlo clásico",
+      "mildExploration": "Exploración suave",
+      "bringHeat": "Trae el picante",
+      "surpriseMe": "¡Sorpréndeme!"
+    }
+  },
+  "Feedback": {
+    "title": "Comparte tu opinión",
+    "thankYou": {
+      "title": "¡Gracias!",
+      "message": "¡Gracias por tu opinión!",
+      "description": "Apreciamos que te hayas tomado el tiempo para compartir tus pensamientos con nosotros. Tu opinión nos ayuda a mejorar y proporcionar una mejor experiencia gastronómica para todos.",
+      "disclaimer": "No podemos responder individualmente, pero lo transmitiremos a los equipos que están trabajando para ayudar a mejorar nuestro restaurante para todos.",
+      "backToMenu": "Volver al Menú"
+    },
+    "subtitle": "Gracias por tomarte el tiempo para compartir tu opinión. Tus comentarios nos ayudan a mejorar tu experiencia gastronómica.",
+    "ratingQuestion": "¿Cómo calificarías tu experiencia general?",
+    "categoryLabel": "¿Sobre qué te gustaría dar tu opinión?",
+    "detailsLabel": "Cuéntanos más sobre tu experiencia",
+    "detailsPlaceholder": "Por favor, comparte detalles específicos sobre tu experiencia...",
+    "submitButton": "Enviar Opinión",
+    "submitting": "Enviando...",
+    "categories": {
+      "foodQuality": "Calidad de la Comida",
+      "service": "Servicio",
+      "menuVariety": "Variedad del Menú",
+      "atmosphere": "Ambiente del Restaurante",
+      "pricing": "Precios",
+      "cleanliness": "Limpieza",
+      "waitTime": "Tiempo de Espera",
+      "appExperience": "Experiencia de la App",
+      "delivery": "Entrega a Domicilio",
+      "other": "Otro"
+    },
+    "validation": {
+      "selectRating": "Por favor, selecciona una calificación",
+      "selectCategory": "Por favor, selecciona una categoría",
+      "minDetails": "Por favor, proporciona al menos 2 caracteres de opinión"
+    }
+  },
+  "Navigation": {
+    "food": "Comida",
+    "drinks": "Bebidas",
+    "wishlist": "Lista de Deseos",
+    "options": "Opciones"
+  },
+  "Common": {
+    "addToWishlist": "Agregar a Lista de Deseos",
+    "showMore": "Mostrar Más",
+    "showLess": "Mostrar Menos",
+    "backToMenu": "Volver al Menú",
+    "cancel": "Cancelar"
+  },
+  "LanguageSwitcher": {
+    "switchLanguage": "Cambiar Idioma",
+    "english": "Inglés",
+    "german": "Alemán",
+    "spanish": "Español",
+    "french": "Francés",
+    "hindi": "Hindi"
+  }
+}

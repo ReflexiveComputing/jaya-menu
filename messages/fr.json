@@ -1,0 +1,107 @@
+{
+  "HomePage": {
+    "title": "NAMASTE",
+    "subtitle": "Que voudriez-vous?",
+    "helpMeChoose": "Nourriture",
+    "showMenu": "Boissons"
+  },
+  "Menu": {
+    "title": "Nourriture",
+    "popularThisMonth": "Populaire ce mois-ci",
+    "noItemsInCategory": "Pas encore d'articles dans cette catégorie.",
+    "browseOtherCategories": "Parcourir d'autres catégories"
+  },
+  "Drinks": {
+    "title": "Boissons",
+    "popularThisMonth": "Populaire ce mois-ci",
+    "noItemsInCategory": "Pas encore de boissons dans cette catégorie.",
+    "browseOtherCategories": "Parcourir d'autres catégories"
+  },
+  "Wishlist": {
+    "title": "Votre Assiette",
+    "emptyMessage": "Votre assiette est vide!",
+    "emptySubMessage": "Retournons au menu et ajoutons quelque chose!",
+    "ourRecommendation": "Notre Recommandation",
+    "goToMenu": "Aller au Menu",
+    "readyToOrder": "Prêt à Commander"
+  },
+  "Surprise": {
+    "title": "Surprenez-moi!",
+    "discoverYourTaste": "Découvrez votre Goût",
+    "answerFewQuestions": "Répondez à quelques questions",
+    "questions": {
+      "memories": "Embarquez pour un voyage de saveurs népalaises-tibétaines",
+      "mealTime": "Quel est votre moment de repas idéal?",
+      "adventurous": "À quel point votre palais est-il aventureux?"
+    },
+    "answers": {
+      "grandmothersKitchen": "La cuisine de grand-mère",
+      "streetFood": "Marchés de nourriture de rue",
+      "familyDinners": "Dîners familiaux confortables",
+      "weekendBarbecues": "Barbecues de week-end",
+      "quickBreakfast": "Petit-déjeuner rapide",
+      "heartyLunch": "Déjeuner copieux",
+      "lateNightSnack": "Collation de fin de soirée",
+      "weekendBrunch": "Brunch du week-end",
+      "keepClassic": "Restez classique",
+      "mildExploration": "Exploration douce",
+      "bringHeat": "Apportez le piquant",
+      "surpriseMe": "Surprenez-moi!"
+    }
+  },
+  "Feedback": {
+    "title": "Partagez vos commentaires",
+    "thankYou": {
+      "title": "Merci!",
+      "message": "Merci pour vos commentaires!",
+      "description": "Nous apprécions que vous ayez pris le temps de partager vos pensées avec nous. Vos commentaires nous aident à améliorer et à offrir une meilleure expérience culinaire pour tous.",
+      "disclaimer": "Nous ne pouvons pas répondre individuellement, mais nous le transmettrons aux équipes qui travaillent pour améliorer notre restaurant pour tous.",
+      "backToMenu": "Retour au Menu"
+    },
+    "subtitle": "Merci de prendre le temps de partager vos commentaires. Votre contribution nous aide à améliorer votre expérience culinaire.",
+    "ratingQuestion": "Comment évalueriez-vous votre expérience globale?",
+    "categoryLabel": "Sur quoi aimeriez-vous donner votre avis?",
+    "detailsLabel": "Parlez-nous de votre expérience",
+    "detailsPlaceholder": "Veuillez partager des détails spécifiques sur votre expérience...",
+    "submitButton": "Soumettre les Commentaires",
+    "submitting": "Envoi en cours...",
+    "categories": {
+      "foodQuality": "Qualité de la Nourriture",
+      "service": "Service",
+      "menuVariety": "Variété du Menu",
+      "atmosphere": "Ambiance du Restaurant",
+      "pricing": "Prix",
+      "cleanliness": "Propreté",
+      "waitTime": "Temps d'Attente",
+      "appExperience": "Expérience de l'Application",
+      "delivery": "Livraison",
+      "other": "Autre"
+    },
+    "validation": {
+      "selectRating": "Veuillez sélectionner une note",
+      "selectCategory": "Veuillez sélectionner une catégorie",
+      "minDetails": "Veuillez fournir au moins 2 caractères de commentaires"
+    }
+  },
+  "Navigation": {
+    "food": "Nourriture",
+    "drinks": "Boissons",
+    "wishlist": "Liste de Souhaits",
+    "options": "Options"
+  },
+  "Common": {
+    "addToWishlist": "Ajouter à la Liste de Souhaits",
+    "showMore": "Afficher Plus",
+    "showLess": "Afficher Moins",
+    "backToMenu": "Retour au Menu",
+    "cancel": "Annuler"
+  },
+  "LanguageSwitcher": {
+    "switchLanguage": "Changer de Langue",
+    "english": "Anglais",
+    "german": "Allemand",
+    "spanish": "Espagnol",
+    "french": "Français",
+    "hindi": "Hindi"
+  }
+}

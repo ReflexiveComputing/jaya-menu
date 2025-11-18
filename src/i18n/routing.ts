@@ -3,7 +3,7 @@ import {createNavigation} from 'next-intl/navigation';
  
 export const routing = defineRouting({
   // A list of all locales that are supported
-  locales: ['en', 'de'],
+  locales: ['en', 'de', 'es', 'fr', 'hi'],
  
   // Used when no locale matches
   defaultLocale: 'en',
@@ -11,7 +11,7 @@ export const routing = defineRouting({
   localePrefix: 'as-needed'
 });
 
-export type Locale = 'en' | 'de';
+export type Locale = 'en' | 'de' | 'es' | 'fr' | 'hi';
  
 // Lightweight wrappers around Next.js' navigation APIs
 // that will consider the routing configuration

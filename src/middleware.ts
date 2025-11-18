@@ -10,7 +10,7 @@ export const config = {
     '/',
     // Set a cookie to remember the previous locale for
     // all requests that have a locale prefix
-    '/(de|en)/:path*',
+    '/(de|en|es|fr|hi)/:path*',
     // Enable redirects that add missing locales but explicitly exclude API routes
     // so that `/api/*` endpoints are not rewritten to `/:locale/api/*` and can be
     // handled directly by their route handlers.
