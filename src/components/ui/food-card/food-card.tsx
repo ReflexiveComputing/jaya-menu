@@ -37,7 +37,7 @@ export function FoodCard({
             />
           </Link>
         </div>
-        <PriceBox price={item.price || 0} />
+        <PriceBox color={color} price={item.price || 0} />
       </div>
       <div className='flex w-full pt-2 px-2'>
         <FoodTags color={color} tags={item.mainIngredients?.flatMap(mainIngredient => mainIngredient.ingredient?.iconName ?? "") ?? []} />
@@ -62,7 +62,7 @@ export function FoodCard({
       </div>
       <div className='w-6 h-6'></div>
       <div className='absolute w-full m-auto bottom-0 text-right'>
-        <AddItem item={item} />
+        <AddItem color={color} item={item} />
       </div>
 
     </div>

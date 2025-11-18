@@ -9,9 +9,10 @@ import type { MenuItemFull } from "@/types/menu"
 interface AddItemProps {
   item: MenuItemFull
   className?: string
+  color?: string
 }
 
-export function AddItem({ item, className }: AddItemProps) {
+export function AddItem({ item, className, color }: AddItemProps) {
   const { addMenuItem, removeMenuItem, isFavorite } = useWishlist()
 
   const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
@@ -31,9 +32,9 @@ export function AddItem({ item, className }: AddItemProps) {
       onClick={handleClick}
     >
       {isFavorite(item.id) ? (
-        <X className="w-6 h-6 text-app-light-highlight" />
+        <X className={`w-6 h-6`} style={{ color }} />
       ) : (
-        <Plus className="w-6 h-6 text-app-light-highlight" />
+        <Plus className={`w-6 h-6`} style={{ color }} />
       )}
     </button>
   )
