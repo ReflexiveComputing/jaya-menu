@@ -9,6 +9,8 @@ import { useWishlist } from "@/components/providers/wishlist-provider"
 import FoodListItem from "@/components/ui/food-list";
 import { X } from "lucide-react";
 import VerticalDashedLines from "@/components/ui/vertical-dashed-lines";
+import NepaliSunIcon from "@/components/ui/icons/svg/nepali-sun";
+import NepaliMoonIcon from "@/components/ui/icons/svg/nepali-moon";
 
 export default function Wishlist() {
   const t = useTranslations('Wishlist');
@@ -46,9 +48,20 @@ export default function Wishlist() {
         <div className="bg-app-dark-highlight">
           <Header title={t('title')} showChevron />
         </div>
+
         <div className="flex w-full justify-center items-center pt-20 min-h-50">
-          <VerticalDashedLines className="mx-4 max-w-0.5" color="#febd3a" dashHeight={4} gap={3} width={2} />
-          <div className="text-center text-gray-50 text-lg font-medium ">
+          <div className="flex w-4 flex-col justify-center items-center min-h-50 ">
+            <div className="mr-3 pb-1">
+              <NepaliSunIcon size={24} backgroundColor="#febd3a" />
+            </div>
+            <div className="w-4 flex flex-col min-h-50 ">
+              <VerticalDashedLines className=" max-w-0.5" color="#febd3a" dashHeight={4} gap={3} width={2} />
+            </div>
+            <div className="mr-3">
+              <NepaliMoonIcon size={24} backgroundColor="#febd3a" />
+            </div>
+          </div>
+          <div className="w-2/3 text-center text-gray-50 text-lg font-medium ">
             {t('emptyMessage')}<br />
             {t('emptySubMessage')}
           </div>
@@ -56,11 +69,7 @@ export default function Wishlist() {
         </div>
         <div className="w-full flex flex-col justify-center gap-4">
 
-          <div className="w-fit m-auto pt-5 gap-4">
-            <Button variant="surpriseMe" size={"mid"} asChild>
-              <Link href="/food">{t('goToMenu')}</Link>
-            </Button>
-          </div>
+
         </div>
       </div>
     )
