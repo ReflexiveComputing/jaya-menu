@@ -1,5 +1,6 @@
 import * as React from "react"
 import { DynamicIcon, IconName } from "lucide-react/dynamic"
+import { Icon } from '@iconify-icon/react';
 
 interface FoodTagsProps {
     tags: string[]
@@ -14,12 +15,11 @@ export function FoodTags({
     className,
     color,
 }: FoodTagsProps) {
-    if (tags.length === 0) tags = ["bean", "pizza", "ham"]
     return (
         <div className="m-auto mt-1 pr-2 flex flex-col gap-2">
             {tags.map((tag, idx) => (
-                <div key={tag + idx} className="  m-auto flex items-center justify-center">
-                    <DynamicIcon name={tag as IconName} size={iconSize} color={color || "#fff"} />
+                <div key={tag + idx} className={`m-auto flex items-center justify-center text-[${color}] w-4 h-4`}>
+                    <Icon className={"w-full h-full"} icon={tag} />
                 </div>
             ))}
         </div>
