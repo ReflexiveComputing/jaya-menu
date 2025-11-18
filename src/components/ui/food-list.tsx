@@ -17,11 +17,9 @@ export default function FoodListItem({ favorite }: { favorite: WishlistItem }) {
         <div className="food-item flex flex-col items-start px-2 first:pt-4">
             <div className="relative flex w-full flex-start items-center ">
                 {favorite.menuItem.drinkCategories?.length ? (<NepaliMoonIcon size={24} backgroundColor="#febd3a" />) : (<NepaliSunIcon size={24} backgroundColor="#febd3a" />)}
-
-
                 <div className="w-2/3 flex-1 flex-start">
                     <div className="flex items-center flex-start gap-2">
-                        <h3 className="px-1 text-lg text-app-light-highlight font-medium">{favorite.menuItem.name}</h3>
+                        <h3 className="px-1 text-lg text-app-light-highlight font-medium uppercase">{favorite.menuItem.name}</h3>
                         <div className="flex gap-2 self-end">
                             {favorite.menuItem.mainIngredients?.map(mi =>
                                 <Icon key={mi.ingredient?.id} className="text-app-light-highlight w-3 h-3" icon={mi.ingredient?.iconName || "mdi:information-outline"} />
