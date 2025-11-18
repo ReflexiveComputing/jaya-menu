@@ -15,11 +15,12 @@ export function FoodTags({
     className,
     color,
 }: FoodTagsProps) {
+    const text = `text-[${color || '#E4C4AE'}]`
     return (
-        <div className="m-auto mt-1 pr-2 flex flex-col gap-2">
+        <div className={`m-auto mt-1 pr-2 items-center justify-center flex flex-col gap-2 ${text}`}>
             {tags.map((tag, idx) => (
-                <div key={tag + idx} className={`m-auto flex items-center justify-center text-[${color}] w-4 h-4`}>
-                    <Icon className={"w-full h-full"} icon={tag} />
+                <div key={tag + idx} className={`flex w-5 h-5`}>
+                    <Icon className={"w-5 h-5"} icon={tag} />
                 </div>
             ))}
         </div>
