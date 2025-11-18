@@ -133,7 +133,7 @@ export default function ItemDetails() {
           <div className="mx-auto w-1/3 flex flex-col items-end">
 
            
-            <div className="mt-4 ">
+            <div className="mt-4 px-4">
               <MenuItemAllergens iconSize={24} allergens={menuItemDetails.mainIngredients?.flatMap(mainIngredient => mainIngredient.ingredient).filter((ing): ing is Ingredient => ing !== undefined) || []} className="text-app-light-highlight w-1/3 pr-1 m-auto" />
             </div>
           </div>
