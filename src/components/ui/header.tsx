@@ -26,6 +26,8 @@ interface HeaderProps
   VariantProps<typeof headerVariants> {
   title: string
   titleHighlighted?: boolean
+  titleLink?: string,
+  secondaryTitleLink?: string,
   secondaryTitle?: string
   showChevron?: boolean
   showMenuIcon?: boolean
@@ -36,6 +38,8 @@ interface HeaderProps
 export function Header({
   title,
   secondaryTitle,
+  titleLink,
+  secondaryTitleLink,
   showChevron = false,
   linkTo = "/food",
   size,
@@ -59,15 +63,20 @@ export function Header({
           </Link>
         )}
         <div className="m-auto w-5/6 flex">
-            <h1 className={`w-1/2 text-2xl font-medium font-[family-name:var(--font-fjalla-one)] text-left ${titleHighlighted ? 'text-gray-50' : 'text-gray-950'}`}>
+        <Link href={titleLink??"#"} className="w-1/2">
+        
+            <h1 className={`w-full text-2xl font-medium font-[family-name:var(--font-fjalla-one)] text-left ${titleHighlighted ? 'text-gray-50' : 'text-gray-950'}`}>
             {title}
            
           </h1>
-          {secondaryTitle && (
-            <h1 className={`w-1/2 text-2xl pl-2 font-medium font-[family-name:var(--font-fjalla-one)] text-right ${titleHighlighted ? 'text-gray-950' : 'text-gray-50'}`}>
+        </Link>
+        {secondaryTitle && (
+          <Link href={secondaryTitleLink??"#"} className="w-1/2">
+            <h1 className={`w-full text-2xl pl-2 font-medium font-[family-name:var(--font-fjalla-one)] text-right ${titleHighlighted ? 'text-gray-950' : 'text-gray-50'}`}>
               {secondaryTitle}
             </h1>
-          )}  
+          </Link>
+        )}
         </div>
         {showMenuIcon && (
           <div className="absolute right-4">

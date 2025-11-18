@@ -35,7 +35,7 @@ export default async function MenuPage() {
   return (
     <div className="min-h-screen flex flex-col">
       <div className="">
-        <Header title={t('title')} secondaryTitle={drinks("title")} showChevron linkTo="/" size="default" className="uppercase" />
+        <Header title={t('title')} titleLink="/food" secondaryTitle={drinks("title")} secondaryTitleLink="/drinks" showChevron linkTo="/" size="default" className="uppercase" />
       </div>
  
       <div className="flex-1 overflow-y-auto">
