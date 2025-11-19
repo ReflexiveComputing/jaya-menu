@@ -138,7 +138,7 @@ export default function ItemDetails() {
 
         <div>
           <h4 className="px-5 text-app-light-highlight font-medium font-[family-name:var(--font-fjalla-one)]">Allergens</h4>
-          <div className="flex">
+          <div className="flex py-2">
             <MenuItemAllergens allergens={menuItemDetails.allergens || []} iconSize={20} className="text-app-light-highlight w-full pr-1 m-auto" />
           </div>
         </div>
