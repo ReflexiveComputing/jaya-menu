@@ -9,9 +9,10 @@ import { useParams, useRouter, useSearchParams } from 'next/navigation'
 import { Ingredient, MenuItemFull } from "@/types/menu";
 import NepaliSunIcon from "@/components/ui/icons/svg/nepali-sun";
 import VerticalDashedLines from "@/components/ui/vertical-dashed-lines";
-import MenuItemAllergens from "@/components/ui/menu-item-allergens";
+import MenuItemMainIngredients from "@/components/ui/menu-item-main-ingredients";
 import { JoystickMenuNavbar } from "@/components/ui/joystick-menu-navbar";
 import { NavigateBack } from "@/components/ui/navigate-back";
+import MenuItemAllergens from "@/components/ui/menu-item-allergens";
 
 
 export default function ItemDetails() {
@@ -129,10 +130,17 @@ export default function ItemDetails() {
 
            
             <div className="mt-4 px-4">
-              <MenuItemAllergens iconSize={24} allergens={menuItemDetails.mainIngredients?.flatMap(mainIngredient => mainIngredient.ingredient).filter((ing): ing is Ingredient => ing !== undefined) || []} className="text-app-light-highlight w-1/3 pr-1 m-auto" />
+              <MenuItemMainIngredients iconSize={24} ingredients={menuItemDetails.mainIngredients?.flatMap(mainIngredient => mainIngredient.ingredient).filter((ing): ing is Ingredient => ing !== undefined) || []} className="text-app-light-highlight w-1/3 pr-1 m-auto" />
             </div>
           </div>
 
+        </div>
+
+        <div>
+          <h4 className="px-5 text-app-light-highlight font-medium font-[family-name:var(--font-fjalla-one)]">Allergens</h4>
+          <div className="flex">
+            <MenuItemAllergens allergens={menuItemDetails.allergens || []} iconSize={20} className="text-app-light-highlight w-full pr-1 m-auto" />
+          </div>
         </div>
 
         {/* Found in these combos */}

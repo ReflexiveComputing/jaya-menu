@@ -1,11 +1,11 @@
 import * as React from "react";
 import { Icon } from '@iconify-icon/react';
-import { Allergen, Ingredient } from "@/types/menu";
+import { Allergen } from "@/types/menu";
 
 
 
 type MenuItemAllergensProps = {
-  allergens: Ingredient[]; // each item supplies its own icon + name
+  allergens: Allergen[]; // each item supplies its own icon + name
   iconSize?: number;
   className?: string;
   color?: string;
@@ -20,9 +20,9 @@ export const MenuItemAllergens: React.FC<MenuItemAllergensProps> = ({
   if (!allergens || allergens.length === 0) return null;
 
   return (
-    <div className={`flex flex-col gap-2 ${className}`}>
+    <div className={`grid grid-cols-3 gap-2 ${className}`}>
       {allergens.map((a, idx) => (
-        <div key={a.name + idx} className="flex items-center gap-2">
+        <div key={a.name + idx} className="flex flex-col items-center gap-2">
           <Icon
             icon={a.iconName || "mdi:information-outline"}
             width={iconSize}
