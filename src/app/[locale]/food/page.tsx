@@ -106,7 +106,7 @@ export default async function MenuPage() {
                       <div className="flex justify-center items-center flex-col">
                         <p className="text-center text-sm text-app-dark-highlight px-2">Mitho Cha
                           bedeutet:
-                          “Es schmeckt gut!" – und
+                          &ldquo;Es schmeckt gut!&rdquo; – und
                           genau das versprechen wir
                           Ihnen.
                         </p>
