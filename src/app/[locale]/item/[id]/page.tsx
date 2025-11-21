@@ -136,12 +136,23 @@ export default function ItemDetails() {
 
         </div>
 
-        <div>
-          <h4 className="px-5 text-app-light-highlight font-medium font-[family-name:var(--font-fjalla-one)]">Allergens</h4>
-          <div className="flex py-2">
-            <MenuItemAllergens allergens={menuItemDetails.allergens || []} iconSize={20} className="text-app-light-highlight w-2/3 pr-1 m-auto ml-2" />
+        {menuItemDetails.allergens && menuItemDetails.allergens.length > 0 && (
+          <div>
+            <h4 className="px-5 text-app-light-highlight font-medium font-[family-name:var(--font-fjalla-one)]">Allergens</h4>
+            <div className="flex py-2">
+              <MenuItemAllergens allergens={menuItemDetails.allergens} iconSize={20} className="text-app-light-highlight w-2/3 pr-1 m-auto ml-2" />
+            </div>
           </div>
-        </div>
+        )}
+
+        {menuItemDetails.additives && menuItemDetails.additives.length > 0 && (
+          <div>
+            <h4 className="px-5 text-app-light-highlight font-medium font-[family-name:var(--font-fjalla-one)]">Additives</h4>
+            <div className="flex py-2">
+              <MenuItemAllergens allergens={menuItemDetails.additives} iconSize={20} className="text-app-light-highlight w-2/3 pr-1 m-auto ml-2" />
+            </div>
+          </div>
+        )}
 
         {/* Found in these combos */}
         {/* <div className="mb-8">
