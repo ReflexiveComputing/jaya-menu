@@ -1,7 +1,7 @@
 import "server-only";
 
 import type { MenuItemFull } from "@/types/menu";
-import { Category } from "@/types/category";
+import { Category } from "@/types/menu";
 
 
 

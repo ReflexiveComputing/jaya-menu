@@ -2,10 +2,9 @@ import { Header } from "@/components/ui/header"
 import { SectionDivider } from "@/components/ui/section-divider"
 import { FoodCard } from "@/components/ui/food-card/food-card"
 import { fetchDrinkCategoriesFromApi, fetchDrinkCategoryItemsFromApi } from "@/lib/server/drink-fetch-api"
-import type { Drink } from '@/types/drink'
 import { getTranslations, getLocale } from 'next-intl/server';
 import { MenuItemFull } from "@/types/menu"
-import { Category } from "@/types/category"
+import { Category } from "@/types/menu"
 
 export const revalidate = 600  // ISR for full page
 function cap(s: string) { return s.charAt(0).toUpperCase() + s.slice(1) }

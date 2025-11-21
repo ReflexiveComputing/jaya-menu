@@ -5,7 +5,7 @@ import { fetchMenuCategoriesFromApi, fetchMenuCategoryItemsFromApi, } from "@/li
 import type { MenuItemFull } from "@/types/menu"
 import { getTranslations, getLocale } from 'next-intl/server';
 import { ComboCard } from "@/components/ui/combo-card/combo-card";
-import { Category } from "@/types/category"
+import { Category } from "@/types/menu"
 import HistoryCard from '@/components/ui/history-card/history-card'
 import NepaliSunIcon from "@/components/ui/icons/svg/nepali-sun"
 import NepaliMoonIcon from "@/components/ui/icons/svg/nepali-moon"
