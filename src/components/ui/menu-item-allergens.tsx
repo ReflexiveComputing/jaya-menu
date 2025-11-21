@@ -20,7 +20,7 @@ export const MenuItemAllergens: React.FC<MenuItemAllergensProps> = ({
   if (!allergens || allergens.length === 0) return null;
 
   return (
-    <div className={`grid grid-cols-3 gap-2 ${className}`}>
+    <div className={`grid grid-cols-3 gap-1 ${className}`}>
       {allergens.map((a, idx) => (
         <div key={a.name + idx} className="flex flex-col items-center gap-2">
           <Icon
