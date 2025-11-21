@@ -17,8 +17,8 @@ export default function HistoryCard({ children, className = "", color = "#febd3a
   return (
     <div className={`relative min-w-40 ${heightClass} bg-app-background  overflow-hidden ${className}`}>
       {/* top decorative shape - positioned to overlap the top edge */}
-      <div className="absolute -top-[48px] z-10 pointer-events-none">
-        <TempleTopIcon fillColor={fill} size={160} aria-hidden />
+      <div className="absolute -left-2 -top-[54px] z-10 pointer-events-none">
+        <TempleTopIcon fillColor={fill} size={175} aria-hidden />
       </div>
 
       {/* content area (centered) */}
@@ -27,8 +27,8 @@ export default function HistoryCard({ children, className = "", color = "#febd3a
       </div>
 
       {/* bottom decorative shape - positioned to overlap the bottom edge */}
-      <div className="absolute -bottom-[48px] z-10 pointer-events-none">
-        <TempleBottomIcon fillColor={fill} size={160} aria-hidden />
+      <div className="absolute -left-2 -bottom-[64px] z-10 pointer-events-none">
+        <TempleBottomIcon fillColor={fill} size={175} aria-hidden />
       </div>
     </div>
   );
