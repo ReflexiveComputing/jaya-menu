@@ -39,7 +39,7 @@ export async function fetchDrinkCategoryItemsFromApi(categoryName: string, local
   try {
     const url = `${BACKEND.replace(/\/$/, '')}/menu-items/full/drink-category/${encodeURIComponent(categoryName)}`;
     const res = await fetch(url, {
-       cache: 'no-store',
+       next: { revalidate: 60 },
        headers: {
         'Accept-Language': locale || 'en',
       }, 

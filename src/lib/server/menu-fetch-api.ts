@@ -40,7 +40,7 @@ export async function fetchMenuCategoryItemsFromApi(categoryName: string, locale
   try {
     const url = `${BACKEND.replace(/\/$/, '')}/menu-items/full/category/${encodeURIComponent(categoryName)}`;
     const res = await fetch(url, { 
-      next: { revalidate: 1800 }, // 30 minutes cache (cached separately per locale)
+      next: { revalidate: 60 }, // 1 minute cache (cached separately per locale)
       headers: {
         'Accept-Language': locale || 'en',
       },
