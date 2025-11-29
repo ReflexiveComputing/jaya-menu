@@ -27,7 +27,7 @@ export default function HistoryCard({ children, className = "", color = "#febd3a
       </div>
 
       {/* bottom decorative shape - positioned to overlap the bottom edge */}
-      <div className="absolute -left-2 -bottom-[64px] z-10 pointer-events-none">
+      <div className="absolute -left-2 -bottom-16 z-10 pointer-events-none">
         <TempleBottomIcon fillColor={fill} size={175} aria-hidden />
       </div>
     </div>

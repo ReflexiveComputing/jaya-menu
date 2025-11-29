@@ -84,42 +84,42 @@ export default async function MenuPage() {
   //             </div>
   //             {/* On every 3rd category render three HistoryCard components in the same horizontal row */}
   //             {showHistory && (
-  //               <div className="overflow-x-auto font-(family-name:--font-fjalla-one) py-5 px-4 scrollbar-hide flex gap-4 pb-2">
-  //                 <HistoryCard color={historyColor}>
-  //                   <div className="absolute left-5 top-3 z-20">
-  //                       <NepaliSunIcon size={25} backgroundColor={historyColor} />
-  //                     </div>
-  //                   <Image
-  //                     src="/history_image.jpg"
-  //                     alt="History Image"
-  //                     fill
-  //                     className="object-cover z-0"
-  //                     priority={false}
-  //                     sizes="15vw"
-  //                   />
-  //                   <div className="absolute bottom-3 right-3 z-20">
-  //                       <NepaliSunIcon size={45} backgroundColor={historyColor} />
-  //                     </div>
-  //                 </HistoryCard>
-  //                 {[0, 1, 2].map(i => (
-  //                   <HistoryCard key={`history-${category.name}-${i}`} color={historyColor}>
-  //                     <div className="absolute top-3">
-  //                       <NepaliSunIcon size={20} backgroundColor="#272323" />
-  //                     </div>
-  //                     <div className="flex justify-center items-center flex-col">
-  //                       <p className="text-center text-sm text-app-dark-highlight px-2">Mitho Cha
-  //                         bedeutet:
-  //                         &ldquo;Es schmeckt gut!&rdquo; – und
-  //                         genau das versprechen wir
-  //                         Ihnen.
-  //                       </p>
-  //                     </div>
-  //                     <div className="absolute bottom-3">
-  //                       <NepaliMoonIcon size={20} backgroundColor="#272323" />
-  //                     </div>
-  //                   </HistoryCard>
-  //                 ))}
-  //               </div>
+                // <div className="overflow-x-auto font-(family-name:--font-fjalla-one) py-5 px-4 scrollbar-hide flex gap-4 pb-2">
+                //   <HistoryCard color={historyColor}>
+                //     <div className="absolute left-5 top-3 z-20">
+                //         <NepaliSunIcon size={25} backgroundColor={historyColor} />
+                //       </div>
+                //     <Image
+                //       src="/history_image.jpg"
+                //       alt="History Image"
+                //       fill
+                //       className="object-cover z-0"
+                //       priority={false}
+                //       sizes="15vw"
+                //     />
+                //     <div className="absolute bottom-3 right-3 z-20">
+                //         <NepaliSunIcon size={45} backgroundColor={historyColor} />
+                //       </div>
+                //   </HistoryCard>
+                //   {[0, 1, 2].map(i => (
+                //     <HistoryCard key={`history-${category.name}-${i}`} color={historyColor}>
+                //       <div className="absolute top-3">
+                //         <NepaliSunIcon size={20} backgroundColor="#272323" />
+                //       </div>
+                //       <div className="flex justify-center items-center flex-col">
+                //         <p className="text-center text-sm text-app-dark-highlight px-2">Mitho Cha
+                //           bedeutet:
+                //           &ldquo;Es schmeckt gut!&rdquo; – und
+                //           genau das versprechen wir
+                //           Ihnen.
+                //         </p>
+                //       </div>
+                //       <div className="absolute bottom-3">
+                //         <NepaliMoonIcon size={20} backgroundColor="#272323" />
+                //       </div>
+                //     </HistoryCard>
+                //   ))}
+                // </div>
   //             )}
   //           </div>
   //         )

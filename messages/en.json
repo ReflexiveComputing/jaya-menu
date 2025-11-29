@@ -30,6 +30,27 @@
     "message": "Take it easy with your drinks.",
     "thankYou": "If you feel sick or need help, go to the bar. They will help you."
   },
+  "Story1":{
+    "image": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/jaya-public/jaya_budha.png",
+    "text-1":"Asian flavors, great drinks and a warm Jaya vibe.",
+    "text-2":"Guests arrive curious and leave feeling like friends.",
+    "text-3":"Serving Bremen with heart and good food for many years."
+
+  },
+  "Story2":{
+    "image": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/jaya-public/Yaka_illust_png.png",
+    "text-1":"Yaka Bar turns every night into something unforgettable.",
+    "text-2":"Dance to global beats with great DJs each weekend.",
+    "text-3":"Tropical drinks and a space you can rent anytime."
+
+  },
+  "Story3":{
+    "image": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/jaya-public/cat.png",
+    "text-1":"If something feels off, take it seriously and stay aware.",
+    "text-2":"If you see trouble, get help from staff nearby.",
+    "text-3":"We look out for each other, so support when you can."
+
+  },
   "Surprise": {
     "title": "Surprise Me!",
     "discoverYourTaste": "Discover Your Taste",
