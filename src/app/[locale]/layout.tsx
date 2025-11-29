@@ -48,6 +48,7 @@ export default async function LocaleLayout({ children, params }: Props) {
   return (
     <html lang={locale}>
       <body className={`${fjallaOne.variable} antialiased bg-app-background`}>
+        <Analytics />
         <NextIntlClientProvider messages={messages} locale={locale}>
           <NavbarProvider>
             <WishlistProvider>
