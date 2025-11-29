@@ -11,7 +11,6 @@ interface SpecialItemProps {
 export default async function SpecialItem({ accentColor = "#FEBD3A" }: SpecialItemProps) {
     const locale = await getLocale()
     const item: MenuItemFull | null = await fetchMenuItemFromApi(locale)
-    console.log("Special item fetched:", item)
 
     if (!item) {
         return (
