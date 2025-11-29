@@ -1,10 +1,6 @@
-"use client"
 
-import { Button } from "@/components/ui/button"
 import { LanguageSwitcher } from "@/components/ui/language-switcher"
 import Image from "next/image"
-import { useEffect } from 'react'
-import { useRouter } from 'next/navigation'
 import { Link } from '@/i18n/routing';
 import { useTranslations } from 'next-intl';
 import { useNavbar } from "@/components/providers/navbar-provider";
@@ -12,17 +8,7 @@ import NepaliSunIcon from "@/components/ui/icons/svg/nepali-sun";
 
 export default function HomePage() {
   const t = useTranslations('HomePage');
-  const { setSelectedNav } = useNavbar();
-  const router = useRouter();
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setSelectedNav('drinks');
-      router.push('/drinks');
-    }, 6000);
-
-    return () => clearTimeout(timer);
-  }, [router, setSelectedNav]);
   return (
     <div className="min-h-screen relative overflow-hidden bg-app-red">
       {/* Background Image */}
@@ -43,9 +29,9 @@ export default function HomePage() {
         {/* Main Content */}
         <div className="flex-1 flex flex-col items-center justify-start pt-10 px-6 py-0">
           {/* Logo */}
-           <div className=" w-fit">
-              
-              <Image
+          <div className=" w-fit">
+
+            <Image
               src="https://snhltnwklxscjle7.public.blob.vercel-storage.com/jaya-public/flavar-logo-jaya.png"
               alt="Yaya Logo"
               width={118}
@@ -53,15 +39,15 @@ export default function HomePage() {
               className="object-cover"
               priority
             />
-            </div>
-            <div className=" w-fit">
-              
-              <NepaliSunIcon size={38} backgroundColor="#febd3a"/>
-            </div>
-            <div className=" w-fit">
-              
-              <NepaliSunIcon size={66} backgroundColor="#23FFCB"/>
-            </div>
+          </div>
+          <div className=" w-fit">
+
+            <NepaliSunIcon size={38} backgroundColor="#febd3a" />
+          </div>
+          <div className=" w-fit">
+
+            <NepaliSunIcon size={66} backgroundColor="#23FFCB" />
+          </div>
           <div className="flex flex-col justify-center text-center uppercase font-(family-name:--font-fjalla-one) ">
           </div>
           <div className=" bg-app-red min-w-screen max-h-[300px] flex justify-center mb-6 mt-4 rounded-full overflow-hidden ">
@@ -77,8 +63,10 @@ export default function HomePage() {
 
           {/* Headline */}
           <div className=" flex flex-col text-center uppercase font-(family-name:--font-fjalla-one) ">
-            <h1 className="text-7xl font-medium text-white mb-2 tracking-tight drop-shadow-lg ">{t('title')}</h1>
-            <h1 className="text-7xl font-medium text-white tracking-tight drop-shadow-lg ">{t('subtitle')}</h1>
+            <Link href={'/drinks'}>
+              <h1 className="text-7xl font-medium text-white mb-2 tracking-tight drop-shadow-lg ">{t('title')}</h1>
+              <h1 className="text-7xl font-medium text-white tracking-tight drop-shadow-lg ">{t('subtitle')}</h1>
+            </Link>
           </div>
         </div>
 
