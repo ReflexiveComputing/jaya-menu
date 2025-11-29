@@ -29,10 +29,10 @@ export default async function DrinksPage() {
   // Only keep categories that will actually render (have items)
   const visibleEntries = categoryEntries.filter(([, items]) => items.length > 0)
   return (
-    <div className="min-h-screen bg-app-background flex flex-col">
-      <div className="bg-app-dark-highlight">
+    <div className="min-h-screen bg-app-background flex flex-col pt-10">
+      {/* <div className="bg-app-dark-highlight">
         <Header className="uppercase" title={menu('title')} titleLink="/food" secondaryTitle={t('title')} secondaryTitleLink="/drinks" titleHighlighted={false} showChevron linkTo="/" size="default" />
-      </div>
+      </div> */}
 
       <div className="flex-1 overflow-y-auto">
 

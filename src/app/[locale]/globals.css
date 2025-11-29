@@ -18,11 +18,11 @@
 }
 
 :root {
-  --app-background: #272323;
+  --app-background: #141313;
   --app-dark-highlight: #1b1b1b;
   --app-light-highlight: #febd3a;
-  --app-blue: #2c68db;
-  --app-red: #e64342;
+  --app-blue: #23FFCB;
+  --app-red: #FF1070;
   --app-beige: #e4c4ae;
 
   --global-red: #f8471e;

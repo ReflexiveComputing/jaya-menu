@@ -39,8 +39,8 @@ export function JoystickNavigation({ selectedNav, onNavClick }: BottomNavbarProp
 
   // radial menu items (order matches existing nav)
   const items = [
-    { key: 'food', icon: <Utensils className="w-9 h-9" />, label: t('food'), href: '/food' },
-    { key: 'drinks', icon: <Coffee className="w-9 h-9" />, label: t('drinks'), href: '/drinks' },
+    // { key: 'food', icon: <Utensils className="w-9 h-9" />, label: t('food'), href: '/food' },
+    // { key: 'drinks', icon: <Coffee className="w-9 h-9" />, label: t('drinks'), href: '/drinks' },
     { key: 'favorites', icon: <Heart className="w-9 h-9" />, label: t('wishlist'), href: '/wishlist' },
     // { key: 'options', icon: <Settings2 className="w-9 h-9" />, label: t('options'), href: undefined },
   ]
