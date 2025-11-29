@@ -184,3 +184,19 @@
     border-right: 1px solid #e5e7eb;
   }
 }
+
+@layer utilities {
+  @keyframes pulse-slow {
+    0% { transform: translateY(0) scale(1); opacity: 1; }
+    50% { transform: translateY(-4px) scale(1.02); opacity: 0.95; }
+    100% { transform: translateY(0) scale(1); opacity: 1; }
+  }
+
+  .animate-pulse-slow {
+    animation: pulse-slow 2.4s cubic-bezier(.4,0,.2,1) infinite;
+  }
+
+  .text-glow-yellow {
+    text-shadow: 0 6px 18px rgba(254,189,58,0.18), 0 2px 6px rgba(0,0,0,0.6);
+  }
+}

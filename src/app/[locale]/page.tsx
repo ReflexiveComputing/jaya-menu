@@ -62,10 +62,14 @@ export default function HomePage() {
           </div>
 
           {/* Headline */}
-          <div className=" flex flex-col text-center uppercase font-(family-name:--font-fjalla-one) ">
-            <Link href={'/drinks'}>
-              <h1 className="text-7xl font-medium text-white mb-2 tracking-tight drop-shadow-lg ">{t('title')}</h1>
-              <h1 className="text-7xl font-medium text-white tracking-tight drop-shadow-lg ">{t('subtitle')}</h1>
+          <div className="flex flex-col text-center uppercase font-(family-name:--font-fjalla-one)">
+            <Link href={'/drinks'} className="inline-block group" aria-label={`${t('title')} - ${t('subtitle')}`}>
+              <h1 className="text-7xl font-medium text-white mb-2 tracking-tight drop-shadow-lg transition-transform duration-300 transform group-hover:-translate-y-1 group-hover:scale-105 animate-pulse-slow text-glow-yellow">
+                {t('title')}
+              </h1>
+              <h1 className="text-7xl font-medium text-white tracking-tight drop-shadow-lg transition-transform duration-300 transform group-hover:-translate-y-1 group-hover:scale-105 animate-pulse-slow text-glow-yellow">
+                {t('subtitle')}
+              </h1>
             </Link>
           </div>
         </div>
