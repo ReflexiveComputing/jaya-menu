@@ -5,6 +5,8 @@ import { fetchDrinkCategoriesFromApi, fetchDrinkCategoryItemsFromApi } from "@/l
 import { getTranslations, getLocale } from 'next-intl/server';
 import { MenuItemFull } from "@/types/menu"
 import { Category } from "@/types/menu"
+import Image from "next/image"
+
 
 export const revalidate = 600  // ISR for full page
 function cap(s: string) { return s.charAt(0).toUpperCase() + s.slice(1) }
@@ -37,7 +39,7 @@ export default async function DrinksPage() {
       <div className="flex-1 overflow-y-auto">
 
 
-         {visibleEntries.map(([category, items], index) => {
+        {visibleEntries.map(([category, items], index) => {
           if (!items.length) return null
           const color = colors[index % colors.length]
           return (
@@ -60,6 +62,19 @@ export default async function DrinksPage() {
             </div>
           )
         })}
+      </div>
+      <div className="flex w-full py-10 m-auto">
+        <div className="w-fit m-auto">
+
+        <Image
+          src="https://snhltnwklxscjle7.public.blob.vercel-storage.com/jaya-public/powered-by-flavar.png"
+          alt="Yaya Logo"
+          width={118}
+          height={55}
+          className="object-cover"
+        />
+        </div>
+
       </div>
     </div>
   )
