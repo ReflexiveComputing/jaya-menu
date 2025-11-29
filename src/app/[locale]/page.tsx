@@ -11,6 +11,7 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen relative overflow-hidden bg-app-red">
+      <Link href="/drinks" className="absolute w-[100vw] h-[100vh] z-20"></Link>
       {/* Background Image */}
       {/* <Image
         src="/background-1.png"
@@ -63,14 +64,14 @@ export default function HomePage() {
 
           {/* Headline */}
           <div className="flex flex-col text-center uppercase font-(family-name:--font-fjalla-one)">
-            <Link href={'/drinks'} className="inline-block group" aria-label={`${t('title')} - ${t('subtitle')}`}>
+            <div className="inline-block group" aria-label={`${t('title')} - ${t('subtitle')}`}>
               <h1 className="text-7xl font-medium text-white mb-2 tracking-tight drop-shadow-lg transition-transform duration-300 transform group-hover:-translate-y-1 group-hover:scale-105 animate-pulse-slow text-glow-yellow">
                 {t('title')}
               </h1>
               <h1 className="text-7xl font-medium text-white tracking-tight drop-shadow-lg transition-transform duration-300 transform group-hover:-translate-y-1 group-hover:scale-105 animate-pulse-slow text-glow-yellow">
                 {t('subtitle')}
               </h1>
-            </Link>
+            </div>
           </div>
         </div>
 
