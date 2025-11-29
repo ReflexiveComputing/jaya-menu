@@ -29,7 +29,7 @@ export default async function SpecialItem({ accentColor = "#FEBD3A" }: SpecialIt
         <div className="w-full max-w-3xl min-h-[50vh] mx-auto relative overflow-hidden flex">
             <div className="m-auto absolute w-[70vh] top-0 left-5 opacity-70">
                 <Image
-                    src="https://snhltnwklxscjle7.public.blob.vercel-storage.com/jaya-public/Yaka_illust_png.png"
+                    src="https://snhltnwklxscjle7.public.blob.vercel-storage.com/jaya-public/Yaka_bar_square.png"
                     alt="Yaya Logo"
                     width={300}
                     height={300}
