@@ -24,7 +24,7 @@ export default async function DrinksPage() {
     categories.map(async c => [c, await fetchDrinkCategoryItemsFromApi(c.name, locale)] as const)
   ) as readonly (readonly [Category, MenuItemFull[]])[];
 
-  const colors = ["#FEBD3A", "#E64342", "#E4C4AE"]
+  const colors = ["#FEBD3A", "#FF1070", "#23FFCB"]
 
   // Only keep categories that will actually render (have items)
   const visibleEntries = categoryEntries.filter(([, items]) => items.length > 0)
