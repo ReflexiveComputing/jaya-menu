@@ -5,7 +5,7 @@ import { Category } from "@/types/menu";
 
 
 
-const BACKEND = process.env.BACKEND_REST_URL || process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8443/v1/api'
+const BACKEND = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8443/v1/api'
 
 
 
@@ -60,6 +60,35 @@ export async function fetchDrinkCategoryItemsFromApi(categoryName: string, local
   } catch (err) {
     console.error('fetchDrinkCategoryItemsFromApi: error fetching category items', err);
     return [];
+  }
+}
+
+export async function fetchMenuItemFromApi(locale?: string): Promise<MenuItemFull | null> {
+  const itemList = [5,10,11,12]
+  const id = itemList[Math.floor(Math.random() * itemList.length)]; // Special item ID
+  try {
+    const url = `${BACKEND.replace(/\/$/, '')}/menu-items/full?id=${id}`;
+    const res = await fetch(url, {
+      headers: {
+        'Accept-Language': locale || 'en',
+      },
+    });
+    if (!res.ok) {
+      console.error('fetchMenuItemFromApi: network response not ok', res.status, res.statusText);
+      return null;
+    }
+
+    const payload = await res.json();
+    // expected shape: { success: boolean, data: MenuItemFull }
+    if (payload && payload.success && payload.data) {
+      return payload.data as MenuItemFull;
+    }
+
+    console.error('fetchMenuItemFromApi: unexpected payload', payload);
+    return null;
+  } catch (err) {
+    console.error('fetchMenuItemFromApi: error fetching item', err);
+    return null;
   }
 }
 
