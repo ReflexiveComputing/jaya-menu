@@ -208,7 +208,7 @@ export default async function DrinksPage() {
                 fill
                 className="object-cover z-0"
                 priority={false}
-                sizes="15vw"
+                sizes="20vw"
               />
 
             </div>
