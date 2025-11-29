@@ -18,12 +18,17 @@
     "browseOtherCategories": "Browse other categories"
   },
   "Wishlist": {
-    "title": "Your Plate",
-    "emptyMessage": "Your plate is empty!",
+    "title": "Your Mix",
+    "emptyMessage": "Your mix is empty!",
     "emptySubMessage": "Lets go back to the menu and add something!",
     "ourRecommendation": "Our Recommendation",
     "goToMenu": "Go to Menu",
     "readyToOrder": "Ready to Order"
+  },
+  "ReadyToOrderModal": {
+    "title": "Order at the bar!",
+    "message": "Take it easy with your drinks.",
+    "thankYou": "If you feel sick or need help, go to the bar. They will help you."
   },
   "Surprise": {
     "title": "Surprise Me!",
