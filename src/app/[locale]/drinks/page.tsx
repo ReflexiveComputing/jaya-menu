@@ -144,7 +144,7 @@ export default async function DrinksPage() {
                 src={story2('image')}
                 alt="History Image"
                 fill
-                className="object-cover z-0"
+                className="object-contain z-0"
                 priority={false}
                 sizes="15vw"
               />
