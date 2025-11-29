@@ -64,14 +64,14 @@ export function Header({
         <div className="m-auto w-5/6 flex">
         <Link href={titleLink??"#"} className="w-1/2">
         
-            <h1 className={`w-full text-2xl font-medium font-[family-name:var(--font-fjalla-one)] text-left ${titleHighlighted ? 'text-gray-50' : 'text-gray-950'}`}>
+            <h1 className={`w-full text-2xl font-medium font-(family-name:--font-fjalla-one) text-left ${titleHighlighted ? 'text-gray-50' : 'text-gray-950'}`}>
             {title}
            
           </h1>
         </Link>
         {secondaryTitle && (
           <Link href={secondaryTitleLink??"#"} className="w-1/2">
-            <h1 className={`w-full text-2xl pl-2 font-medium font-[family-name:var(--font-fjalla-one)] text-right ${titleHighlighted ? 'text-gray-950' : 'text-gray-50'}`}>
+            <h1 className={`w-full text-2xl pl-2 font-medium font-(family-name:--font-fjalla-one) text-right ${titleHighlighted ? 'text-gray-950' : 'text-gray-50'}`}>
               {secondaryTitle}
             </h1>
           </Link>

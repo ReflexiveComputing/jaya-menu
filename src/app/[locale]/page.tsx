@@ -62,7 +62,7 @@ export default function HomePage() {
               
               <NepaliSunIcon size={66} backgroundColor="#23FFCB"/>
             </div>
-          <div className="flex flex-col justify-center text-center uppercase font-[family-name:var(--font-fjalla-one)] ">
+          <div className="flex flex-col justify-center text-center uppercase font-(family-name:--font-fjalla-one) ">
           </div>
           <div className=" bg-app-red min-w-screen max-h-[300px] flex justify-center mb-6 mt-4 rounded-full overflow-hidden ">
             <Image
@@ -76,7 +76,7 @@ export default function HomePage() {
           </div>
 
           {/* Headline */}
-          <div className=" flex flex-col text-center uppercase font-[family-name:var(--font-fjalla-one)] ">
+          <div className=" flex flex-col text-center uppercase font-(family-name:--font-fjalla-one) ">
             <h1 className="text-7xl font-medium text-white mb-2 tracking-tight drop-shadow-lg ">{t('title')}</h1>
             <h1 className="text-7xl font-medium text-white tracking-tight drop-shadow-lg ">{t('subtitle')}</h1>
           </div>
@@ -88,7 +88,7 @@ export default function HomePage() {
            
             
             <Button variant="surpriseMeSecondary" asChild>
-              <Link href="/drinks" className="w-block uppercase font-[family-name:var(--font-fjalla-one)]" onClick={() => setSelectedNav('drinks')}>
+              <Link href="/drinks" className="w-block uppercase font-(family-name:--font-fjalla-one)" onClick={() => setSelectedNav('drinks')}>
                 {t('showMenu')}
               </Link>
             </Button>

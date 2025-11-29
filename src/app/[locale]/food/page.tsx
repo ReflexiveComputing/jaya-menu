@@ -81,7 +81,7 @@ export default async function MenuPage() {
               </div>
               {/* On every 3rd category render three HistoryCard components in the same horizontal row */}
               {showHistory && (
-                <div className="overflow-x-auto font-[family-name:var(--font-fjalla-one)] py-5 px-4 scrollbar-hide flex gap-4 pb-2">
+                <div className="overflow-x-auto font-(family-name:--font-fjalla-one) py-5 px-4 scrollbar-hide flex gap-4 pb-2">
                   <HistoryCard color={historyColor}>
                     <div className="absolute left-5 top-3 z-20">
                         <NepaliSunIcon size={25} backgroundColor={historyColor} />

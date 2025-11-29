@@ -102,11 +102,11 @@ export default function ItemDetails() {
             <div className="m-auto px-1 ">
               <NepaliSunIcon size={24} backgroundColor="#febd3a" />
             </div>
-            <h1 className="m-auto px-1 w-full text-2xl uppercase font-[family-name:var(--font-fjalla-one)] text-app-light-highlight font-medium mb-2">{menuItemDetails.name}</h1>
-             <div className="text-2xl font-[family-name:var(--font-fjalla-one)] font-medium  flex flex-row justify-end">
+            <h1 className="m-auto px-1 w-full text-2xl uppercase font-(family-name:--font-fjalla-one) text-app-light-highlight font-medium mb-2">{menuItemDetails.name}</h1>
+             <div className="text-2xl font-(family-name:--font-fjalla-one) font-medium  flex flex-row justify-end">
               <p>
                 <span className="text-app-light-highlight font-medium mr-2">€</span>
-                <span className="font-[family-name:var(--font-fjalla-one)] font-medium text-2xl text-gray-50">{priceMain}</span>
+                <span className="font-(family-name:--font-fjalla-one) font-medium text-2xl text-gray-50">{priceMain}</span>
                 <span className="text-sm ml-1 text-gray-200">.{priceDec}</span>
               </p>
 
@@ -138,7 +138,7 @@ export default function ItemDetails() {
 
         {menuItemDetails.allergens && menuItemDetails.allergens.length > 0 && (
           <div>
-            <h4 className="px-5 text-app-light-highlight font-medium font-[family-name:var(--font-fjalla-one)]">Allergens</h4>
+            <h4 className="px-5 text-app-light-highlight font-medium font-(family-name:--font-fjalla-one)">Allergens</h4>
             <div className="flex py-2">
               <MenuItemAllergens allergens={menuItemDetails.allergens} iconSize={20} className="text-app-light-highlight w-2/3 pr-1 m-auto ml-2" />
             </div>
@@ -147,7 +147,7 @@ export default function ItemDetails() {
 
         {menuItemDetails.additives && menuItemDetails.additives.length > 0 && (
           <div>
-            <h4 className="px-5 text-app-light-highlight font-medium font-[family-name:var(--font-fjalla-one)]">Additives</h4>
+            <h4 className="px-5 text-app-light-highlight font-medium font-(family-name:--font-fjalla-one)">Additives</h4>
             <div className="flex py-2">
               <MenuItemAllergens allergens={menuItemDetails.additives} iconSize={20} className="text-app-light-highlight w-2/3 pr-1 m-auto ml-2" />
             </div>
