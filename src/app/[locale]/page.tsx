@@ -25,7 +25,7 @@ export default function HomePage() {
       <div className="absolute min-h-full inset-0 " />
 
       {/* Content */}
-      <div className="relative z-10 min-h-[90vh] my-10 flex flex-col w-2/3 m-auto border-9">
+      <div className="relative z-10 min-h-[80vh] my-10 flex flex-col w-2/3 m-auto border-9">
         {/* Main Content */}
         <div className="flex-1 flex flex-col items-center justify-start pt-10 px-6 py-0">
           {/* Logo */}
@@ -50,12 +50,12 @@ export default function HomePage() {
           </div>
           <div className="flex flex-col justify-center text-center uppercase font-(family-name:--font-fjalla-one) ">
           </div>
-          <div className=" bg-app-red min-w-screen max-h-[300px] flex justify-center mb-6 mt-4 rounded-full overflow-hidden ">
+          <div className=" bg-app-red min-w-screen max-h-[350px] flex justify-center mb-6 mt-4 rounded-full overflow-hidden ">
             <Image
               src="https://snhltnwklxscjle7.public.blob.vercel-storage.com/jaya-public/Yaka_bar_square.png"
               alt="Yaya Logo"
-              width={270}
-              height={200}
+              width={300}
+              height={300}
               className="object-cover"
               priority
             />
