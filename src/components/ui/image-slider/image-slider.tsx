@@ -13,7 +13,7 @@ const headerVariants = cva(
     variants: {
 
       size: {
-        default: "h-96",
+        default: "h-[65vh]",
         sm: "h-42",
         md: "h-72",
       },
@@ -80,13 +80,13 @@ export function ImageSlider(
                 {
                   (() => {
                     // Extract the first height class (h-*) from headerClass and apply it to the image
-                    const imgHeightClass = (headerClass.split(/\s+/).find(c => c.startsWith('h-')) || 'h-96')
+                    const imgHeightClass = (headerClass.split(/\s+/).find(c => c.startsWith('h-')) || 'h-[70vh]')
                     return (
                       <Image
                         src={image.url || "/placeholder.svg"}
                         alt={image.id.toString() || "Food image"}
-                        width={300}
-                        height={200}
+                        width={400}
+                        height={600}
                         className={`w-full object-cover ${imgHeightClass}`}
                       />
                     )

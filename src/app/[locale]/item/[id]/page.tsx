@@ -79,14 +79,14 @@ export default function ItemDetails() {
       {/* Back Button */}
       <NavigateBack />
       {/* Image Carousel */}
-      <div className="relative h-96 ">
+      <div className="relative h-[65vh] ">
 
 
-        <ImageSlider
+        <ImageSlider 
           images={(menuItemDetails.images && menuItemDetails.images.length > 0)
             ? menuItemDetails.images
             : [
-              { id: 0, url: menuItemDetails.mainImage?.url || '/combo-background-2.jpg', menuItemId: Number(menuItemDetails.id || 0), sequence: 1 },
+              { id: 0, url: menuItemDetails.mainImage?.url || 'https://snhltnwklxscjle7.public.blob.vercel-storage.com/menu-items/no-image/no-image.png', menuItemId: Number(menuItemDetails.id || 0), sequence: 1 },
             ]}
           margin="md"
         />
@@ -138,7 +138,7 @@ export default function ItemDetails() {
 
         {menuItemDetails.allergens && menuItemDetails.allergens.length > 0 && (
           <div>
-            <h4 className="px-5 text-app-light-highlight font-medium font-(family-name:--font-fjalla-one)">Allergens</h4>
+            <h4 className="px-5 text-app-light-highlight font-medium font-(family-name:--font-fjalla-one);">Allergens</h4>
             <div className="flex py-2">
               <MenuItemAllergens allergens={menuItemDetails.allergens} iconSize={20} className="text-app-light-highlight w-2/3 pr-1 m-auto ml-2" />
             </div>
@@ -147,7 +147,7 @@ export default function ItemDetails() {
 
         {menuItemDetails.additives && menuItemDetails.additives.length > 0 && (
           <div>
-            <h4 className="px-5 text-app-light-highlight font-medium font-(family-name:--font-fjalla-one)">Additives</h4>
+            <h4 className="px-5 text-app-light-highlight font-medium font-(family-name:--font-fjalla-one);">Additives</h4>
             <div className="flex py-2">
               <MenuItemAllergens allergens={menuItemDetails.additives} iconSize={20} className="text-app-light-highlight w-2/3 pr-1 m-auto ml-2" />
             </div>
