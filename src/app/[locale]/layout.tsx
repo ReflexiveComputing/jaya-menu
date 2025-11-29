@@ -19,8 +19,12 @@ const fjallaOne = Fjalla_One({
 
 
 export const metadata: Metadata = {
-  title: "Flavar MVP",
+  title: "Flavar Jaya",
   description: "Restaurant ordering app",
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+  }
 };
 
 type Props = {

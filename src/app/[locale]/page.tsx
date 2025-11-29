@@ -46,7 +46,7 @@ export default function HomePage() {
            <div className=" w-fit">
               
               <Image
-              src="/flavar-logo-jaya.png"
+              src="https://snhltnwklxscjle7.public.blob.vercel-storage.com/jaya-public/flavar-logo-jaya.png"
               alt="Yaya Logo"
               width={118}
               height={55}
@@ -66,7 +66,7 @@ export default function HomePage() {
           </div>
           <div className=" bg-app-red min-w-screen max-h-[300px] flex justify-center mb-6 mt-4 rounded-full overflow-hidden ">
             <Image
-              src="/Yaka_illust_png.png"
+              src="https://snhltnwklxscjle7.public.blob.vercel-storage.com/jaya-public/Yaka_illust_png.png"
               alt="Yaya Logo"
               width={270}
               height={200}
