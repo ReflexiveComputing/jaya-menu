@@ -29,12 +29,10 @@ export default function ReadyToOrderPage() {
                     <p className="text-white leading-relaxed">
                         {t('message')}
                     </p>
-                    <p className="text-white leading-relaxed mt-4">
-                        {t('thankYou')}
-                    </p>
+
                      <button
                         aria-label="Close"
-                        className=" m-auto w-10 h-10 rounded-full bg-transparent flex items-center justify-center"
+                        className=" m-auto w-10 h-10 pt-5 rounded-full bg-transparent flex items-center justify-center"
                         onClick={() => window.history.back()}
                     >
                         <X className="w-9 h-9 text-white" />
