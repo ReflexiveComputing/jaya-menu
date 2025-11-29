@@ -82,7 +82,7 @@ export default async function DrinksPage() {
                 fill
                 className="object-contain z-0"
                 priority={false}
-                sizes="10vw"
+                sizes="20vw"
               />
 
             </div>
@@ -208,7 +208,7 @@ export default async function DrinksPage() {
                 fill
                 className="object-cover z-0"
                 priority={false}
-                sizes="10vw"
+                sizes="15vw"
               />
 
             </div>
