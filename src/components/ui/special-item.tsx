@@ -27,7 +27,7 @@ export default async function SpecialItem({ accentColor = "#FEBD3A" }: SpecialIt
 
     return (
         <div className="w-full max-w-3xl min-h-[50vh] mx-auto relative overflow-hidden flex">
-            <div className="m-auto absolute w-[70vh] -top-10 left-20 opacity-55">
+            <div className="m-auto absolute w-[70vh] -top-10 left-5 opacity-70">
                 <Image
                     src="https://snhltnwklxscjle7.public.blob.vercel-storage.com/jaya-public/Yaka_illust_png.png"
                     alt="Yaya Logo"
@@ -39,7 +39,7 @@ export default async function SpecialItem({ accentColor = "#FEBD3A" }: SpecialIt
             </div>
 
             {/* Left info column */}
-            <div className="w-60 text-white p-6 flex flex-col justify-end gap-4">
+            <div className="w-40 text-white pl-6 flex flex-col justify-end gap-4 font-(family-name:--font-fjalla-one)">
                 <div>
                     <h3 className="uppercase text-2xl text-right font-bold tracking-wide" style={{ color: accentColor }}>
                         {title}
@@ -57,7 +57,7 @@ export default async function SpecialItem({ accentColor = "#FEBD3A" }: SpecialIt
             </div>
 
             {/* Right media column */}
-            <div className="flex-1 relative z-20 bg-app-background pt-10">
+            <div className="flex-1 relative z-20 bg-app-background pt-10 px-5">
                 <Link href={`/item/${item.id}`}>
                 
                 {imgUrl ? (
