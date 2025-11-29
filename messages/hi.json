@@ -1,7 +1,7 @@
 {
   "HomePage": {
-    "title": "नमस्ते",
-    "subtitle": "आप क्या लेना चाहेंगे?",
+    "title": "YAKA",
+    "subtitle": "BAR",
     "helpMeChoose": "खाना",
     "showMenu": "पेय"
   },
@@ -24,6 +24,28 @@
     "ourRecommendation": "हमारी सिफारिश",
     "goToMenu": "मेनू पर जाएं",
     "readyToOrder": "ऑर्डर करने के लिए तैयार"
+  },
+  "ReadyToOrderModal": {
+    "title": "बार पर ऑर्डर करें!",
+    "message": "बारटेंडर्स के प्रति दयालु रहें, वे आज रात आपकी खुशी नियंत्रित करते हैं ;)"
+  },
+  "Story1": {
+    "image": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/jaya-public/jaya_budha.png",
+    "text-1": "एशियाई स्वाद, शानदार ड्रिंक और गर्म Jaya माहौल।",
+    "text-2": "मेहमान जिज्ञासु आते हैं और दोस्तों की तरह महसूस करके जाते हैं।",
+    "text-3": "कई सालों से हम ब्रेमेन में दिल से और स्वादिष्ट खाना परोस रहे हैं।"
+  },
+  "Story2": {
+    "image": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/jaya-public/Yaka_bar_square.png",
+    "text-1": "Yaka Bar हर रात को अविस्मरणीय बना देता है।",
+    "text-2": "हर सप्ताहांत महान DJs के साथ वैश्विक बीट पर नाचें।",
+    "text-3": "उष्णकटिबंधीय ड्रिंक और एक जगह जिसे आप कभी भी किराए पर ले सकते हैं।"
+  },
+  "Story3": {
+    "image": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/jaya-public/cat.png",
+    "text-1": "यदि कुछ गलत लगे, तो इसे गंभीरता से लें और सतर्क रहें।",
+    "text-2": "यदि आप परेशानी देखते हैं, तो पास के स्टाफ से मदद लें।",
+    "text-3": "हम एक-दूसरे का ख्याल रखते हैं, इसलिए जब आप कर सकें तो सहयोग करें।"
   },
   "Surprise": {
     "title": "मुझे आश्चर्यचकित करें!",

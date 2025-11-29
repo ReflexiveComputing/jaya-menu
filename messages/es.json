@@ -1,7 +1,7 @@
 {
   "HomePage": {
-    "title": "NAMASTE",
-    "subtitle": "¿Qué te gustaría?",
+    "title": "YAKA",
+        "subtitle": "BAR",
     "helpMeChoose": "Comida",
     "showMenu": "Bebidas"
   },
@@ -24,6 +24,28 @@
     "ourRecommendation": "Nuestra Recomendación",
     "goToMenu": "Ir al Menú",
     "readyToOrder": "Listo para Ordenar"
+  },
+  "ReadyToOrderModal": {
+    "title": "¡Pide en la barra!",
+    "message": "Sé amable con los bartenders, ellos controlan tu felicidad esta noche ;)"
+  },
+  "Story1": {
+    "image": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/jaya-public/jaya_budha.png",
+    "text-1": "Sabores asiáticos, excelentes bebidas y un cálido ambiente Jaya.",
+    "text-2": "Los clientes llegan curiosos y se van sintiéndose como amigos.",
+    "text-3": "Llevamos años sirviendo a Bremen con corazón y buena comida."
+  },
+  "Story2": {
+    "image": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/jaya-public/Yaka_bar_square.png",
+    "text-1": "Yaka Bar convierte cada noche en algo inolvidable.",
+    "text-2": "Baila con ritmos globales y grandes DJs cada fin de semana.",
+    "text-3": "Bebidas tropicales y un espacio que puedes alquilar en cualquier momento."
+  },
+  "Story3": {
+    "image": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/jaya-public/cat.png",
+    "text-1": "Si algo te parece extraño, tómalo en serio y mantente alerta.",
+    "text-2": "Si ves problemas, pide ayuda al personal cercano.",
+    "text-3": "Nos cuidamos entre todos, así que apoya cuando puedas."
   },
   "Surprise": {
     "title": "¡Sorpréndeme!",

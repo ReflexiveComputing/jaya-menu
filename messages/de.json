@@ -1,7 +1,7 @@
 {
     "HomePage": {
-        "title": "NAMASTE",
-        "subtitle": "Was möchtest du?",
+        "title": "YAKA",
+        "subtitle": "BAR",
         "helpMeChoose": "Essen",
         "showMenu": "Getränke"
     },
@@ -9,78 +9,100 @@
         "title": "Essen",
         "popularThisMonth": "Beliebt diesen Monat",
         "noItemsInCategory": "Noch keine Artikel in dieser Kategorie.",
-        "browseOtherCategories": "Andere Kategorien durchstöbern"
+        "browseOtherCategories": "Andere Kategorien durchsuchen"
     },
     "Drinks": {
         "title": "Getränke",
         "popularThisMonth": "Beliebt diesen Monat",
         "noItemsInCategory": "Noch keine Getränke in dieser Kategorie.",
-        "browseOtherCategories": "Andere Kategorien durchstöbern"
+        "browseOtherCategories": "Andere Kategorien durchsuchen"
     },
     "Wishlist": {
-        "title": "Dein Teller",
-        "emptyMessage": "Dein Teller ist leer!",
+        "title": "Dein Mix",
+        "emptyMessage": "Dein Mix ist leer!",
         "emptySubMessage": "Lass uns zurück zum Menü gehen und etwas hinzufügen!",
         "ourRecommendation": "Unsere Empfehlung",
-        "goToMenu": "Zum Menü gehen",
+        "goToMenu": "Zum Menü",
         "readyToOrder": "Bereit zu bestellen"
     },
+    "ReadyToOrderModal": {
+        "title": "Bestellen an der Bar!",
+        "message": "Sei nett zu den Barkeepern, sie bestimmen heute dein Glück ;)"
+    },
+    "Story1": {
+        "image": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/jaya-public/jaya_budha.png",
+        "text-1": "Asiatische Aromen, tolle Drinks und ein warmes Jaya-Flair.",
+        "text-2": "Gäste kommen neugierig und gehen wie Freunde.",
+        "text-3": "Wir servieren Bremen seit vielen Jahren mit Herz und gutem Essen."
+    },
+    "Story2": {
+        "image": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/jaya-public/Yaka_bar_square.png",
+        "text-1": "Die Yaka Bar macht jede Nacht unvergesslich.",
+        "text-2": "Tanze zu globalen Beats mit tollen DJs jedes Wochenende.",
+        "text-3": "Tropische Drinks und ein Raum, den du jederzeit mieten kannst."
+    },
+    "Story3": {
+        "image": "https://snhltnwklxscjle7.public.blob.vercel-storage.com/jaya-public/cat.png",
+        "text-1": "Wenn sich etwas falsch anfühlt, nimm es ernst und sei wachsam.",
+        "text-2": "Wenn du Probleme siehst, hol Hilfe beim Personal in der Nähe.",
+        "text-3": "Wir achten aufeinander, unterstütze also, wenn du kannst."
+    },
     "Surprise": {
-        "title": "Überrasche mich!",
+        "title": "Überrasch mich!",
         "discoverYourTaste": "Entdecke deinen Geschmack",
         "answerFewQuestions": "Beantworte ein paar Fragen",
         "questions": {
             "memories": "Begib dich auf eine nepalesisch-tibetische Geschmacksreise",
-            "mealTime": "Was ist deine ideale Essenszeit?",
+            "mealTime": "Wann ist deine ideale Essenszeit?",
             "adventurous": "Wie abenteuerlustig ist dein Gaumen?"
         },
         "answers": {
             "grandmothersKitchen": "Großmutters Küche",
-            "streetFood": "Straßenessen-Märkte",
+            "streetFood": "Straßenmärkte",
             "familyDinners": "Gemütliche Familienessen",
             "weekendBarbecues": "Wochenend-Grillpartys",
             "quickBreakfast": "Schnelles Frühstück",
             "heartyLunch": "Herzhaftes Mittagessen",
-            "lateNightSnack": "Nächtlicher Snack",
-            "weekendBrunch": "Wochenend-Brunch",
+            "lateNightSnack": "Spätabendlicher Snack",
+            "weekendBrunch": "Wochenendbrunch",
             "keepClassic": "Klassisch bleiben",
-            "mildExploration": "Sanfte Erkundung",
-            "bringHeat": "Bring die Schärfe",
+            "mildExploration": "Leichte Entdeckungen",
+            "bringHeat": "Würze dazu",
             "surpriseMe": "Überrasche mich!"
         }
     },
     "Feedback": {
         "title": "Teile dein Feedback",
         "thankYou": {
-            "title": "Dankeschön!",
+            "title": "Danke!",
             "message": "Danke für dein Feedback!",
-            "description": "Wir schätzen es, dass du dir die Zeit genommen hast, deine Gedanken mit uns zu teilen. Dein Feedback hilft uns zu verbessern und allen ein besseres Esserlebnis zu bieten.",
-            "disclaimer": "Wir können nicht individuell antworten, aber wir werden es an die Teams weiterleiten, die daran arbeiten, unser Restaurant für alle besser zu machen.",
+            "description": "Wir wissen es zu schätzen, dass du dir die Zeit genommen hast, uns deine Meinung mitzuteilen. Dein Feedback hilft uns, das Erlebnis für alle zu verbessern.",
+            "disclaimer": "Wir können nicht einzeln antworten, aber wir leiten es an die Teams weiter, die daran arbeiten, unser Restaurant für alle besser zu machen.",
             "backToMenu": "Zurück zum Menü"
         },
-        "subtitle": "Danke, dass du dir die Zeit nimmst, dein Feedback zu teilen. Deine Eingabe hilft uns, dein Esserlebnis zu verbessern.",
-        "ratingQuestion": "Wie würdest du deine Gesamterfahrung bewerten?",
+        "subtitle": "Danke, dass du dir die Zeit nimmst, dein Feedback zu teilen. Deine Rückmeldung hilft uns, dein Erlebnis zu verbessern.",
+        "ratingQuestion": "Wie würdest du dein Gesamterlebnis bewerten?",
         "categoryLabel": "Worüber möchtest du Feedback geben?",
-        "detailsLabel": "Erzähle uns mehr über deine Erfahrung",
-        "detailsPlaceholder": "Bitte teile spezifische Details über deine Erfahrung...",
-        "submitButton": "Feedback senden",
+        "detailsLabel": "Erzähl uns mehr über dein Erlebnis",
+        "detailsPlaceholder": "Bitte teile konkrete Details zu deinem Erlebnis...",
+        "submitButton": "Feedback absenden",
         "submitting": "Wird gesendet...",
         "categories": {
-            "foodQuality": "Essensqualität",
+            "foodQuality": "Qualität des Essens",
             "service": "Service",
-            "menuVariety": "Menüvielfalt",
-            "atmosphere": "Restaurant-Atmosphäre",
+            "menuVariety": "Auswahl im Menü",
+            "atmosphere": "Atmosphäre",
             "pricing": "Preise",
             "cleanliness": "Sauberkeit",
             "waitTime": "Wartezeit",
-            "appExperience": "App-Erfahrung",
+            "appExperience": "App-Erlebnis",
             "delivery": "Lieferung",
-            "other": "Anderes"
+            "other": "Andere"
         },
         "validation": {
             "selectRating": "Bitte wähle eine Bewertung",
             "selectCategory": "Bitte wähle eine Kategorie",
-            "minDetails": "Bitte gib mindestens 2 Zeichen Feedback ein"
+            "minDetails": "Bitte gib mindestens 2 Zeichen Feedback an"
         }
     },
     "Navigation": {
