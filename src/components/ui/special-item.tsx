@@ -2,6 +2,7 @@ import Image from "next/image"
 import { getLocale } from "next-intl/server"
 import { MenuItemFull } from "@/types/menu"
 import { fetchMenuItemFromApi } from "@/lib/server/drink-fetch-api"
+import Link from "next/dist/client/link"
 
 interface SpecialItemProps {
     accentColor?: string
@@ -27,7 +28,6 @@ export default async function SpecialItem({ accentColor = "#FEBD3A" }: SpecialIt
 
     return (
         <div className="w-full max-w-3xl min-h-[50vh] mx-auto relative overflow-hidden flex">
-
             <div className="m-auto absolute w-[70vh] -top-10 left-20 opacity-55">
                 <Image
                     src="https://snhltnwklxscjle7.public.blob.vercel-storage.com/jaya-public/Yaka_illust_png.png"
@@ -59,6 +59,8 @@ export default async function SpecialItem({ accentColor = "#FEBD3A" }: SpecialIt
 
             {/* Right media column */}
             <div className="flex-1 relative z-20 bg-app-background pt-10">
+                <Link href={`/item/${item.id}`}>
+                
                 {imgUrl ? (
                     <div className="relative h-full">
                         <Image
@@ -74,6 +76,7 @@ export default async function SpecialItem({ accentColor = "#FEBD3A" }: SpecialIt
                         <span className="text-lg font-semibold text-white/90">No image</span>
                     </div>
                 )}
+                </Link>
             </div>
         </div>
     )
