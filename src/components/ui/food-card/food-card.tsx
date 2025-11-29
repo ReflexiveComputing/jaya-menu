@@ -24,12 +24,12 @@ export function FoodCard({
 
   return (
 
-    <div className="relative flex flex-col flex-shrink-0 w-40 bg-app-dark-highlight rounded-xs shadow-sm overflow-hidden">
+    <div className="relative flex flex-col shrink-0 w-40 bg-app-dark-highlight rounded-xs shadow-sm overflow-hidden">
       <div className="relative">
         <div className={`m-auto h-52 rounded-t-xs overflow-hidden relative`}>
           <Link href={`/item/${item.id}`} className="block">
             <Image
-              src={item.mainImage?.url || "https://snhltnwklxscjle7.public.blob.vercel-storage.com/menu-items/24/1758227441005-chana_masala.jpg"}
+              src={item.mainImage?.url || "https://snhltnwklxscjle7.public.blob.vercel-storage.com/menu-items/no-image/no-image.png"}
               alt={item.name}
               width={200}
               height={300}
